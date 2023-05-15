@@ -27820,29 +27820,6 @@ Description: get display widths of characters on the terminal
  .
  It provides mbwidth(), mbswidth(), and mblen().
 
-Package: libtext-iconv-perl
-Version: 1.7-8
-Architecture: amd64
-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Installed-Size: 10
-Multi-Arch: same
-Homepage: https://metacpan.org/release/Text-Iconv
-Priority: required
-Section: perl
-Filename: pool/main/libt/libtext-iconv-perl/libtext-iconv-perl_1.7-8_amd64.deb
-Size: 2860
-SHA512: 48e2d3ceba9df2e6f77a3afabe76ab36e707a848d4e742096ebed446210916c55754b20bd320dfd57b30ed961615caed2568c3f0b9227a4f3d40446367276aaa
-SHA256: 65b0edb47615e3c391bf182b2df31496421cc817c6f0bd693d280b297c1258d7
-SHA1: d5ae72043f3d3523ef99c09735f310fd0aefa7d0
-MD5sum: 1f7b44b8d64996abc344849501b3a38d
-Description: module to convert between character sets in Perl
- The iconv() family of functions from XPG4 defines an API for converting
- between character sets (e.g. UTF-8 to Latin1, EBCDIC to ASCII). They
- are provided by libc6.
- .
- This package allows access to them from Perl via the Text::Iconv
- package.
-
 Package: libtext-wrapi18n-perl
 Version: 0.06-10
 Architecture: all
