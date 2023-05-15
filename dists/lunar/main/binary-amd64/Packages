@@ -33922,6 +33922,34 @@ Description: Perl module for minimalist role composition
  Moose) roles are checked to see if they clash. The goal of this is to be much
  simpler, hence disallowing composition of multiple roles at once.
 
+Package: libruby
+Source: ruby-defaults
+Version: 1:3.1
+Architecture: amd64
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 13
+Depends: libruby3.1
+Multi-Arch: same
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: libs
+Filename: pool/main/r/ruby-defaults/libruby_3.1_amd64.deb
+Size: 4972
+SHA512: 1fe1784eeda92a4f2384f9dfc7703e909c8a2aa007e1ca6c8cd965328c170adf340553dccaeee948c57c74a8fc164e1df42f2a5ff46dbbfbece7b531b8e1a652
+SHA256: 82dbf5391286e05e7eefd965b4b15dbafd9194f491fc3f6fd3d01bacd69a74ba
+SHA1: 6ab1eadbc054d13ab4b055516e682a9e1f96ea12
+MD5sum: 929031b7ffab2b9fffd5043aff9e16c5
+Description: Libraries necessary to run Ruby
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package includes the 'libruby' library, necessary to run Ruby.
+ .
+ This package is a dependency package, which depends on Debian's default Ruby
+ version (currently v3.1).
+
 Package: libsasl2-2
 Source: cyrus-sasl2
 Version: 2.1.28+dfsg-10
@@ -40434,6 +40462,157 @@ Description: pbuilder using QEMU as backend
  clean chroot, and qemubuilder implements similar experience over
  emulated CPUs. This tool allows building package inside emulated
  Debian environment for different CPU architectures supported by qemu.
+
+Package: ri
+Source: ruby-defaults
+Version: 1:3.1
+Architecture: all
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 13
+Depends: ruby3.1, ruby3.1-doc
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-defaults/ri_3.1_all.deb
+Size: 5016
+SHA512: d79605b88138f06435c9a971a6d8aac45396d216e1f8f64dc0bfe1996ae7960958706ce8f79a1cfe76676aa425c9dca79f136301784e50bbc8a1014935f53cb5
+SHA256: ee97e576aa305e406be4cae3761c017d219a6c0cc5ba440cf36680659d4bbecd
+SHA1: 37f6ec430491860ed4ae9e79270dc90841c173d4
+MD5sum: 66ae42dbe9cf6bf1a2476f02f65dcabd
+Description: Ruby Interactive reference
+ ri is a command line tool that displays descriptions of built-in Ruby
+ methods, classes, and modules. For methods, it shows you the calling
+ sequence and a description. For classes and modules, it shows a
+ synopsis along with a list of the methods the class or module
+ implements.
+ .
+ This package provides ri command and descriptions about Ruby.
+ This package provides the ri documentation for the Ruby standard library.
+ The ri executable itself is in the ruby package.
+ .
+ This package is a dependency package, which depends on Debian's default Ruby
+ version (currently v3.1).
+
+Package: ruby
+Source: ruby-defaults
+Version: 1:3.1
+Architecture: amd64
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 29
+Depends: ruby3.1, libruby (= 1:3.1), ruby-rubygems
+Suggests: ri, ruby-dev
+Conflicts: ruby-activesupport-2.3, ruby-activesupport-3.2
+Breaks: ruby-bootsnap (<< 1.4.6-1), ruby-switch (<= 0.1.0)
+Replaces: irb, rdoc, rubygems
+Provides: irb, rdoc, rubygems
+Multi-Arch: allowed
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-defaults/ruby_3.1_amd64.deb
+Size: 5868
+SHA512: d7f663de08816f89be623e5377f204cc2f0f26dce416df3f70a7f6ee7d9b6cab35bf880acdbff12b456fee19f546491229abb0ed6b1ccc3ec70297370f6f9408
+SHA256: 4617d5eb715441bdc92e710d127f28654bbf05e888fbb492a14538d4189f3eef
+SHA1: f56767fdc7827d0a7e2a3b509dad5ef767c55987
+MD5sum: 743a298d9e01d1de07357a1aff40176e
+Description: Interpreter of object-oriented scripting language Ruby (default version)
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package is a dependency package, which depends on Debian's default Ruby
+ version (currently v3.1).
+
+Package: ruby-all-dev
+Source: ruby-defaults
+Version: 1:3.1
+Architecture: amd64
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 22
+Depends: ruby3.1:any, ruby3.1-dev
+Multi-Arch: same
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-defaults/ruby-all-dev_3.1_amd64.deb
+Size: 5976
+SHA512: e45218cd98f352c27a2608e0d50fffe4324fc9b62d7557131704703fb4b17000409c05bdcfeb8362cecf3ddf5215739358c657e45895f62f3277006361a60ac8
+SHA256: fd50c5367d66ea586e91d041631e8d3b4f86dfca6fcc2efd12b46e36dccbfc15
+SHA1: 0ba65b4f6e251155ef8afa560d95fad541a5e84f
+MD5sum: 252dd67824bfbf24a8dc04de9b76a8ce
+Description: Ruby development environment (all versions supported in Debian)
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package depends on the respective development packages for every Ruby
+ version currently supported by Debian. This will usually be a single version
+ (the default one), but during transitions multiple versions might be
+ supported.
+ .
+ To programmatically list all the supported versions, install the `gem2deb`
+ package and run `dh_ruby --print-supported`. To determine which is the default
+ version, just dereference the /usr/bin/ruby symbolic link.
+ .
+ If you are not building Ruby packages for Debian, you probably do not need
+ this package.
+
+Package: ruby-dev
+Source: ruby-defaults
+Version: 1:3.1
+Architecture: amd64
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 17
+Depends: ruby3.1-dev
+Multi-Arch: same
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-defaults/ruby-dev_3.1_amd64.deb
+Size: 5116
+SHA512: 5b53256e89fab8f6566ac5ad50d532b17299870304c103eeeecf986a9ccf90561f74c1d91018be3acd2ce4b4b719092f8cf6ed047d11128290cc2159786fcf23
+SHA256: 77ea363197f464151cc67a4bbe7ce772424f9329f0cef291dc581b8559d0dfe5
+SHA1: ab8483d7c2a4af0cecd67ac13402de59afc68415
+MD5sum: 976a711b535aaa1d5ea22dc69f074bb0
+Description: Header files for compiling extension modules for Ruby (default version)
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package contains the header files and the mkmf library, necessary
+ to make extension library for Ruby. It is also required to build
+ many gems.
+ .
+ This package is a dependency package, which depends on Debian's default Ruby
+ version (currently v3.1).
+
+Package: ruby-full
+Source: ruby-defaults
+Version: 1:3.1
+Architecture: all
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 13
+Depends: ruby, ruby-dev, ri
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-defaults/ruby-full_3.1_all.deb
+Size: 4952
+SHA512: 55f0b9ab8d4a57a72d1c9390ac28963160fd71cbcb64be066e7af8f573c71c4268dcf6e00a2a01a27b4f69eb622bebbf8469d2906311efdcf3aa69bdfeef9536
+SHA256: 3665a3e9c693c05f211190587e8d01bdf855661346e150ee0a20456d75b09892
+SHA1: a534f494e13a38fecd968c7c351d0c5daef7d4e1
+MD5sum: 0e3e63ba830865fc44de4eb9ea07f144
+Description: Ruby full installation (default version)
+ For many good reasons, the Ruby programming language is split in many
+ small different packages. Installing this package will make sure you have
+ all the packages that add up to a full Ruby installation, with the exception
+ of the Tcl/Tk bindings for Ruby, which are only recommended.
+ .
+ This package is a dependency package, which depends on Debian's default Ruby
+ version (currently v3.1).
 
 Package: ruby-selinux
 Source: libselinux

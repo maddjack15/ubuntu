@@ -16391,6 +16391,61 @@ Description: Examples for the Python language (v3.11)
  Examples, Demos and Tools for Python (v3.11). These are files included in
  the upstream Python distribution (v3.11).
 
+Package: ri
+Source: ruby-defaults
+Version: 1:3.1
+Architecture: all
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 13
+Depends: ruby3.1, ruby3.1-doc
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-defaults/ri_3.1_all.deb
+Size: 5016
+SHA512: d79605b88138f06435c9a971a6d8aac45396d216e1f8f64dc0bfe1996ae7960958706ce8f79a1cfe76676aa425c9dca79f136301784e50bbc8a1014935f53cb5
+SHA256: ee97e576aa305e406be4cae3761c017d219a6c0cc5ba440cf36680659d4bbecd
+SHA1: 37f6ec430491860ed4ae9e79270dc90841c173d4
+MD5sum: 66ae42dbe9cf6bf1a2476f02f65dcabd
+Description: Ruby Interactive reference
+ ri is a command line tool that displays descriptions of built-in Ruby
+ methods, classes, and modules. For methods, it shows you the calling
+ sequence and a description. For classes and modules, it shows a
+ synopsis along with a list of the methods the class or module
+ implements.
+ .
+ This package provides ri command and descriptions about Ruby.
+ This package provides the ri documentation for the Ruby standard library.
+ The ri executable itself is in the ruby package.
+ .
+ This package is a dependency package, which depends on Debian's default Ruby
+ version (currently v3.1).
+
+Package: ruby-full
+Source: ruby-defaults
+Version: 1:3.1
+Architecture: all
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 13
+Depends: ruby, ruby-dev, ri
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby-defaults/ruby-full_3.1_all.deb
+Size: 4952
+SHA512: 55f0b9ab8d4a57a72d1c9390ac28963160fd71cbcb64be066e7af8f573c71c4268dcf6e00a2a01a27b4f69eb622bebbf8469d2906311efdcf3aa69bdfeef9536
+SHA256: 3665a3e9c693c05f211190587e8d01bdf855661346e150ee0a20456d75b09892
+SHA1: a534f494e13a38fecd968c7c351d0c5daef7d4e1
+MD5sum: 0e3e63ba830865fc44de4eb9ea07f144
+Description: Ruby full installation (default version)
+ For many good reasons, the Ruby programming language is split in many
+ small different packages. Installing this package will make sure you have
+ all the packages that add up to a full Ruby installation, with the exception
+ of the Tcl/Tk bindings for Ruby, which are only recommended.
+ .
+ This package is a dependency package, which depends on Debian's default Ruby
+ version (currently v3.1).
+
 Package: semanage-utils
 Source: libsemanage
 Version: 3.4-1build4
