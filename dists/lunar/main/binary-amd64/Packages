@@ -19488,11 +19488,11 @@ Homepage: https://metacpan.org/release/Cairo-GObject
 Priority: optional
 Section: perl
 Filename: pool/main/libc/libcairo-gobject-perl/libcairo-gobject-perl_1.005-4_amd64.deb
-Size: 11776
-SHA512: 339457bf5fe6ba6dbedb27f3e7d5aae9729db95804df8488e35b0f563af8cd5a4fd7111c7661fbcf956db12f4ef0fd158b0be4f6122d0cabbbae7b394cdf7c5a
-SHA256: 781efeeac75edaca4793d96d3088489855ff655adcd86488f54fd6a9fbc33801
-SHA1: a3effad8e3b9d2db7ec1f2577b6f58f0bc272520
-MD5sum: 0db1686575ecc1e849ebe961c36c9525
+Size: 11800
+SHA512: fe09b5b719f8b98e8c58162ec65963e512aa5209eed1934ed463fd22086dd7ef3a1501e2849417114897e41d7dad7dcb0f90ebe173647f0fa61e99ed43d48211
+SHA256: d5f6f31f8ac10eb471492b8562da97c9bb78909b9cc1018e264fdfbfefb44c6d
+SHA1: 06588f3773fd048b656d44c26d5e07389ca61e07
+MD5sum: 84597e18931a87e9deb5206ca2a2315e
 Description: integrate Cairo into the Glib type system in Perl
  Cairo::GObject registers Cairo's types (Cairo::Context, Cairo::Surface,
  etc.) with Glib's type systems so that they can be used normally
