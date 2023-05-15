@@ -2242,6 +2242,33 @@ Description: DNS root data including root zone and DNSSEC key
   * Root Hints (root.hints)
   * Root Trust Anchors (root.key, root.ds)
 
+Package: dnsmasq
+Version: 2.89-1
+Architecture: all
+Maintainer: Simon Kelley <simon@thekelleys.org.uk>
+Installed-Size: 94
+Depends: netbase, dnsmasq-base, init-system-helpers (>= 1.18~), lsb-base (>= 3.0-6)
+Suggests: resolvconf
+Conflicts: resolvconf (<< 1.15)
+Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
+Priority: optional
+Section: net
+Filename: pool/main/d/dnsmasq/dnsmasq_2.89-1_all.deb
+Size: 31136
+SHA512: 8e09fb5fb646ea2a667109133fd183c6e5c6cb23b110369fd1035d80ecbe18d506ffeb21a2126fd062f1fb179a38c1e8a9484c3260379c81061dce1e5601080b
+SHA256: 4f0edfed97670b55862e3a2ca8c5792b3cac8be7e0100c64d0b81d95f6cb695a
+SHA1: 5fdb73a25923a31f347513e409bcfdd16427c7ce
+MD5sum: 82f8cc547761710e35f4c98c651555f4
+Description: Small caching DNS proxy and DHCP/TFTP server
+ Dnsmasq is a lightweight, easy to configure, DNS forwarder and DHCP
+ server. It is designed to provide DNS and optionally, DHCP, to a
+ small network. It can serve the names of local machines which are
+ not in the global DNS. The DHCP server integrates with the DNS
+ server and allows machines with DHCP-allocated addresses
+ to appear in the DNS with names configured either in each host or
+ in a central configuration file. Dnsmasq supports static and dynamic
+ DHCP leases and BOOTP/TFTP for network booting of diskless machines.
+
 Package: dnsutils
 Source: bind9
 Version: 1:9.18.12-1ubuntu1

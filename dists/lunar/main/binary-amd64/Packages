@@ -5966,6 +5966,108 @@ Description: DNS root data including root zone and DNSSEC key
   * Root Hints (root.hints)
   * Root Trust Anchors (root.key, root.ds)
 
+Package: dnsmasq
+Version: 2.89-1
+Architecture: all
+Maintainer: Simon Kelley <simon@thekelleys.org.uk>
+Installed-Size: 94
+Depends: netbase, dnsmasq-base, init-system-helpers (>= 1.18~), lsb-base (>= 3.0-6)
+Suggests: resolvconf
+Conflicts: resolvconf (<< 1.15)
+Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
+Priority: optional
+Section: net
+Filename: pool/main/d/dnsmasq/dnsmasq_2.89-1_all.deb
+Size: 31136
+SHA512: 8e09fb5fb646ea2a667109133fd183c6e5c6cb23b110369fd1035d80ecbe18d506ffeb21a2126fd062f1fb179a38c1e8a9484c3260379c81061dce1e5601080b
+SHA256: 4f0edfed97670b55862e3a2ca8c5792b3cac8be7e0100c64d0b81d95f6cb695a
+SHA1: 5fdb73a25923a31f347513e409bcfdd16427c7ce
+MD5sum: 82f8cc547761710e35f4c98c651555f4
+Description: Small caching DNS proxy and DHCP/TFTP server
+ Dnsmasq is a lightweight, easy to configure, DNS forwarder and DHCP
+ server. It is designed to provide DNS and optionally, DHCP, to a
+ small network. It can serve the names of local machines which are
+ not in the global DNS. The DHCP server integrates with the DNS
+ server and allows machines with DHCP-allocated addresses
+ to appear in the DNS with names configured either in each host or
+ in a central configuration file. Dnsmasq supports static and dynamic
+ DHCP leases and BOOTP/TFTP for network booting of diskless machines.
+
+Package: dnsmasq-base
+Source: dnsmasq
+Version: 2.89-1
+Architecture: amd64
+Maintainer: Simon Kelley <simon@thekelleys.org.uk>
+Installed-Size: 1177
+Depends: adduser, libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libgmp10 (>= 2:6.2.1+dfsg1), libhogweed6 (>= 2.4-3), libidn2-0 (>= 2.0.0), libnetfilter-conntrack3 (>= 1.0.1), libnettle8 (>= 2.4-3), libnftables1 (>= 1.0.2)
+Recommends: dns-root-data
+Conflicts: dnsmasq-base-lua
+Breaks: dnsmasq (<< 2.63-1~)
+Replaces: dnsmasq (<< 2.63-1~), dnsmasq-base
+Provides: dnsmasq-base
+Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
+Priority: optional
+Section: net
+Filename: pool/main/d/dnsmasq/dnsmasq-base_2.89-1_amd64.deb
+Size: 534488
+SHA512: 432cf0f056d020731e28c5ac0d6d7166d6df7b5ebf0d92d829cd0172f34d0d15e04b067aa342ca450c14a62137d0ab49094518a63060b6154185c29f639ac9da
+SHA256: 3267f3bd7e9c1269df736fd80e577ca0c2f1c2c114437bc0d9063a79e549d073
+SHA1: 9efca3ad130474e10f83032986d074d28e817134
+MD5sum: 294e9760bc82e83524661ae6ef3f3dac
+Description: Small caching DNS proxy and DHCP/TFTP server
+ This package contains the dnsmasq executable and documentation, but
+ not the infrastructure required to run it as a system daemon. For
+ that, install the dnsmasq package.
+
+Package: dnsmasq-base-lua
+Source: dnsmasq
+Version: 2.89-1
+Architecture: amd64
+Maintainer: Simon Kelley <simon@thekelleys.org.uk>
+Installed-Size: 1185
+Depends: adduser, libc6 (>= 2.34), libdbus-1-3 (>= 1.9.14), libgmp10 (>= 2:6.2.1+dfsg1), libhogweed6 (>= 2.4-3), libidn2-0 (>= 2.0.0), liblua5.2-0 (>= 5.2.4), libnetfilter-conntrack3 (>= 1.0.1), libnettle8 (>= 2.4-3), libnftables1 (>= 1.0.2)
+Recommends: dns-root-data
+Conflicts: dnsmasq-base
+Breaks: dnsmasq (<< 2.63-1~)
+Replaces: dnsmasq (<< 2.63-1~), dnsmasq-base
+Provides: dnsmasq-base
+Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
+Priority: optional
+Section: net
+Filename: pool/main/d/dnsmasq/dnsmasq-base-lua_2.89-1_amd64.deb
+Size: 536164
+SHA512: b6c4d2239ff8f2fbf14f5ddd9a84c2fcf2cae357070a2bb36cb8339e1c0b0b89b204ddfd0abdeb27e073854ad18854b4c0b00e464f850399b0676b45436586e2
+SHA256: b1b763ba10e72c95e1f05c1dad49cdcb6dec3f1913498b8f54c08a6ea653c838
+SHA1: b489e3673a5599ad38ae7a46d638f7676a6fabe2
+MD5sum: bbbb019b4921ac8e7233828fcb78e01e
+Description: Small caching DNS proxy and DHCP/TFTP server
+ This package contains the dnsmasq executable and documentation, but
+ not the infrastructure required to run it as a system daemon. For
+ that, install the dnsmasq package. This package is an alternative
+ to dnsmasq-base which includes the LUA interpreter.
+
+Package: dnsmasq-utils
+Source: dnsmasq
+Version: 2.89-1
+Architecture: amd64
+Maintainer: Simon Kelley <simon@thekelleys.org.uk>
+Installed-Size: 73
+Depends: libc6 (>= 2.34)
+Conflicts: dnsmasq (<< 2.40)
+Homepage: http://www.thekelleys.org.uk/dnsmasq/doc.html
+Priority: optional
+Section: net
+Filename: pool/main/d/dnsmasq/dnsmasq-utils_2.89-1_amd64.deb
+Size: 24680
+SHA512: 914ba8212ea3def49d38a53a02ed88c10213927ddd3d7266204acda1ed0b40212b9e9eb894eb94c9ff4a075be9734fe399f7f519bc456c3086c7cb5198bb87ef
+SHA256: c5b94813d73f4ceeb11a1ea05588254f2b60ee5d3d80022a490255ac48de1bd1
+SHA1: d852b20b0e9d6993e6535844ef1646ac3b9ff215
+MD5sum: d9e719483fe35aa748b1cbb8e8576233
+Description: Utilities for manipulating DHCP leases
+ Small utilities to query a DHCP server's lease database and
+ remove leases from it. These programs are distributed with dnsmasq
+ and may not work correctly with other DHCP servers.
+
 Package: dnsutils
 Source: bind9
 Version: 1:9.18.12-1ubuntu1
