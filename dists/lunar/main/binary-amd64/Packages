@@ -11068,6 +11068,61 @@ Description: RDP client for Windows Terminal Services (X11 client)
  .
  This package contains the X11 based client.
 
+Package: freetype2-demos
+Source: freetype
+Version: 2.12.1+dfsg-4ubuntu0.1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 980
+Depends: libc6 (>= 2.34), libfreetype6 (>= 2.10.1), libpng16-16 (>= 1.6.2-1), libx11-6
+Multi-Arch: foreign
+Homepage: https://freetype.org
+Priority: optional
+Section: utils
+Filename: pool/main/f/freetype/freetype2-demos_2.12.1+dfsg-4ubuntu0.1_amd64.deb
+Size: 193016
+SHA512: 2143776911e467a28b7ed63dac6b8e3f0637f677535dde48aefad49b661921e670019612c3151907652227e03ab5203975b9abb72a6b50ed0c42cfad0ca87e39
+SHA256: 4c188ba852b7ca0499cf7d0864995c81bea84da5031dac9aaf3d332f7a1922d9
+SHA1: 60370b0d88e33c54fd3a71434d4d57eb9240a5fb
+MD5sum: 24574c31fe52809f46eb91b35e6cd971
+Description: FreeType 2 demonstration programs
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ This package contains some demonstration programs and utilities
+ that showcase the features of the FreeType 2 font engine.
+Original-Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+
+Package: freetype2-doc
+Source: freetype
+Version: 2.12.1+dfsg-4ubuntu0.1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 6547
+Recommends: fonts-dejavu-core, fonts-noto-core
+Breaks: libfreetype6-dev (<< 2.9.1)
+Replaces: libfreetype6-dev (<< 2.9.1)
+Multi-Arch: foreign
+Homepage: https://freetype.org
+Priority: optional
+Section: doc
+Filename: pool/main/f/freetype/freetype2-doc_2.12.1+dfsg-4ubuntu0.1_all.deb
+Size: 2428428
+SHA512: b4eac64acb913bb4dae381690035893f41e91bbb7dd17e647b3134d3e7c89f4f0651f5b8d4ad2378e0296c72e36cf6536bbbd821e4c97ee387e66f69aa570bf9
+SHA256: 0857bb9d8aaf206a2684cbfb32c95ab14102fabac0198eb90f53f182253596b1
+SHA1: 4869e5453b4841fec176993ef578afb149e80e41
+MD5sum: a95777140dd869998e8bf3829c3652c5
+Description: FreeType 2 font engine, development documentation
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ This package contains the FreeType 2 development documentation.
+Original-Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+
 Package: fuse2fs
 Source: e2fsprogs
 Version: 1.47.0-1ubuntu1
@@ -24996,6 +25051,112 @@ Description: Free Remote Desktop Protocol library (core library)
  Desktop Protocol (RDP).
  .
  This package contains the shared library with all core functionality.
+
+Package: libfreetype-dev
+Source: freetype
+Version: 2.12.1+dfsg-4ubuntu0.1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2176
+Depends: libfreetype6 (= 2.12.1+dfsg-4ubuntu0.1), libbrotli-dev, libc6-dev | libc-dev, libpng-dev, zlib1g-dev | libz-dev
+Suggests: freetype2-doc (= 2.12.1+dfsg-4ubuntu0.1)
+Breaks: libfreetype6-dev (<< 2.10.1)
+Replaces: libfreetype6-dev (<< 2.10.1)
+Provides: libfreetype6-dev (= 2.12.1+dfsg-4ubuntu0.1)
+Multi-Arch: same
+Homepage: https://freetype.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/freetype/libfreetype-dev_2.12.1+dfsg-4ubuntu0.1_amd64.deb
+Size: 584404
+SHA512: 3c202c2630dca2a2e862b768043d57b5e5528f94ba0c80ea43bc85f5dfc00cc27f3c76ad5914692c9057f1e179f443f8e22e45462b247982e586b71574bc1278
+SHA256: 99e7d2857ee3f2d3a29f03e65cfb520b1423b3cd8fecf4f9aafaace156670de2
+SHA1: a7ccad759c1169d84cd1c040f80d9022346befad
+MD5sum: 49a59ac20c2ad01d4f9a4d4e5bc962b4
+Description: FreeType 2 font engine, development files
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ This package contains all of the supplementary files you need to develop your
+ own programs using the FreeType 2 library.
+Original-Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+
+Package: libfreetype6
+Source: freetype
+Version: 2.12.1+dfsg-4ubuntu0.1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 995
+Depends: libbrotli1 (>= 0.6.0), libc6 (>= 2.33), libpng16-16 (>= 1.6.2-1), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://freetype.org
+Priority: optional
+Section: libs
+Filename: pool/main/f/freetype/libfreetype6_2.12.1+dfsg-4ubuntu0.1_amd64.deb
+Size: 422808
+SHA512: a260235b5a2aa9f577cdec26f594c94b2021fbb69ee0bc98a5834ae718131b196951766faeb5d7819b06606022887c663dfba174d68d1be6e09f5096b26e1633
+SHA256: 60b6941e49535ca356f47c99e8447155bf18867a17dbc61e7070160f7bf40204
+SHA1: aee9585a038ea4aaf5c9b6f3b0525dd36265929a
+MD5sum: b59bc51487f97dd179aba6a51f01be50
+Description: FreeType 2 font engine, shared library files
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ The FreeType 2 library is their new software font engine.  It has been
+ designed to provide the following important features:
+  * A universal and simple API to manage font files
+  * Support for several font formats through loadable modules
+  * High-quality anti-aliasing
+  * High portability & performance
+ .
+ Supported font formats include:
+  * TrueType files (.ttf) and collections (.ttc)
+  * Type 1 font files both in ASCII (.pfa) or binary (.pfb) format
+  * Type 1 Multiple Master fonts.  The FreeType 2 API also provides
+    routines to manage design instances easily
+  * Type 1 CID-keyed fonts
+  * OpenType/CFF (.otf) fonts
+  * CFF/Type 2 fonts
+  * Adobe CEF fonts (.cef), used to embed fonts in SVG documents with
+    the Adobe SVG viewer plugin.
+  * Windows FNT/FON bitmap fonts
+ .
+ This package contains the files needed to run programs that use the
+ FreeType 2 library.
+Original-Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+
+Package: libfreetype6-dev
+Source: freetype
+Version: 2.12.1+dfsg-4ubuntu0.1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 37
+Depends: libfreetype-dev (= 2.12.1+dfsg-4ubuntu0.1)
+Multi-Arch: same
+Homepage: https://freetype.org
+Priority: optional
+Section: oldlibs
+Filename: pool/main/f/freetype/libfreetype6-dev_2.12.1+dfsg-4ubuntu0.1_amd64.deb
+Size: 13924
+SHA512: 3217a9b7557ca92f74cded9ffecac0498aa3819af9cdd9e3826eab10119d88806c66e5542ef533e8d727034b3000a5b031922cbc20305b77309ace3b3c674577
+SHA256: 10fced1ec6447851728afe3325716083bc45975fe26670d98f31402b0ad76053
+SHA1: 75e5afffa327d9329326df0a8ad6e242676018b8
+MD5sum: 865160ae94809340b5501043d185150a
+Description: FreeType 2 font engine, development files (transitional package)
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ This package contains all of the supplementary files you need to develop your
+ own programs using the FreeType 2 library.
+ .
+ This is a transitional package. It can safely be removed.
+Original-Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
 
 Package: libfreezethaw-perl
 Version: 0.5001-3

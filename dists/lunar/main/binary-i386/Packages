@@ -6393,6 +6393,34 @@ Description: development documentation for fprintd
  .
  This package contains the GTK-Doc API documentation of fprintd.
 
+Package: freetype2-doc
+Source: freetype
+Version: 2.12.1+dfsg-4ubuntu0.1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 6547
+Recommends: fonts-dejavu-core, fonts-noto-core
+Breaks: libfreetype6-dev (<< 2.9.1)
+Replaces: libfreetype6-dev (<< 2.9.1)
+Multi-Arch: foreign
+Homepage: https://freetype.org
+Priority: optional
+Section: doc
+Filename: pool/main/f/freetype/freetype2-doc_2.12.1+dfsg-4ubuntu0.1_all.deb
+Size: 2428428
+SHA512: b4eac64acb913bb4dae381690035893f41e91bbb7dd17e647b3134d3e7c89f4f0651f5b8d4ad2378e0296c72e36cf6536bbbd821e4c97ee387e66f69aa570bf9
+SHA256: 0857bb9d8aaf206a2684cbfb32c95ab14102fabac0198eb90f53f182253596b1
+SHA1: 4869e5453b4841fec176993ef578afb149e80e41
+MD5sum: a95777140dd869998e8bf3829c3652c5
+Description: FreeType 2 font engine, development documentation
+ The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on providing small,
+ efficient and ubiquitous products.
+ .
+ This package contains the FreeType 2 development documentation.
+Original-Maintainer: Hugh McMaster <hugh.mcmaster@outlook.com>
+
 Package: fwupd-doc
 Source: fwupd
 Version: 1.8.12-2
