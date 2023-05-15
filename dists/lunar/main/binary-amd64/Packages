@@ -6706,6 +6706,25 @@ Description: Interact with the EFI Boot Manager
  automatically load.
 Original-Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
 
+Package: efivar
+Version: 37-6ubuntu2
+Architecture: amd64
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 37
+Depends: libc6 (>= 2.34), libefivar1 (= 37-6ubuntu2), libefiboot1 (= 37-6ubuntu2)
+Multi-Arch: foreign
+Homepage: https://github.com/rhinstaller/efivar
+Priority: optional
+Section: admin
+Filename: pool/main/e/efivar/efivar_37-6ubuntu2_amd64.deb
+Size: 9888
+SHA512: 5f8fe7c31bfde0b1bc7c6be7a7bf573737bfc452e5482465bb2f34348523a7f8640de3d270f8bc7f85da9b5eec147943cfad4ba6ec5e21ce827ed3ceee4c4b44
+SHA256: 39519e11f088989c4332c2af19ee8244a1a9bcecdd6e21084ef2d990b809bd82
+SHA1: 8974522190560080230e86bd163de80e5aec1186
+MD5sum: b4e1fffa052ed0540a6744f3df94bb63
+Description: Tools to manage UEFI variables
+ efivar provides a simple command line interface to the UEFI variable facility.
+
 Package: elfutils
 Version: 0.188-2.1
 Architecture: amd64
@@ -23308,6 +23327,90 @@ Description: GTK4 Utility library for evolution data server (development files)
  calendar and addressbook information.
  .
  This package contains development files for libedataserverui.
+
+Package: libefiboot-dev
+Source: efivar
+Version: 37-6ubuntu2
+Architecture: amd64
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 26
+Depends: libefiboot1 (= 37-6ubuntu2)
+Conflicts: libefivar-dev (<< 27-1)
+Replaces: libefivar-dev (<< 27-1)
+Multi-Arch: same
+Homepage: https://github.com/rhinstaller/efivar
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/efivar/libefiboot-dev_37-6ubuntu2_amd64.deb
+Size: 4716
+SHA512: 0438721684915a654865380b92db5585c8d20487967e71e02949ec308f2f4074e1d3fe0826690c97e410d67ced86f5346fdb095a730b3acc3eba1759760a90f6
+SHA256: bb69faab32326dcd98ae60414a7dc19f6458718dd18a4395be774f122d76f446
+SHA1: a8d0920d25da0ba8d152154555723c8a93b04513
+MD5sum: 087db903b5a43a74e2a6af6e5a21ac10
+Description: Development headers for libefiboot
+ development headers required to use libefiboot
+
+Package: libefiboot1
+Source: efivar
+Version: 37-6ubuntu2
+Architecture: amd64
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 123
+Depends: libc6 (>= 2.33), libefivar1 (>= 37)
+Breaks: efibootmgr (<< 0.12-2)
+Multi-Arch: same
+Homepage: https://github.com/rhinstaller/efivar
+Priority: optional
+Section: libs
+Filename: pool/main/e/efivar/libefiboot1_37-6ubuntu2_amd64.deb
+Size: 42616
+SHA512: dd78ebb057aa9fbfc413321b96bc6b54f1a5601310e99f4f3c045fe887e4cb4936a87e234bc4e18b2217d7c945eb5437ba056adeb82322b62cb33fb867f54070
+SHA256: d7a0711d2448d3e90d5778df3dc5c11b5be5a3fcc7a7e809e93589e1467d16f9
+SHA1: fbd43c0326b499fac60bba2d7dd257b87fd18dbe
+MD5sum: 4f02eb22403e4d5db9ff05fdbf48c356
+Description: Library to manage UEFI variables
+ Library to allow for the manipulation of UEFI variables related to booting.
+
+Package: libefivar-dev
+Source: efivar
+Version: 37-6ubuntu2
+Architecture: amd64
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 101
+Depends: libefivar1 (= 37-6ubuntu2)
+Multi-Arch: same
+Homepage: https://github.com/rhinstaller/efivar
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/efivar/libefivar-dev_37-6ubuntu2_amd64.deb
+Size: 17024
+SHA512: 40cc6b2eed2a498798f18706156d6130cb4362e91ecd4c484609475f1c689ea5897c63f049dcd09c4869d75a27d72c997e04941d82897ede2e2d2aa361b94a5d
+SHA256: 5edddeb02fc221c9a330730ebd4b710fd354d77284e6f79a4e91f13b17037e1a
+SHA1: 5c3ac26c4ea05dda89587e704af1b9b6a52f7377
+MD5sum: 7538dbcd7214ebc8a9a7b88f24dc9b54
+Description: Development headers for libefivar
+ development headers required to use libefivar
+
+Package: libefivar1
+Source: efivar
+Version: 37-6ubuntu2
+Architecture: amd64
+Maintainer: Debian UEFI Maintainers <debian-efi@lists.debian.org>
+Installed-Size: 171
+Depends: libc6 (>= 2.34)
+Breaks: efibootmgr (<< 0.12-2)
+Multi-Arch: same
+Homepage: https://github.com/rhinstaller/efivar
+Priority: optional
+Section: libs
+Filename: pool/main/e/efivar/libefivar1_37-6ubuntu2_amd64.deb
+Size: 49108
+SHA512: 98408dd8f28a08582ffcdd8825b92e53645abd761ec44662fa6201b86aa0d60591c1ca23f9d2fca980326b1affdf7faa64be5dbaf2ae3f2e3ba9e3d260f071ab
+SHA256: cc6558171d2255e773e9e05f38398a36d40eb51681d0e9630fe2ed26ff1af32a
+SHA1: 6c490da1396dfbe2f28a55dff089fe2c089646d4
+MD5sum: 759119c2f8f7bc8c3f50b7b37ccff123
+Description: Library to manage UEFI variables
+ Library to allow for the simple manipulation of UEFI variables.
 
 Package: libelf-dev
 Source: elfutils
