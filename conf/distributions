@@ -1,0 +1,14 @@
+Codename: lunar
+Suite: lunar-local
+AlsoAcceptFor: lunar
+Version: 23.04
+Origin: Ubuntu
+Label: Ubuntu
+Description: Ubuntu Lunar 23.04
+Architectures: amd64 i386 source
+Components: main
+DDebComponents: main
+SignWith: default
+DebIndices: Packages Release . .gz
+Tracking: keep
+Limit: 2

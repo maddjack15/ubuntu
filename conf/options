@@ -1,0 +1,12 @@
+# GLOBAL OPTIONS
+basedir /var/cache/reprepro/
+gnupghome /var/cache/reprepro/conf/gnupg/
+spacecheck none
+verbose
+
+# ERROR IGNORING
+ignore missingfield
+ignore unknownfield
+ignore unusedarch
+ignore wrongarchitecture
+ignore wrongdistribution
