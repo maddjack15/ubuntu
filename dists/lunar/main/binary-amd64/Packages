@@ -5350,6 +5350,27 @@ Description: Miscellaneous utilities specific to Debian
  add-shell installkernel ischroot remove-shell run-parts savelog
  update-shells which
 
+Package: debugedit
+Version: 1:5.0-5
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 132
+Depends: libc6 (>= 2.34), libdw1 (>= 0.167), libelf1 (>= 0.144)
+Multi-Arch: foreign
+Homepage: https://sourceware.org/debugedit/
+Priority: optional
+Section: devel
+Filename: pool/main/d/debugedit/debugedit_5.0-5_amd64.deb
+Size: 45496
+SHA512: bc36334eddfc27c5ab2614dcbc2f06014e60b56327f8beb606b6765795594c5e56dfd0d3435f904484d8173f8357d648eb90a158c7433e9918baf8002995d957
+SHA256: 53d50a128ff9a3ad59ecf8646a31ebc5d8c06d3c8a5c9361220c3bae9ed0ad72
+SHA1: 1a575eef7f55cb4e741f454e41d163c3e4e637ea
+MD5sum: 932e4ddbd768562b86485511c3130ab6
+Description: tools for handling build-ids and paths rewriting in DWARF data
+ The debugedit project provides programs and scripts for creating
+ debuginfo and source file distributions, collect build-ids and rewrite
+ source paths in DWARF data for debugging, tracing and profiling.
+
 Package: debuginfod
 Source: elfutils
 Version: 0.188-2.1
