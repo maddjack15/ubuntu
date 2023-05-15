@@ -12937,6 +12937,31 @@ Description: GObject introspection data for the GCR library
  It can be used by interpreters understanding the GIRepository format to
  write programs using the GCR library.
 
+Package: gir1.2-gdesktopenums-3.0
+Source: gsettings-desktop-schemas
+Version: 44.0-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 25
+Multi-Arch: same
+Homepage: https://www.gnome.org/
+Priority: optional
+Section: introspection
+Filename: pool/main/g/gsettings-desktop-schemas/gir1.2-gdesktopenums-3.0_44.0-1ubuntu1_amd64.deb
+Size: 8284
+SHA512: 092cc322a856d6baddc27dd354ae94a47a9a57c8034bc3a2004672716c1c0b4ca1376fe8abbe57016de175de2012a8359ae72478f84c3f48c058fd7aebd605fe
+SHA256: 50a538eead20da6f0d140cc031015320be1106d37d763d2e645fd350c49d5537
+SHA1: e243586e5b9712ecec7917332c5ae128f54f3c2e
+MD5sum: c8dbd6c7230619238b4d54423ea03415
+Description: GObject introspection for GSettings desktop-wide schemas
+ gsettings-desktop-schemas contains a collection of GSettings schemas for
+ settings shared by various components of a desktop.
+ .
+ This package contains introspection data for GSettings desktop-wide schemas. It
+ can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
 Package: gir1.2-gdkpixbuf-2.0
 Source: gdk-pixbuf
 Version: 2.42.10+dfsg-1build1
@@ -13316,6 +13341,176 @@ Description: Introspection data for GNOME Online Accounts
  .
  This package can be used by other packages using the GIRepository format to
  generate dynamic bindings.
+
+Package: gir1.2-graphene-1.0
+Source: graphene
+Version: 1.10.8-1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 51
+Depends: gir1.2-glib-2.0, libgraphene-1.0-0 (>= 1.10.0)
+Multi-Arch: same
+Homepage: https://ebassi.github.io/graphene/
+Priority: optional
+Section: introspection
+Filename: pool/main/g/graphene/gir1.2-graphene-1.0_1.10.8-1_amd64.deb
+Size: 12076
+SHA512: 9cbc2b661e990b7881e10a58f909f63ee2252843a8ef47e40e12ca6ec88031dc1ce17c96c23e7e5cf438e4e2e9014f73eb3de72a8a487e9117ef1b111cffbc55
+SHA256: 0e184e86ad9843d9198b39df1d5d14e71436fc59b46a2c63903869c577287072
+SHA1: db60d74179bf5ad9f13c5033c855bdb4923ca330
+MD5sum: 0b212bed849d2657d8848e4e22f99103
+Description: library of graphic data types (introspection files)
+ Graphene provides a small set of mathematical types needed to implement
+ graphic libraries that deal with 2D and 3D transformations and projections.
+ .
+ This library provides types and their relative API; it does not deal with
+ windowing system surfaces, drawing, scene graphs, or input.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings.
+
+Package: gir1.2-grilo-0.3
+Source: grilo
+Version: 0.3.15-1
+Architecture: amd64
+Maintainer: Alberto Garcia <berto@igalia.com>
+Installed-Size: 75
+Depends: gir1.2-glib-2.0, gir1.2-soup-2.4, libgrilo-0.3-0 (>= 0.3.13)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/Grilo
+Priority: optional
+Section: introspection
+Filename: pool/main/g/grilo/gir1.2-grilo-0.3_0.3.15-1_amd64.deb
+Size: 16812
+SHA512: aaea93d5c52f4bad5c04672fcaff04db7c4e1c6ea4b95c1fbd34b10c8a12bebfb8154f0196d09aa18e61a24dad638209afd689166db9721410048abef1c2fda0
+SHA256: 68454a82141e4d4656ed2271e10f1a08f20e82e8b1946c2d0942c230c8e9a2f5
+SHA1: b759c95dcf8b939b1fa83ae4b34dde1704a9c9a1
+MD5sum: 47e86dca1276877feae62363a53dc1e3
+Description: Framework for discovering and browsing media - GObject introspection data
+ Grilo is a framework focused on making media discovery and browsing
+ easy for application developers.
+ .
+ More precisely, Grilo provides:
+   * A single, high-level API that abstracts the differences among
+     various media content providers, allowing application developers
+     to integrate content from various services and sources easily.
+   * A collection of plugins for accessing content from various media
+     providers. Developers can share efforts and code by writing
+     plugins for the framework that are application agnostic.
+   * A flexible API that allows plugin developers to write plugins of
+     various kinds.
+ .
+ This package contains the GObject introspection data. It can be used
+ by packages using the GIRepository format to generate dynamic
+ bindings.
+
+Package: gir1.2-gsound-1.0
+Source: gsound
+Version: 1.0.3-2build1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 19
+Depends: gir1.2-glib-2.0, libgsound0 (>= 1.0.1)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/GSound
+Priority: optional
+Section: introspection
+Filename: pool/main/g/gsound/gir1.2-gsound-1.0_1.0.3-2build1_amd64.deb
+Size: 4820
+SHA512: 37d8324e0c1e8cf540187763fb252b813de50e595f12ecf5ea653cc3d33f6f489ab163d1c3fcedc07eb1b639d1b2c87e1e13d923cfbe63c092cdcdedb2a800de
+SHA256: 388e737585a892802f37a3d73bd5c2b92064701e702f5e794c1ff4063a68d943
+SHA1: 87032a43e02bfb93e06497f81d1632552e481dfa
+MD5sum: 80bcb5de25612de20ad493d30d230a5a
+Description: small library for playing system sounds (gir bindings)
+ GSound is a small library for playing system sounds. It's designed to
+ be used via GObject Introspection, and is a thin wrapper around the
+ libcanberra C library.
+ .
+ This package can be used by other packages using the GIRepository format to
+ generate dynamic bindings.
+
+Package: gir1.2-gspell-1
+Source: gspell
+Version: 1.12.0-1build1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 31
+Depends: gir1.2-gtk-3.0 (>= 3.20), libgspell-1-2 (>= 1.8.2)
+Multi-Arch: same
+Homepage: https://gitlab.gnome.org/GNOME/gspell
+Priority: optional
+Section: introspection
+Filename: pool/main/g/gspell/gir1.2-gspell-1_1.12.0-1build1_amd64.deb
+Size: 8904
+SHA512: 5538dd5289f546e099fa505444d4437117d4f212dbbfa4b17ee2900045b6db7f08c4d97b13f3926a2c5bc8383e7fbcb5756f09158449b6a02968743dac92bb77
+SHA256: a87b3d9036edf1f7c3f67c59c011b449e18ef5ee97d7e7ff2454457487f606b9
+SHA1: c23a5a7e54e705299227ea00464f808c3cf253ef
+MD5sum: 83ca7fe59d4f71e25677b1286a08cf79
+Description: spell-checking library for GTK+ applications - GObject introspection
+ gspell provides a flexible API to add spell checking to a GTK+ application.
+ It features:
+  * GObject wrappers around Enchant
+  * An inline spell checker for GtkTextView (enhanced version of GtkSpell)
+  * A spell checker dialog for GtkTextView
+  * Support of the no-spell-check tag defined by GtkSourceView
+  * Language choosers (button and dialog)
+ .
+ This package contains the GObject introspection binding
+
+Package: gir1.2-gssdp-1.6
+Source: gssdp
+Version: 1.6.2-2
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 21
+Depends: gir1.2-glib-2.0 (>= 0.9.12), gir1.2-soup-3.0, libgssdp-1.6-0 (>= 1.6.0)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/GUPnP
+Priority: optional
+Section: introspection
+Filename: pool/main/g/gssdp/gir1.2-gssdp-1.6_1.6.2-2_amd64.deb
+Size: 6004
+SHA512: 20652df62a81a34f3b9a01d06cd78aaf5729a68418fd56d52fd8699761498173e9efa482c8fa433bc0aadc2437de6a81ba01a48da747ee2ef661261220b6cd3b
+SHA256: cafbb1892caff63fb1e582568256679e891d91cf7c1c9a8b3af93edfc22413a6
+SHA1: 3d838e510d037a55b30f46de9bd1633916a3a9f5
+MD5sum: 86c2854016765f7202a5eda979e9c4dc
+Description: GObject introspection data for the GSSDP library
+ This package contains introspection data for GSSDP, a SSDP
+ library.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
+Package: gir1.2-gst-plugins-base-1.0
+Source: gst-plugins-base1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 455
+Depends: gir1.2-glib-2.0 (>= 0.9.12-4~), gir1.2-gstreamer-1.0 (>= 1.22.0), libgstreamer-gl1.0-0 (>= 1.20.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0)
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: introspection
+Filename: pool/main/g/gst-plugins-base1.0/gir1.2-gst-plugins-base-1.0_1.22.1-1ubuntu1_amd64.deb
+Size: 97708
+SHA512: 58bc0a9ed1bd2f6acfabc053cc5886ba575d7b68e7b3de485def15a5fb4d71d1e0056763217065b53ca72f01d16203293e1b9426820f6cc5f8d8b7166f1e8921
+SHA256: 10b211be2353d54707e0ca270f26f6cd6f33b683c046e6e7c5b7c1cdde7b91f3
+SHA1: cdd9e3d80c539ab8db6c045fcf8efe211f54c9d9
+MD5sum: 2135414f2a861d997c7136a90c886308
+Description: GObject introspection data for the GStreamer Plugins Base library
+ This package contains introspection data for the GStreamer Plugins Base library.
+ .
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 
 Package: gir1.2-messagingmenu-1.0
 Source: ayatana-indicator-messages
@@ -16172,6 +16367,264 @@ Description: GNU privacy guard - signature verification tool (dummy transitional
  to gpgv.
 Original-Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 
+Package: gpm
+Version: 1.20.7-10build1
+Architecture: amd64
+Maintainer: Axel Beckert <abe@debian.org>
+Installed-Size: 528
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: lsb-base (>= 3.2-13), ucf, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34), libgpm2 (>= 1.20.7)
+Multi-Arch: foreign
+Homepage: https://nico.schottelius.org/software/gpm/
+Priority: optional
+Section: misc
+Filename: pool/main/g/gpm/gpm_1.20.7-10build1_amd64.deb
+Size: 182068
+SHA512: 2cff18b0d28607558be85899cf14c561ae421f91ec6d21d49e13977400f929a4fd7b25a3ae0852f4e476e01f16e1fe297efd4fce8c75aa7c92b35f165e813410
+SHA256: 3ea99e3206b81620ec43ae259193a4a80ae3c46983d0be2693847e9080765c0a
+SHA1: 443074ac5e91546c51b3c4af9a91e72d88601249
+MD5sum: 2cec68846729c230fb5f79b59c158227
+Description: General Purpose Mouse interface
+ This package provides a daemon that captures mouse events when the system
+ console is active, and delivers events to applications through a library.
+ .
+ By default, the daemon provides a 'selection' mode, so that
+ cut-and-paste with the mouse works on the console just as it does
+ under X.
+
+Package: graphene-tests
+Source: graphene
+Version: 1.10.8-1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 855
+Depends: libc6 (>= 2.34), libgraphene-1.0-0 (>= 1.10.0)
+Suggests: gnome-desktop-testing
+Homepage: https://ebassi.github.io/graphene/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphene/graphene-tests_1.10.8-1_amd64.deb
+Size: 107484
+SHA512: 9567f2a5955273b88e4d99968e042d86d51614357695f433626a422a5848a0b11fcc4d573409c0cf1eb31d751d8c2513ca0736a71709e81c5754c17676299a71
+SHA256: 4beaad3013e19e0c101f3f692ed7df6301b2aac5793c179b3381185c042c4c3b
+SHA1: 35cb9cb3017417cf353d7a541c70b06518f7556a
+MD5sum: 8924e7abfdd3553604aa3d3baa5f5005
+Description: library of graphic data types (installed tests)
+ Graphene provides a small set of mathematical types needed to implement
+ graphic libraries that deal with 2D and 3D transformations and projections.
+ .
+ This library provides types and their relative API; it does not deal with
+ windowing system surfaces, drawing, scene graphs, or input.
+ .
+ This package contains test programs, designed to be run as part of a
+ regression testsuite.
+
+Package: graphicsmagick
+Version: 1.4+really1.3.40-2build1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 5445
+Depends: libc6 (>= 2.34), libgraphicsmagick-q16-3 (>= 1.3.5)
+Suggests: graphicsmagick-dbg
+Replaces: graphicsmagick-doc, imagemagick (<< 6:6.2.4.4)
+Homepage: http://www.graphicsmagick.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/g/graphicsmagick/graphicsmagick_1.4+really1.3.40-2build1_amd64.deb
+Size: 1018880
+SHA512: 7b017d9c71662ff2222cc1a72e2bb62921e4d211f5531a1f72a345e4e9be1717528bb3e76d41722250e711ca310d7d5ee06b368ef903f3fb061a87ccd3974a59
+SHA256: 73dc26dc7bb34c32453adb8ef4ea59164ab78538d5f8559b064e220da9a0771c
+SHA1: fd1a7d5d8c2f54297f20a4ffc5e80aafaeb5b503
+MD5sum: c6f5abd9f343813d3dd8661f7cdd110a
+Description: collection of image processing tools
+ GraphicsMagick provides a set of command-line applications to manipulate
+ image files. It is a fork of the ImageMagick project and therefore offers
+ a similar set of features, but puts a larger emphasis on stability.
+ .
+ The tools support a large variety of image formats from the widely used
+ jpeg, tiff, bmp or xpm to special-purpose formats such as fits or image
+ formats found on some photo CDs. They can convert between formats,
+ concatenate several images into one, annotate and distort them, create
+ thumbnails or manipulate the colormap. While all features are available
+ from the command-line, the package also includes an image viewer that
+ allows interactive manipulation.
+ .
+ Note that unlike ImageMagick, the GraphicsMagick tools are accessed
+ through a single executable called 'gm'. Therefore, GraphicsMagick and
+ ImageMagick can be used in parallel. Install package
+ graphicsmagick-imagemagick-compat to obtain a set of several executables
+ that is compatible to ImageMagick's interface.
+
+Package: graphicsmagick-dbg
+Source: graphicsmagick
+Version: 1.4+really1.3.40-2build1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 5281
+Depends: graphicsmagick (= 1.4+really1.3.40-2build1), libgraphicsmagick-q16-3 (= 1.4+really1.3.40-2build1), libgraphicsmagick++-q16-12 (= 1.4+really1.3.40-2build1), libgraphics-magick-perl (= 1.4+really1.3.40-2build1)
+Homepage: http://www.graphicsmagick.org/
+Priority: optional
+Section: debug
+Filename: pool/main/g/graphicsmagick/graphicsmagick-dbg_1.4+really1.3.40-2build1_amd64.deb
+Size: 4545472
+SHA512: a863583ae30c3723e24662c7d4489c0ba77db81cce6367ff2a591249741e76660cb453bbd207129c308073ba52d5aa3f5f32d15903dfb639ffe79e666581dc0c
+SHA256: 250e7088e71b9d1e9bb13c2139f95711c92ec7e5d4bc9c9df3cac4f2e28c7a37
+SHA1: 9af8089accbdd7694fefb6aca81d272137ec4258
+MD5sum: ea436434828d1901688b4d91ed25ae98
+Description: format-independent image processing - debugging symbols
+ GraphicsMagick provides libraries in several programming languages to read,
+ write and manipulate image files across a large number of formats, from the
+ widely used jpeg, tiff, bmp or xpm to special-purpose formats such as fits or
+ image formats found on some photo CDs. There are functions for finegrained
+ image processing tasks, as well as conversion routines between the various
+ image formats.
+ .
+ The GraphicsMagick library is a fork of ImageMagick and therefore offers
+ an interface that is similar in features, but intended to be more stable
+ across releases. While compatibility does not go so far that the
+ GraphicsMagick library serves as a drop-in replacement for ImageMagick,
+ conversion can usually be done with little effort.
+ .
+ This package contains debugging symbols for the gm executable as well as the
+ C, C++, and Perl bindings. Tools like gdb and ltrace make use of these
+ symbols.
+Build-Ids: 19a076e609a8d55f29e3aa584dc2c8525ca2a98d 41eaa2215b34a03b0d024d8e8806169f25f1799e 5c7a1ba06309dc4c5ccffae838fcfa1723f91bba a7a9148608f9e898e8ab0d11c3750e770961f968 d6a8ebf2fdce83cfc7346973f81e737c68868af5
+
+Package: graphicsmagick-imagemagick-compat
+Source: graphicsmagick
+Version: 1.4+really1.3.40-2build1
+Architecture: all
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 49
+Depends: graphicsmagick
+Conflicts: imagemagick
+Replaces: imagemagick
+Provides: imagemagick
+Homepage: http://www.graphicsmagick.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/g/graphicsmagick/graphicsmagick-imagemagick-compat_1.4+really1.3.40-2build1_all.deb
+Size: 11924
+SHA512: b9616e34ff29747302299d02102494cbe18327f8e7d1a953186ea603f8d8ccfadbda728f644f2a7cedf21adbf1005b836aadbe7126e62811f82a4fae187bbeb5
+SHA256: 243de07ca79f49818fdb36878fb095a249f4869d58a8f9a90ed07d8664eb57b6
+SHA1: 5debc3554e39d10e1a9806c0a3b11b90d58a5452
+MD5sum: e5a789965dc3d8b6fe8d6992cbb934c4
+Description: image processing tools providing ImageMagick interface
+ GraphicsMagick provides a set of command-line applications to manipulate
+ image files. It is a fork of the ImageMagick project and therefore offers
+ a similar set of features, but puts a larger emphasis on stability.
+ .
+ With this package installed, the GraphicsMagick command line tools can
+ be executed like their ImageMagick counterparts. It allows one to migrate
+ scripts from ImageMagick to GraphicsMagick without any code changes.
+
+Package: graphicsmagick-libmagick-dev-compat
+Source: graphicsmagick
+Version: 1.4+really1.3.40-2build1
+Architecture: all
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 58
+Depends: libgraphicsmagick1-dev, libgraphicsmagick++1-dev, libgraphics-magick-perl
+Conflicts: libmagick++-dev, libmagick++6-dev, libmagick++9-dev, libmagick-dev, libmagick6-dev, libmagick9-dev, libmagickcore-dev, perlmagick
+Replaces: libmagick++-dev, libmagick++6-dev, libmagick++9-dev, libmagick-dev, libmagick6-dev, libmagick9-dev, libmagickcore-dev, perlmagick
+Provides: libmagick++-dev, libmagick-dev, perlmagick
+Homepage: http://www.graphicsmagick.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/g/graphicsmagick/graphicsmagick-libmagick-dev-compat_1.4+really1.3.40-2build1_all.deb
+Size: 15388
+SHA512: 1218e6071126e6bb702a5be4e8202ae0655dac49ad6fee2ddcbc2373ce1298549ff1e477661fcae96d847841ac7ae84a43707d72e758069fba78156c62610800
+SHA256: 596a6c2b7c75526842378c8dddd51f7c61990f83d00848ea5b9e1d7e8adc7cbe
+SHA1: 282f5ef6ba2f7cecca5b953e55b1e259796003b7
+MD5sum: 164e652a57b5304da64ada02f4ee2902
+Description: image processing libraries providing ImageMagick interface
+ GraphicsMagick provides libraries in several programming languages to read,
+ write and manipulate image files across a large number of formats, from the
+ widely used jpeg, tiff, bmp or xpm to special-purpose formats such as fits or
+ image formats found on some photo CDs. There are functions for finegrained
+ image processing tasks, as well as conversion routines between the various
+ image formats.
+ .
+ The GraphicsMagick libraries are a fork of ImageMagick and therefore offer
+ programming interfaces that are mostly compatible. While there might be
+ small differences, experience tells that many programs only use a compatible
+ subset and build fine with either GraphicsMagick or ImageMagick.
+ .
+ While GraphicsMagick uses different names for libraries, classes, and
+ helper applications in order to coexist with ImageMagick, this package
+ intends to minimise porting efforts by exporting the GraphicsMagick
+ interface with the usual ImageMagick names. Note that this package only
+ tries to provide build-time compatibility. Run-time libraries of
+ ImageMagick and GraphicsMagick are incompatible and cannot be interchanged.
+ .
+ This package includes compatibility wrappers for the C, C++, and Perl
+ libraries.
+
+Package: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 2821
+Depends: libann0 (>= 1.1.2+doc), libc6 (>= 2.34), libcdt5, libcgraph6, libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.3.1), libgd3 (>= 2.1.0~alpha~), libglib2.0-0 (>= 2.16.0), libgts-0.7-5 (>= 0.7.6), libgvc6 (>= 2.42.1), libgvpr2, liblab-gamut1, libstdc++6 (>= 5), libx11-6, libxaw7 (>= 2:1.0.14), libxmu6 (>= 2:1.1.3), libxt6
+Recommends: fonts-liberation2
+Suggests: gsfonts, graphviz-doc
+Multi-Arch: foreign
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/g/graphviz/graphviz_2.42.2-7build3_amd64.deb
+Size: 721024
+SHA512: 4705c76f4cd8db39c22164910f6e77552a2efc0d11610feb8be98115d55149fc592d8d424d42f247f44aa950c0f7fc3f7b2efed9c1b8f5ae5f4e15999ae15f0d
+SHA256: ce636f508de572e59011a5b1c5955adc44a55ed4e01bfebf21229e70ef37adb3
+SHA1: 811ec5bd199bf8ebc1b235f011519d20a375a604
+MD5sum: ed7e4780bd11ff85cc2513acedcec803
+Description: rich set of graph drawing tools
+ Graph drawing addresses the problem of visualizing structural information
+ by constructing geometric representations of abstract graphs and networks.
+ Automatic generation of graph drawings has important applications in key
+ technologies such as database design, software engineering, VLSI and
+ network design and visual interfaces in other domains. Situations where
+ these tools might be particularly useful include:
+ .
+   * you would like to restructure a program and first need to understand
+     the relationships between its types, procedures, and source files
+   * you need to find the bottlenecks in an Internet backbone - not only
+     individual links, but their relationships
+   * you're debugging a protocol or microarchitecture represented as a
+     finite state machine and need to figure out how a certain
+     error state arises
+   * you would like to browse a database schema, knowledge base, or
+     distributed program represented graphically
+   * you would like to see an overview of a collection of linked documents
+   * you would like to discover patterns and communities of interest in a
+     database of telephone calls or e-mail messages
+ .
+ This package contains the command-line tools.
+
+Package: graphviz-doc
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: all
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 5383
+Suggests: graphviz
+Multi-Arch: foreign
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/graphviz/graphviz-doc_2.42.2-7build3_all.deb
+Size: 4405000
+SHA512: 7acc54e31815935f1548a0b2523dec1a9fc5e6592e2dea08c46f35d40e0962740b9ed55b23cf7201c47c9ad30c18cbfaa7e9b558c01866cf4729e27285b9d086
+SHA256: 8badcdee8137d29d2f12b14bef1d4095491dc48fcfa47785293e35794e5f817a
+SHA1: 74b2bfab790a3b64df8779aecf383dd69512ab80
+MD5sum: 643cc8b093ea15df760d7f13f263f499
+Description: additional documentation for graphviz
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package installs HTML and PDF documentation for Graphviz, as well as
+ examples.
+
 Package: grep
 Version: 3.8-5
 Architecture: amd64
@@ -16205,6 +16658,270 @@ Description: GNU grep, egrep and fgrep
  look at every character. The result is typically many times faster
  than Unix grep or egrep. (Regular expressions containing backreferencing
  will run more slowly, however.)
+
+Package: grilo-plugins-0.3
+Source: grilo-plugins
+Version: 0.3.15-2ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 14
+Depends: grilo-plugins-0.3-base, grilo-plugins-0.3-extra
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/Grilo
+Priority: extra
+Section: oldlibs
+Filename: pool/main/g/grilo-plugins/grilo-plugins-0.3_0.3.15-2ubuntu1_all.deb
+Size: 4836
+SHA512: f97d81e1e3be5387da2e2ee0f0d2d6994a14ee5d90fae0b8677e4a880f460b80b2162b4b373a26f6e2f17103d0dd329ba68265bab2a8e68533716725318ae3e0
+SHA256: 37d60040123127e2932231f58bed756366f14b951f4e6377aba771f40385a061
+SHA1: 03aed6bacdc21b75f85bcd4f765176c86955756f
+MD5sum: 6335386dc2aa6f9714fd7a3d0bc75b47
+Description: transitional package
+ This is a transitional package to ease upgrades to
+ grilo-plugins-0.3-base and grilo-plugins-0.3-extra. It can safely be removed.
+Original-Maintainer: Alberto Garcia <berto@igalia.com>
+
+Package: grilo-plugins-0.3-base
+Source: grilo-plugins
+Version: 0.3.15-2ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2120
+Depends: libarchive13 (>= 3.0.4), libc6 (>= 2.7), libglib2.0-0 (>= 2.75.3), libgoa-1.0-0b (>= 3.17.92), libgom-1.0-0 (>= 0.4), libgrilo-0.3-0 (>= 0.3.8), libjson-glib-1.0-0 (>= 1.5.2), liblua5.3-0, libmediaart-2.0-0 (>= 1.9.0), libsoup2.4-1 (>= 2.41.90), libsqlite3-0 (>= 3.5.9), libtotem-plparser18 (>= 3.26.0), libtracker-sparql-3.0-0 (>= 3.1.1), libxml2 (>= 2.7.4)
+Suggests: grilo-plugins-0.3-extra
+Breaks: grilo-plugins-0.2
+Replaces: grilo-plugins-0.2
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/Grilo
+Priority: optional
+Section: libs
+Filename: pool/main/g/grilo-plugins/grilo-plugins-0.3-base_0.3.15-2ubuntu1_amd64.deb
+Size: 823332
+SHA512: 5eab128641fc934b4db707d23b839858aaaee7ad4e1666fb1ce65e7ad2fef1ceceaa0406f05366f7332e1045183fc54bb3c617e990ae82ec3b5c950d3f20316b
+SHA256: 71cb13040ef2134e8d029f2f50deb6c460a8e9b9aa50712cfa28227d90967f6a
+SHA1: ce1ca87aaaae61400ff4cb48f712f424e31de86b
+MD5sum: 34dc56d0d4ca5af7bc230db4a6e3cf64
+Description: Framework for discovering and browsing media - Plugins
+ Grilo is a framework focused on making media discovery and browsing
+ easy for application developers.
+ .
+ More precisely, Grilo provides:
+   * A single, high-level API that abstracts the differences among
+     various media content providers, allowing application developers
+     to integrate content from various services and sources easily.
+   * A collection of plugins for accessing content from various media
+     providers. Developers can share efforts and code by writing
+     plugins for the framework that are application agnostic.
+   * A flexible API that allows plugin developers to write plugins of
+     various kinds.
+ .
+ This package contains these plugins officially distributed with Grilo:
+   * Bookmarks
+   * Filesystem
+   * Gravatar
+   * Local metadata (album art and thumbnails)
+   * Metadata Store
+   * OpenSubtitles
+   * Optical Media
+   * Rai.tv
+   * SHOUTcast
+   * TheTVDB
+   * Tracker
+   * Lua Factory, with these Lua scripts:
+     - Acoustid
+     - Apple Movie Trailers
+     - Euronews
+     - The Guardian Videos
+     - iTunes Podcast
+     - Last.fm Cover
+     - Musicbrainz Cover Art
+     - Radio France
+     - Steam Store
+     - TheAudioDB cover
+     - TheGamesDB.net
+     - Video title parsing
+Original-Maintainer: Alberto Garcia <berto@igalia.com>
+
+Package: grilo-plugins-0.3-extra
+Source: grilo-plugins
+Version: 0.3.15-2ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 614
+Depends: libavahi-client3 (>= 0.6.16), libavahi-glib1 (>= 0.6.16), libc6 (>= 2.33), libdmapsharing-3.0-2 (>= 2.9.12), libgdata22 (>= 0.15.0), libglib2.0-0 (>= 2.75.3), libgoa-1.0-0b (>= 3.1.1), libgrilo-0.3-0 (>= 0.3.8), libgstreamer1.0-0 (>= 1.0.0), libjson-glib-1.0-0 (>= 1.5.2), liboauth0 (>= 0.9.1), libsqlite3-0 (>= 3.5.9), libtotem-plparser18 (>= 3.26.0), libxml2 (>= 2.7.4), grilo-plugins-0.3-base
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/Grilo
+Priority: optional
+Section: libs
+Filename: pool/main/g/grilo-plugins/grilo-plugins-0.3-extra_0.3.15-2ubuntu1_amd64.deb
+Size: 135284
+SHA512: 5a693ec2e73a473d57811621dfb00ad6959846c737a4795fa7e29c1120a9da1e3e9a3edb11ed5658f9bb76e594f6fa6cc7f941b5c4d00dd3fdbd3203dd25a8ab
+SHA256: 72ac7ae3713292614cee3dd19cbb1088ae333a3d518e08059e47111f110972f9
+SHA1: a5f60421deb1a5632d0a2c8ea32138c6df9fe5aa
+MD5sum: 901df48c833e5577ea5a3f72cd4fb90c
+Description: Framework for discovering and browsing media - Extra Plugins
+ Grilo is a framework focused on making media discovery and browsing
+ easy for application developers.
+ .
+ More precisely, Grilo provides:
+   * A single, high-level API that abstracts the differences among
+     various media content providers, allowing application developers
+     to integrate content from various services and sources easily.
+   * A collection of plugins for accessing content from various media
+     providers. Developers can share efforts and code by writing
+     plugins for the framework that are application agnostic.
+   * A flexible API that allows plugin developers to write plugins of
+     various kinds.
+ .
+ This package contains these plugins officially distributed with Grilo:
+   * Chromaprint
+   * DAAP / DPAP
+   * dLeyna
+   * Flickr
+   * Freebox
+   * Magnatune
+   * Podcasts
+   * TMDb
+   * Youtube
+Original-Maintainer: Alberto Garcia <berto@igalia.com>
+
+Package: groff
+Version: 1.22.4-10
+Architecture: amd64
+Maintainer: Colin Watson <cjwatson@debian.org>
+Installed-Size: 10491
+Depends: groff-base (= 1.22.4-10), libc6 (>= 2.35), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 4.1.1), libx11-6, libxaw7 (>= 2:1.0.14), libxmu6 (>= 2:1.1.3), libxt6
+Recommends: ghostscript, imagemagick, libpaper1, netpbm, perl, psutils
+Provides: groff-x11, jgroff
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/groff/
+Priority: optional
+Section: text
+Filename: pool/main/g/groff/groff_1.22.4-10_amd64.deb
+Size: 3433564
+SHA512: 70f1abf09a4a99ed0036780e77c7a66864ffbb0de0848deabf3cb558bf18647ad1ee676005f25bd05993356c2ca488c97690878a2438a9fab4cbac8cfe28ecfc
+SHA256: 4e6399a15a526b42c08605b0168230197a9b7621b0b26ddcc589a8d8fdb28713
+SHA1: 7c646249635a424d766611abc852d8d5c8ec932e
+MD5sum: 69236844489e5379aeb9e3f986719972
+Description: GNU troff text-formatting system
+ This package contains optional components of the GNU troff text-formatting
+ system. The core package, groff-base, contains the traditional tools like
+ troff, nroff, tbl, eqn, and pic. This package contains additional devices
+ and drivers for output to DVI, HTML (when recommended packages are
+ installed - see below), PDF, HP LaserJet printers, and Canon CAPSL LBP-4
+ and LBP-8 printers.
+ .
+ The X75, X75-12, X100, and X100-12 devices, which allow groff output to be
+ conveniently viewed on an X display using the standard X11 fonts, are now
+ included here. They were previously in a separate package, groff-x11.
+ .
+ Besides these, the groff package contains man pages describing the language
+ and its macro sets, info documentation, and a number of supplementary
+ programs:
+ .
+  - gxditview, which is used to display the output of the X* devices, and
+    can also be used to view PostScript output from groff;
+  - grn, a preprocessor for pictures in the 'gremlin' format;
+  - tfmtodit, which creates font files for use with 'groff -Tdvi';
+  - hpftodit, which creates font files for use with 'groff -Tlj4';
+  - afmtodit, which creates font files for use with 'groff -Tps';
+  - refer, which preprocesses bibliographic references for use with groff;
+  - indxbib, which creates inverted indices for bibliographic databases used
+    by 'refer';
+  - lkbib and lookbib, which search bibliographic databases;
+  - addftinfo, which adds metric information to troff font files for use
+    with groff;
+  - pfbtops, which translates a PostScript font in .pfb format to ASCII for
+    use with groff;
+  - mmroff, a simple groff preprocessor which expands references in mm;
+  - pic2graph, which converts PIC diagrams into cropped image files;
+  - eqn2graph, which converts EQN equations into cropped image files;
+  - pdfmom, which runs 'groff -mom' to produce PDFs.
+ .
+ All the standard macro packages are supported.
+ .
+ Some facilities only work if certain recommended packages are installed:
+ .
+  - ghostscript, netpbm, psutils: required for HTML output;
+  - imagemagick: required for the pic2graph and eqn2graph programs;
+  - libpaper1: paper size detection in dvi, lbp, lj4, and ps devices (falls
+    back to a4 if not installed);
+  - perl: required for PDF output and for the chem preprocessor.
+
+Package: groff-base
+Source: groff
+Version: 1.22.4-10
+Architecture: amd64
+Maintainer: Colin Watson <cjwatson@debian.org>
+Installed-Size: 3615
+Depends: libc6 (>= 2.35), libgcc-s1 (>= 4.0), libstdc++6 (>= 4.1.1), libuchardet0 (>= 0.0.1)
+Suggests: groff
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/groff/
+Priority: important
+Section: text
+Filename: pool/main/g/groff/groff-base_1.22.4-10_amd64.deb
+Size: 924692
+SHA512: 556c57fa908575fc3ef6fe669ac5ef8a465de010687e247bbb393747facb8d2ed39db44e62dcbeda82ca15ee83d7c58df61d00fe2b89e803fa4f4b19657294dd
+SHA256: f43ca9c12111e747b9a9efc5dab332b55d755e232f8b8092222a9b36cd3e78d8
+SHA1: c41580bc56c786a9c6dfe078740ba324a4fbeae5
+MD5sum: d6be4215feb5b7f14fe4d7e223de864a
+Description: GNU troff text-formatting system (base system components)
+ This package contains the traditional UN*X text formatting tools
+ troff, nroff, tbl, eqn, and pic. These utilities, together with the
+ man-db package, are essential for displaying the on-line manual pages.
+ .
+ groff-base is a stripped-down package containing the necessary components
+ to read manual pages in ASCII, Latin-1, and UTF-8, plus the PostScript
+ device (groff's default). Users who want a full groff installation, with
+ the standard set of devices, fonts, macros, and documentation, should
+ install the groff package.
+
+Package: gsettings-desktop-schemas
+Version: 44.0-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 5151
+Depends: dconf-gsettings-backend | gsettings-backend, session-migration
+Breaks: gnome-control-center (<< 1:3.19.92), gnome-settings-daemon (<< 3.19.92), gnome-shell (<< 40), mutter (<< 3.31.4), nautilus (<< 3.7.92)
+Multi-Arch: foreign
+Homepage: https://www.gnome.org/
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gsettings-desktop-schemas/gsettings-desktop-schemas_44.0-1ubuntu1_all.deb
+Size: 640564
+SHA512: b9a7e9c0947341140017c2513d8f591dc5221e28c60b11d8d0cd32850834317528fbb9213855955b06ff374740ad62d6c94aff080d8c2eeec18004520c206f98
+SHA256: 9d1f810159d3cc0196647f41d5f4b3d77f56959756b40caf3c8257d79711c567
+SHA1: 6bedebdf3d7f34a7f4192ee0c1c9e0b70fc6416c
+MD5sum: 23b93da87be355ebb68c6b364b5f10a8
+Description: GSettings desktop-wide schemas
+ gsettings-desktop-schemas contains a collection of GSettings schemas for
+ settings shared by various components of a desktop.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gsettings-desktop-schemas-dev
+Source: gsettings-desktop-schemas
+Version: 44.0-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 46
+Depends: gsettings-desktop-schemas (>= 44.0-1ubuntu1), gir1.2-gdesktopenums-3.0 (= 44.0-1ubuntu1)
+Multi-Arch: same
+Homepage: https://www.gnome.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gsettings-desktop-schemas/gsettings-desktop-schemas-dev_44.0-1ubuntu1_amd64.deb
+Size: 9136
+SHA512: aa8324107e0fab9cd0ca08c3d89e2e31dcd29e4b57b2f8b454364768928a7ddfde7517b31e868c5634f059905817619749e70ed5a0938763a355ea1880fb9212
+SHA256: d4198879d2cb2fe0cdee04d0d60199d33a3bd7417cd5e8444a1d755831b11341
+SHA1: 5d37ed20516e0416aaecdca4a7267c98b5974144
+MD5sum: c4c5185d1ecee0b2bfa122b91bd3b83c
+Description: Development files for GSettings desktop-wide schemas
+ gsettings-desktop-schemas contains a collection of GSettings schemas for
+ settings shared by various components of a desktop.
+ .
+ This package contains the development files.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 
 Package: gsfonts
 Source: fonts-urw-base35 (20200910-7)
@@ -16248,6 +16965,414 @@ MD5sum: 504f5f8a88ae8bca57a150283b6eec1f
 Description: transitional dummy package (gsfonts-x11 -> fonts-urw-base35)
  This package is a dummy package to enable the gsfonts-x11 to fonts-urw-base35
  transition. It can be safely removed.
+
+Package: gsound-tools
+Source: gsound
+Version: 1.0.3-2build1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 32
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.44.0), libgsound0 (>= 1.0.1)
+Breaks: gsound (<< 1.0.1-3~)
+Replaces: gsound (<< 1.0.1-3~)
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/GSound
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gsound/gsound-tools_1.0.3-2build1_amd64.deb
+Size: 7712
+SHA512: 659437b33403d8137b7715fe7493cda34a5bb48edd79fbd508f6671c8810cdbc6b518fa5ca99bd98f8f910636d6d796d5ae5e466d1915d6fad30e519152a0347
+SHA256: 6b6a78a4f19f9b750ae31fef4d9d646249ae3c0d00e733785089d2d93993a8fc
+SHA1: e023bc011e829ed80a9765441fce931f4b7394df
+MD5sum: 9406c4479bba5b37a9ff340d94b07b03
+Description: small library for playing system sounds (tools)
+ GSound is a small library for playing system sounds. It's designed to
+ be used via GObject Introspection, and is a thin wrapper around the
+ libcanberra C library.
+ .
+ This package contains tools for use with GSound.
+
+Package: gspell-1-tests
+Source: gspell
+Version: 1.12.0-1build1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 226
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.34), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libenchant-2-2 (>= 2.2.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.44), libgtk-3-0 (>= 3.20), libharfbuzz0b (>= 0.6.0), libicu72 (>= 72.1~rc-1~), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), zlib1g (>= 1:1.1.4)
+Homepage: https://gitlab.gnome.org/GNOME/gspell
+Priority: optional
+Section: misc
+Filename: pool/main/g/gspell/gspell-1-tests_1.12.0-1build1_amd64.deb
+Size: 50176
+SHA512: b41a5cfd17fe5387421f32dd23530b8e141bfc9c8a6ff8d1fbd6810938decd4c492313d6ae782d4e883dc46b8600ca4a3ecb4c8bbbff02f4ae2f7ec9b630c58e
+SHA256: 9ce6fde19eb1a69aca31b85d1eb013797cc67f1762687f313aff2c6d438f2ff4
+SHA1: 63154350e530ab14d28adccb6ceaee2b50c0e5f9
+MD5sum: edbda256dcf228753dcd332df40e4c0a
+Description: spell-checking library for GTK+ applications - installed tests
+ gspell provides a flexible API to add spell checking to a GTK+ application.
+ It features:
+  * GObject wrappers around Enchant
+  * An inline spell checker for GtkTextView (enhanced version of GtkSpell)
+  * A spell checker dialog for GtkTextView
+  * Support of the no-spell-check tag defined by GtkSourceView
+  * Language choosers (button and dialog)
+ .
+ This package contains automated tests.
+
+Package: gssdp-tools
+Source: gssdp
+Version: 1.6.2-2
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 65
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.62.0), libgssdp-1.6-0 (>= 0.14.0), libgtk-4-1 (>= 4.0.0), libsoup-3.0-0 (>= 2.26.1)
+Homepage: https://wiki.gnome.org/Projects/GUPnP
+Priority: optional
+Section: net
+Filename: pool/main/g/gssdp/gssdp-tools_1.6.2-2_amd64.deb
+Size: 16184
+SHA512: e95f40a8ff93dd7bf4d562c398b7a4af513df0394eadc3f5368c434c9d15e2b0f7ed3b3560a728d3cf32cbe2354903e9fc05217ec93ff0609a98655ba57c35b1
+SHA256: 369e52e540a867d953b69306c5f008fb8e150d3b495b7a15536c4b312c6fbb60
+SHA1: 23c2a346b068800ec7491827821a719e8deb0a26
+MD5sum: 4ecb2a3c8f085a2814be724151647554
+Description: GObject-based library for SSDP (tools)
+ A GObject-based API for doing SSDP (Simple Service Discovery Protocol)
+ transparently.
+ .
+ This package contains some tools, such as gssdp-device-sniffer.
+
+Package: gstreamer1.0-alsa
+Source: gst-plugins-base1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 152
+Depends: libasound2 (>= 1.0.27), libc6 (>= 2.4), libglib2.0-0 (>= 2.68.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0)
+Suggests: alsa-utils (>= 0.9.0)
+Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libs
+Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-alsa_1.22.1-1ubuntu1_amd64.deb
+Size: 39644
+SHA512: 8069eb83b8ecbaf8a5c77ade06dfe5192636d8e6d80487f59ccb418c2e8e5b9a7d04ae3e198764f7188f46b230c03155b634e9bbaec715b77fc4b6af464b24fd
+SHA256: 0e6cb3ccbc8408cf2a1b83e104c6f0cc4bb863833470441996456d09085de46b
+SHA1: f7da089a68b6aba249cf594fd4bb8d957a571519
+MD5sum: 94ad1c9ee70cd6fb9492af99f4c0bb66
+Description: GStreamer plugin for ALSA
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugin for the ALSA library.  ALSA
+ is the Advanced Linux Sound Architecture.
+Gstreamer-Elements: alsamidisrc, alsasink, alsasrc
+Gstreamer-Version: 1.22
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: gstreamer1.0-gl
+Source: gst-plugins-base1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 399
+Depends: libc6 (>= 2.27), libglib2.0-0 (>= 2.62), libgraphene-1.0-0 (>= 1.5.4), libgstreamer-gl1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libjpeg8 (>= 8c), libpng16-16 (>= 1.6.2-1), libx11-6
+Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
+Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libs
+Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-gl_1.22.1-1ubuntu1_amd64.deb
+Size: 114948
+SHA512: be6243c6094e88801acdb4bfe22556d8dcc82332d358d20fbad5e4afd438a568ce48dcae7ebfffd4bad72b61723c6975ac425f411956b8b5811251b5b3354a8c
+SHA256: 933089c66cd1d07802541a12216462f8d2e23ba0b29b05fa87ab26369956cc4e
+SHA1: 060f482507094762ec3663607f0449ee766359d2
+MD5sum: 6ac97f04f184d1ad476bac1dca550e06
+Description: GStreamer plugins for GL
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugins for GL.
+Gstreamer-Elements: glalpha, glcolorbalance, glcolorconvert, glcolorscale, gldeinterlace, gldifferencematte, gldownload, gleffects, gleffects_blur, gleffects_bulge, gleffects_fisheye, gleffects_glow, gleffects_heat, gleffects_identity, gleffects_laplacian, gleffects_lumaxpro, gleffects_mirror, gleffects_sepia, gleffects_sin, gleffects_sobel, gleffects_square, gleffects_squeeze, gleffects_stretch, gleffects_tunnel, gleffects_twirl, gleffects_xpro, gleffects_xray, glfilterapp, glfilterbin, glfiltercube, glfilterglass, glimagesink, glimagesinkelement, glmixerbin, glmosaic, gloverlay, gloverlaycompositor, glshader, glsinkbin, glsrcbin, glstereomix, glstereosplit, gltestsrc, gltransformation, glupload, glvideoflip, glvideomixer, glvideomixerelement, glviewconvert
+Gstreamer-Version: 1.22
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: gstreamer1.0-gtk3
+Source: gst-plugins-good1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 135
+Depends: libc6 (>= 2.4), libcairo2 (>= 1.10.0), libglib2.0-0 (>= 2.62), libgstreamer-gl1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libgtk-3-0 (>= 3.16.2)
+Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
+Provides: gstreamer1.0-videosink
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: graphics
+Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-gtk3_1.22.1-1ubuntu1_amd64.deb
+Size: 32464
+SHA512: d16a574325925170f03c6262f0cce1fa6d5e39c8d9d5f3657e97408039da37db3e6f252f1d9fbf186e9f743133255a5f8331510187e5ed1154aa2b5d584370c5
+SHA256: 182ade0f55cc595eb6bf036da5569a2fdb1a676a5935d3b95da207c5d308c696
+SHA1: 320b768af54a4e23254f9774625c8aa3733049a6
+MD5sum: 1012212a8a7885f5977ca571ddd38c7e
+Description: GStreamer plugin for GTK+3
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugin for GTK+3.
+Gstreamer-Elements: gtkglsink, gtksink
+Gstreamer-Version: 1.22
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+
+Package: gstreamer1.0-plugins-base
+Source: gst-plugins-base1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2526
+Depends: libc6 (>= 2.33), libcdparanoia0 (>= 3.10.2+debian), libglib2.0-0 (>= 2.75.3), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libogg0 (>= 1.0rc3), libopus0 (>= 1.1), liborc-0.4-0 (>= 1:0.4.25), libtheora0 (>= 1.1), libvisual-0.4-0 (>= 0.4.0), libvorbis0a (>= 1.3.1), libvorbisenc2 (>= 1.3.1)
+Suggests: gvfs
+Breaks: gstreamer1.0-plugins-bad (<< 1.15.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.15.1)
+Provides: gstreamer1.0-audiosource, gstreamer1.0-videosource
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libs
+Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base_1.22.1-1ubuntu1_amd64.deb
+Size: 681952
+SHA512: 6bd78582ee77c3edda3187c80fd61cd8bc1f8cc488e61aaaa8bd7b540a19f17dc524e26ef9b8cb995830683d5ba4aad148614df9fc324f49c17b4b0cfb193226
+SHA256: 766f70982c18b9de8e2f97ff02fdacbd996f7c389505ac104238a994174ee436
+SHA1: 9d3b3b4ca21bedb44428485c85705d201f9be0c0
+MD5sum: d9e8d9319dccd39f240a0a5077141848
+Description: GStreamer plugins from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugins from the "base" set, an
+ essential exemplary set of elements.
+Gstreamer-Decoders: application/kate; application/ogg; application/x-ass; application/x-ogg-avi; application/x-ogm-audio; application/x-ogm-text; application/x-ogm-video; application/x-ssa; application/x-subtitle; application/x-subtitle-dks; application/x-subtitle-lrc; application/x-subtitle-mpl2; application/x-subtitle-qttext; application/x-subtitle-sami; application/x-subtitle-tmplayer; application/x-subtitle-vtt; audio/ogg; audio/x-opus, channel-mapping-family=(int)[ 1, 255 ], stream-count=(int)[ 1, 255 ], coupled-count=(int)[ 0, 255 ]; audio/x-opus, channel-mapping-family=(int)0; audio/x-unaligned-raw, format=(string){ F64LE, F64BE, F32LE, F32BE, S32LE, S32BE, U32LE, U32BE, S24_32LE, S24_32BE, U24_32LE, U24_32BE, S24LE, S24BE, U24LE, U24BE, S20LE, S20BE, U20LE, U20BE, S18LE, S18BE, U18LE, U18BE, S16LE, S16BE, U16LE, U16BE, S8, U8 }, layout=(string){ interleaved, non-interleaved }; audio/x-vorbis; video/ogg; video/x-theora; video/x-unaligned-raw, format=(string){ ABGR64_LE, BGRA64_LE, AYUV64, ARGB64_LE, ARGB64, RGBA64_LE, ABGR64_BE, BGRA64_BE, ARGB64_BE, RGBA64_BE, GBRA_12LE, GBRA_12BE, Y412_LE, Y412_BE, A444_10LE, GBRA_10LE, A444_10BE, GBRA_10BE, A422_10LE, A422_10BE, A420_10LE, A420_10BE, RGB10A2_LE, BGR10A2_LE, Y410, GBRA, ABGR, VUYA, BGRA, AYUV, ARGB, RGBA, A420, AV12, Y444_16LE, Y444_16BE, v216, P016_LE, P016_BE, Y444_12LE, GBR_12LE, Y444_12BE, GBR_12BE, I422_12LE, I422_12BE, Y212_LE, Y212_BE, I420_12LE, I420_12BE, P012_LE, P012_BE, Y444_10LE, GBR_10LE, Y444_10BE, GBR_10BE, r210, I422_10LE, I422_10BE, NV16_10LE32, Y210, v210, UYVP, I420_10LE, I420_10BE, P010_10LE, NV12_10LE32, NV12_10LE40, P010_10BE, NV12_10BE_8L128, Y444, RGBP, GBR, BGRP, NV24, xBGR, BGRx, xRGB, RGBx, BGR, IYU2, v308, RGB, Y42B, NV61, NV16, VYUY, UYVY, YVYU, YUY2, I420, YV12, NV21, NV12, NV12_8L128, NV12_64Z32, NV12_4L4, NV12_32L32, NV12_16L32S, Y41B, IYU1, YVU9, YUV9, RGB16, BGR16, RGB15, BGR15, RGB8P, GRAY16_LE, GRAY16_BE, GRAY10_LE32, GRAY8 }
+Gstreamer-Elements: adder, appsink, appsrc, audioconvert, audiointerleave, audiomixer, audiorate, audioresample, audiotestsrc, cdparanoiasrc, compositor, decodebin, decodebin3, encodebin, encodebin2, giosink, giosrc, giostreamsink, giostreamsrc, liveadder, multifdsink, multisocketsink, oggaviparse, oggdemux, oggmux, oggparse, ogmaudioparse, ogmtextparse, ogmvideoparse, opusdec, opusenc, overlaycomposition, parsebin, playbin, playbin3, playsink, rawaudioparse, rawvideoparse, socketsrc, ssaparse, streamsynchronizer, subparse, subtitleoverlay, tcpclientsink, tcpclientsrc, tcpserversink, tcpserversrc, theoradec, theoraenc, theoraparse, unalignedaudioparse, unalignedvideoparse, uridecodebin, uridecodebin3, urisourcebin, videoconvert, videoconvertscale, videorate, videoscale, videotestsrc, volume, vorbisdec, vorbisenc, vorbisparse, vorbistag
+Gstreamer-Encoders: application/ogg; audio/ogg; audio/x-opus; audio/x-vorbis; video/ogg; video/x-theora
+Gstreamer-Uri-Sinks: admin, afc, afp, appsink, archive, burn, computer, dav, dav+sd, davs, davs+sd, dns-sd, file, ftp, ftpis, ftps, google-drive, gphoto2, localtest, mtp, network, nfs, recent, resource, sftp, smb, ssh, trash
+Gstreamer-Uri-Sources: admin, afc, afp, appsrc, archive, burn, cdda, computer, dav, dav+sd, davs, davs+sd, dns-sd, file, ftp, ftpis, ftps, google-drive, gphoto2, localtest, mtp, network, nfs, recent, resource, sftp, smb, ssh, trash
+Gstreamer-Version: 1.22
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: gstreamer1.0-plugins-base-apps
+Source: gst-plugins-base1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 168
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.75.3), libgstreamer-plugins-base1.0-0 (>= 1.20.0), libgstreamer1.0-0 (>= 1.22.0), gstreamer1.0-tools
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: utils
+Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-plugins-base-apps_1.22.1-1ubuntu1_amd64.deb
+Size: 38528
+SHA512: ba5a9044b7c0becf32eb8ec12fbb1dc56ecfd2a7cec567969916ba864406fc6cea407abe7d2b4a3c2f3ef00c0ffad33c8cb36b985c6cff140562d0cda0327511
+SHA256: 8f620b245d9dff96008634869af2304606d3181aaa204f147be27cb472fbdf2c
+SHA1: 94ecb5b3a244bb73b1e85ef2e17d38a5b346121a
+MD5sum: c5fdf4596b35d38aa873c1f1f75c4ca7
+Description: GStreamer helper programs from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains helper programs from the "base" set, an essential
+ exemplary set of elements.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: gstreamer1.0-plugins-good
+Source: gst-plugins-good1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 8217
+Depends: libaa1 (>= 1.4p5), libavc1394-0 (>= 0.5.3), libbz2-1.0, libc6 (>= 2.34), libcaca0 (>= 0.99.beta20), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdv4 (>= 1.0.0), libflac12 (>= 1.3.0), libgcc-s1 (>= 3.3.1), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.75.3), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer-plugins-good1.0-0 (= 1.22.1-1ubuntu1), libgstreamer1.0-0 (>= 1.22.0), libgudev-1.0-0 (>= 147), libiec61883-0 (>= 1.2.0), libjack-jackd2-0 (>= 1.9.10+20150825) | libjack-0.125, libjpeg8 (>= 8c), libmp3lame0 (>= 3.100), libmpg123-0 (>= 1.28.0), libnettle8, liborc-0.4-0 (>= 1:0.4.25), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 2.0), libraw1394-11 (>= 2.1.2), libshout3 (>= 2.4.6), libspeex1 (>= 1.2~), libstdc++6 (>= 5), libtag1v5 (>= 1.9.1-2.2~), libtwolame0 (>= 0.3.10), libv4l-0 (>= 0.5.0), libvpx7 (>= 1.12.0), libwavpack1 (>= 4.60), libx11-6, libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxml2 (>= 2.9.0), zlib1g (>= 1:1.1.4), gstreamer1.0-plugins-base (>= 1.22.0), libsoup2.4-1 (>= 2.48) | libsoup-3.0-0
+Recommends: gstreamer1.0-x
+Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.22), gstreamer1.0-pulseaudio (<< 1.18.0)
+Replaces: gstreamer1.0-plugins-bad (<< 1.15.1), gstreamer1.0-plugins-ugly (<< 1.22), gstreamer1.0-pulseaudio (<< 1.18.0)
+Provides: gstreamer1.0-audiosink, gstreamer1.0-audiosource, gstreamer1.0-videosink, gstreamer1.0-videosource, gstreamer1.0-visualization
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libs
+Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-plugins-good_1.22.1-1ubuntu1_amd64.deb
+Size: 2258280
+SHA512: c3ce4fb0044a0e83d4ab34efb25627dac25562abebdbfce813f4da3afc3d2a3949ce1a43ec6e235462868c0d5e492f9d2862eaf0a3eca5c22e35cd1846274c73
+SHA256: b2d0089260f40eb0eb3634f2b552c12d150060d593568fb9b68a39de488e274b
+SHA1: e11bac1f77577732e92a4934de5f6f4065590f1c
+MD5sum: ba44784a89eda67211953da84007095c
+Description: GStreamer plugins from the "good" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugins from the "good" set, a set
+ of good-quality plug-ins under the LGPL license.
+Gstreamer-Decoders: application/dash+xml; application/vnd.ms-sstr+xml; application/x-3gp; application/x-apetag; application/x-hls; application/x-icy; application/x-id3; application/x-navi-animation; application/x-rtp, media=(string)audio, payload=(int)[ 96, 127 ], encoding-name=(string){ TELEPHONE-EVENT, ISAC, SBC, OPUS, X-GST-OPUS-DRAFT-SPITTKA-00, MULTIOPUS }; application/x-rtp, payload=(int)[ 96, 127 ], media=(string){ audio, video }, encoding-name=(string){ X-QT, X-QUICKTIME }; application/x-rtp, media=(string)video, encoding-name=(string)RAW, sampling=(string){ RGB, RGBA, BGR, BGRA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1 }; application/x-rtp, media=(string){ video, audio, application }, encoding-name=(string)MPEG4-GENERIC, mode=(string){ generic, CELP-cbr, CELP-vbr, AAC-lbr, AAC-hbr, aac-hbr }; application/x-rtp, media=(string)video, sampling=(string){ RGB, BGR, RGBA, BGRA, YCbCrA, YCbCr-4:4:4, YCbCr-4:2:2, YCbCr-4:2:0, YCbCr-4:1:1, GRAYSCALE }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, colorspace=(string){ sRGB, sYUV, GRAY }, encoding-name=(string)JPEG2000; application/x-rtp, media=(string)video, payload=(int)31, encoding-name=(string)H261; application/x-rtp, media=(string)video, payload=(int)[ 96, 127 ], encoding-name=(string)H261; application/x-rtp, media=(string)audio, encoding-name=(string){ AMR, AMR-WB }, octet-align=(string)1; application/x-rtp, media=(string){ video, audio }, encoding-name=(string)DV, encode=(string){ SD-VCR/525-60, SD-VCR/625-50, HD-VCR/1125-60, HD-VCR/1250-50, SDL-VCR/525-60, SDL-VCR/625-50, 306M/525-60, 306M/625-50, 314M-25/525-60, 314M-25/625-50, 314M-50/525-60, 314M-50/625-50 }; application/x-rtp, media=(string)video, encoding-name=(string){ VP9, VP9-DRAFT-IETF-01, VP8, VP8-DRAFT-IETF-01, THEORA, X-SV3V-ES, X-SORENSON-VIDEO, X-SORENSONVIDEO, X-SorensonVideo, MP4V-ES, MP2T, MP2T-ES, MP1S, JPEG, H265, H264, H263, H263-1998, H263-2000, MPV }; application/x-rtp, media=(string)audio, encoding-name=(string){ VORBIS, SPEEX, SIREN, X-QDM, QCELP, MP4A-LATM, L24, L16, L8, MPA-ROBUST, X-MP3-DRAFT-00, X-MP3-DRAFT-01, X-MP3-DRAFT-02, X-MP3-DRAFT-03, X-MP3-DRAFT-04, X-MP3-DRAFT-05, X-MP3-DRAFT-06, MPA, PCMU, PCMA, GSM, G729, G726, G726-16, G726-24, G726-32, G726-40, AAL2-G726-16, AAL2-G726-24, AAL2-G726-32, AAL2-G726-40, G723, G722, ILBC, CELT, BV16, BV32, AC3 }; application/x-rtp, media=(string)audio, payload=(int){ 12, 10, 11, 14, 0, 8, 3, 18, 4, 9 }; application/x-rtp, media=(string)video, payload=(int){ 33, 26, 34, 32 }; application/x-rtp, media=(string)other, encoding-name=(string)MP1S; application/x-rtp, media=(string)application, encoding-name=(string){ SMPTE336M, X-GST }; application/x-subtitle-avi; audio/ac3; audio/mpeg, mpegversion=(int){ 1, 2, 4 }; audio/webm; audio/x-ac3; audio/x-alaw; audio/x-amr-nb-sh; audio/x-amr-wb-sh; audio/x-au; audio/x-dts; audio/x-eac3; audio/x-flac; audio/x-m4a; audio/x-matroska; audio/x-mulaw; audio/x-private1-ac3; audio/x-private1-dts; audio/x-rf64; audio/x-sbc; audio/x-speex; audio/x-wav; audio/x-wavpack; audio/x-wavpack-correction; image/bmp; image/jpeg; image/png; image/svg; image/svg+xml; image/tiff; image/vnd.wap.wbmp; image/x-MS-bmp; image/x-bitmap; image/x-bmp; image/x-cmu-raster; image/x-icon; image/x-pcx; image/x-pixmap; image/x-portable-anymap; image/x-portable-bitmap; image/x-portable-graymap; image/x-portable-pixmap; image/x-sun-raster; image/x-tga; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-dv, systemstream=(boolean){ false, true }; video/x-fli; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8; video/x-vp9
+Gstreamer-Elements: 3gppmux, aacparse, aasink, aatv, ac3parse, agingtv, alawdec, alawenc, alpha, alphacolor, amrparse, apedemux, apev2mux, aspectratiocrop, asteriskh263, audioamplify, audiochebband, audiocheblimit, audiodynamic, audioecho, audiofirfilter, audioiirfilter, audioinvert, audiokaraoke, audiopanorama, audiowsincband, audiowsinclimit, auparse, autoaudiosink, autoaudiosrc, autovideosink, autovideosrc, avidemux, avimux, avisubtitle, breakmydata, cacasink, cacatv, cairooverlay, camerabin, capssetter, cpureport, cutter, dashdemux2, dcaparse, deinterlace, deinterleave, dicetv, dtmfsrc, dv1394src, dvdec, dvdemux, dynudpsink, edgetv, equalizer-10bands, equalizer-3bands, equalizer-nbands, flacdec, flacenc, flacparse, flactag, flvdemux, flvmux, flxdec, gamma, gdkpixbufdec, gdkpixbufoverlay, gdkpixbufsink, goom, goom2k1, hdv1394src, hlsdemux2, icydemux, id3demux, id3v2mux, imagefreeze, imagesequencesrc, interleave, ismlmux, jackaudiosink, jackaudiosrc, jifmux, jpegdec, jpegenc, jpegparse, lamemp3enc, level, matroskademux, matroskamux, matroskaparse, mj2mux, monoscope, mp4mux, mpegaudioparse, mpg123audiodec, mssdemux2, mulawdec, mulawenc, multifilesink, multifilesrc, multipartdemux, multipartmux, multiudpsink, navigationtest, navseek, optv, oss4sink, oss4src, osssink, osssrc, pngdec, pngenc, progressreport, pulsesink, pulsesrc, pushfilesrc, qtdemux, qtmoovrecover, qtmux, quarktv, radioactv, revtv, rganalysis, rglimiter, rgvolume, rippletv, rndbuffersize, rtpL16depay, rtpL16pay, rtpL24depay, rtpL24pay, rtpL8depay, rtpL8pay, rtpac3depay, rtpac3pay, rtpamrdepay, rtpamrpay, rtpbin, rtpbvdepay, rtpbvpay, rtpceltdepay, rtpceltpay, rtpdec, rtpdtmfdepay, rtpdtmfmux, rtpdtmfsrc, rtpdvdepay, rtpdvpay, rtpfunnel, rtpg722depay, rtpg722pay, rtpg723depay, rtpg723pay, rtpg726depay, rtpg726pay, rtpg729depay, rtpg729pay, rtpgsmdepay, rtpgsmpay, rtpgstdepay, rtpgstpay, rtph261depay, rtph261pay, rtph263depay, rtph263pay, rtph263pdepay, rtph263ppay, rtph264depay, rtph264pay, rtph265depay, rtph265pay, rtphdrextclientaudiolevel, rtphdrextcolorspace, rtphdrextmid, rtphdrextntp64, rtphdrextrepairedstreamid, rtphdrextstreamid, rtphdrexttwcc, rtpilbcdepay, rtpilbcpay, rtpisacdepay, rtpisacpay, rtpj2kdepay, rtpj2kpay, rtpjitterbuffer, rtpjpegdepay, rtpjpegpay, rtpklvdepay, rtpklvpay, rtpldacpay, rtpmp1sdepay, rtpmp2tdepay, rtpmp2tpay, rtpmp4adepay, rtpmp4apay, rtpmp4gdepay, rtpmp4gpay, rtpmp4vdepay, rtpmp4vpay, rtpmpadepay, rtpmpapay, rtpmparobustdepay, rtpmpvdepay, rtpmpvpay, rtpmux, rtpopusdepay, rtpopuspay, rtppcmadepay, rtppcmapay, rtppcmudepay, rtppcmupay, rtpptdemux, rtpqcelpdepay, rtpqdm2depay, rtpreddec, rtpredenc, rtprtxqueue, rtprtxreceive, rtprtxsend, rtpsbcdepay, rtpsbcpay, rtpsession, rtpsirendepay, rtpsirenpay, rtpspeexdepay, rtpspeexpay, rtpssrcdemux, rtpst2022-1-fecdec, rtpst2022-1-fecenc, rtpstorage, rtpstreamdepay, rtpstreampay, rtpsv3vdepay, rtptheoradepay, rtptheorapay, rtpulpfecdec, rtpulpfecenc, rtpvorbisdepay, rtpvorbispay, rtpvp8depay, rtpvp8pay, rtpvp9depay, rtpvp9pay, rtpvrawdepay, rtpvrawpay, rtpxqtdepay, rtspsrc, sbcparse, scaletempo, shagadelictv, shapewipe, shout2send, smpte, smptealpha, souphttpclientsink, souphttpsrc, spectrum, speexdec, speexenc, splitfilesrc, splitmuxsink, splitmuxsrc, stereo, streaktv, taginject, testsink, twolamemp2enc, udpsink, udpsrc, v4l2radio, v4l2sink, v4l2src, vertigotv, videobalance, videobox, videocrop, videoflip, videomedian, videomixer, viewfinderbin, vp8dec, vp8enc, vp9dec, vp9enc, warptv, wavenc, wavpackdec, wavpackenc, wavpackparse, wavparse, webmmux, wrappercamerabinsrc, ximagesrc, xingmux, y4menc
+Gstreamer-Encoders: application/x-rtcp-stream; application/x-rtp; application/x-rtp-stream; application/x-srtcp-stream; application/x-srtp-stream; application/x-yuv4mpeg, y4mversion=(int)2; audio/mpeg, mpegversion=(int)1, layer=(int){ 1, 2, 3 }; audio/webm; audio/x-alaw; audio/x-flac; audio/x-matroska; audio/x-mulaw; audio/x-rf64; audio/x-speex; audio/x-wav; audio/x-wavpack-correction, framed=(boolean)true; image/jpeg, sof-marker=(int){ 0, 1, 2, 4, 9 }; image/png; multipart/x-mixed-replace; video/mj2; video/quicktime; video/webm; video/x-flv; video/x-matroska; video/x-matroska-3d; video/x-msvideo; video/x-vp8, profile=(string){ 0, 1, 2, 3 }; video/x-vp9, profile=(string){ 0, 1, 2, 3 }
+Gstreamer-Uri-Sinks: udp
+Gstreamer-Uri-Sources: dv, hdv, http, https, icy, icyx, imagesequence, multifile, pushfile, radio, rtsp, rtsp-sdp, rtsph, rtsps, rtspsh, rtspst, rtspsu, rtspt, rtspu, splitfile, splitmux, udp, v4l2
+Gstreamer-Version: 1.22
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+
+Package: gstreamer1.0-pulseaudio
+Source: gst-plugins-good1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 64
+Depends: gstreamer1.0-plugins-good (>= 1.22.0)
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: oldlibs
+Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-pulseaudio_1.22.1-1ubuntu1_amd64.deb
+Size: 13296
+SHA512: c8de61988ed3b7a732356819dd2c5400fa8cf7f993cdfe07ed946e9c7ff98b66e552ec2f86c452cb3df460803619e54a765e3a34a5ca106a6a10ff1294e647c9
+SHA256: 0ccad88ae2fe4762c821d3cd6e91cdf0f1086a723c5c3c7bfbafdce68ba61f38
+SHA1: 1d564777b1f79e19bdc0bd32eb435224186b9ce5
+MD5sum: 76b5137b2a65366a1ba6f53891fe4441
+Description: GStreamer plugin for PulseAudio (transitional package)
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package used to contain the GStreamer plugin for PulseAudio, a
+ sound server for POSIX and WIN32 systems.
+ .
+ This is a transitional package.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+
+Package: gstreamer1.0-qt5
+Source: gst-plugins-good1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 221
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libglib2.0-0 (>= 2.62), libgstreamer-gl1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.4.0) | libqt5gui5-gles (>= 5.4.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.15.1) | libqt5quick5-gles (>= 5.15.1), libqt5waylandclient5 (>= 5.10.1), libqt5x11extras5 (>= 5.6.0), libstdc++6 (>= 4.5)
+Breaks: gstreamer1.0-plugins-bad (<< 1.13.1)
+Replaces: gstreamer1.0-plugins-bad (<< 1.13.1)
+Provides: gstreamer1.0-videosink, gstreamer1.0-videosource
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: graphics
+Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-qt5_1.22.1-1ubuntu1_amd64.deb
+Size: 57532
+SHA512: abd1ebf882d490c09f9dd0935b188288d3d003e8bc9b55b3d4266a4e140da236857987d1fa6c660e443b75bc7ff630ce07de9f73ec2b8796659aaf3f5a0e07b3
+SHA256: 06e29dc8d67b660ff05b0bdf75f93e419a3f0b25cf7e9434f0df5fa437b17e37
+SHA1: 4a68a741e2dfa095dc74db0242cd229a2b84d857
+MD5sum: 9c0b81c1e77c00549fb83fc92ff1af8b
+Description: GStreamer plugin for Qt5
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugin for Qt5.
+Gstreamer-Elements: qmlgloverlay, qmlglsink, qmlglsrc
+Gstreamer-Version: 1.22
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+
+Package: gstreamer1.0-qt6
+Source: gst-plugins-good1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 152
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.3.1), libgles2, libglib2.0-0 (>= 2.62), libgstreamer-gl1.0-0 (>= 1.22.0), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libqt6core6 (>= 6.4.0), libqt6gui6 (>= 6.2.0), libqt6qml6 (>= 6.2.0), libqt6quick6 (>= 6.2.0), libstdc++6 (>= 5)
+Provides: gstreamer1.0-videosink
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: graphics
+Filename: pool/main/g/gst-plugins-good1.0/gstreamer1.0-qt6_1.22.1-1ubuntu1_amd64.deb
+Size: 37596
+SHA512: e8d7dc32cd183757a805ee44311753f67abc8da4db8dbe4310121fe00280096059ac3317232c9d5016e5e737e8312bf35d43ef7426d207ae0849a0a24aec4467
+SHA256: 98a3769569df20ae9ff20726e53afc4704a548242d01c3a1fc536049d7e8c0ce
+SHA1: f8c6a5040de1d805894a3e58f55576fbbe458e45
+MD5sum: 71cd4ed25c6779c7fd8480e323ee4a63
+Description: GStreamer plugin for Qt6
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugin for Qt6.
+Gstreamer-Elements: qml6glsink
+Gstreamer-Version: 1.22
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+
+Package: gstreamer1.0-x
+Source: gst-plugins-base1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 314
+Depends: libc6 (>= 2.14), libcairo2 (>= 1.2.4), libglib2.0-0 (>= 2.62), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22), libx11-6 (>= 2:1.2.99.901), libxext6, libxi6 (>= 2:1.2.99.4), libxv1
+Provides: gstreamer1.0-videosink
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libs
+Filename: pool/main/g/gst-plugins-base1.0/gstreamer1.0-x_1.22.1-1ubuntu1_amd64.deb
+Size: 83136
+SHA512: 3c600d4cb5ed70bbd5d7b458c40b742ad3eb49dcc2ac6a03aabbf1ad6c1a1d787d80e3a7f2674c8f3a430470a392a22bcf2ebc55a4c3aeebe53b8eba646b81f7
+SHA256: e4a3f9dbc6891295206e27dbfef664f8e7e7939aadb3d4fe3a52258dc2b80f48
+SHA1: 01a5d573e0cf25d83b37e82aeb84a7745171f1cb
+MD5sum: 302e657c9029be99ef1f4368bf05779b
+Description: GStreamer plugins for X11 and Pango
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GStreamer plugins for X11 video output, both
+ for standard Xlib support and for the Xv extension, as well as the
+ plugin for Pango-based text rendering and overlay.
+Gstreamer-Elements: clockoverlay, textoverlay, textrender, timeoverlay, ximagesink, xvimagesink
+Gstreamer-Version: 1.22
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 
 Package: guile-gnutls
 Source: gnutls28
@@ -21258,6 +22383,29 @@ Description: audio extraction tool for sampling CDs (library)
  This package contains the library of cdparanoia, so that its routines
  can be used by other programs.
 
+Package: libcdt5
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 64
+Depends: libc6 (>= 2.4)
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphviz/libcdt5_2.42.2-7build3_amd64.deb
+Size: 22268
+SHA512: 0c618d91d50ace531f141d4e838d0fae599b30f0f63d3d1eaba000d19e8b988ed78b0ff0e11749e38ca11ed7be4fd49c2eac197cb06abc9f90cba5c44332675d
+SHA256: 5468141b3cb9bd38a19d2ad60a88d6dbba1902ce4ea43302bde3ead128a569f7
+SHA1: 6e0830e3409a3deacf0ef4067d432723187acc54
+MD5sum: 2ffca42b7acf4c7f251b99707e77bed4
+Description: rich set of graph drawing tools - cdt library
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the cdt library.
+
 Package: libcgi-fast-perl
 Version: 1:2.15-1
 Architecture: all
@@ -21301,6 +22449,29 @@ Description: module for Common Gateway Interface applications
  CGI.pm is a Perl module that provides classes useful for creating Web forms
  and for parsing their contents. It defines CGI objects, entities that contain
  the values of the current query string and other state variables.
+
+Package: libcgraph6
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 125
+Depends: libc6 (>= 2.14), libcdt5
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphviz/libcgraph6_2.42.2-7build3_amd64.deb
+Size: 46564
+SHA512: 6aa14851578e0a33910749af9e70b3f656996a7df536c903af927ee4ad407b70fc87cfee7adb34efe49b3c521912e339be6a8a79f1a473565613bbab77f69350
+SHA256: 9d08c5a9d271200c98a5b2d895c5ed8cbcae762098dbba4844fbaa73e07059ba
+SHA1: 8a672202b4d0aea875e2ac71242da0481176dc3e
+MD5sum: 163a57f0045f313a27120bdbf97efefd
+Description: rich set of graph drawing tools - cgraph library
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the cgraph library.
 
 Package: libclass-c3-perl
 Version: 0.35-2
@@ -30105,6 +31276,795 @@ Description: GnuPG development runtime library
  .
  It will likely be renamed "gpgrt" in the future.
 
+Package: libgpm-dev
+Source: gpm
+Version: 1.20.7-10build1
+Architecture: amd64
+Maintainer: Axel Beckert <abe@debian.org>
+Installed-Size: 65
+Depends: libc6-dev | libc-dev, libgpm2 (= 1.20.7-10build1)
+Conflicts: libgpmg1-dev
+Provides: libgpmg1-dev
+Multi-Arch: same
+Homepage: https://nico.schottelius.org/software/gpm/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gpm/libgpm-dev_1.20.7-10build1_amd64.deb
+Size: 16456
+SHA512: ff6806cf8e82fe2d648222497bcf15fc348a24c9a65bc62e75bfb41e8916fcfac5dd8435b73d0a57f525a0136b6a75fac4aee47af88010bb0ba6f30307f6aff8
+SHA256: e161603050a20450de2115f3dae6d592da181c465f1a82f14cbc0705814b1f21
+SHA1: 8fb412350a8ff5be6dfd84eb964096e7537b3fe1
+MD5sum: 1a76c0c8054eac1117c6878cc5500868
+Description: General Purpose Mouse - development files
+ This package provides a library that handles mouse requests
+ and delivers them to applications. See the description for the 'gpm'
+ package for more information.
+ .
+ This package contains the development files.
+
+Package: libgpm2
+Source: gpm
+Version: 1.20.7-10build1
+Architecture: amd64
+Maintainer: Axel Beckert <abe@debian.org>
+Installed-Size: 44
+Depends: libc6 (>= 2.33)
+Suggests: gpm
+Multi-Arch: same
+Homepage: https://nico.schottelius.org/software/gpm/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gpm/libgpm2_1.20.7-10build1_amd64.deb
+Size: 13464
+SHA512: 525f665dcd7224d6b672f887515c3e6c4674fc8f554202ad396284b658da5b5fcaff14a2d39aba6cb2fb0e798616cc7cc5ea40567dfc97527936cd1eef84eba7
+SHA256: 2ed81d2d5ad0431b5a66e955097bd9a3095dae8acabeccd49ca3872c2f479fa5
+SHA1: 725ee8ffd31a320d14f133ea30fcbe3a77aa6fcb
+MD5sum: b278a56da04281cf8b91d5bd926d7af4
+Description: General Purpose Mouse - shared library
+ This package provides a library that handles mouse requests
+ and delivers them to applications. See the description for the 'gpm'
+ package for more information.
+
+Package: libgraphene-1.0-0
+Source: graphene
+Version: 1.10.8-1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 146
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.14.0)
+Multi-Arch: same
+Homepage: https://ebassi.github.io/graphene/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphene/libgraphene-1.0-0_1.10.8-1_amd64.deb
+Size: 42004
+SHA512: 804dc02f377ceb58986d36c6d1be7ecb87bd2e467fb6de5fe9e76431fac3d98856fb182af23d401be9f322751048873d4d7ec1e0b32dc25a0ac79c7768f9e153
+SHA256: 6b8d0eb819389447c0ab6abf4b01a99773be0a2f62d06454a14b23705e86073c
+SHA1: bd400322c25d118405c834af492b96ef3bb9e2b7
+MD5sum: 26c618e0caf2c49bda0f9e4b094b7569
+Description: library of graphic data types
+ Graphene provides a small set of mathematical types needed to implement
+ graphic libraries that deal with 2D and 3D transformations and projections.
+ .
+ This library provides types and their relative API; it does not deal with
+ windowing system surfaces, drawing, scene graphs, or input.
+
+Package: libgraphene-1.0-dev
+Source: graphene
+Version: 1.10.8-1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 882
+Depends: libgraphene-1.0-0 (= 1.10.8-1), gir1.2-graphene-1.0 (= 1.10.8-1), libglib2.0-dev, libgirepository1.0-dev
+Suggests: libgraphene-doc
+Homepage: https://ebassi.github.io/graphene/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/graphene/libgraphene-1.0-dev_1.10.8-1_amd64.deb
+Size: 60744
+SHA512: 4639be3056d3e26631c7580ae46422d00ed66ea0e1e101317c5dabd08c8dfe9d47c47d7d41b6359ea117e426dc61ed9b3e01a31bf3e6a497709b8dfcb56fa630
+SHA256: 7a93f539b10074796c756fbe8b2f36785f3b3e7719a4821d0173f552d48fbbf2
+SHA1: eab00e74b8d21e444907110e6b790d0be6601a24
+MD5sum: beeb948f1def78d17af6d4112eaf3541
+Description: library of graphic data types (development files)
+ Graphene provides a small set of mathematical types needed to implement
+ graphic libraries that deal with 2D and 3D transformations and projections.
+ .
+ This library provides types and their relative API; it does not deal with
+ windowing system surfaces, drawing, scene graphs, or input.
+ .
+ This package contains the header files required for developing software that
+ uses libgraphene.
+
+Package: libgraphene-doc
+Source: graphene
+Version: 1.10.8-1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1574
+Multi-Arch: foreign
+Homepage: https://ebassi.github.io/graphene/
+Priority: optional
+Section: doc
+Filename: pool/main/g/graphene/libgraphene-doc_1.10.8-1_all.deb
+Size: 103204
+SHA512: 4caf9c803c9d0190dcdf35c0496bebc63e2c5f9681d13077efd5c0fc1273e7b9d99f2f7a6f257c59294b66126d1367abaddc6f526f2373022c18b2c056d8bd1e
+SHA256: f8855d65e339d3d43f4ce85745b0500cdc67510b4e8f31a922f8b4ec53c7e808
+SHA1: c1d8e632b9f8f09319103efcd9f6918580030684
+MD5sum: c16bfbc237c9631c25d9d5773fa1ebdb
+Description: library of graphic data types (documentation)
+ Graphene provides a small set of mathematical types needed to implement
+ graphic libraries that deal with 2D and 3D transformations and projections.
+ .
+ This library provides types and their relative API; it does not deal with
+ windowing system surfaces, drawing, scene graphs, or input.
+ .
+ This package contains the API documentation.
+
+Package: libgraphics-magick-perl
+Source: graphicsmagick
+Version: 1.4+really1.3.40-2build1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 242
+Depends: perl (>= 5.36.0-7), perlapi-5.36.0, libc6 (>= 2.11), libgraphicsmagick-q16-3 (>= 1.3.5)
+Suggests: graphicsmagick-dbg
+Homepage: http://www.graphicsmagick.org/
+Priority: optional
+Section: perl
+Filename: pool/main/g/graphicsmagick/libgraphics-magick-perl_1.4+really1.3.40-2build1_amd64.deb
+Size: 62632
+SHA512: 327e05fc34105ba888a59a5e76092e329d81de173cab61808012168d918b7262d001b2dd932227ddd37f5967c55247694fd9d451fee5719d615338c755027b15
+SHA256: e0dfc323072e37efa459444a6f5315534a7faa411c49731b49807aadfe87abdc
+SHA1: 24dc753553c33c757259967d3a0bd1ec45e173c3
+MD5sum: 991f0d93dbf6659cfc09a4a5e283f8d2
+Description: format-independent image processing - perl interface
+ GraphicsMagick provides libraries in several programming languages to read,
+ write and manipulate image files across a large number of formats, from the
+ widely used jpeg, tiff, bmp or xpm to special-purpose formats such as fits or
+ image formats found on some photo CDs. There are functions for finegrained
+ image processing tasks, as well as conversion routines between the various
+ image formats.
+ .
+ The GraphicsMagick library is a fork of ImageMagick and therefore offers
+ an interface that is similar in features, but intended to be more stable
+ across releases. While compatibility does not go so far that the
+ GraphicsMagick library serves as a drop-in replacement for ImageMagick,
+ conversion can usually be done with little effort.
+ .
+ This package contains the classes to access GraphicsMagick functionality from
+ Perl scripts. It is mostly similar to PerlMagick from the ImageMagick suite,
+ but uses a different class name.
+
+Package: libgraphicsmagick++-q16-12
+Source: graphicsmagick
+Version: 1.4+really1.3.40-2build1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 489
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libgraphicsmagick-q16-3 (>= 1.4+really1.3.35+hg16296), libstdc++6 (>= 5.2)
+Suggests: graphicsmagick-dbg
+Conflicts: libgraphicsmagick++-q16-11 (= 1.3.22-1)
+Breaks: libgnudatalanguage0 (<= 0.9.9-9), python-pgmagick (<= 0.7.4-1), python3-pgmagick (<= 0.7.4-1)
+Replaces: libgraphicsmagick++-q16-11 (= 1.3.22-1)
+Homepage: http://www.graphicsmagick.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphicsmagick/libgraphicsmagick++-q16-12_1.4+really1.3.40-2build1_amd64.deb
+Size: 113808
+SHA512: b30bc50ba4d2b89ea0bd64ac731ea6dae397df63c7b7d9f36dbe6dfc0c50844b7cba343e107563da6fc51798a864e472aa45b691113e27dba29511e63dd4d60d
+SHA256: 2249b98774975cf165a57e14e6dd7cd1155121e04874f50718acb6b0063d65f4
+SHA1: 3473f26d76311a07e274483b1e2ab04dbe2ff383
+MD5sum: 666b11481528de2d1d09b5a42d9e6360
+Description: format-independent image processing - C++ shared library
+ GraphicsMagick provides libraries in several programming languages to read,
+ write and manipulate image files across a large number of formats, from the
+ widely used jpeg, tiff, bmp or xpm to special-purpose formats such as fits or
+ image formats found on some photo CDs. There are functions for finegrained
+ image processing tasks, as well as conversion routines between the various
+ image formats.
+ .
+ The GraphicsMagick library is a fork of ImageMagick and therefore offers
+ an interface that is similar in features, but intended to be more stable
+ across releases. While compatibility does not go so far that the
+ GraphicsMagick library serves as a drop-in replacement for ImageMagick,
+ conversion can usually be done with little effort.
+ .
+ This package contains the C++ libraries needed to run executables that use
+ the GraphicsMagick++ library.
+
+Package: libgraphicsmagick++1-dev
+Source: graphicsmagick
+Version: 1.4+really1.3.40-2build1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 1826
+Depends: libgraphicsmagick++-q16-12 (= 1.4+really1.3.40-2build1), libgraphicsmagick1-dev
+Suggests: graphicsmagick
+Provides: libgraphicsmagick++-dev
+Homepage: http://www.graphicsmagick.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/graphicsmagick/libgraphicsmagick++1-dev_1.4+really1.3.40-2build1_amd64.deb
+Size: 309788
+SHA512: 2b2398ebd922180aa6f7778d43453bff65e29bb9cd7dba505dfaac1f205e3762fd5f352e15c3c61e14931a83b34004dc1e3ce21edb066dad1ed32a30d771a185
+SHA256: 8a2b57034bc4f007853aeda4b4e094125aa6b0c04a2c208f2bec6487653c8397
+SHA1: 6e76a463f6f44a5e97f95b568ad32fd4ba13e048
+MD5sum: 735e5f4fae9ceca616b69e411f748c43
+Description: format-independent image processing - C++ development files
+ GraphicsMagick provides libraries in several programming languages to read,
+ write and manipulate image files across a large number of formats, from the
+ widely used jpeg, tiff, bmp or xpm to special-purpose formats such as fits or
+ image formats found on some photo CDs. There are functions for finegrained
+ image processing tasks, as well as conversion routines between the various
+ image formats.
+ .
+ The GraphicsMagick library is a fork of ImageMagick and therefore offers
+ an interface that is similar in features, but intended to be more stable
+ across releases. While compatibility does not go so far that the
+ GraphicsMagick library serves as a drop-in replacement for ImageMagick,
+ conversion can usually be done with little effort.
+ .
+ This package contains the C++ development headers and library files needed to
+ compile programs using the GraphicsMagick++ library.
+
+Package: libgraphicsmagick-q16-3
+Source: graphicsmagick
+Version: 1.4+really1.3.40-2build1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 4071
+Depends: libbz2-1.0, libc6 (>= 2.35), libfreetype6 (>= 2.2.1), libgomp1 (>= 6), libheif1 (>= 1.4.0), libjbig0 (>= 2.0), libjpeg8 (>= 8c), libjxl0.7 (>= 0.7.0), liblcms2-2 (>= 2.2+git20110628), libpng16-16 (>= 1.6.2-1), libtiff6 (>= 4.0.3), libwebp7 (>= 1.2.4), libwebpmux3 (>= 1.2.4), libwmflite-0.2-7 (>= 0.2.12), libx11-6, libxext6, libxml2 (>= 2.7.4), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Recommends: ghostscript, fonts-urw-base35
+Suggests: graphicsmagick-dbg
+Conflicts: libgraphicsmagick3 (>= 1.3.21)
+Replaces: libgraphicsmagick3 (>= 1.3.21)
+Homepage: http://www.graphicsmagick.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphicsmagick/libgraphicsmagick-q16-3_1.4+really1.3.40-2build1_amd64.deb
+Size: 1395472
+SHA512: 5142f730f6a3bbc76608af211f8f6ae6f61bf66df88aa03778b4ac7c8e115e6aac3c947ecd1de4923d11710d313f5be3c4b72a55a2e67c64454341c0abe1fdd6
+SHA256: e0d7237718abc1bbfa6a6ed9cc1b536e01102a80383179c66236cd84dec8d5b8
+SHA1: 0b1e2285972aa302b380111ed2a6e43fdad18c40
+MD5sum: 46a13c3624ab717b904f6d55fa57f4cc
+Description: format-independent image processing - C shared library
+ GraphicsMagick provides libraries in several programming languages to read,
+ write and manipulate image files across a large number of formats, from the
+ widely used jpeg, tiff, bmp or xpm to special-purpose formats such as fits or
+ image formats found on some photo CDs. There are functions for finegrained
+ image processing tasks, as well as conversion routines between the various
+ image formats.
+ .
+ The GraphicsMagick library is a fork of ImageMagick and therefore offers
+ an interface that is similar in features, but intended to be more stable
+ across releases. While compatibility does not go so far that the
+ GraphicsMagick library serves as a drop-in replacement for ImageMagick,
+ conversion can usually be done with little effort.
+ .
+ This package contains the C libraries needed to run executables that use
+ the GraphicsMagick library.
+
+Package: libgraphicsmagick1-dev
+Source: graphicsmagick
+Version: 1.4+really1.3.40-2build1
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 8333
+Depends: libgraphicsmagick-q16-3 (= 1.4+really1.3.40-2build1), libjpeg-dev, liblcms2-dev, libwmf-dev, libx11-dev, libsm-dev, libice-dev, libxext-dev, x11proto-core-dev, libxml2-dev, libfreetype-dev, libtiff-dev, libjbig-dev, libc6-dev, zlib1g-dev | libz-dev, libpng-dev, libheif-dev, libexif-dev, libbz2-dev, libltdl-dev, libwebp-dev, libzstd-dev, pkgconf, libjxl-dev
+Suggests: graphicsmagick
+Breaks: libgraphicsmagick++1-dev (<< 1.3.21-2)
+Provides: libgraphicsmagick-dev
+Homepage: http://www.graphicsmagick.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/graphicsmagick/libgraphicsmagick1-dev_1.4+really1.3.40-2build1_amd64.deb
+Size: 1658992
+SHA512: 3a337667a27d3f6b0b61a86596444929405b4e271e03ff4d25c00d4ddc47a4488fea2156d84a46d55c4a101756ead1de1b934cd0d18aa51ea1f6dd9f2cfb3aa4
+SHA256: d7bf8d06bd9d8424c6882939488e6e40dc361fce682e190e746cafdf0a928475
+SHA1: 0f6f4f4fbf046f9429c0bd7cc2610d70a8c1dff2
+MD5sum: 42e3d72d552f9482e32d78700599b995
+Description: format-independent image processing - C development files
+ GraphicsMagick provides libraries in several programming languages to read,
+ write and manipulate image files across a large number of formats, from the
+ widely used jpeg, tiff, bmp or xpm to special-purpose formats such as fits or
+ image formats found on some photo CDs. There are functions for finegrained
+ image processing tasks, as well as conversion routines between the various
+ image formats.
+ .
+ The GraphicsMagick library is a fork of ImageMagick and therefore offers
+ an interface that is similar in features, but intended to be more stable
+ across releases. While compatibility does not go so far that the
+ GraphicsMagick library serves as a drop-in replacement for ImageMagick,
+ conversion can usually be done with little effort.
+ .
+ This package contains the C development headers and library files needed to
+ compile programs using the GraphicsMagick library.
+
+Package: libgraphite2-3
+Source: graphite2
+Version: 1.3.14-1build2
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 295
+Depends: libc6 (>= 2.14)
+Breaks: libgraphite2-2.0.0 (<< 1.2.0)
+Replaces: libgraphite2-2.0.0
+Provides: libgraphite2-2.0.0
+Multi-Arch: same
+Homepage: http://graphite.sil.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphite2/libgraphite2-3_1.3.14-1build2_amd64.deb
+Size: 78268
+SHA512: b501bbdffa42c67aaf4976fa0a8b266add9bbb1aae1428063a42d10bc7569d89425699129dd51e511cb9d904bb770d1f6b2ad75d0ff587e82e95398db79b7db0
+SHA256: b89eb6e9e6060f567bff4e7c680bbba743fb119f75e9a04f95d92862ccc751df
+SHA1: d87a9b4cf5592e6c8a1a6b46f2996b6d2a2726e8
+MD5sum: 2af45f4da41b33497a986868c30852c2
+Description: Font rendering engine for Complex Scripts -- library
+ Graphite is a system that can be used to create and use "smart fonts" capable
+ of displaying writing systems with various complex behaviors, such as:
+ contextual shaping, ligatures, reordering, split glyphs, bidirectionality,
+ stacking diacritics and complex positioning.
+ .
+ This library was designed and developed by the NRSI (Non-Roman Script
+ Initiative) within SIL International (www.sil.org) to act as a complement to
+ other smart font rendering technologies with limited practical local
+ extensibility. Its purpose is to help meet the needs of a very large number
+ of "minority language" communities for local extensibility of complex script
+ behaviors.
+ .
+ The behavior of the rendering engine for a given writing system is specified
+ through extra tables added to a TrueType font.  These tables are generated by
+ compiling a GDL (Graphite Description Language) source file into a font using
+ grcompiler.
+ .
+ This package contains the shared library.
+
+Package: libgraphite2-dev
+Source: graphite2
+Version: 1.3.14-1build2
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 71
+Depends: libgraphite2-3 (= 1.3.14-1build2)
+Suggests: libgraphite2-utils
+Multi-Arch: same
+Homepage: http://graphite.sil.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/graphite2/libgraphite2-dev_1.3.14-1build2_amd64.deb
+Size: 16108
+SHA512: 63f6b6fc88d1c4e5028350342177b87957235db258c887913b0b28119ef6903d00b660640470e462b19906e99896c9e098829902a34c2aafb7b4c446ee7b1256
+SHA256: ce20c11f25beaf64d7d4dd65ef8384649d174366f7d1dbb666014fb81253584e
+SHA1: 93690ed957f9c3f78c3d8156e2fbc144151176b5
+MD5sum: 3da04efb0fe47e2732449553037be0cf
+Description: Development files for libgraphite2
+ Graphite is a system that can be used to create and use "smart fonts" capable
+ of displaying writing systems with various complex behaviors, such as:
+ contextual shaping, ligatures, reordering, split glyphs, bidirectionality,
+ stacking diacritics and complex positioning.
+ .
+ This library was designed and developed by the NRSI (Non-Roman Script
+ Initiative) within SIL International (www.sil.org) to act as a complement to
+ other smart font rendering technologies with limited practical local
+ extensibility. Its purpose is to help meet the needs of a very large number
+ of "minority language" communities for local extensibility of complex script
+ behaviors.
+ .
+ The behavior of the rendering engine for a given writing system is specified
+ through extra tables added to a TrueType font.  These tables are generated by
+ compiling a GDL (Graphite Description Language) source file into a font using
+ grcompiler.
+ .
+ This package contains the development libraries for libgraphite2
+
+Package: libgraphite2-doc
+Source: graphite2
+Version: 1.3.14-1build2
+Architecture: all
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 1614
+Multi-Arch: foreign
+Homepage: http://graphite.sil.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/graphite2/libgraphite2-doc_1.3.14-1build2_all.deb
+Size: 583964
+SHA512: 0f0b798fadece4115ed1ca438fb583813a8946d1949d7c0986fdfcc010a48c8396623e833247654b8919bcb2e40ee2bcfd9aa89a834c85d72759115692bc6c7c
+SHA256: cd1a41b7e494502f7b19113eddfe45941a0d99d2a2d35aaefb4b23344709392d
+SHA1: 4a9e82c6690be90bb407f0ba78653bf46dabe763
+MD5sum: 42bd5ce2b9cb09dd6da6b254bddcd29f
+Description: Documentation for libgraphite2
+ Graphite is a system that can be used to create and use "smart fonts" capable
+ of displaying writing systems with various complex behaviors, such as:
+ contextual shaping, ligatures, reordering, split glyphs, bidirectionality,
+ stacking diacritics and complex positioning.
+ .
+ This library was designed and developed by the NRSI (Non-Roman Script
+ Initiative) within SIL International (www.sil.org) to act as a complement to
+ other smart font rendering technologies with limited practical local
+ extensibility. Its purpose is to help meet the needs of a very large number
+ of "minority language" communities for local extensibility of complex script
+ behaviors.
+ .
+ The behavior of the rendering engine for a given writing system is specified
+ through extra tables added to a TrueType font.  These tables are generated by
+ compiling a GDL (Graphite Description Language) source file into a font using
+ grcompiler.
+ .
+ PDF and HTML documentation for libgraphite2
+
+Package: libgraphite2-utils
+Source: graphite2
+Version: 1.3.14-1build2
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 54
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libgraphite2-3 (>= 1.2.2), libstdc++6 (>= 4.1.1)
+Homepage: http://graphite.sil.org/
+Priority: optional
+Section: fonts
+Filename: pool/main/g/graphite2/libgraphite2-utils_1.3.14-1build2_amd64.deb
+Size: 14748
+SHA512: 5414f3bdd1e0499eac9177f11f2cbb14825e812ed496c9f01d0e71d641043eee709538a42d04ac80dbe3fa2be7e25c69525215a99b634423ae821b9cc3e4c5eb
+SHA256: 10703825845bca3a0ada024f5929780a8fecc4ad0bda5066b75704f084d6d447
+SHA1: 1884239f09b3c5c59a5b265b71851d6d30fe6e2f
+MD5sum: 1d6967c03dfca27444d69c22b891af03
+Description: Font rendering engine for Complex Scripts -- utilities
+ Graphite is a system that can be used to create and use "smart fonts" capable
+ of displaying writing systems with various complex behaviors, such as:
+ contextual shaping, ligatures, reordering, split glyphs, bidirectionality,
+ stacking diacritics and complex positioning.
+ .
+ This package contains gr2fonttest.
+
+Package: libgraphviz-dev
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 217
+Depends: libcdt5 (= 2.42.2-7build3), libcgraph6 (= 2.42.2-7build3), libgvc6 (= 2.42.2-7build3), libgvpr2 (= 2.42.2-7build3), libpathplan4 (= 2.42.2-7build3), libxdot4 (= 2.42.2-7build3), liblab-gamut1 (= 2.42.2-7build3), libgvc6-plugins-gtk (= 2.42.2-7build3)
+Replaces: libgraphviz3-dev, libgraphviz4-dev (<< 2.16-3)
+Provides: graphviz-dev
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/graphviz/libgraphviz-dev_2.42.2-7build3_amd64.deb
+Size: 58416
+SHA512: 1e0b1e126114d0e34452572780f7e9db47589c9de12c154eae97fe14cee2835cd39ef57ad95dbf0bac230be953fe556e5b1be070708fad8a0c1a71e08614611e
+SHA256: 8580c731d012b419c190bc452832a7d7fec1dc5e6b2d793115687dc8d2271cd8
+SHA1: 4d81322c947eb36265161c09898f4577dd6dfee7
+MD5sum: c4768d9f75a802cdfa8353a334332847
+Description: graphviz libs and headers against which to build applications
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package installs the libraries and headers necessary to link graphviz
+ library routines into an application. It also installs additional man pages.
+ .
+ Note: A graphviz user doesn't need to install this package.
+
+Package: libgrilo-0.3-0
+Source: grilo
+Version: 0.3.15-1
+Architecture: amd64
+Maintainer: Alberto Garcia <berto@igalia.com>
+Installed-Size: 715
+Depends: libc6 (>= 2.33), libglib2.0-0 (>= 2.75.3), libsoup2.4-1 (>= 2.41.90), libtotem-plparser18 (>= 3.26.0)
+Suggests: grilo-plugins-0.3
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/Grilo
+Priority: optional
+Section: libs
+Filename: pool/main/g/grilo/libgrilo-0.3-0_0.3.15-1_amd64.deb
+Size: 144632
+SHA512: 60552ca68a579a874e3f2dbefc1bc438e3e6db93ba89b7fcbae588ad1bcd39927968c98c69371215bf7d203873b10af429caf1242fe438990213c0f853dfbe7e
+SHA256: 89136b6f9340091cbccdbf06532518064d5af465367ab4b145e8525cb284e5ed
+SHA1: 602c6850098e16e676ad244d8c3cd56cb534b9e5
+MD5sum: 09bfc39873f8a5f26ec3a6e09700d99b
+Description: Framework for discovering and browsing media - Shared libraries
+ Grilo is a framework focused on making media discovery and browsing
+ easy for application developers.
+ .
+ More precisely, Grilo provides:
+   * A single, high-level API that abstracts the differences among
+     various media content providers, allowing application developers
+     to integrate content from various services and sources easily.
+   * A collection of plugins for accessing content from various media
+     providers. Developers can share efforts and code by writing
+     plugins for the framework that are application agnostic.
+   * A flexible API that allows plugin developers to write plugins of
+     various kinds.
+ .
+ This package contains the shared libraries.
+
+Package: libgrilo-0.3-bin
+Source: grilo
+Version: 0.3.15-1
+Architecture: amd64
+Maintainer: Alberto Garcia <berto@igalia.com>
+Installed-Size: 138
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.75.3), libgrilo-0.3-0 (>= 0.3.0), libgtk-3-0 (>= 3.21.4), liboauth0 (>= 0.9.1)
+Homepage: https://wiki.gnome.org/Projects/Grilo
+Priority: optional
+Section: libs
+Filename: pool/main/g/grilo/libgrilo-0.3-bin_0.3.15-1_amd64.deb
+Size: 34476
+SHA512: 94d41f0437710292abaa2d97d5782b7fd99da56ab3c82a502f7430e21d6be1c8cd28825203ecee325a780c085a51b6518986c7e8cfb0cc2a6d658e402bb30e2b
+SHA256: b26f39832cc6fbad07993eb10e82a5629fa68c2097855f579f63a17b2c3a2cff
+SHA1: 9c2f13fb8852c4767b96ab1c59dc5be49e39bfdf
+MD5sum: 81e8195287d115c9a135456fc8928d64
+Description: Framework for discovering and browsing media - Binaries
+ Grilo is a framework focused on making media discovery and browsing
+ easy for application developers.
+ .
+ More precisely, Grilo provides:
+   * A single, high-level API that abstracts the differences among
+     various media content providers, allowing application developers
+     to integrate content from various services and sources easily.
+   * A collection of plugins for accessing content from various media
+     providers. Developers can share efforts and code by writing
+     plugins for the framework that are application agnostic.
+   * A flexible API that allows plugin developers to write plugins of
+     various kinds.
+ .
+ This package contains the utilities.
+
+Package: libgrilo-0.3-dev
+Source: grilo
+Version: 0.3.15-1
+Architecture: amd64
+Maintainer: Alberto Garcia <berto@igalia.com>
+Installed-Size: 892
+Depends: libgrilo-0.3-0 (= 0.3.15-1), gir1.2-grilo-0.3 (= 0.3.15-1), libxml2-dev, libglib2.0-dev
+Recommends: pkg-config
+Suggests: libgrilo-0.3-doc
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/Grilo
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/grilo/libgrilo-0.3-dev_0.3.15-1_amd64.deb
+Size: 68520
+SHA512: 833eea34569154c8a7f43b1fda9f0198268eaef9df06886d1334d7a68a8c71dd5a116dceef4e168cc3114812ddedafca9f35561c433ed366c8ad034a118d008a
+SHA256: e4e9a1a9906ef231e5f8ef6efb4ffe643877f198b6e66fb60cbb35daa2808671
+SHA1: 1a7a2ab2b770abb61aef68cfc65f087cdd5fb278
+MD5sum: 25d22812045e04a1f5f79a9e46a8ac6c
+Description: Framework for discovering and browsing media - Development files
+ Grilo is a framework focused on making media discovery and browsing
+ easy for application developers.
+ .
+ More precisely, Grilo provides:
+   * A single, high-level API that abstracts the differences among
+     various media content providers, allowing application developers
+     to integrate content from various services and sources easily.
+   * A collection of plugins for accessing content from various media
+     providers. Developers can share efforts and code by writing
+     plugins for the framework that are application agnostic.
+   * A flexible API that allows plugin developers to write plugins of
+     various kinds.
+ .
+ This package contains the development files.
+
+Package: libgrilo-0.3-doc
+Source: grilo
+Version: 0.3.15-1
+Architecture: all
+Maintainer: Alberto Garcia <berto@igalia.com>
+Installed-Size: 1513
+Suggests: devhelp
+Conflicts: libgrilo-0.1-doc, libgrilo-0.2-doc
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/Grilo
+Priority: optional
+Section: doc
+Filename: pool/main/g/grilo/libgrilo-0.3-doc_0.3.15-1_all.deb
+Size: 103496
+SHA512: dda4d39274b5dc3482f81dfc3853506b54174f5ac0b52c097299abd3eacf3e3dc6874444e80eb2b0939269992f547f4d8f391dd711aa0908859175c6fc6cc0fc
+SHA256: ee112c2c8e7a60c4db21e165e5375a57a29c8a95da0995c0412c711607dd3a57
+SHA1: e15a5e5ecb5c80c3e14bd23b71577fe452e34298
+MD5sum: 7dd364f7566b04b084153257199a265f
+Description: Framework for discovering and browsing media - Documentation
+ Grilo is a framework focused on making media discovery and browsing
+ easy for application developers.
+ .
+ More precisely, Grilo provides:
+   * A single, high-level API that abstracts the differences among
+     various media content providers, allowing application developers
+     to integrate content from various services and sources easily.
+   * A collection of plugins for accessing content from various media
+     providers. Developers can share efforts and code by writing
+     plugins for the framework that are application agnostic.
+   * A flexible API that allows plugin developers to write plugins of
+     various kinds.
+ .
+ This package contains the documentation.
+
+Package: libgsound-dev
+Source: gsound
+Version: 1.0.3-2build1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 105
+Depends: gir1.2-gsound-1.0 (= 1.0.3-2build1), libcanberra-dev, libglib2.0-dev, libgsound0 (= 1.0.3-2build1)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/GSound
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gsound/libgsound-dev_1.0.3-2build1_amd64.deb
+Size: 13576
+SHA512: 9aa0a6766771c9de28541c933ed4080790c34f30a39cab53c735837c4c9897752ee54d06fa8c33fbd6311ab34f021fadf01aa09da2ea77408c13471cd32d1e4b
+SHA256: e697edea323c978cac58607264e1012d1c95293396c86501f891e780f21f8d22
+SHA1: 191b47a270c2fe7d8c119db868f605ebb054219c
+MD5sum: 89a1a448091220ba9852318b8b897cac
+Description: small library for playing system sounds (devel)
+ GSound is a small library for playing system sounds. It's designed to
+ be used via GObject Introspection, and is a thin wrapper around the
+ libcanberra C library.
+ .
+ This package contains the static library and development headers.
+
+Package: libgsound-doc
+Source: gsound
+Version: 1.0.3-2build1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 167
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/GSound
+Priority: optional
+Section: doc
+Filename: pool/main/g/gsound/libgsound-doc_1.0.3-2build1_all.deb
+Size: 19528
+SHA512: 0e2203a4a7b3e2ddfcee1d53d688886a32f10b10bb3d93cbbfd3a373af70a01bdb48649b242c5e323591d52f5bb1a0594a445278d8819ff637572d5ec37803a1
+SHA256: ef7cdded6d52d7eca72dbe6bd10370b7fba356a274325a65bbcbf444a220751d
+SHA1: cf793c8fa18f4b037a879d3f35a96b0670ed9a39
+MD5sum: c7bfd653fb85235d3bbef52b1a95cdb5
+Description: small library for playing system sounds (documentation)
+ GSound is a small library for playing system sounds. It's designed to
+ be used via GObject Introspection, and is a thin wrapper around the
+ libcanberra C library.
+ .
+ This package contains the documentation.
+
+Package: libgsound0
+Source: gsound
+Version: 1.0.3-2build1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 37
+Depends: libc6 (>= 2.4), libcanberra0 (>= 0.2), libglib2.0-0 (>= 2.38.0)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/GSound
+Priority: optional
+Section: libs
+Filename: pool/main/g/gsound/libgsound0_1.0.3-2build1_amd64.deb
+Size: 8164
+SHA512: 0d46e3fb07bbf2d29ee73381bab5d09478e3b0a96b52fdf0d4f4e5aaed7ddc3ab24c77378caf93041bf23477c7ca241a38afa487d7e50e1635d64a07442353fd
+SHA256: 97c06a4c2e7c8070cc0c4e5e7caa5a3c78480d47e6ea134b1627a45fc5652b3a
+SHA1: 5e698502ffd2689f38ae7b74fd059db6affc9d2b
+MD5sum: 3027f7808eaf5054e3f212fe198d2e45
+Description: small library for playing system sounds
+ GSound is a small library for playing system sounds. It's designed to
+ be used via GObject Introspection, and is a thin wrapper around the
+ libcanberra C library.
+ .
+ This package contains the shared library.
+
+Package: libgspell-1-2
+Source: gspell
+Version: 1.12.0-1build1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 168
+Depends: libgspell-1-common (>= 1.12.0-1build1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libenchant-2-2 (>= 2.2.3), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.44), libgtk-3-0 (>= 3.20), libharfbuzz0b (>= 0.6.0), libicu72 (>= 72.1~rc-1~), libpango-1.0-0 (>= 1.18.0), libpangocairo-1.0-0 (>= 1.14.0), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://gitlab.gnome.org/GNOME/gspell
+Priority: optional
+Section: libs
+Filename: pool/main/g/gspell/libgspell-1-2_1.12.0-1build1_amd64.deb
+Size: 50464
+SHA512: 1e0dc9fb0dc79be8f09c5a86645b2b3283c63d4ba0afba40fb3c754e4c7ed436d0b2987560361ed3e8fa383b436811ea085f2e2b90ef39bca22bd2edd91b38eb
+SHA256: 0dea54766afedd013c8847efd7a156ad92e331ce41dff38d77a4f05e7da73dc3
+SHA1: 956ea0b31aee79d9a2a05efa17d8b06f6955680d
+MD5sum: c7857c1b73796c8e89a16721b93a0d53
+Description: spell-checking library for GTK+ applications
+ gspell provides a flexible API to add spell checking to a GTK+ application.
+ It features:
+  * GObject wrappers around Enchant
+  * An inline spell checker for GtkTextView (enhanced version of GtkSpell)
+  * A spell checker dialog for GtkTextView
+  * Support of the no-spell-check tag defined by GtkSourceView
+  * Language choosers (button and dialog)
+
+Package: libgspell-1-common
+Source: gspell
+Version: 1.12.0-1build1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 295
+Multi-Arch: foreign
+Homepage: https://gitlab.gnome.org/GNOME/gspell
+Priority: optional
+Section: libs
+Filename: pool/main/g/gspell/libgspell-1-common_1.12.0-1build1_all.deb
+Size: 32848
+SHA512: 3cd0d0a559d91525afe7803a9ae8c210a00a4f3e6ca75fbaf866fb7c031e52374f45ae8b4631c806acca14c9e6a9a5dfe2a1a46db327690c7178cb98ead9094c
+SHA256: 659aae9cc34a57b137a875087c02be0c6ef5c2bf06c1089121c8766d163db3cb
+SHA1: bd313ab624ac1c662420b94bcec9f6fc7c988989
+MD5sum: 3e0c45ea20860de59825231ef4d29e82
+Description: libgspell architecture-independent files
+ gspell provides a flexible API to add spell checking to a GTK+ application.
+ It features:
+  * GObject wrappers around Enchant
+  * An inline spell checker for GtkTextView (enhanced version of GtkSpell)
+  * A spell checker dialog for GtkTextView
+  * Support of the no-spell-check tag defined by GtkSourceView
+  * Language choosers (button and dialog)
+ .
+ This package contains the architecture independent files
+ like translation of messages.
+
+Package: libgspell-1-dev
+Source: gspell
+Version: 1.12.0-1build1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 182
+Depends: gir1.2-gspell-1 (= 1.12.0-1build1), libenchant-2-dev (>= 2.1.3), libglib2.0-dev (>= 2.44), libgspell-1-2 (= 1.12.0-1build1), libgtk-3-dev (>= 3.20)
+Suggests: libgspell-1-doc (= 1.12.0-1build1)
+Multi-Arch: same
+Homepage: https://gitlab.gnome.org/GNOME/gspell
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gspell/libgspell-1-dev_1.12.0-1build1_amd64.deb
+Size: 22204
+SHA512: 562a55b29a8c5e7927bbb93c9b0c79ec800abe34c89884c5039db1e41dd1eb74a0c5bc3406bbb50f9b0603475823c619f91723bd25dd1f39a393c4cb3e715077
+SHA256: 438506e15a0e222e23ebfecf08632aa366a16d449c5ee2ecf9c463907cf84e43
+SHA1: c5e9a1280b842d70ca68c4294a54260506e0125d
+MD5sum: 874d0ba723ba312738f78e02048d2320
+Description: spell-checking library for GTK+ applications - development files
+ gspell provides a flexible API to add spell checking to a GTK+ application.
+ It features:
+  * GObject wrappers around Enchant
+  * An inline spell checker for GtkTextView (enhanced version of GtkSpell)
+  * A spell checker dialog for GtkTextView
+  * Support of the no-spell-check tag defined by GtkSourceView
+  * Language choosers (button and dialog)
+ .
+ This package contains development headers and libraries.
+
+Package: libgspell-1-doc
+Source: gspell
+Version: 1.12.0-1build1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 353
+Breaks: libgspell-1-dev (<< 1.8.2)
+Replaces: libgspell-1-dev (<< 1.8.2)
+Multi-Arch: foreign
+Homepage: https://gitlab.gnome.org/GNOME/gspell
+Priority: optional
+Section: doc
+Filename: pool/main/g/gspell/libgspell-1-doc_1.12.0-1build1_all.deb
+Size: 30292
+SHA512: 3fa76e68ff9f2b7d6a30a85e32b0b1ac87f83f5acc8cf2f78016526621982fb8adf9159c7bf4e37632924f2ff7f061016758458b9ce44490cbf7597225756c75
+SHA256: f05903456f5293433db64e848800a29c2a0c1d7896a344a55ac5004ee9ff5141
+SHA1: 9e9909613218a498b16431a669e3ec378c62552d
+MD5sum: 487e1bf8c6dee7267b3a3080abd8ec02
+Description: spell-checking library for GTK+ applications - documentation
+ gspell provides a flexible API to add spell checking to a GTK+ application.
+ It features:
+  * GObject wrappers around Enchant
+  * An inline spell checker for GtkTextView (enhanced version of GtkSpell)
+  * A spell checker dialog for GtkTextView
+  * Support of the no-spell-check tag defined by GtkSourceView
+  * Language choosers (button and dialog)
+ .
+ This package contains the API documentation.
+
 Package: libgssapi-krb5-2
 Source: krb5
 Version: 1.20.1-1build1
@@ -30136,6 +32096,75 @@ Description: MIT Kerberos runtime libraries - krb5 GSS-API Mechanism
  implementation of GSS-API used by applications and Kerberos clients.
 Original-Maintainer: Sam Hartman <hartmans@debian.org>
 
+Package: libgssdp-1.6-0
+Source: gssdp
+Version: 1.6.2-2
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 114
+Depends: libc6 (>= 2.14), libglib2.0-0 (>= 2.68.0), libsoup-3.0-0 (>= 3.0.3)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/GUPnP
+Priority: optional
+Section: libs
+Filename: pool/main/g/gssdp/libgssdp-1.6-0_1.6.2-2_amd64.deb
+Size: 38612
+SHA512: d3a43dde85749c69587be011999db15f9b6451103434ec11bb5dcf3c14b55fbbcb5e1120df66f7474c310bbebab4ea2a4f67901d445a84b64b00bd670f45d917
+SHA256: 25afba5b9b4eec80bfc0d5eac3d709fbcf6cce5c414d384c7e514ee1dd80b86b
+SHA1: 2994153671bacafe7ad6032ae185007238023b44
+MD5sum: 84868d8712079c58cd43344989f5cb81
+Description: GObject-based library for SSDP
+ A GObject-based API for doing SSDP (Simple Service Discovery Protocol)
+ transparently.
+
+Package: libgssdp-1.6-dev
+Source: gssdp
+Version: 1.6.2-2
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 135
+Depends: libgssdp-1.6-0 (= 1.6.2-2), gir1.2-gssdp-1.6 (= 1.6.2-2), libsoup-3.0-dev
+Suggests: libgssdp-doc
+Breaks: gir-repository-dev (<= 0.6.5-5), gupnp-vala (<= 0.10.4)
+Replaces: gir-repository-dev (<= 0.6.5-5), gupnp-vala (<= 0.10.4)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/GUPnP
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gssdp/libgssdp-1.6-dev_1.6.2-2_amd64.deb
+Size: 15644
+SHA512: 33957f3b4a3c555fee575bd6a6fc532927daa47b3cbe061f0024a94ace22cd9b8465a4e439e005c56aff93d9863c89dc4c1e670d211bb71f4deec6a1d2238309
+SHA256: adea4e1995e771d8f8263a532c17ad807833cfa126004060dd0e15c9a3325dee
+SHA1: 111e43f9db1034115d0e85a5b7c2680fc9ba5fd7
+MD5sum: f7c83a5608d9e76bbf09d2cbf0f5e3d4
+Description: GObject-based library for SSDP (development files)
+ A GObject-based API for doing SSDP (Simple Service Discovery Protocol)
+ transparently.
+ .
+ This package contains the development files.
+
+Package: libgssdp-doc
+Source: gssdp
+Version: 1.6.2-2
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 687
+Suggests: devhelp
+Homepage: https://wiki.gnome.org/Projects/GUPnP
+Priority: optional
+Section: doc
+Filename: pool/main/g/gssdp/libgssdp-doc_1.6.2-2_all.deb
+Size: 42412
+SHA512: c2a106a4369cf0cdacd6759538d5fcc1e4212d593fe9ad4d964e93042d8c1c715dbc963e206bcbf69b6861f0708169e6c95ce18930739c1bff47d6a8b99b1d92
+SHA256: 9c5664875b4aa837802ba1a911575af5ef107f4b9bd1416a478d662954122ee4
+SHA1: 934dfde11141561cc7443bb7eb9d1b64e95d74c0
+MD5sum: 5085ffa910c9657f8d9729445cd5b462
+Description: GObject-based library for SSDP (documentation)
+ A GObject-based API for doing SSDP (Simple Service Discovery Protocol)
+ transparently.
+ .
+ This package contains the documentation.
+
 Package: libgssrpc4
 Source: krb5
 Version: 1.20.1-1build1
@@ -30166,6 +32195,159 @@ Description: MIT Kerberos runtime libraries - GSS enabled ONCRPC
  programs and potentially other applications.
 Original-Maintainer: Sam Hartman <hartmans@debian.org>
 
+Package: libgstreamer-gl1.0-0
+Source: gst-plugins-base1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 623
+Depends: libc6 (>= 2.14), libdrm2 (>= 2.4.17), libegl1, libgbm1 (>= 8.1~0), libglib2.0-0 (>= 2.75.3), libglx0, libgstreamer-plugins-base1.0-0 (>= 1.18.0), libgstreamer1.0-0 (>= 1.22.0), libgudev-1.0-0 (>= 165), libwayland-client0 (>= 1.20.0), libwayland-cursor0 (>= 1.11), libwayland-egl1 (>= 1.15.0), libx11-6, libx11-xcb1 (>= 2:1.8.4), libxcb1
+Recommends: gstreamer1.0-gl
+Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Replaces: libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libs
+Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-gl1.0-0_1.22.1-1ubuntu1_amd64.deb
+Size: 190692
+SHA512: f97cd6297b838b2d29ffb22c15b102ec89826b96a6cd688a68459430d810ff61b2cbc259c2ff8fa3a36ab29dc20fe8927c8ed31c8ec46f02a673301635bf5aea
+SHA256: d93ba7e18b2c2d72a755fd7ffec70376ff85c43338d6a4b36fc2b12b32676ab2
+SHA1: fdf5cc5b637232246e43a0b411cf0e0505da4e9f
+MD5sum: 9412f1938b3ef511945470fb8486503d
+Description: GStreamer GL libraries
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the GL library.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: libgstreamer-plugins-base1.0-0
+Source: gst-plugins-base1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3803
+Depends: libc6 (>= 2.33), libglib2.0-0 (>= 2.75.3), libgstreamer1.0-0 (>= 1.22.0), liborc-0.4-0 (>= 1:0.4.25), zlib1g (>= 1:1.1.4), iso-codes
+Recommends: gstreamer1.0-plugins-base
+Suggests: libvisual-0.4-plugins
+Conflicts: libgstreamer-plugins-bad1.0-0 (<< 1.15.1)
+Breaks: gstreamer1.0-plugins-bad (<< 1.15.1), libgstreamer-plugins-bad1.0-0 (<< 1.15.1), totem-gstreamer (<= 2.17.92-0ubuntu1)
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libs
+Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-0_1.22.1-1ubuntu1_amd64.deb
+Size: 997600
+SHA512: 7fd0a05c3337effe09dd0180e8cb5c7dc8d83c9536883e81d0e875253b16cb5de10cac9ce15c22a1f3b847bc1be9464322543ea0c3f32a02b8a36d6961215b21
+SHA256: b7cb46f1326f8ca979494527430c52ebc1c78f9b6fc14474ea4bd29c0702115b
+SHA1: 44dfa601e8b72efc8b62586bbe54a43eff62544d
+MD5sum: 0e0a53788a0a362aec98269e707999ed
+Description: GStreamer libraries from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains libraries from the "base" set, an essential
+ exemplary set of elements.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: libgstreamer-plugins-base1.0-dev
+Source: gst-plugins-base1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 5931
+Depends: libgstreamer-plugins-base1.0-0 (= 1.22.1-1ubuntu1), libgstreamer-gl1.0-0 (= 1.22.1-1ubuntu1), libc6-dev | libc-dev, pkg-config, libgstreamer1.0-dev (>= 1.16.2), libglib2.0-dev, liborc-0.4-dev (>= 1:0.4.24), libgl-dev, libegl-dev, libgles-dev, libx11-xcb-dev, libwayland-dev (>= 1.11), libdrm-dev (>= 2.4.55), libgbm-dev, libgudev-1.0-dev (>= 147), gir1.2-gst-plugins-base-1.0 (= 1.22.1-1ubuntu1)
+Conflicts: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
+Breaks: libgstreamer-plugins-bad1.0-dev (<< 1.15.1)
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gst-plugins-base1.0/libgstreamer-plugins-base1.0-dev_1.22.1-1ubuntu1_amd64.deb
+Size: 452732
+SHA512: 6b018f4aaef2f57ccc05e0a46bfe198f37af10c1521480bc4054cf8b796f702cd49104e5edbee16721fab4b04b8a3dc85cc442bc6a4fd440575fbe81b54f23ed
+SHA256: a5a689c32b91eec615ed5d666b8cddc01294d8ce36fa0603d9765994b5e7393a
+SHA1: 0885484b648ca289a5c8baac7b6a7ae4d0ac1f66
+MD5sum: 3e833e978998cdf8c3c9ddbcd23d41b0
+Description: GStreamer development files for libraries from the "base" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains development files for GStreamer libraries from
+ the "base" set, an essential exemplary set of elements.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
+
+Package: libgstreamer-plugins-good1.0-0
+Source: gst-plugins-good1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 140
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.62), libgstreamer-plugins-base1.0-0 (>= 1.22.0), libgstreamer1.0-0 (>= 1.22.0)
+Breaks: libgstreamer-plugins-bad1.0-0 (<< 1.0.3-1ubuntu1)
+Replaces: gstreamer1.0-plugins-good (= 1.0.3-1ubuntu1), libgstreamer-plugins-bad1.0-0 (<< 1.0.3-1ubuntu1)
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libs
+Filename: pool/main/g/gst-plugins-good1.0/libgstreamer-plugins-good1.0-0_1.22.1-1ubuntu1_amd64.deb
+Size: 29244
+SHA512: d80dd98e2ae0ee4a2f5a3d7e2de63b1b6ebbbd72949238f15ea4a60c3a6c2b3114cc18d97edb09e5162255264b46040b243a18bd81b8ec1687bcf8190b94de1d
+SHA256: 61ee9b90b9da96f7a9e3f720fd497445d46ba557f772cef721a9c08228502215
+SHA1: 345558921276b5cc38eec8d9b0291d9787cada0f
+MD5sum: 214a308ea3efc4bbc114d1edffd90e1f
+Description: GStreamer development files for libraries from the "good" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains shared GStreamer libraries from the "good" set. The API
+ is not guaranteed to be stable.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+
+Package: libgstreamer-plugins-good1.0-dev
+Source: gst-plugins-good1.0
+Version: 1.22.1-1ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 124
+Depends: libgstreamer-plugins-good1.0-0 (= 1.22.1-1ubuntu1), libgstreamer1.0-dev
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gst-plugins-good1.0/libgstreamer-plugins-good1.0-dev_1.22.1-1ubuntu1_amd64.deb
+Size: 21340
+SHA512: 182e7ddf2e2c943111c3131c1d65cb743c9596f1da2114dcc713036336f5ac76b5b32cce98da520b7fd38e711339371108f1633975c319fe52f7a1c012d7a84c
+SHA256: d40faf659d2c69dd8a59a03101e3fedd27827640bf4fa99c9b580db72542c46f
+SHA1: 2d436c5d5b6f0ad94d1339bc361aa53ecb016076
+MD5sum: 79847bd087bb3f6a578e618f477c51cd
+Description: GStreamer development files for libraries from the "good" set
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains development files for GStreamer libraries from the
+ "good" set. The API is not guaranteed to be stable.
+Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+
 Package: libgtk3-perl
 Version: 0.038-3
 Architecture: all
@@ -30189,6 +32371,191 @@ Description: Perl bindings for the GTK+ graphical user interface library
  .
  This package contains the Perl bindings to GTK+, built using
  Glib::Object::Introspection. Generated bindings live under the Gtk3 namespace.
+
+Package: libgv-guile
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 108
+Depends: guile-3.0-libs, libc6 (>= 2.4), libcgraph6, libgvc6
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: interpreters
+Filename: pool/main/g/graphviz/libgv-guile_2.42.2-7build3_amd64.deb
+Size: 29196
+SHA512: 9392fc76568de7966dc074eeea21d6cd1bbc75dd6e91ae85c091bde74da6693faaa3a9998b7b1766fc209d0edd9f073f89a6b3e80df140d02daa61e7a5794214
+SHA256: 701708699ee5c41766e8e52a4d67b9720f13a5b667f537a7abe03359adcb4236
+SHA1: df536f816ad693a1f71d1247c99fd406ec3e842a
+MD5sum: 147bdc7cb41d49a1cabba179239358e2
+Description: Guile bindings for graphviz
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the guile (3.0) bindings.
+
+Package: libgv-lua
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 166
+Depends: libc6 (>= 2.14), libcgraph6, libgvc6, liblua5.2-0 (>= 5.2.4)
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: interpreters
+Filename: pool/main/g/graphviz/libgv-lua_2.42.2-7build3_amd64.deb
+Size: 45236
+SHA512: cda1ca98c0e0a0e4775747a06561cdf4d2f87512460413c2013cc0898eb92e7a73b41d1aca13562cdb69eafb2a517e3c107aea76d2631d3d1bf5385a88f6b07b
+SHA256: de67ddaabd67f5d39ad83640581834f1fe912807ce3075f9b5d355d67860e91d
+SHA1: a72b4ded37322536d0b3cd38f60daee9482f3db0
+MD5sum: d77542c3707b262d5dcc86a041a11d01
+Description: Lua bindings for graphviz
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the lua5.2 bindings.
+
+Package: libgv-perl
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 186
+Depends: perl (>= 5.36.0-7), perlapi-5.36.0, libc6 (>= 2.34), libcgraph6, libgvc6, libperl5.36 (>= 5.36.0), libstdc++6 (>= 4.1.1)
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: perl
+Filename: pool/main/g/graphviz/libgv-perl_2.42.2-7build3_amd64.deb
+Size: 43356
+SHA512: 12d1cf2d1b8a437ad809b201bbc66ff719b9d729dbd16451efd45c8d5b6a76895b43eada2c92c080b8e59cfdff97bf821a1c6e1b2145307224df1d2820c26643
+SHA256: 33ee4edb46fbdff50a1a7418de4704a452b072ac92b0325a2b13ac78ce8a20f1
+SHA1: 27ba34b721ded94d6bbf4db10dec9586b4e2a386
+MD5sum: d60cba1753769fe03ebe9e018b35d61f
+Description: Perl bindings for graphviz
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the Perl bindings.
+
+Package: libgv-ruby
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 195
+Depends: libc6 (>= 2.14), libcgraph6, libgcc-s1 (>= 3.3.1), libgvc6, libruby3.1 (>= 3.1.2), libstdc++6 (>= 4.1.1)
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/g/graphviz/libgv-ruby_2.42.2-7build3_amd64.deb
+Size: 31460
+SHA512: 178f428789d06942a4b73a8762f1cb193e177795d7c6478ed128e1f24cfc5d48384436263eaa330aa7a5fda38fd44f8c5627316b9119205c8a0963ca4934018e
+SHA256: b35b7b0039087054b2bceb57dce0e20dbc7a85ce460a8ad268e40d970c2ea96a
+SHA1: 62599d60275ac6b3193e7229b22586a77ae544f9
+MD5sum: 5d186b1474ea7592f6f076ca23c709d6
+Description: Ruby bindings for graphviz
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the Ruby bindings.
+
+Package: libgv-tcl
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 2338
+Depends: libc6 (>= 2.35), libcairo2 (>= 1.15.8), libcgraph6, libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.3.1), libgd3 (>= 2.1.0~alpha~), libglib2.0-0 (>= 2.16.0), libgts-0.7-5 (>= 0.7.6), libgvc6, libltdl7 (>= 2.4.7), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpathplan4, libstdc++6 (>= 5.2), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: interpreters
+Filename: pool/main/g/graphviz/libgv-tcl_2.42.2-7build3_amd64.deb
+Size: 858908
+SHA512: ddbb83a46f9a79fdd4dccb239cac98f107c22aeceb84afa8a64377a1cc75a38c1227051e3f21d3ef2984cf7763bf4f8857cb9a99090185352c096485c6e04781
+SHA256: 4a83e07cbee81545c4a9d6d9e2bf46883fbb0dd077fe8e0a3ba5e524956ac1a5
+SHA1: 8a01c2b39747bc86fab4ee2c84268c2499ccd339
+MD5sum: e47149bfdae408065e1c96dc56ab918d
+Description: Tcl bindings for graphviz
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the Tcl (8.6) bindings.
+
+Package: libgvc6
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 2096
+Depends: libc6 (>= 2.35), libcairo2 (>= 1.15.8), libcdt5, libcgraph6, libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.3.1), libgd3 (>= 2.1.0~alpha~), libglib2.0-0 (>= 2.16.0), libgts-0.7-5 (>= 0.7.6), libltdl7 (>= 2.4.7), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpathplan4, libstdc++6 (>= 5.2), libwebp7 (>= 1.2.4), libx11-6, zlib1g (>= 1:1.1.4)
+Breaks: libgv-php5
+Replaces: libgv-php5
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphviz/libgvc6_2.42.2-7build3_amd64.deb
+Size: 758784
+SHA512: 9dc387301b0ba95bb612ab4f1049cb603d460ec87dd74e50851343afe91aa26498c3b6d57a8f724cb08e142847f3a4501ee522a9c97f006c9db83591c90034b0
+SHA256: bfc87cd91bcd397fa3f4701965f19ee563f1e232338bfe78c6d73cb8d8aab0b9
+SHA1: 5b5ed470f4c5b2726ce8a08e9105107a4317e08a
+MD5sum: 9b6b1b86d1a82d2846f2b9a0e140bf1a
+Description: rich set of graph drawing tools - gvc library
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the gvc library.
+
+Package: libgvc6-plugins-gtk
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 104
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.33), libcairo2 (>= 1.10.0), libgdk-pixbuf-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.8.0), libgvc6, librsvg2-2 (>= 2.14.4)
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphviz/libgvc6-plugins-gtk_2.42.2-7build3_amd64.deb
+Size: 21228
+SHA512: 0f8d3b309ef1a8a84d5d01966bec6d7c023b4e10d9c6b6e12828c357ee463982afa4dd98dc9e366d2cae8ac40e3bf418abe2f5228b67d0c4f2ef95bc37e14197
+SHA256: 6793fe3ae9f001a0a0acf637cddd39a5b7529b659116e4f16a358217c6b07326
+SHA1: 1a537ec014669d8affc455d085ade9d5b6e49b9f
+MD5sum: 09bcac9d11c93079a3c28a28d83976a6
+Description: rich set of graph drawing tools - gtk plugins
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the gtk and gdk-pixbuf plugins.
+
+Package: libgvpr2
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 526
+Depends: libc6 (>= 2.33), libcdt5, libcgraph6
+Replaces: libgvpr1
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphviz/libgvpr2_2.42.2-7build3_amd64.deb
+Size: 175904
+SHA512: c94730ea452619008e11c3d2e58825a918b72469551bc05c7da84238235f8304c5c0f1cd72b032a8798dbce1229a1af4a9cb34e1bd5bb9cf5b17f5c3735dbab2
+SHA256: ef7e7adfd4a843429848929a6c47b5040fcca1a5678659ad4ad4b7a66ae95472
+SHA1: 44905aa0a8ad70796925d73ad0ae54cfc5bc370c
+MD5sum: 8c6a194167b0140c543a0bfc6c70894c
+Description: rich set of graph drawing tools - gvpr library
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the gvpr library.
 
 Package: libhogweed6
 Source: nettle
@@ -31627,6 +33994,28 @@ Description: MIT Kerberos runtime libraries - Support library
  This package contains an internal runtime support library used by other
  Kerberos libraries.
 Original-Maintainer: Sam Hartman <hartmans@debian.org>
+
+Package: liblab-gamut1
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 2463
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphviz/liblab-gamut1_2.42.2-7build3_amd64.deb
+Size: 177468
+SHA512: 3858c5e2f1a08997dd738e5dd0c5eafd70b0e86bb5cf9f69f86719e3c570ea513ccfa5f07c9edd6d11568e990248b171df8b7803be65cf1b78d1164f67f11d5b
+SHA256: 281f1c909b321fa6c97abd5cb3f3e1f68c6ed1574b5670dd471e6c0b52b56c29
+SHA1: a48c48a47fe0c0b1c2716f0353300a45d3c82c24
+MD5sum: 47985ac37857e11636f4284fdab6baec
+Description: rich set of graph drawing tools - liblab_gamut library
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the liblab_gamut library.
 
 Package: liblist-compare-perl
 Version: 0.55-2
@@ -34194,6 +36583,29 @@ Description: Filesystem Path Utilities
  .
  This package is part of the ding-libs, libraries that are required for the
  proper functioning of SSSD, the System Security Services Daemon.
+
+Package: libpathplan4
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 68
+Depends: libc6 (>= 2.14)
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphviz/libpathplan4_2.42.2-7build3_amd64.deb
+Size: 25312
+SHA512: 4cd532436844ce25083108b9d48298d562d09573623ad1d4078cd5abbc60527f0400adfb01ce6aa2b2a400f210288b9385eb8b78cf47177b8bd7af29cf39938c
+SHA256: e776e3792917d9bab73f72cc30323b425ee263ac15770c48a39eaff3c3a254b4
+SHA1: e65ea94d84eb93d4351100c2648f6e40cf5a3be6
+MD5sum: c8e3ce452496a450148f27829349309b
+Description: rich set of graph drawing tools - pathplan library
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the pathplan library.
 
 Package: libpcre2-16-0
 Source: pcre2
@@ -37628,6 +40040,29 @@ Description: libcrypt shared library: sources
  This package contains the sources and patches which are needed to
  build libxcrypt.
 
+Package: libxdot4
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 64
+Depends: libc6 (>= 2.14)
+Multi-Arch: same
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/graphviz/libxdot4_2.42.2-7build3_amd64.deb
+Size: 18304
+SHA512: cea4161dc2698e1230876c0be429f3e64c0b9bf4f443e7dcb7f550e5b575a24ad09e7fb9ed0c472b75d16fe851a6d7e45e315cdcd21b2f61ee915a5955ab55f6
+SHA256: 3b067763d51284124c625cab70302ebb8a89af76bc4e73d0202de5e5d5af0502
+SHA1: e31e632cd08cecf1e6bfa35f772430ea0fcd6bd1
+MD5sum: 2536e395251e6ee60d2cc33b3eb8cb1f
+Description: rich set of graph drawing tools - xdot library
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the xdot library.
+
 Package: libxml-libxml-perl
 Version: 2.0207+dfsg+really+2.0134-1build1
 Architecture: amd64
@@ -40539,6 +42974,66 @@ Description: Python 3 bindings for gobject-introspection libraries (debug extens
  .
  This package contains the extensions built for the Python 3 debug interpreter.
 Build-Ids: 999659ed5516e65469d719656453bf6f4b87c555 87de65b22161b0a522857cfaec9d4aaf3e895f2d
+
+Package: python3-graphite2
+Source: graphite2
+Version: 1.3.14-1build2
+Architecture: all
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 46
+Depends: libgraphite2-3, python3-future, python3:any
+Homepage: http://graphite.sil.org/
+Priority: optional
+Section: python
+Filename: pool/main/g/graphite2/python3-graphite2_1.3.14-1build2_all.deb
+Size: 10680
+SHA512: 4c06de80f8fda42df220e966e493f9e408ba300e572f611f6e438d4a505a4051834cbe8f26c1d2e4e17eff5f23f3f96f06804154a8e685ba409617867da8ab17
+SHA256: bb0403307c44c88a4697769e04a5af335295b558c7f7b6847517a601e9104660
+SHA1: 4c843860db39238de9924d52f717b7a36b7af172
+MD5sum: 004c43427e285d30e0000279514bcdce
+Description: Python bindings for libgraphite2
+ Graphite is a system that can be used to create and use "smart fonts" capable
+ of displaying writing systems with various complex behaviors, such as:
+ contextual shaping, ligatures, reordering, split glyphs, bidirectionality,
+ stacking diacritics and complex positioning.
+ .
+ This library was designed and developed by the NRSI (Non-Roman Script
+ Initiative) within SIL International (www.sil.org) to act as a complement to
+ other smart font rendering technologies with limited practical local
+ extensibility. Its purpose is to help meet the needs of a very large number
+ of "minority language" communities for local extensibility of complex script
+ behaviors.
+ .
+ The behavior of the rendering engine for a given writing system is specified
+ through extra tables added to a TrueType font.  These tables are generated by
+ compiling a GDL (Graphite Description Language) source file into a font using
+ grcompiler.
+ .
+ This package contains the Python 3 bindings for libgraphite2.
+
+Package: python3-gv
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: amd64
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 269
+Depends: libc6 (>= 2.14), libcgraph6, libgcc-s1 (>= 3.3.1), libgvc6, libstdc++6 (>= 4.1.1), python3 (<< 3.12), python3 (>= 3.11~), python3:any
+Breaks: libgv-python (<< 2.40.1-0~)
+Replaces: libgv-python (<< 2.40.1-0~)
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: python
+Filename: pool/main/g/graphviz/python3-gv_2.42.2-7build3_amd64.deb
+Size: 39816
+SHA512: 6c9a39811083a4170180a44ad2758d8b73a3d9fdc4e89d11050dd06c8a7a4ac682c8c8da39dec128d427d1c4b73ca27fb65148ecfc4120f81763504dce4f4dbd
+SHA256: 20d11470c9e939f6f096c8a60fb240506fe088516e355c2c5d51a1daf2985e00
+SHA1: abc497e0f7e238e84cdc9dcc720870d864768a60
+MD5sum: d6d6bb3454dad7c36970d6651618f2d6
+Description: Python3 bindings for graphviz
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package contains the Python3 bindings.
 
 Package: python3-httplib2
 Source: python-httplib2

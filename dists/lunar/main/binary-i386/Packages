@@ -8734,6 +8734,144 @@ Description: GNU privacy guard - signature verification tool (dummy transitional
  to gpgv.
 Original-Maintainer: Debian GnuPG Maintainers <pkg-gnupg-maint@lists.alioth.debian.org>
 
+Package: graphicsmagick-imagemagick-compat
+Source: graphicsmagick
+Version: 1.4+really1.3.40-2build1
+Architecture: all
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 49
+Depends: graphicsmagick
+Conflicts: imagemagick
+Replaces: imagemagick
+Provides: imagemagick
+Homepage: http://www.graphicsmagick.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/g/graphicsmagick/graphicsmagick-imagemagick-compat_1.4+really1.3.40-2build1_all.deb
+Size: 11924
+SHA512: b9616e34ff29747302299d02102494cbe18327f8e7d1a953186ea603f8d8ccfadbda728f644f2a7cedf21adbf1005b836aadbe7126e62811f82a4fae187bbeb5
+SHA256: 243de07ca79f49818fdb36878fb095a249f4869d58a8f9a90ed07d8664eb57b6
+SHA1: 5debc3554e39d10e1a9806c0a3b11b90d58a5452
+MD5sum: e5a789965dc3d8b6fe8d6992cbb934c4
+Description: image processing tools providing ImageMagick interface
+ GraphicsMagick provides a set of command-line applications to manipulate
+ image files. It is a fork of the ImageMagick project and therefore offers
+ a similar set of features, but puts a larger emphasis on stability.
+ .
+ With this package installed, the GraphicsMagick command line tools can
+ be executed like their ImageMagick counterparts. It allows one to migrate
+ scripts from ImageMagick to GraphicsMagick without any code changes.
+
+Package: graphicsmagick-libmagick-dev-compat
+Source: graphicsmagick
+Version: 1.4+really1.3.40-2build1
+Architecture: all
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 58
+Depends: libgraphicsmagick1-dev, libgraphicsmagick++1-dev, libgraphics-magick-perl
+Conflicts: libmagick++-dev, libmagick++6-dev, libmagick++9-dev, libmagick-dev, libmagick6-dev, libmagick9-dev, libmagickcore-dev, perlmagick
+Replaces: libmagick++-dev, libmagick++6-dev, libmagick++9-dev, libmagick-dev, libmagick6-dev, libmagick9-dev, libmagickcore-dev, perlmagick
+Provides: libmagick++-dev, libmagick-dev, perlmagick
+Homepage: http://www.graphicsmagick.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/g/graphicsmagick/graphicsmagick-libmagick-dev-compat_1.4+really1.3.40-2build1_all.deb
+Size: 15388
+SHA512: 1218e6071126e6bb702a5be4e8202ae0655dac49ad6fee2ddcbc2373ce1298549ff1e477661fcae96d847841ac7ae84a43707d72e758069fba78156c62610800
+SHA256: 596a6c2b7c75526842378c8dddd51f7c61990f83d00848ea5b9e1d7e8adc7cbe
+SHA1: 282f5ef6ba2f7cecca5b953e55b1e259796003b7
+MD5sum: 164e652a57b5304da64ada02f4ee2902
+Description: image processing libraries providing ImageMagick interface
+ GraphicsMagick provides libraries in several programming languages to read,
+ write and manipulate image files across a large number of formats, from the
+ widely used jpeg, tiff, bmp or xpm to special-purpose formats such as fits or
+ image formats found on some photo CDs. There are functions for finegrained
+ image processing tasks, as well as conversion routines between the various
+ image formats.
+ .
+ The GraphicsMagick libraries are a fork of ImageMagick and therefore offer
+ programming interfaces that are mostly compatible. While there might be
+ small differences, experience tells that many programs only use a compatible
+ subset and build fine with either GraphicsMagick or ImageMagick.
+ .
+ While GraphicsMagick uses different names for libraries, classes, and
+ helper applications in order to coexist with ImageMagick, this package
+ intends to minimise porting efforts by exporting the GraphicsMagick
+ interface with the usual ImageMagick names. Note that this package only
+ tries to provide build-time compatibility. Run-time libraries of
+ ImageMagick and GraphicsMagick are incompatible and cannot be interchanged.
+ .
+ This package includes compatibility wrappers for the C, C++, and Perl
+ libraries.
+
+Package: graphviz-doc
+Source: graphviz
+Version: 2.42.2-7build3
+Architecture: all
+Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
+Installed-Size: 5383
+Suggests: graphviz
+Multi-Arch: foreign
+Homepage: https://www.graphviz.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/graphviz/graphviz-doc_2.42.2-7build3_all.deb
+Size: 4405000
+SHA512: 7acc54e31815935f1548a0b2523dec1a9fc5e6592e2dea08c46f35d40e0962740b9ed55b23cf7201c47c9ad30c18cbfaa7e9b558c01866cf4729e27285b9d086
+SHA256: 8badcdee8137d29d2f12b14bef1d4095491dc48fcfa47785293e35794e5f817a
+SHA1: 74b2bfab790a3b64df8779aecf383dd69512ab80
+MD5sum: 643cc8b093ea15df760d7f13f263f499
+Description: additional documentation for graphviz
+ Graphviz is a set of graph drawing tools. See the description of the graphviz
+ package for a full description.
+ .
+ This package installs HTML and PDF documentation for Graphviz, as well as
+ examples.
+
+Package: grilo-plugins-0.3
+Source: grilo-plugins
+Version: 0.3.15-2ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 14
+Depends: grilo-plugins-0.3-base, grilo-plugins-0.3-extra
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/Grilo
+Priority: extra
+Section: oldlibs
+Filename: pool/main/g/grilo-plugins/grilo-plugins-0.3_0.3.15-2ubuntu1_all.deb
+Size: 4836
+SHA512: f97d81e1e3be5387da2e2ee0f0d2d6994a14ee5d90fae0b8677e4a880f460b80b2162b4b373a26f6e2f17103d0dd329ba68265bab2a8e68533716725318ae3e0
+SHA256: 37d60040123127e2932231f58bed756366f14b951f4e6377aba771f40385a061
+SHA1: 03aed6bacdc21b75f85bcd4f765176c86955756f
+MD5sum: 6335386dc2aa6f9714fd7a3d0bc75b47
+Description: transitional package
+ This is a transitional package to ease upgrades to
+ grilo-plugins-0.3-base and grilo-plugins-0.3-extra. It can safely be removed.
+Original-Maintainer: Alberto Garcia <berto@igalia.com>
+
+Package: gsettings-desktop-schemas
+Version: 44.0-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 5151
+Depends: dconf-gsettings-backend | gsettings-backend, session-migration
+Breaks: gnome-control-center (<< 1:3.19.92), gnome-settings-daemon (<< 3.19.92), gnome-shell (<< 40), mutter (<< 3.31.4), nautilus (<< 3.7.92)
+Multi-Arch: foreign
+Homepage: https://www.gnome.org/
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gsettings-desktop-schemas/gsettings-desktop-schemas_44.0-1ubuntu1_all.deb
+Size: 640564
+SHA512: b9a7e9c0947341140017c2513d8f591dc5221e28c60b11d8d0cd32850834317528fbb9213855955b06ff374740ad62d6c94aff080d8c2eeec18004520c206f98
+SHA256: 9d1f810159d3cc0196647f41d5f4b3d77f56959756b40caf3c8257d79711c567
+SHA1: 6bedebdf3d7f34a7f4192ee0c1c9e0b70fc6416c
+MD5sum: 23b93da87be355ebb68c6b364b5f10a8
+Description: GSettings desktop-wide schemas
+ gsettings-desktop-schemas contains a collection of GSettings schemas for
+ settings shared by various components of a desktop.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
 Package: gsfonts
 Source: fonts-urw-base35 (20200910-7)
 Version: 2:20200910-7
@@ -12095,6 +12233,203 @@ Description: library of error values and messages in GnuPG (Windows development)
  This is a Windows version of libgpg-error.  It's meant to be used
  when cross-building software that targets the Windows platform,
  e.g. the win32-loader component of Debian-Installer.
+
+Package: libgraphene-doc
+Source: graphene
+Version: 1.10.8-1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1574
+Multi-Arch: foreign
+Homepage: https://ebassi.github.io/graphene/
+Priority: optional
+Section: doc
+Filename: pool/main/g/graphene/libgraphene-doc_1.10.8-1_all.deb
+Size: 103204
+SHA512: 4caf9c803c9d0190dcdf35c0496bebc63e2c5f9681d13077efd5c0fc1273e7b9d99f2f7a6f257c59294b66126d1367abaddc6f526f2373022c18b2c056d8bd1e
+SHA256: f8855d65e339d3d43f4ce85745b0500cdc67510b4e8f31a922f8b4ec53c7e808
+SHA1: c1d8e632b9f8f09319103efcd9f6918580030684
+MD5sum: c16bfbc237c9631c25d9d5773fa1ebdb
+Description: library of graphic data types (documentation)
+ Graphene provides a small set of mathematical types needed to implement
+ graphic libraries that deal with 2D and 3D transformations and projections.
+ .
+ This library provides types and their relative API; it does not deal with
+ windowing system surfaces, drawing, scene graphs, or input.
+ .
+ This package contains the API documentation.
+
+Package: libgraphite2-doc
+Source: graphite2
+Version: 1.3.14-1build2
+Architecture: all
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 1614
+Multi-Arch: foreign
+Homepage: http://graphite.sil.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/graphite2/libgraphite2-doc_1.3.14-1build2_all.deb
+Size: 583964
+SHA512: 0f0b798fadece4115ed1ca438fb583813a8946d1949d7c0986fdfcc010a48c8396623e833247654b8919bcb2e40ee2bcfd9aa89a834c85d72759115692bc6c7c
+SHA256: cd1a41b7e494502f7b19113eddfe45941a0d99d2a2d35aaefb4b23344709392d
+SHA1: 4a9e82c6690be90bb407f0ba78653bf46dabe763
+MD5sum: 42bd5ce2b9cb09dd6da6b254bddcd29f
+Description: Documentation for libgraphite2
+ Graphite is a system that can be used to create and use "smart fonts" capable
+ of displaying writing systems with various complex behaviors, such as:
+ contextual shaping, ligatures, reordering, split glyphs, bidirectionality,
+ stacking diacritics and complex positioning.
+ .
+ This library was designed and developed by the NRSI (Non-Roman Script
+ Initiative) within SIL International (www.sil.org) to act as a complement to
+ other smart font rendering technologies with limited practical local
+ extensibility. Its purpose is to help meet the needs of a very large number
+ of "minority language" communities for local extensibility of complex script
+ behaviors.
+ .
+ The behavior of the rendering engine for a given writing system is specified
+ through extra tables added to a TrueType font.  These tables are generated by
+ compiling a GDL (Graphite Description Language) source file into a font using
+ grcompiler.
+ .
+ PDF and HTML documentation for libgraphite2
+
+Package: libgrilo-0.3-doc
+Source: grilo
+Version: 0.3.15-1
+Architecture: all
+Maintainer: Alberto Garcia <berto@igalia.com>
+Installed-Size: 1513
+Suggests: devhelp
+Conflicts: libgrilo-0.1-doc, libgrilo-0.2-doc
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/Grilo
+Priority: optional
+Section: doc
+Filename: pool/main/g/grilo/libgrilo-0.3-doc_0.3.15-1_all.deb
+Size: 103496
+SHA512: dda4d39274b5dc3482f81dfc3853506b54174f5ac0b52c097299abd3eacf3e3dc6874444e80eb2b0939269992f547f4d8f391dd711aa0908859175c6fc6cc0fc
+SHA256: ee112c2c8e7a60c4db21e165e5375a57a29c8a95da0995c0412c711607dd3a57
+SHA1: e15a5e5ecb5c80c3e14bd23b71577fe452e34298
+MD5sum: 7dd364f7566b04b084153257199a265f
+Description: Framework for discovering and browsing media - Documentation
+ Grilo is a framework focused on making media discovery and browsing
+ easy for application developers.
+ .
+ More precisely, Grilo provides:
+   * A single, high-level API that abstracts the differences among
+     various media content providers, allowing application developers
+     to integrate content from various services and sources easily.
+   * A collection of plugins for accessing content from various media
+     providers. Developers can share efforts and code by writing
+     plugins for the framework that are application agnostic.
+   * A flexible API that allows plugin developers to write plugins of
+     various kinds.
+ .
+ This package contains the documentation.
+
+Package: libgsound-doc
+Source: gsound
+Version: 1.0.3-2build1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 167
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/GSound
+Priority: optional
+Section: doc
+Filename: pool/main/g/gsound/libgsound-doc_1.0.3-2build1_all.deb
+Size: 19528
+SHA512: 0e2203a4a7b3e2ddfcee1d53d688886a32f10b10bb3d93cbbfd3a373af70a01bdb48649b242c5e323591d52f5bb1a0594a445278d8819ff637572d5ec37803a1
+SHA256: ef7cdded6d52d7eca72dbe6bd10370b7fba356a274325a65bbcbf444a220751d
+SHA1: cf793c8fa18f4b037a879d3f35a96b0670ed9a39
+MD5sum: c7bfd653fb85235d3bbef52b1a95cdb5
+Description: small library for playing system sounds (documentation)
+ GSound is a small library for playing system sounds. It's designed to
+ be used via GObject Introspection, and is a thin wrapper around the
+ libcanberra C library.
+ .
+ This package contains the documentation.
+
+Package: libgspell-1-common
+Source: gspell
+Version: 1.12.0-1build1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 295
+Multi-Arch: foreign
+Homepage: https://gitlab.gnome.org/GNOME/gspell
+Priority: optional
+Section: libs
+Filename: pool/main/g/gspell/libgspell-1-common_1.12.0-1build1_all.deb
+Size: 32848
+SHA512: 3cd0d0a559d91525afe7803a9ae8c210a00a4f3e6ca75fbaf866fb7c031e52374f45ae8b4631c806acca14c9e6a9a5dfe2a1a46db327690c7178cb98ead9094c
+SHA256: 659aae9cc34a57b137a875087c02be0c6ef5c2bf06c1089121c8766d163db3cb
+SHA1: bd313ab624ac1c662420b94bcec9f6fc7c988989
+MD5sum: 3e0c45ea20860de59825231ef4d29e82
+Description: libgspell architecture-independent files
+ gspell provides a flexible API to add spell checking to a GTK+ application.
+ It features:
+  * GObject wrappers around Enchant
+  * An inline spell checker for GtkTextView (enhanced version of GtkSpell)
+  * A spell checker dialog for GtkTextView
+  * Support of the no-spell-check tag defined by GtkSourceView
+  * Language choosers (button and dialog)
+ .
+ This package contains the architecture independent files
+ like translation of messages.
+
+Package: libgspell-1-doc
+Source: gspell
+Version: 1.12.0-1build1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 353
+Breaks: libgspell-1-dev (<< 1.8.2)
+Replaces: libgspell-1-dev (<< 1.8.2)
+Multi-Arch: foreign
+Homepage: https://gitlab.gnome.org/GNOME/gspell
+Priority: optional
+Section: doc
+Filename: pool/main/g/gspell/libgspell-1-doc_1.12.0-1build1_all.deb
+Size: 30292
+SHA512: 3fa76e68ff9f2b7d6a30a85e32b0b1ac87f83f5acc8cf2f78016526621982fb8adf9159c7bf4e37632924f2ff7f061016758458b9ce44490cbf7597225756c75
+SHA256: f05903456f5293433db64e848800a29c2a0c1d7896a344a55ac5004ee9ff5141
+SHA1: 9e9909613218a498b16431a669e3ec378c62552d
+MD5sum: 487e1bf8c6dee7267b3a3080abd8ec02
+Description: spell-checking library for GTK+ applications - documentation
+ gspell provides a flexible API to add spell checking to a GTK+ application.
+ It features:
+  * GObject wrappers around Enchant
+  * An inline spell checker for GtkTextView (enhanced version of GtkSpell)
+  * A spell checker dialog for GtkTextView
+  * Support of the no-spell-check tag defined by GtkSourceView
+  * Language choosers (button and dialog)
+ .
+ This package contains the API documentation.
+
+Package: libgssdp-doc
+Source: gssdp
+Version: 1.6.2-2
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 687
+Suggests: devhelp
+Homepage: https://wiki.gnome.org/Projects/GUPnP
+Priority: optional
+Section: doc
+Filename: pool/main/g/gssdp/libgssdp-doc_1.6.2-2_all.deb
+Size: 42412
+SHA512: c2a106a4369cf0cdacd6759538d5fcc1e4212d593fe9ad4d964e93042d8c1c715dbc963e206bcbf69b6861f0708169e6c95ce18930739c1bff47d6a8b99b1d92
+SHA256: 9c5664875b4aa837802ba1a911575af5ef107f4b9bd1416a478d662954122ee4
+SHA1: 934dfde11141561cc7443bb7eb9d1b64e95d74c0
+MD5sum: 5085ffa910c9657f8d9729445cd5b462
+Description: GObject-based library for SSDP (documentation)
+ A GObject-based API for doing SSDP (Simple Service Discovery Protocol)
+ transparently.
+ .
+ This package contains the documentation.
 
 Package: libgtk3-perl
 Version: 0.038-3
@@ -16793,6 +17128,42 @@ Description: examples for the Python language (default version)
  .
  This package is a dependency package, which depends on Debian's default
  Python 3 version's examples (currently v3.11).
+
+Package: python3-graphite2
+Source: graphite2
+Version: 1.3.14-1build2
+Architecture: all
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 46
+Depends: libgraphite2-3, python3-future, python3:any
+Homepage: http://graphite.sil.org/
+Priority: optional
+Section: python
+Filename: pool/main/g/graphite2/python3-graphite2_1.3.14-1build2_all.deb
+Size: 10680
+SHA512: 4c06de80f8fda42df220e966e493f9e408ba300e572f611f6e438d4a505a4051834cbe8f26c1d2e4e17eff5f23f3f96f06804154a8e685ba409617867da8ab17
+SHA256: bb0403307c44c88a4697769e04a5af335295b558c7f7b6847517a601e9104660
+SHA1: 4c843860db39238de9924d52f717b7a36b7af172
+MD5sum: 004c43427e285d30e0000279514bcdce
+Description: Python bindings for libgraphite2
+ Graphite is a system that can be used to create and use "smart fonts" capable
+ of displaying writing systems with various complex behaviors, such as:
+ contextual shaping, ligatures, reordering, split glyphs, bidirectionality,
+ stacking diacritics and complex positioning.
+ .
+ This library was designed and developed by the NRSI (Non-Roman Script
+ Initiative) within SIL International (www.sil.org) to act as a complement to
+ other smart font rendering technologies with limited practical local
+ extensibility. Its purpose is to help meet the needs of a very large number
+ of "minority language" communities for local extensibility of complex script
+ behaviors.
+ .
+ The behavior of the rendering engine for a given writing system is specified
+ through extra tables added to a TrueType font.  These tables are generated by
+ compiling a GDL (Graphite Description Language) source file into a font using
+ grcompiler.
+ .
+ This package contains the Python 3 bindings for libgraphite2.
 
 Package: python3-httplib2
 Source: python-httplib2
