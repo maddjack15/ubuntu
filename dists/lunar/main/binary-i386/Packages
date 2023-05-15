@@ -7437,6 +7437,1082 @@ Description: Common files for GNOME desktop apps
  This package includes some files that are shared between several GNOME
  apps (internationalization files).
 
+Package: gnome-session
+Version: 44.0-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 101
+Depends: adwaita-icon-theme-full, fonts-cantarell, gnome-session-bin (<< 45~), gnome-session-bin (>= 44.0-1ubuntu1), gnome-session-common (= 44.0-1ubuntu1), gnome-settings-daemon (>= 3.37.0), gnome-shell (>= 3.37.91), xdg-desktop-portal-gnome | xdg-desktop-portal-backend, xwayland
+Suggests: desktop-base, gnome-keyring
+Breaks: gnome-initial-setup (<< 3.37.90), gnome-session-bin (<< 3.37.0-2~), ubuntu-session (<= 3.29.90-1ubuntu1)
+Replaces: gnome-session-bin (<< 3.37.0-2~), ubuntu-session (<= 3.29.90-1ubuntu1)
+Provides: x-session-manager
+Homepage: https://wiki.gnome.org/Projects/SessionManagement
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gnome-session/gnome-session_44.0-1ubuntu1_all.deb
+Size: 24668
+SHA512: cf4c003597fff96513f572ab83f4e4628fde30b5023a789138aab89acc4384b287ff9c2963c6ddff46e64e7559b0d263063ce7206c3ab9332f9f22df16364226
+SHA256: 6081dedef464efa0c1af8fcabd2480f748acfad279604fe8d39907733321f414
+SHA1: 9e98915322919dd57ee0fb9a58a1dc2e04e3b08c
+MD5sum: a188a58957e23d23183f9414a0d7fe78
+Description: GNOME Session Manager - GNOME 3 session
+ The GNOME Session Manager is in charge of starting the core components
+ of the GNOME desktop, and applications that should be launched at
+ login time. It also features a way to save and restore currently
+ running applications.
+ .
+ This package contains the required components for the standard GNOME 3
+ session, based on the GNOME Shell. It can be started from a display
+ manager such as GDM, and requires 3D acceleration to work properly.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-session-common
+Source: gnome-session
+Version: 44.0-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1321
+Breaks: eog (<< 3.36.0), evince (<< 3.30), evolution (<< 3.30.0), gnome-session-bin (<< 3.37.0-2~)
+Replaces: gnome-session-bin (<< 3.37.0-2~)
+Homepage: https://wiki.gnome.org/Projects/SessionManagement
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gnome-session/gnome-session-common_44.0-1ubuntu1_all.deb
+Size: 198752
+SHA512: 5976bd544da945f07dd41d64e34670dce69f4145d2e136b4a1babf3c4c6ea45b50420a981e5bed4bbca1f1f14deaf95b36ab404710aa99607fed2b50e58d8911
+SHA256: 5b2f88cfa8333ed519960ae2179bf41a945062d5742a8693d3ff13af84805fa1
+SHA1: ff66c4ce6db9ff59d520fb4d1875615d8bfeff0f
+MD5sum: dc8f5a94550f6d55dd98058c20c2aef8
+Description: GNOME Session Manager - common files
+ The GNOME Session Manager is in charge of starting the core components
+ of the GNOME desktop, and applications that should be launched at
+ login time. It also features a way to save and restore currently
+ running applications.
+ .
+ This package contains the translations, data files and startup scripts
+ which are common to the GNOME and GNOME fallback sessions.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-settings-daemon-common
+Source: gnome-settings-daemon
+Version: 44.0-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Installed-Size: 4978
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: gnome-settings-daemon (<< 3.30.1.2-2~), gnome-settings-daemon-schemas (<< 3.30.1.2-2~)
+Replaces: gnome-settings-daemon (<< 3.30.1.2-2~), gnome-settings-daemon-schemas (<< 3.30.1.2-2~)
+Provides: gnome-settings-daemon-schemas (= 44.0-1ubuntu1)
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gnome-settings-daemon/gnome-settings-daemon-common_44.0-1ubuntu1_all.deb
+Size: 620404
+SHA512: 9f2ea1b23936162f7f278e8547fa576f5440b530915388da74d727c5dc4dc5b4938c9c7ebc088d28d471638d2b57823fdc1f043050e10af5e158f823aeee23ce
+SHA256: 6552fcddd1ba50017519e1ca55aee34f42b245f3aaca7883c319e9402154676d
+SHA1: b50b86ee3015ce0f5c99a81e57066860684d3c6a
+MD5sum: 6f500b5a7b2d2d93b2acebe677bcbbd8
+Description: daemon handling the GNOME session settings - common files
+ This package contains GSettings schemas and other architecture-independent
+ files for GNOME Settings Daemon. It is probably not interesting on its own for
+ end users, but packages may depend on this if they only need to read and write
+ settings & don't themselves care if the settings daemon is actually running or
+ not.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-shell-common
+Source: gnome-shell
+Version: 44.0-2ubuntu3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 7186
+Depends: dconf-gsettings-backend | gsettings-backend
+Recommends: yaru-theme-gnome-shell (>= 22.10.1~)
+Breaks: gnome-shell (<< 3.36.1-6~)
+Replaces: gnome-shell (<< 3.36.1-6~)
+Homepage: https://wiki.gnome.org/Projects/GnomeShell
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gnome-shell/gnome-shell-common_44.0-2ubuntu3_all.deb
+Size: 824016
+SHA512: a1078a23bd5e889908332f97165fbafc67b7a65648e8d11820286a94931bbd8c7d74a3d71eef19de8bdfd5288111a98f4965d3e964b34c929c44255955435b0f
+SHA256: 76699087c516385868b47c30aa5dbe56e525cb0a3fb36251fe7d01aa654c2f44
+SHA1: f359ead955a3430a4021bfd61c39c8cfe5448ac7
+MD5sum: 7483020a7b6283736a2d298d263575ad
+Description: common files for the GNOME graphical shell
+ This package contains translations and data files for the GNOME shell.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-shell-extension-appindicator
+Version: 53-1
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 309
+Depends: gnome-shell (>= 3.33), gnome-shell (<< 45~), dconf-gsettings-backend | gsettings-backend
+Suggests: gnome-shell-extension-prefs, libappindicator3-1, libayatana-appindicator3-1
+Homepage: https://github.com/ubuntu/gnome-shell-extension-appindicator
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gnome-shell-extension-appindicator/gnome-shell-extension-appindicator_53-1_all.deb
+Size: 56840
+SHA512: d6f05f3c985265f88465731422be49cb90c2a6cf03cc1d43b6115574cc41e3e03dc56146f0e225713fa60e7cd584849ec6f1d5a8ccd60b8856a6cbcb9ebd530d
+SHA256: d8816fcb1fd2ce35827ce6c84be61819c8ffea178a286759726b506836247343
+SHA1: 7937d677d8d4d87c4dd54e7e71dd942919b57b9f
+MD5sum: 51f555b7f32335bb87df72e99e0155e0
+Description: AppIndicator, KStatusNotifierItem and tray support for GNOME Shell
+ This extension integrates Ubuntu AppIndicators and KStatusNotifierItems
+ (KDE's blessed successor of the systray) and legacy tray icons into
+ GNOME Shell.
+ .
+ Features:
+ .
+  - show indicator icons in the panel
+  - reveal indicator menus upon click
+  - double clicking an icon will activate the application window
+    (if implemented by the indicator)
+  - middle mouse click an icon to send a 'SecondaryActivate' event
+    to the application. Support needs to be implemented in the application
+  - supports legacy tray icons
+  - icons can be themed, resized and effects can be applied
+
+Package: gnome-shell-extension-desktop-icons-ng
+Version: 46+really47.0.2-3
+Architecture: all
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 752
+Depends: dconf-gsettings-backend | gsettings-backend, gir1.2-gnomeautoar-0.1, gir1.2-gnomedesktop-3.0, gnome-shell (>= 3.38), gnome-shell (<< 45~), gjs, nautilus (>= 3.38)
+Homepage: https://gitlab.com/rastersoft/desktop-icons-ng
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gnome-shell-extension-desktop-icons-ng/gnome-shell-extension-desktop-icons-ng_46+really47.0.2-3_all.deb
+Size: 119364
+SHA512: 6b258a73a946dac09a5eaac0b21902cdd5249252ec8945688913b49b5fe89408b6d5965e876eeb5f5195fc07bbe1fa8ed10257c2ba227f8652e77acc810aec68
+SHA256: e6bf3525e066cc2675f0269e35df822897c2ed5aaf8e67738c2d30df8b82d0d8
+SHA1: 7e6c1997ba7e31ef8b1447db99559d37ae551986
+MD5sum: 57c32ec70a19695565ed0ad167d7b24e
+Description: desktop icon support for GNOME Shell
+ This package provides a GNOME Shell extension for showing the contents
+ of ~/Desktop on the desktop of the Shell. Common file management
+ operations such as launching, copy/paste, rename and deleting are
+ supported.
+
+Package: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3703
+Depends: ubuntu-docs, yelp
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs_44.0-1ubuntu2_all.deb
+Size: 2076664
+SHA512: 7d6489ee5737186d8cf3873dd555cf98ec1d19e7043bf1ca0e521d920e13654ab6cf16ca3f5928c36c45fc7b05929f49b566626294796efa37a455ab5ad26fed
+SHA256: 6ba4dfc13335a5a4383943a097f92a1f76b0c1c7bae07f139d067359a943f7f0
+SHA1: 18463f59348a363478d998c34b56db6891a06878
+MD5sum: ee42a0182da891f0b71590c3ba676d5c
+Description: GNOME Help
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-as
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1278
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-as_44.0-1ubuntu2_all.deb
+Size: 162000
+SHA512: 190d461bd53cabca8be18f4bf7016a6e97fc342b963adf337bfb6b69f98149ee468bc758dace66d5203b821e146b2c54102cc5be803f9118a4173f72c2477904
+SHA256: 19bfa4c400af37187a7f636333d1941631201822e94ef494f720ee4138b2308e
+SHA1: a311f865883f18330ef3f717e7f7914cb30ec86d
+MD5sum: bdb961d95d65f88200b7b71bc4b4e30a
+Description: GNOME Help (Assamese)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Assamese.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-ca
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1643
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-ca_44.0-1ubuntu2_all.deb
+Size: 180656
+SHA512: 25f8722e15a303712d27297f2bbd522b6ef8653dc92c7b23ea3011d5c09d3a7767e4e079f71b276b835e5689e292f4f4d760da40c90dfeec42a221c4b7224793
+SHA256: f3df0c3d544b31c6933573a4561ee1dc5a81e632fb3f9db7ebd35d1a29e7d3a1
+SHA1: 2fd3e71cd6cd4f75bee6f752ae1a4f5ea3f9d64e
+MD5sum: ce894f09652b3b9c1ef542a7362442c7
+Description: GNOME Help (Catalan)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Catalan.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-cs
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1488
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-cs_44.0-1ubuntu2_all.deb
+Size: 213908
+SHA512: cd22e9577d36dde9d4d36ceeb034219da271f6047de2471e938b031857d47d8fbdae3873a8c01605d23351044ac6e85cd134d72487b16a75c03a430130fa8c97
+SHA256: fb6741b833a1912ce8952360aef7640d4dd0c2ec26089793c3f6280f8d46ed9c
+SHA1: 7d36c5e6ebe173570fd35f819fabeeaeebfbb234
+MD5sum: 62152ba58f2763012ae50431030ff150
+Description: GNOME Help (Czech)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Czech.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-da
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1185
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-da_44.0-1ubuntu2_all.deb
+Size: 157572
+SHA512: 2900161f506522abdfa9bd90dcbcffc1a341e170c3a4534bad4693a5d533fbe739137980bd6974431cf3dacca3c72c4d13f2fb553ea8f61e06b7c1cc233f64a8
+SHA256: 78c137d857973ac17181b1eee13e2842e2c37a00bc07c01d0f36237aa77ae263
+SHA1: 1fb2bcf6d58d2c9d3d2acf02713eb10010712aeb
+MD5sum: 334890538135f3cd6722dd28c5ffe4a2
+Description: GNOME Help (Danish)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Danish.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-de
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3533
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-de_44.0-1ubuntu2_all.deb
+Size: 1705748
+SHA512: aa33705950c48a5e056c44cbb4ef2467f29fb8ff407ad3403da94e2a26679b6ae1154e616ebfc2a6ba73af07c75b576887133331c19f8442df4a95ac08afdcd7
+SHA256: bff86c84b74946b3da70c6129d02a7fe903bf56f32ab90a88e1d94b4d244166b
+SHA1: 20823c668e3dfbb9205d68b78df1fd439b572231
+MD5sum: 4eacc76eeee20ff5634d7fdfe4db1615
+Description: GNOME Help (German)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in German.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-el
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1786
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-el_44.0-1ubuntu2_all.deb
+Size: 174396
+SHA512: 02c997f05675536c4235ca1a1402800951e6f6cb44fe92f6236cc6dc5c6be2a248c6d3347f372dea539d638db32fde94d13434ca75e3f7b19388802d99e5c735
+SHA256: 8ba157ba30d082f055dc4c86bd033caae9c79d365c37a3bfb775b66ca3bf7617
+SHA1: 098492391fe658bc8e782cf3bc881b59dd499e07
+MD5sum: 5e2da4b3f9a0178d4afc61a85cf71e04
+Description: GNOME Help (Greek)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Greek.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-es
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1844
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-es_44.0-1ubuntu2_all.deb
+Size: 380332
+SHA512: 78b25418dec2af7772d8f8920c1dfbcf73b09f25ef5568f02938180923acde70557fe1cb6b7fd7fa791dd085fa6f9d3f7885ebea2a31052d8e6989b2d921350b
+SHA256: 09e69f1ff221909fcbc26434dd90560f8e9cd3e79d6410832fed455491dc54ba
+SHA1: 30d71003b9e6e4845ca5e23bd06ca3b31cb589d8
+MD5sum: 0f74331b45576e76aee723e257e0d205
+Description: GNOME Help (Spanish)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Spanish.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-fa
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1183
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-fa_44.0-1ubuntu2_all.deb
+Size: 159368
+SHA512: 3a5496d593e79d417c09d265f5afc02c79800c0c98e5e341c1d7847f9d0557a802f13a35652f527953c1a070c1d3f319302cbfefed1b239c46e7af62bd68e7df
+SHA256: 10ef186e423ebf47af0ada7e7da072200c3f6dc8a9a3fbfb12abd2253c341755
+SHA1: 22d9c16afebe609e847fe29499b44adecc3c8778
+MD5sum: 764d15179d82b14a0936aab817adddb2
+Description: GNOME Help (Farsi)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Farsi.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-fi
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1259
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-fi_44.0-1ubuntu2_all.deb
+Size: 164328
+SHA512: 6a826ae70dd4e474411852b6dee5c674434261231490ddca65d5f97173c88b1ddb47c8bcb40024f03e3f7f5cfa9aae530fb7cd6df3060ff941e4de57743a43cb
+SHA256: d3c0653c1ff1477a03434b1306239ff0e6a006ed8bddfe50a8eb701cd1534e75
+SHA1: 3616a745100193dd660438ea19806a561c40fbb9
+MD5sum: 82e2a21b9659308a0aa8cc0b8c7bb2c6
+Description: GNOME Help (Finnish)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Finnish.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-fr
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2323
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-fr_44.0-1ubuntu2_all.deb
+Size: 480612
+SHA512: 618719fc1bfb6ffd652e0565a5445052244099001f2b96282d21477914d4d4ee3777574182c443a84617eb336f44822386d5631fda7961b42826c06389e99d5e
+SHA256: 3419333f7bb4ba10196093a21c51b04e7b80ae9e6aea2a07634c8f6365c25089
+SHA1: 7d11505eeee92d1850d0fbbbb1d80ed9567bfaf0
+MD5sum: a971af9f3a269c24d9adcb01d0a0864d
+Description: GNOME Help (French)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in French.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-gl
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1414
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-gl_44.0-1ubuntu2_all.deb
+Size: 191292
+SHA512: 97e03b88398d4ef1f224b1a9a99ee1eb4ab9afd401246da01b927f0b759fd9a250eb4f77bbe97d4700c96ac77af8641b53134b456d96e9cab312d10d1594e70c
+SHA256: 8991cf1f3d6ddf547b7bdd63bfa3334bbdbb5e855bc257b52ea172072f05156e
+SHA1: 51c9c023e9ead970d517964a90b85e2929112ffc
+MD5sum: 118cbaf51fde43b65e88ae23c484065d
+Description: GNOME Help (Galician)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Galician.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-gu
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1306
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-gu_44.0-1ubuntu2_all.deb
+Size: 163824
+SHA512: 2670a7a84e3e5e2184a12fe5e625c1e719e6e2a770bc3c61d0e4d636cba22acf9869fc2eb9d93006a3d2d3f46a89efcbd9cbfc8004673dd24d0bf87ef58edb0e
+SHA256: 88c0d43ba488d699098a24626dc1dd6786431bfca682dd3b39907959a18d6895
+SHA1: 08f24176184573653906f6a17a4a218438a93aaa
+MD5sum: 3af3007eb8babbe2a9384d275cec1dea
+Description: GNOME Help (Gujarati)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Gujarati.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-he
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1127
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-he_44.0-1ubuntu2_all.deb
+Size: 150140
+SHA512: 3a57b30746e094e0568fccb2d35a7f64000538f0e80c2282c61df6b01ee8db2e4530183ca7fd34622a3aaf946c6c38cb4b18d8bf5dcbe8c764e6cd1ab9ec2eb4
+SHA256: af2e2041c17d0f85c1d7a849d73ffe864af944c67f35a2fc0177e7659cec85ac
+SHA1: 06c003dcc655c498091dcb20420989d1111ea0ae
+MD5sum: 7490deeaa8f022a3ebf4d4f959ef2ac2
+Description: GNOME Help (Hebrew)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Hebrew.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-hi
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1139
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-hi_44.0-1ubuntu2_all.deb
+Size: 151164
+SHA512: c025d24e694347cc8c885d38b01ae10127ad5599e1595d6364ad0eb6652e16a524fe2d3bb73f338fc0edac60240c45ecc1c49e6d7b7511b55a09bae3d846c246
+SHA256: 258dd0dfa27c42e1aa44af6afa170ed7a23d609080b1491cfbfe434704fc7548
+SHA1: a3e94892d5074159aa13b2d861e23b65cf6781a5
+MD5sum: 6ad749918c8c0349347d7728db447857
+Description: GNOME Help (Hindi)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Hindi.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-hr
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2803
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-hr_44.0-1ubuntu2_all.deb
+Size: 1688500
+SHA512: 20ebad76fce68347921fa0f74965283cc9b49a8e07d09b538cbdcd4bc26b4f5775d0e7890dc99f4b4289a65d35f404d26831f8f2a10179b02911832334f1f5c2
+SHA256: 62a50b581b3bfc074976dd3d3c84977569e2d70359c4e5652caf14c5785f8bd9
+SHA1: def859beeab37427230e49a68feffc28734df38b
+MD5sum: c7adc54a4af6925abd1dddfdb4f29233
+Description: GNOME Help (Croatian)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Croatian.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-hu
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2043
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-hu_44.0-1ubuntu2_all.deb
+Size: 209816
+SHA512: eafc57d3c3d5fc3d62023952ca942191e4682860fe81d0788c15ddd4568a179555ece0942070b1e0537e7a3b4bfcbd7b054f4462afe3259bfbd6b2fc2872f120
+SHA256: 0eaf177e850f8270a8c8074f72ef8309a59fd57627d6baf601969aad915015ff
+SHA1: 3e915b1bd3ed5a42a81a72bb6c6913c99e0dafea
+MD5sum: 25bc0d88df35e26294d6f23ca21abdb5
+Description: GNOME Help (Hungarian)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Hungarian.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-id
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1546
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-id_44.0-1ubuntu2_all.deb
+Size: 174360
+SHA512: f21f918c293a8f167f36358586306c32127f6f418841fa0990150c5026e849cec6924530e0c153b909b09c7be3b9426cd8ec86742d039fa7821cda9b137cf9c1
+SHA256: 119bb72b565ddf76a2600b93afbad7945263949d5acdc6c42f0c4ad88aa5b3d3
+SHA1: 4fd7e2c4df28f77c1b8f6029be0678c4d2db5b05
+MD5sum: 2eed9b50e2401d9e5d5799ad5a5210df
+Description: GNOME Help (Indonesian)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Indonesian.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-it
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1271
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-it_44.0-1ubuntu2_all.deb
+Size: 160404
+SHA512: 730f71828859e1def34fc063ed035a5a9f3e1df281c7c221ea412934ff1813214e9f57cdd7424a93ba654d95ccafb2fcc91a0464c854b1727654cb55e1edcde7
+SHA256: 201cf809e2b3f481b50a2b2fe77672dd51e5315b8bebe5bd3c2eaffc9e7e79a3
+SHA1: 95893c203b64760f60291e0b9f3257a2fa042235
+MD5sum: f451a850575041f54d31a7bf17e44474
+Description: GNOME Help (Italian)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Italian.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-ja
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1664
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-ja_44.0-1ubuntu2_all.deb
+Size: 163976
+SHA512: 88f6f0118ed360d43d95e49e2c8a94730efd59f9d8c60b348a80c474ba750af35142e6843a470f89f761b753b6872d582342bf66de2b02e8b4a588781bb8b941
+SHA256: f8c4f12979f27d76d071b04a1c12cf0e8229c65a2f615edb7009e932c54d58f7
+SHA1: 15119f45de5206cd3f11e7292623d323573a8a77
+MD5sum: 7d4db1b6151539d70729dc994ead14eb
+Description: GNOME Help (Japanese)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Japanese.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-kn
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1132
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-kn_44.0-1ubuntu2_all.deb
+Size: 151356
+SHA512: 629561058405145b495dc3a36966c76020950937a88c6213732d098f800913f827b8d3d80c7923919e1118887982234e261cde470e60e5a4e7e35d506483218a
+SHA256: 5769bf3a709053c0800a0319ef8d587d915dcd16117b0fdad79a8affcaf23388
+SHA1: d97f74e88ebd670a5afb83801d5a3107b50948f6
+MD5sum: 9e8364f45936fceb9bffe2a116c71b13
+Description: GNOME Help (Kannada)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Kannada.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-ko
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1439
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-ko_44.0-1ubuntu2_all.deb
+Size: 168716
+SHA512: bf466d9fe1926e42e64b80b9640c03897417721b1d2285502727dd8796e0da1e87313f872f2ab60fe37ec1a03cd144ad7311e122a8dcdd24ec3ee37fa04c4b92
+SHA256: 58d10a771c3fdc241d6dadcd2e622f3ad31e205bda6af264314c81761eac0ec4
+SHA1: 82cfacb48df5e45a9e4c2456e81f4a4c76e06dc7
+MD5sum: d472c0fcc22f5379df3a2e7b2e3af09e
+Description: GNOME Help (Korean)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Korean.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-lt
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1129
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-lt_44.0-1ubuntu2_all.deb
+Size: 152796
+SHA512: d47be6a8b2609f2d8dab7dec78f888eb00461f2f81be2cbde4f98d959f5c41f83d11d7da4249c34cead37d25899599f3448b128047c7854326bab60ec444603c
+SHA256: 41a9d9a3b8ee7ee31cfa880908121d10d75e66bda48368d58a31801350ff67ad
+SHA1: 70c090e986150ab7cb807c4b8b3cfb6ae478fb5c
+MD5sum: c0cca99457ef5d0a7bd4702aa2d4c783
+Description: GNOME Help (Lithuanian)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Lithuanian.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-lv
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1168
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-lv_44.0-1ubuntu2_all.deb
+Size: 191136
+SHA512: 9883fa6ae00ee4bf5c815a15710c361bec0f36aa1b95b59a0a6affb40e0eb8de88fe25a2a7151db39ffe1b25f7a6659b8d60342040002d8b9faf898ec57aa69e
+SHA256: 199ae9b320a96de007a155ca6b7d622c15e838696d3805a568191e6ac9b0ddd2
+SHA1: 9e3600a847b16745219926ba0af2d678fe3b3fa1
+MD5sum: 3a5f337685191f1e41eb29325e998ef2
+Description: GNOME Help (Latvian)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Latvian.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-mr
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1404
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-mr_44.0-1ubuntu2_all.deb
+Size: 165360
+SHA512: e57291b2a55c7d235330ee7f7a1987e3b6b0abec837a08579913940f2048cb6525267bee61367136c0390c35292be3ff52cd14836b37e5eae5a67128f340e9ef
+SHA256: 793c6d9b9a5d8cbcabd7986e48c2e3bb428579c9c428ddae1135f4e5b82c0116
+SHA1: e5938bd52bb67979a4981c38e3de190eff03adae
+MD5sum: 4681914ed6e127683a256aa2ae76de27
+Description: GNOME Help (Marathi)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Marathi.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-nl
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1552
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-nl_44.0-1ubuntu2_all.deb
+Size: 187988
+SHA512: 48fe193a71c6d795dae23ab26221988770d7fc573ff77daafbfa5bd21c608106e8581afa0c79582a058ad86dbd9c7e4c5d25c1a768100c88d7b2ee4e552e1f94
+SHA256: 3437373aac78204a04b03c7ce8ddb174b4d5f4ca285a167b24f53296251becb6
+SHA1: 4e60f61b5bdb52dabad4afa06a68273d9660640a
+MD5sum: 972035487c17aecf7c8caf87b2c5c67c
+Description: GNOME Help (Dutch)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Dutch.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-pa
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1131
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-pa_44.0-1ubuntu2_all.deb
+Size: 151364
+SHA512: 6cb409f6cef0264833c45e3ab52b344bb691f9e78062b38d71a13b63e8d41c43af73d832614c9f0f39a427698edd9940edd8eb93420416dd377528e896bb4b48
+SHA256: 303db7334791b6855fc5abaa70a3e4a270a3c33ceb1f54f44de09d6e1721c8a1
+SHA1: 3185c0f0205ef96aeffaa3ce195d24134812892a
+MD5sum: b2884c44c8b88a4accad86837bb28212
+Description: GNOME Help (Punjabi)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Punjabi.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-pl
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1289
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-pl_44.0-1ubuntu2_all.deb
+Size: 184760
+SHA512: b9197b82e116c35e2f6c07e9299a56d3dfb34cf4829b13ae74121d5d9bc4a0a88c87a1d10ea81166a1eee408021ffb030aaf9768a7fcfa4acdbf593dabc1cfc0
+SHA256: 2d9ac3d0aa5c90ac5b34de91a811d8db07bbdecf75b6d705e5cf1ccf03ae06f8
+SHA1: df3351cd6e9b4d2e0e4f824cd3a57f1d277d4533
+MD5sum: ecba041decee53529ca8f64611f4d378
+Description: GNOME Help (Polish)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Polish.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-pt
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3031
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-pt_44.0-1ubuntu2_all.deb
+Size: 308352
+SHA512: 43bf54501c475a3537e94be96d3b455c725aed4c0421cb074ecefa121ed729a83c19b259ba89715f532905a731d6027dc19bde71bec54f31d9f4e5a67f434a24
+SHA256: 5d6eb63a8f47568c92cec264e46a644d6633c0479a0efed8a2fff3113f7dd338
+SHA1: 7c94e056840204354654c9f4f1c09dfbb0d09126
+MD5sum: 7403709beacfcfb684168d27643fd037
+Description: GNOME Help (Portuguese)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Portuguese.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-ro
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1197
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-ro_44.0-1ubuntu2_all.deb
+Size: 152720
+SHA512: 35ef9bfeaca323249e4aad21dc986a08ba49a464692526c03f2f471d2b8d82b45d6efeeed07e766820213e3ab4b3a96556912a6e9f840619e03b58ae2de2c77e
+SHA256: f45dfd06d2136d7d0f996af04417cf1ba8148df5afdd6ef70f4a62069fea2200
+SHA1: 634cfbf3b59208e593c88d3b8927183b34568fcd
+MD5sum: b170ea44104befc4eff97625153e4b28
+Description: GNOME Help (Romanian)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Romanian.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-ru
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2160
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-ru_44.0-1ubuntu2_all.deb
+Size: 221136
+SHA512: 09d9a47ba4eec126871e8972efd8d2fecff05ec891decb78f5dda9fc9eeb7f81615ae875e9bc26a0c2d806f4324f548369aab22ee91327587e362e57cea4bd16
+SHA256: ec8a6f7448d16a8bc28dc8c0ef3f2518bacf661fc6b4463b7fd3ae62d3a872ac
+SHA1: 633d68c88407745a6165080c88aa308c08d51e59
+MD5sum: 5e86d52522d6efb296a57180a27c0aa9
+Description: GNOME Help (Russian)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Russian.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-sl
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1129
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-sl_44.0-1ubuntu2_all.deb
+Size: 158952
+SHA512: 99e99f9e24cc38a6b234cc4d5cfaf73a5ef0274abf745ff7f383f9587db6d697cb08df9c1dbbaff5bf410524e9c5afc36c7a847beb4607516c0f6f3dacd55711
+SHA256: 4c8326d014ce38c9d783638986a5017bcdc39ed7a4af8127af4cea45538bcf8e
+SHA1: b5d6d82d81fe8506c4ccc7c1c669938a5ba2fa94
+MD5sum: 697bb06942e91062101d42dbaba15751
+Description: GNOME Help (Slovenian)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Slovenian.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-sr
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2562
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-sr_44.0-1ubuntu2_all.deb
+Size: 326160
+SHA512: 9d289f7caa624f8502f8238bae40ef8222fc8f604eaf4394ef2f98ae721c96c63563995dcc03b4aa7b8c41f878d093c72ab15a0892026ffcfc81e6ff942c0a6c
+SHA256: 1a38c661de533b151346a15c0ae180557337494bbc39db7d1982e5d094dfd7fc
+SHA1: 1844dda66f12ba0d4ae863056d473a9a0719523e
+MD5sum: 1da2fdfdfb486ac22a5091379bf52929
+Description: GNOME Help (Serbian)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Serbian.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-sv
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1549
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-sv_44.0-1ubuntu2_all.deb
+Size: 174916
+SHA512: a7c95e3c5c77539e7a493aca227b0190a22f12c15fbbfbbe51ba0ef07d0ad8d714d4648d87192484b900b903ddde585df4013395a6e46e397fbe5af6959e72c0
+SHA256: 886428fd18e885694edcc83aa966aede84dc2a40c856bf190e13d104be903216
+SHA1: d1a9414e3e11fa6a8ec67854cf15386c83d4bb04
+MD5sum: e7391da75fb562e246678e06333d7059
+Description: GNOME Help (Swedish)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Swedish.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-ta
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1515
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-ta_44.0-1ubuntu2_all.deb
+Size: 168172
+SHA512: 504a43c835fe3489fe6cb2792ac45977e8cbfb5fda8aec65cc3c04504b7bdb97ab5cbba3043c913d658a51f2a85ea3555369cfc5cdb5b1203a9bf335358f12de
+SHA256: 170c5faceefa626488486c8426052f7a835d83aefa722d47101bba6818694f10
+SHA1: fb53a21888fb94777cb2a1601701927b025d34e2
+MD5sum: 0b61f62f8ffdd99923423006accae6ff
+Description: GNOME Help (Tamil)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Tamil.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-te
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1346
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-te_44.0-1ubuntu2_all.deb
+Size: 160140
+SHA512: 49bace028428368aceb2e007678c691f170b6b31f55067276ecc14b3f8e0ab1ce0d0dacb295d31221ef1b0b71f0d9f035e1fa9da8d95d640939cdad2ff148b03
+SHA256: b067a80bbae7537991c7fe8f0716edad45bf6ed7606b58b6b7914a4bb0ed21b2
+SHA1: c5f3e38acfc6e7604b28ab2a019c847e49cf33e2
+MD5sum: 50dd972ac0792b868b1b4257ffe3d3f5
+Description: GNOME Help (Telugu)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Telugu.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-tr
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1430
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-tr_44.0-1ubuntu2_all.deb
+Size: 176320
+SHA512: 431cdd869a815fa759e20421e0accfc22424c8c1aaad39735e5eb02fe18d04b9302cc72b348f8e5b9c6ac45537ecac6e99c4f1f4912afb106bc489c393707f73
+SHA256: 5e16f70168f3ce089871b5cdb4123df17c18d36b9b356b6118bf761238f6a1e3
+SHA1: 97dc3898dafb1599baa097359bcd575a6eb0a624
+MD5sum: 12a68183122d692764802bdd78d264cc
+Description: GNOME Help (Turkish)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Turkish.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-uk
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1833
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-uk_44.0-1ubuntu2_all.deb
+Size: 193932
+SHA512: 02ec56e8ea268d5d7ae14ddafd5ba2fff414fde25335d27b27f242dfa7dc7f78cc61264233c7a2f2dde213d17b415d9fa0feb3c38813144bf52752dcf697ac51
+SHA256: 4739c44e8e3ff17052032a3f2c6d2cc145aeb25f9c22f2be99d36b1eb73750f4
+SHA1: 49c130eef6219de9cef1f565fccfa55c3b49df62
+MD5sum: 247fd87df1f231406a19bf8a934d15e5
+Description: GNOME Help (Ukrainian)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Ukrainian.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-vi
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1227
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-vi_44.0-1ubuntu2_all.deb
+Size: 187188
+SHA512: 24a3c1a8ed600266cabecce037b17bdef774dac3e51a713372b570f1b2212821eeebf3b8d056c373e0ba67ab6e027f6f21e6b948613f8d9359fa3192b347c451
+SHA256: 674bbcde9c72da22875eb03842f08f08b7b7e7fe2ef95aa7c197e28ee88e3ec5
+SHA1: a144bbbd5aad13283c811822fe803002c62cabe8
+MD5sum: dbb5b4372b8cc03a610ae114142d0572
+Description: GNOME Help (Vietnamese)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Vietnamese.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gnome-user-docs-zh-hans
+Source: gnome-user-docs
+Version: 44.0-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1182
+Depends: gnome-user-docs (= 44.0-1ubuntu2)
+Homepage: https://help.gnome.org/users/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gnome-user-docs/gnome-user-docs-zh-hans_44.0-1ubuntu2_all.deb
+Size: 170872
+SHA512: 06674e1bf276983cdaa8cc1d2af04e2c4623676bce07b0288523fc2bf9ebec1e3dde336a0b79621329266b637c005c998a475f58b9fb8bcc139c07177b8e7fde
+SHA256: e491d77ef3567f006ad34a4020f172ca8a6b0469a18ebf8d1f801e1d3bd24e36
+SHA1: c5df8a449edad62628547d6806398d05fc411fde
+MD5sum: c3aa71e8a575196096557ae12b94478c
+Description: GNOME Help (Simplified Chinese)
+ Documentation for using the GNOME desktop environment and its components.
+ It covers usage and setup of the core GNOME programs.
+ .
+ This package contains the documentation in Simplified Chinese.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
 Package: gnupg
 Source: gnupg2
 Version: 2.2.40-1.1ubuntu1
@@ -16696,6 +17772,56 @@ Description: file non-deterministic information stripper — stand-alone tool
  term; upstream software should be reproducible even without using such a tool.
  .
  This package installs the stand-alone ‘strip-nondeterminism’ tool.
+
+Package: ubuntu-session
+Source: gnome-session
+Version: 44.0-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 45
+Depends: gnome-session-bin (<< 45~), gnome-session-bin (>= 44.0-1ubuntu1), gnome-session-common (= 44.0-1ubuntu1), gnome-settings-daemon (>= 3.37.0), gnome-shell (>= 3.37.91), xdg-desktop-portal-gnome | xdg-desktop-portal-backend, xwayland, yaru-theme-gnome-shell (>= 20.04.3~), session-migration
+Recommends: python3
+Breaks: gnome-session (<= 3.29.90-1ubuntu1), hud (<< 14.10+17.10.20170619), unity (<< 7.5.0+17.10.20170619), unity-gtk-module (<< 0.0.0+17.04.20170918), unity-settings-daemon (<< 15.04.1+17.04.20170619)
+Replaces: gnome-session (<= 3.29.90-1ubuntu1)
+Provides: x-session-manager
+Homepage: https://wiki.gnome.org/Projects/SessionManagement
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gnome-session/ubuntu-session_44.0-1ubuntu1_all.deb
+Size: 15432
+SHA512: 085f529a6b18f5185eeef3219aa2cd5fa01eb5e8e5807f4f390fd0b07f6a0b243494ac85357fecfdfbfc7e100b023ebc0a751976c9688daf2b745ba014593957
+SHA256: fac8ed5a1c3de0f986b29f30b71912e94b0c883ecdc3a62aebbdc70bc0b61a2f
+SHA1: 0f52088d394e300de53e3e80e19f71779f4b57f1
+MD5sum: d9be6e64cc176695f26499b1754c1a0f
+Description: Ubuntu session with GNOME Shell
+ This package contains the required components for running a GNOME 3 session
+ with default Ubuntu configuration, based on the GNOME Shell.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: unity-session
+Source: gnome-session
+Version: 44.0-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 46
+Depends: dbus-user-session, gnome-session-bin (<< 45~), gnome-session-bin (>= 44.0-1ubuntu1), gnome-session-common (= 44.0-1ubuntu1), systemd (>= 231-9git1~), unity, unity-settings-daemon
+Recommends: gtk3-nocsd, rhythmbox-plugin-zeitgeist, session-migration, thunderbird-gnome-support, zeitgeist-datahub
+Breaks: gnome-session-bin (<< 3.37.0-2ubuntu1~), hud (<< 14.10+17.10.20170619), unity (<< 7.5.0+17.10.20170619), unity-gtk-module (<< 0.0.0+17.04.20170918), unity-settings-daemon (<< 15.04.1+17.04.20170619)
+Replaces: gnome-session-bin (<< 3.37.0-2ubuntu1~), ubuntu-session (<< 3.24.1-0ubuntu2)
+Provides: x-session-manager
+Homepage: https://wiki.gnome.org/Projects/SessionManagement
+Priority: optional
+Section: gnome
+Filename: pool/main/g/gnome-session/unity-session_44.0-1ubuntu1_all.deb
+Size: 16600
+SHA512: 2021b04ec5d3379721e51420155c92f41434b02ee2f0aa5fd7a804f548731efc7ee8d7de6098d8f25b1383ec47b7d6f64cc3725b0df366c5cb6e37a1bdd1221d
+SHA256: b015c743470abb8cd57110378ffb4636920662b36a593e892a38700f2a2970ca
+SHA1: 188dc8815cc111ef1b74ccef2488a941d6fe277e
+MD5sum: 933a4ea24c1c4ecca2e581f70a7b6b41
+Description: Unity session, previous ubuntu default experience.
+ This package contains the required components for the Unity session.
+ It can be started from a display manager such as LightDM.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 
 Package: xml-twig-tools
 Source: libxml-twig-perl
