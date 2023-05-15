@@ -14480,6 +14480,92 @@ Description: text-to-HTML conversion library/tool (documentation)
  .
  This package contains HTML documentation files for python-markdown.
 
+Package: python-pygments-doc
+Source: pygments
+Version: 2.14.0+dfsg-1
+Architecture: all
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 2484
+Depends: libjs-sphinxdoc (>= 5.2)
+Recommends: python3-pygments
+Multi-Arch: foreign
+Homepage: https://pygments.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/pygments/python-pygments-doc_2.14.0+dfsg-1_all.deb
+Size: 495456
+SHA512: 382d804b67e0ff8a7b9b60b52081ac4e29a8643fd1cdb5c89c2b8296eeb0169607d874cccfa02d21ffe104e65aa114462e75ae01795bf08d26266adf48be24cf
+SHA256: 286cbbf7a1e9766d81032420bfd149360a1fcef593e343756e29cf8e6a10f5b6
+SHA1: 352c9eaad2d4793a744818999ed2f0d885e0f68a
+MD5sum: 5dbddf16bd0baebaa661024e2f196f2b
+Description: documentation for the Pygments
+ Pygments is syntax highlighting package.
+ .
+ This package contains the documentation for Pygments in HTML and
+ reStructuredText format.
+
+Package: python-pyparsing-doc
+Source: pyparsing
+Version: 3.0.9-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 6006
+Depends: libjs-sphinxdoc (>= 5.2)
+Multi-Arch: foreign
+Homepage: https://github.com/pyparsing/pyparsing/
+Priority: optional
+Section: doc
+Filename: pool/main/p/pyparsing/python-pyparsing-doc_3.0.9-1_all.deb
+Size: 1429252
+SHA512: f625f76526aedb20368fee6ea7d7ae473ae2aded9e5c91c2e3286ad5d45b2c479d0ce44505bf77fa2360383d20885566a9066137d0a80f6a82f7c8389afaf43d
+SHA256: 48cea15a8ea85983084cae6410f61cf65518ff17e41180815da6e97bcea2847c
+SHA1: b7392be50c2eef8bc4f381061009390e618397ab
+MD5sum: ac221dea35c52023f6e52ea30cf18030
+Description: alternative to creating and executing simple grammars - doc
+ The parsing module is an alternative approach to creating and
+ executing simple grammars, vs. the traditional lex/yacc approach, or
+ the use of regular expressions.  The parsing module provides a
+ library of classes that client code uses to construct the grammar
+ directly in Python code.
+ .
+ Here's an example:
+ .
+  from pyparsing import Word, alphas
+  greet = Word(alphas) + "," + Word(alphas) + "!"
+  hello = "Hello, World!"
+  print hello, "->", greet.parseString(hello)
+ .
+ This package contains documentation for python-pyparsing.
+
+Package: python-pyxdg-doc
+Source: pyxdg
+Version: 0.28-2
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 822
+Depends: libjs-sphinxdoc (>= 5.2)
+Multi-Arch: foreign
+Homepage: https://gitlab.freedesktop.org/xdg/pyxdg
+Priority: optional
+Section: doc
+Filename: pool/main/p/pyxdg/python-pyxdg-doc_0.28-2_all.deb
+Size: 60376
+SHA512: f427ec4f03002f2605012e768a6dd3b598c14dd356535d48d54071201ba4b1bf5e344ef4238113566dbc09b1e8250c9179eb711612a1bdce734df4e25af07d95
+SHA256: 946325b7dc650dda05542ddff274bc3442a72ef70790e0f81ae9c11ad8619b53
+SHA1: 5b99cec2ae1e18d1a5a8150bf591bd0b81a5ddce
+MD5sum: 9720607761084cce691ce0e111376f28
+Description: Python 3 library to access freedesktop.org standards (Documentation)
+ PyXDG contains implementations of freedesktop.org standards in Python:
+ .
+  * Base Directory Specification Version 0.6
+  * Menu Specification Version 1.0
+  * Desktop Entry Specification Version 1.0
+  * Icon Theme Specification Version 0.8
+  * Recent File Spec 0.2
+  * Shared-MIME-Database Specification 0.13
+ .
+ This package contains the documentation.
+
 Package: python-reportlab-doc
 Source: python-reportlab
 Version: 3.6.12-1build1
@@ -14696,6 +14782,51 @@ Description: Fast, simple object-to-object and broadcast signaling (Python3)
   * thread safety
  .
  This package contains the Python 3 version.
+
+Package: python3-cairo-dev
+Source: pycairo
+Version: 1.20.1-5build1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 67
+Depends: python3-cairo (>= 1.20.1-5build1)
+Suggests: python3-cairo-doc
+Homepage: https://cairographics.org/pycairo/
+Priority: optional
+Section: python
+Filename: pool/main/p/pycairo/python3-cairo-dev_1.20.1-5build1_all.deb
+Size: 13752
+SHA512: c632ef78d963380f24e5bd3653685a8089c2dbb30beab7ef280966bece03b13ccdcdc8c79ead85d55fa12895ba4f1098cefe350aa006d77d7e469e22d8f18bc7
+SHA256: 516f2ff1faa756cc595e637ed4024482b355c257c43d586dd42d4f703380541c
+SHA1: c369ba64d7ff5a30adc677fbaa0d20af2f9dd458
+MD5sum: ca2eea1ce753faf1580198432a4661ef
+Description: Python3 cairo bindings: development files
+ This package contains files that allow you to compile wrappers
+ that interoperate with python3-cairo (pycairo).
+
+Package: python3-cairo-doc
+Source: pycairo
+Version: 1.20.1-5build1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1964
+Depends: libjs-sphinxdoc (>= 5.2), sphinx-rtd-theme-common (>= 1.2.0+dfsg)
+Built-Using: sphinx (= 5.3.0-4)
+Multi-Arch: foreign
+Homepage: https://cairographics.org/pycairo/
+Priority: optional
+Section: doc
+Filename: pool/main/p/pycairo/python3-cairo-doc_1.20.1-5build1_all.deb
+Size: 329460
+SHA512: 4ec7f7d9d4799c05bfe0f6a962780f2bb6be5e3312edc193e60b7444c466fe2b8d84a718298dd35745a5859a4a46be3b6131392414ab13e0e99a4b3837b86fa5
+SHA256: 7519d463ca82fb5d7df9180f18af57b741afc63104c4595a6873578f64a98c98
+SHA1: 33bc3ee8a09bc1325eff2e74da9937f32ad5aa3a
+MD5sum: 19a8906616fb14b0ad185b1821c66053
+Description: Python 3 cairo bindings: documentation files
+ Cairo is a multi-platform library providing anti-aliased vector-based
+ rendering for multiple target backends.
+ .
+ This package contains documentation files of python3-cairo (py3cairo).
 
 Package: python3-certifi
 Source: python-certifi
@@ -15038,6 +15169,45 @@ Description: library to access the metadata for a Python package - Python 3.x
  .
  This package contains Python 3.x module.
 
+Package: python3-jwt
+Source: pyjwt
+Version: 2.6.0-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 93
+Depends: python3:any
+Recommends: python3-cryptography
+Suggests: python3-crypto
+Homepage: https://github.com/jpadilla/pyjwt
+Priority: optional
+Section: python
+Filename: pool/main/p/pyjwt/python3-jwt_2.6.0-1_all.deb
+Size: 17928
+SHA512: cac97aeaf171e933c32729eb8cecae3e25b74ac5e6139067a75e6024d1a62580fcde1dd1b018e0b420c16591ae90d39389757a703e20383a3e1da449ca581b40
+SHA256: 0370d708ae39fd08d4f9111d7b3db6654d9e4d2a8ab6ac852e64026ade9df82d
+SHA1: 28d655c689f5fb6272188e238b62c9482190f506
+MD5sum: db26f42a15bc74d5fdc1a1992a9d99cc
+Description: Python 3 implementation of JSON Web Token
+ PyJWT implements the JSON Web Token draft 01, a way of representing
+ signed content using JSON data structures.
+ .
+ Supported algorithms for cryptographic signing:
+ .
+   * HS256 - HMAC using SHA-256 hash algorithm (default)
+   * HS384 - HMAC using SHA-384 hash algorithm
+   * HS512 - HMAC using SHA-512 hash algorithm
+   * RS256 - RSASSA-PKCS1-v1_5 signature algorithm using SHA-256 hash
+     algorithm
+   * RS384 - RSASSA-PKCS1-v1_5 signature algorithm using SHA-384 hash
+     algorithm
+   * RS512 - RSASSA-PKCS1-v1_5 signature algorithm using SHA-512 hash
+     algorithm
+ .
+ Supported reserved claim names:
+   - "exp" (Expiration Time) Claim
+ .
+ This package contains the Python 3 version of the library.
+
 Package: python3-keyring
 Source: python-keyring
 Version: 23.9.3-2
@@ -15266,6 +15436,95 @@ Description: Python 3 library to handle problem reports
  These problem reports use standard Debian control format syntax
  (RFC822).
 
+Package: python3-pyatspi
+Source: pyatspi
+Version: 2.46.0-2
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 218
+Depends: python3:any, python3-gi, gir1.2-atspi-2.0 (>= 2.33.1), libatk-adaptor, at-spi2-core
+Multi-Arch: foreign
+Homepage: https://live.gnome.org/Accessibility
+Priority: optional
+Section: python
+Filename: pool/main/p/pyatspi/python3-pyatspi_2.46.0-2_all.deb
+Size: 41940
+SHA512: e5b295b0809615cd89d14eaeffcf5552489492cc0c204558ab471835d6b3649aa28bfb31064102fdc578e983c6f0b2dcffc1dd63674b1a67a9946baeb54810df
+SHA256: 880f6ed62ba34c9b09b58b8fd3de8f2f38a9440096f2017f3700b09d640f8273
+SHA1: aff516e26b5e93e0b9aa3fc812806c98b80557ed
+MD5sum: 189e124ef5d15b841aa0a70c3a49fb33
+Description: Assistive Technology Service Provider Interface - Python3 bindings
+ at-spi is the "Assistive Technology Service Provider Interface".
+ .
+ This package contains Python3 bindings for the client side aspects of at-spi2.
+
+Package: python3-pygments
+Source: pygments
+Version: 2.14.0+dfsg-1
+Architecture: all
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 4225
+Depends: python3-pkg-resources, python3:any
+Suggests: python-pygments-doc, ttf-bitstream-vera
+Breaks: python-pygments (<< 2.3.1+dfsg-4~)
+Replaces: python-pygments (<< 2.3.1+dfsg-4~)
+Multi-Arch: foreign
+Homepage: https://pygments.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/pygments/python3-pygments_2.14.0+dfsg-1_all.deb
+Size: 783128
+SHA512: 0107e0b9fb8bf6b55cff70cbca2aa1d14f3b40424623fcca68a57533899fb414b89461e72a590a81004a258ee3c3242b8eeba1c5d42bd107d3510c8c862640c3
+SHA256: 405734a57b8d2722d10413c511d9b63ee78bbbdab8b2b689d7295260bc9618a2
+SHA1: 6b10284bb7fa5b64d4a3a60fa494a2ecc0da5519
+MD5sum: ad7d436f4aa3c7a20114ba2d970f7361
+Description: syntax highlighting package written in Python 3
+ Pygments aims to be a generic syntax highlighter for general use in all kinds
+ of software such as forum systems, wikis or other applications that need to
+ prettify source code.
+ .
+ Highlights are:
+   * a wide range of common languages and markup formats is supported
+   * special attention is paid to details, increasing quality by a fair amount
+   * support for new languages and formats are added easily
+   * a number of output formats, presently HTML, LaTeX and ANSI sequences
+   * it is usable as a command-line tool and as a library
+
+Package: python3-pyparsing
+Source: pyparsing
+Version: 3.0.9-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 398
+Depends: python3:any
+Suggests: python-pyparsing-doc
+Breaks: python3-translate (<< 3.6.0~), translate-toolkit (<< 3.6.0~)
+Multi-Arch: foreign
+Homepage: https://github.com/pyparsing/pyparsing/
+Priority: optional
+Section: python
+Filename: pool/main/p/pyparsing/python3-pyparsing_3.0.9-1_all.deb
+Size: 81680
+SHA512: 96e4d3f5d3cd695712403abcb5f1d2ba94bd56fd95226f58d2b03b9ebae9cd78643f5b439a35d5b36e946f7924a53727b7215256bb83a28c982b23058b2ce044
+SHA256: 49d86e033e779935c132112097eb0f29093d30167a042fdc75753f6d3aa838eb
+SHA1: 3a578e709826295b6761eef75dd695ee1ec7a645
+MD5sum: 035f5f2314f4b900581d2aa436b8ebcc
+Description: alternative to creating and executing simple grammars - Python 3.x
+ The parsing module is an alternative approach to creating and
+ executing simple grammars, vs. the traditional lex/yacc approach, or
+ the use of regular expressions.  The parsing module provides a
+ library of classes that client code uses to construct the grammar
+ directly in Python code.
+ .
+ Here's an example:
+ .
+  from pyparsing import Word, alphas
+  greet = Word(alphas) + "," + Word(alphas) + "!"
+  hello = "Hello, World!"
+  print hello, "->", greet.parseString(hello)
+ .
+ This package contains the Python 3.x version of python-pyparsing.
+
 Package: python3-reportlab
 Source: python-reportlab
 Version: 3.6.12-1build1
@@ -15419,6 +15678,36 @@ Description: Python 3 library for navigating WADL files
  conjunction with an HTTP library to navigate and manipulate those resources.
  .
  This package provides wadllib for Python 3.x.
+
+Package: python3-xdg
+Source: pyxdg
+Version: 0.28-2
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 186
+Depends: python3:any
+Suggests: python-pyxdg-doc
+Provides: python3-pyxdg
+Homepage: https://gitlab.freedesktop.org/xdg/pyxdg
+Priority: optional
+Section: python
+Filename: pool/main/p/pyxdg/python3-xdg_0.28-2_all.deb
+Size: 37380
+SHA512: 5235c97ad723de50e5b1f0884fafda5b275381f8c4b1a19140cca3b7bb265f83b6a283f1bc77153281bdc84fe300f4cb06d436d92e4b064152fa248562f8de8c
+SHA256: 80baf1570c12fd024705e729e668ce96d031fd2dcd668d7342b6ab2e6e2c44bf
+SHA1: 758f2727d2030f6bcc5f552162e7892cb4a78680
+MD5sum: 55c1b8747a768c3cd1a09b0f0266ae85
+Description: Python 3 library to access freedesktop.org standards
+ PyXDG contains implementations of freedesktop.org standards in Python:
+ .
+  * Base Directory Specification Version 0.6
+  * Menu Specification Version 1.0
+  * Desktop Entry Specification Version 1.0
+  * Icon Theme Specification Version 0.8
+  * Recent File Spec 0.2
+  * Shared-MIME-Database Specification 0.13
+ .
+ This package contains the Python 3 version of the library.
 
 Package: python3-zipp
 Source: python-zipp

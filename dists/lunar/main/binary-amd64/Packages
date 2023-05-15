@@ -36690,6 +36690,30 @@ Description: Documentation for the D-Bus Python interface
  This package provides text and HTML documentation, and examples, for the
  python3-dbus package.
 
+Package: python-gi-dev
+Source: pygobject
+Version: 3.44.1-1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 44
+Depends: libffi-dev (>= 3.3), libglib2.0-dev (>= 2.48.0), python3-gi (= 3.44.1-1)
+Homepage: https://pygobject.readthedocs.io/
+Priority: optional
+Section: python
+Filename: pool/main/p/pygobject/python-gi-dev_3.44.1-1_amd64.deb
+Size: 12272
+SHA512: fc88d62b76adfb932d17cfe0661f7342215ea4fabb7684d6a192a4e34af016718641fcda429d4685554f89cdca99eab4af78512ab6116b1bcde40f40f5bbb6a8
+SHA256: a547594bdd520172b465a8ee2c7d0138a499fac2f4e5d5ac67b8b2de5cacdc62
+SHA1: 6f7ddd9214201753d3c27bf7083018941bff60d7
+MD5sum: acc0bb81c4447a50a24baa2ed7eae358
+Description: development headers for GObject Python bindings
+ GObject is an abstraction layer that allows programming with an object
+ paradigm that is compatible with many languages. It is a part of Glib,
+ the core library used to build GTK+ and GNOME.
+ .
+ This package contains the development headers needed to build C extensions
+ which use pygobject.
+
 Package: python-markdown-doc
 Source: python-markdown
 Version: 3.4.3-1
@@ -36717,6 +36741,92 @@ Description: text-to-HTML conversion library/tool (documentation)
  attributes.
  .
  This package contains HTML documentation files for python-markdown.
+
+Package: python-pygments-doc
+Source: pygments
+Version: 2.14.0+dfsg-1
+Architecture: all
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 2484
+Depends: libjs-sphinxdoc (>= 5.2)
+Recommends: python3-pygments
+Multi-Arch: foreign
+Homepage: https://pygments.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/pygments/python-pygments-doc_2.14.0+dfsg-1_all.deb
+Size: 495456
+SHA512: 382d804b67e0ff8a7b9b60b52081ac4e29a8643fd1cdb5c89c2b8296eeb0169607d874cccfa02d21ffe104e65aa114462e75ae01795bf08d26266adf48be24cf
+SHA256: 286cbbf7a1e9766d81032420bfd149360a1fcef593e343756e29cf8e6a10f5b6
+SHA1: 352c9eaad2d4793a744818999ed2f0d885e0f68a
+MD5sum: 5dbddf16bd0baebaa661024e2f196f2b
+Description: documentation for the Pygments
+ Pygments is syntax highlighting package.
+ .
+ This package contains the documentation for Pygments in HTML and
+ reStructuredText format.
+
+Package: python-pyparsing-doc
+Source: pyparsing
+Version: 3.0.9-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 6006
+Depends: libjs-sphinxdoc (>= 5.2)
+Multi-Arch: foreign
+Homepage: https://github.com/pyparsing/pyparsing/
+Priority: optional
+Section: doc
+Filename: pool/main/p/pyparsing/python-pyparsing-doc_3.0.9-1_all.deb
+Size: 1429252
+SHA512: f625f76526aedb20368fee6ea7d7ae473ae2aded9e5c91c2e3286ad5d45b2c479d0ce44505bf77fa2360383d20885566a9066137d0a80f6a82f7c8389afaf43d
+SHA256: 48cea15a8ea85983084cae6410f61cf65518ff17e41180815da6e97bcea2847c
+SHA1: b7392be50c2eef8bc4f381061009390e618397ab
+MD5sum: ac221dea35c52023f6e52ea30cf18030
+Description: alternative to creating and executing simple grammars - doc
+ The parsing module is an alternative approach to creating and
+ executing simple grammars, vs. the traditional lex/yacc approach, or
+ the use of regular expressions.  The parsing module provides a
+ library of classes that client code uses to construct the grammar
+ directly in Python code.
+ .
+ Here's an example:
+ .
+  from pyparsing import Word, alphas
+  greet = Word(alphas) + "," + Word(alphas) + "!"
+  hello = "Hello, World!"
+  print hello, "->", greet.parseString(hello)
+ .
+ This package contains documentation for python-pyparsing.
+
+Package: python-pyxdg-doc
+Source: pyxdg
+Version: 0.28-2
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 822
+Depends: libjs-sphinxdoc (>= 5.2)
+Multi-Arch: foreign
+Homepage: https://gitlab.freedesktop.org/xdg/pyxdg
+Priority: optional
+Section: doc
+Filename: pool/main/p/pyxdg/python-pyxdg-doc_0.28-2_all.deb
+Size: 60376
+SHA512: f427ec4f03002f2605012e768a6dd3b598c14dd356535d48d54071201ba4b1bf5e344ef4238113566dbc09b1e8250c9179eb711612a1bdce734df4e25af07d95
+SHA256: 946325b7dc650dda05542ddff274bc3442a72ef70790e0f81ae9c11ad8619b53
+SHA1: 5b99cec2ae1e18d1a5a8150bf591bd0b81a5ddce
+MD5sum: 9720607761084cce691ce0e111376f28
+Description: Python 3 library to access freedesktop.org standards (Documentation)
+ PyXDG contains implementations of freedesktop.org standards in Python:
+ .
+  * Base Directory Specification Version 0.6
+  * Menu Specification Version 1.0
+  * Desktop Entry Specification Version 1.0
+  * Icon Theme Specification Version 0.8
+  * Recent File Spec 0.2
+  * Shared-MIME-Database Specification 0.13
+ .
+ This package contains the documentation.
 
 Package: python-reportlab-doc
 Source: python-reportlab
@@ -37218,6 +37328,72 @@ Description: Checksumming Copy on Write Filesystem utilities (python3 bindings)
  administration.
  .
  This package contains python3 bindings.
+
+Package: python3-cairo
+Source: pycairo
+Version: 1.20.1-5build1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 311
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.14), libcairo2 (>= 1.15.12)
+Multi-Arch: same
+Homepage: https://cairographics.org/pycairo/
+Priority: optional
+Section: python
+Filename: pool/main/p/pycairo/python3-cairo_1.20.1-5build1_amd64.deb
+Size: 66352
+SHA512: f5c54115dadf7d39153e1a7521e8d29c51b3fe9b7c555878fb725381f222d04a9cc6262f656db9ff94043a91394e6e08037df3ce0603e2ad0c7bcf8936f4feef
+SHA256: 26d23fb065532428f3adb25fb5a50c6fc989402711f3acbbc39d79cbe49f5dbe
+SHA1: 923758f06a26163c27288d7e3cf3b66b4c30b44d
+MD5sum: d966b28b00329d920604d12856180fc3
+Description: Python3 bindings for the Cairo vector graphics library
+ This package contains modules that allow you to use the Cairo vector
+ graphics library in Python3 programs.
+
+Package: python3-cairo-dev
+Source: pycairo
+Version: 1.20.1-5build1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 67
+Depends: python3-cairo (>= 1.20.1-5build1)
+Suggests: python3-cairo-doc
+Homepage: https://cairographics.org/pycairo/
+Priority: optional
+Section: python
+Filename: pool/main/p/pycairo/python3-cairo-dev_1.20.1-5build1_all.deb
+Size: 13752
+SHA512: c632ef78d963380f24e5bd3653685a8089c2dbb30beab7ef280966bece03b13ccdcdc8c79ead85d55fa12895ba4f1098cefe350aa006d77d7e469e22d8f18bc7
+SHA256: 516f2ff1faa756cc595e637ed4024482b355c257c43d586dd42d4f703380541c
+SHA1: c369ba64d7ff5a30adc677fbaa0d20af2f9dd458
+MD5sum: ca2eea1ce753faf1580198432a4661ef
+Description: Python3 cairo bindings: development files
+ This package contains files that allow you to compile wrappers
+ that interoperate with python3-cairo (pycairo).
+
+Package: python3-cairo-doc
+Source: pycairo
+Version: 1.20.1-5build1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1964
+Depends: libjs-sphinxdoc (>= 5.2), sphinx-rtd-theme-common (>= 1.2.0+dfsg)
+Built-Using: sphinx (= 5.3.0-4)
+Multi-Arch: foreign
+Homepage: https://cairographics.org/pycairo/
+Priority: optional
+Section: doc
+Filename: pool/main/p/pycairo/python3-cairo-doc_1.20.1-5build1_all.deb
+Size: 329460
+SHA512: 4ec7f7d9d4799c05bfe0f6a962780f2bb6be5e3312edc193e60b7444c466fe2b8d84a718298dd35745a5859a4a46be3b6131392414ab13e0e99a4b3837b86fa5
+SHA256: 7519d463ca82fb5d7df9180f18af57b741afc63104c4595a6873578f64a98c98
+SHA1: 33bc3ee8a09bc1325eff2e74da9937f32ad5aa3a
+MD5sum: 19a8906616fb14b0ad185b1821c66053
+Description: Python 3 cairo bindings: documentation files
+ Cairo is a multi-platform library providing anti-aliased vector-based
+ rendering for multiple target backends.
+ .
+ This package contains documentation files of python3-cairo (py3cairo).
 
 Package: python3-cap-ng
 Source: libcap-ng
@@ -37769,6 +37945,85 @@ Description: GNU dbm database support for Python 3.x (debug extension)
  This package contains the extensions built for the python3 debug interpreter.
 Build-Ids: c3be8bc695cce7c3a93fba4a8f49fe2b2f0c0620
 
+Package: python3-gi
+Source: pygobject
+Version: 3.44.1-1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 757
+Depends: gir1.2-glib-2.0 (>= 1.48.0), python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.14), libffi8 (>= 3.4), libgirepository-1.0-1 (>= 1.62.0-4~), libgirepository-1.0-1-with-libffi8 (>= 1.62.0-4~), libglib2.0-0 (>= 2.68.0)
+Multi-Arch: allowed
+Homepage: https://pygobject.readthedocs.io/
+Priority: optional
+Section: python
+Filename: pool/main/p/pygobject/python3-gi_3.44.1-1_amd64.deb
+Size: 227900
+SHA512: 4d6a330f1b4c80b117b372c086ea4e4511cafd1cf008a3dba0f8f00cac9e1f57e2ca06f182a010656c2ca40eff60507c7119d3949867dbaf24024c7c295f8576
+SHA256: 22b113b334025557991a484356bbc4a74f57e2e0fba9ddc0648b9ccfa1db410b
+SHA1: 0969399cbbd9f981ea7e7621640d12a3df0e41b5
+MD5sum: c7ec5d1c3e4a379f1a0497c99b45e62d
+Description: Python 3 bindings for gobject-introspection libraries
+ GObject is an abstraction layer that allows programming with an object
+ paradigm that is compatible with many languages. It is a part of Glib,
+ the core library used to build GTK+ and GNOME.
+ .
+ This package contains the Python 3 binding generator for libraries that
+ support gobject-introspection, i. e. which ship a gir1.2-<name>-<version>
+ package. With these packages, the libraries can be used from Python 3.
+
+Package: python3-gi-cairo
+Source: pygobject
+Version: 3.44.1-1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 40
+Depends: python3-cairo (>= 1.11.1), python3-gi (= 3.44.1-1), python3 (<< 3.12), python3 (>= 3.11~), libc6 (>= 2.4), libcairo-gobject2 (>= 1.12.16), libcairo2 (>= 1.10.0), libglib2.0-0 (>= 2.56.0)
+Homepage: https://pygobject.readthedocs.io/
+Priority: optional
+Section: python
+Filename: pool/main/p/pygobject/python3-gi-cairo_3.44.1-1_amd64.deb
+Size: 11456
+SHA512: 8b38a8c97c191f557c5c1df0fe0308d788092f7465b084fe56055d6a72a784c8d2bac111d4b5ecee6086220426e41e5b4bf0641ff832d5c7427c6dd497c30537
+SHA256: 612dea15a43091c12fb6d4c74d18b955f5875b6d5d8511bb42d950786e7edc56
+SHA1: a957f22184bc45757f8628af8fa9b8ffa2e7a536
+MD5sum: 8b228224b9816793ab9d8cc57f0b9262
+Description: Python 3 Cairo bindings for the GObject library
+ GObject is an abstraction layer that allows programming with an object
+ paradigm that is compatible with many languages. It is a part of Glib,
+ the core library used to build GTK+ and GNOME.
+ .
+ This package contains the Python 3 Cairo bindings for GObject. It is mostly
+ used by other bindings to map their GObjects to Python objects.
+
+Package: python3-gi-dbg
+Source: pygobject
+Version: 3.44.1-1
+Architecture: amd64
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 1061
+Depends: python3-gi (= 3.44.1-1), python3-gi-cairo (= 3.44.1-1), python3-dbg (<< 3.12), python3-dbg (>= 3.11~), libc6 (>= 2.14), libcairo-gobject2 (>= 1.12.16), libcairo2 (>= 1.10.0), libffi8 (>= 3.4), libgirepository-1.0-1 (>= 1.62.0-4~), libgirepository-1.0-1-with-libffi8 (>= 1.62.0-4~), libglib2.0-0 (>= 2.68.0)
+Provides: python3-gi-cairo-dbg (= 3.44.1-1)
+Homepage: https://pygobject.readthedocs.io/
+Priority: optional
+Section: debug
+Filename: pool/main/p/pygobject/python3-gi-dbg_3.44.1-1_amd64.deb
+Size: 648928
+SHA512: 165713be5a7b146aacd658cb6c45c8acae242911bb2df94322a76a6d51b9dffadb860d5cc14ac02dcc6b6a42e2b2e4e9ed5dc9bac4adeca51b286a73e2b6d560
+SHA256: 10c7952a5b6d200cc022531b34f962647d85b39b272c34bb2bbba0da3d43e19a
+SHA1: f918ddf0258b498d440e63aa47320d3b5ddc903d
+MD5sum: 5cc9cc23980661f13c20121cfa129495
+Description: Python 3 bindings for gobject-introspection libraries (debug extension)
+ GObject is an abstraction layer that allows programming with an object
+ paradigm that is compatible with many languages. It is a part of Glib,
+ the core library used to build GTK+ and GNOME.
+ .
+ This package contains the Python 3 binding generator for libraries that
+ support gobject-introspection, i. e. which ship a gir1.2-<name>-<version>
+ package. With these packages, the libraries can be used from Python 3.
+ .
+ This package contains the extensions built for the Python 3 debug interpreter.
+Build-Ids: 999659ed5516e65469d719656453bf6f4b87c555 87de65b22161b0a522857cfaec9d4aaf3e895f2d
+
 Package: python3-httplib2
 Source: python-httplib2
 Version: 0.20.4-3
@@ -37851,6 +38106,45 @@ Description: library to access the metadata for a Python package - Python 3.x
  most uses of pkg_resources entry point API and metadata API.
  .
  This package contains Python 3.x module.
+
+Package: python3-jwt
+Source: pyjwt
+Version: 2.6.0-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 93
+Depends: python3:any
+Recommends: python3-cryptography
+Suggests: python3-crypto
+Homepage: https://github.com/jpadilla/pyjwt
+Priority: optional
+Section: python
+Filename: pool/main/p/pyjwt/python3-jwt_2.6.0-1_all.deb
+Size: 17928
+SHA512: cac97aeaf171e933c32729eb8cecae3e25b74ac5e6139067a75e6024d1a62580fcde1dd1b018e0b420c16591ae90d39389757a703e20383a3e1da449ca581b40
+SHA256: 0370d708ae39fd08d4f9111d7b3db6654d9e4d2a8ab6ac852e64026ade9df82d
+SHA1: 28d655c689f5fb6272188e238b62c9482190f506
+MD5sum: db26f42a15bc74d5fdc1a1992a9d99cc
+Description: Python 3 implementation of JSON Web Token
+ PyJWT implements the JSON Web Token draft 01, a way of representing
+ signed content using JSON data structures.
+ .
+ Supported algorithms for cryptographic signing:
+ .
+   * HS256 - HMAC using SHA-256 hash algorithm (default)
+   * HS384 - HMAC using SHA-384 hash algorithm
+   * HS512 - HMAC using SHA-512 hash algorithm
+   * RS256 - RSASSA-PKCS1-v1_5 signature algorithm using SHA-256 hash
+     algorithm
+   * RS384 - RSASSA-PKCS1-v1_5 signature algorithm using SHA-384 hash
+     algorithm
+   * RS512 - RSASSA-PKCS1-v1_5 signature algorithm using SHA-512 hash
+     algorithm
+ .
+ Supported reserved claim names:
+   - "exp" (Expiration Time) Claim
+ .
+ This package contains the Python 3 version of the library.
 
 Package: python3-keyring
 Source: python-keyring
@@ -38177,6 +38471,95 @@ Description: Python 3 library to handle problem reports
  .
  These problem reports use standard Debian control format syntax
  (RFC822).
+
+Package: python3-pyatspi
+Source: pyatspi
+Version: 2.46.0-2
+Architecture: all
+Maintainer: Debian Accessibility Team <pkg-a11y-devel@alioth-lists.debian.net>
+Installed-Size: 218
+Depends: python3:any, python3-gi, gir1.2-atspi-2.0 (>= 2.33.1), libatk-adaptor, at-spi2-core
+Multi-Arch: foreign
+Homepage: https://live.gnome.org/Accessibility
+Priority: optional
+Section: python
+Filename: pool/main/p/pyatspi/python3-pyatspi_2.46.0-2_all.deb
+Size: 41940
+SHA512: e5b295b0809615cd89d14eaeffcf5552489492cc0c204558ab471835d6b3649aa28bfb31064102fdc578e983c6f0b2dcffc1dd63674b1a67a9946baeb54810df
+SHA256: 880f6ed62ba34c9b09b58b8fd3de8f2f38a9440096f2017f3700b09d640f8273
+SHA1: aff516e26b5e93e0b9aa3fc812806c98b80557ed
+MD5sum: 189e124ef5d15b841aa0a70c3a49fb33
+Description: Assistive Technology Service Provider Interface - Python3 bindings
+ at-spi is the "Assistive Technology Service Provider Interface".
+ .
+ This package contains Python3 bindings for the client side aspects of at-spi2.
+
+Package: python3-pygments
+Source: pygments
+Version: 2.14.0+dfsg-1
+Architecture: all
+Maintainer: Piotr Ożarowski <piotr@debian.org>
+Installed-Size: 4225
+Depends: python3-pkg-resources, python3:any
+Suggests: python-pygments-doc, ttf-bitstream-vera
+Breaks: python-pygments (<< 2.3.1+dfsg-4~)
+Replaces: python-pygments (<< 2.3.1+dfsg-4~)
+Multi-Arch: foreign
+Homepage: https://pygments.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/pygments/python3-pygments_2.14.0+dfsg-1_all.deb
+Size: 783128
+SHA512: 0107e0b9fb8bf6b55cff70cbca2aa1d14f3b40424623fcca68a57533899fb414b89461e72a590a81004a258ee3c3242b8eeba1c5d42bd107d3510c8c862640c3
+SHA256: 405734a57b8d2722d10413c511d9b63ee78bbbdab8b2b689d7295260bc9618a2
+SHA1: 6b10284bb7fa5b64d4a3a60fa494a2ecc0da5519
+MD5sum: ad7d436f4aa3c7a20114ba2d970f7361
+Description: syntax highlighting package written in Python 3
+ Pygments aims to be a generic syntax highlighter for general use in all kinds
+ of software such as forum systems, wikis or other applications that need to
+ prettify source code.
+ .
+ Highlights are:
+   * a wide range of common languages and markup formats is supported
+   * special attention is paid to details, increasing quality by a fair amount
+   * support for new languages and formats are added easily
+   * a number of output formats, presently HTML, LaTeX and ANSI sequences
+   * it is usable as a command-line tool and as a library
+
+Package: python3-pyparsing
+Source: pyparsing
+Version: 3.0.9-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 398
+Depends: python3:any
+Suggests: python-pyparsing-doc
+Breaks: python3-translate (<< 3.6.0~), translate-toolkit (<< 3.6.0~)
+Multi-Arch: foreign
+Homepage: https://github.com/pyparsing/pyparsing/
+Priority: optional
+Section: python
+Filename: pool/main/p/pyparsing/python3-pyparsing_3.0.9-1_all.deb
+Size: 81680
+SHA512: 96e4d3f5d3cd695712403abcb5f1d2ba94bd56fd95226f58d2b03b9ebae9cd78643f5b439a35d5b36e946f7924a53727b7215256bb83a28c982b23058b2ce044
+SHA256: 49d86e033e779935c132112097eb0f29093d30167a042fdc75753f6d3aa838eb
+SHA1: 3a578e709826295b6761eef75dd695ee1ec7a645
+MD5sum: 035f5f2314f4b900581d2aa436b8ebcc
+Description: alternative to creating and executing simple grammars - Python 3.x
+ The parsing module is an alternative approach to creating and
+ executing simple grammars, vs. the traditional lex/yacc approach, or
+ the use of regular expressions.  The parsing module provides a
+ library of classes that client code uses to construct the grammar
+ directly in Python code.
+ .
+ Here's an example:
+ .
+  from pyparsing import Word, alphas
+  greet = Word(alphas) + "," + Word(alphas) + "!"
+  hello = "Hello, World!"
+  print hello, "->", greet.parseString(hello)
+ .
+ This package contains the Python 3.x version of python-pyparsing.
 
 Package: python3-renderpm
 Source: python-reportlab
@@ -38533,6 +38916,59 @@ Description: Python 3 library for navigating WADL files
  conjunction with an HTTP library to navigate and manipulate those resources.
  .
  This package provides wadllib for Python 3.x.
+
+Package: python3-xdg
+Source: pyxdg
+Version: 0.28-2
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 186
+Depends: python3:any
+Suggests: python-pyxdg-doc
+Provides: python3-pyxdg
+Homepage: https://gitlab.freedesktop.org/xdg/pyxdg
+Priority: optional
+Section: python
+Filename: pool/main/p/pyxdg/python3-xdg_0.28-2_all.deb
+Size: 37380
+SHA512: 5235c97ad723de50e5b1f0884fafda5b275381f8c4b1a19140cca3b7bb265f83b6a283f1bc77153281bdc84fe300f4cb06d436d92e4b064152fa248562f8de8c
+SHA256: 80baf1570c12fd024705e729e668ce96d031fd2dcd668d7342b6ab2e6e2c44bf
+SHA1: 758f2727d2030f6bcc5f552162e7892cb4a78680
+MD5sum: 55c1b8747a768c3cd1a09b0f0266ae85
+Description: Python 3 library to access freedesktop.org standards
+ PyXDG contains implementations of freedesktop.org standards in Python:
+ .
+  * Base Directory Specification Version 0.6
+  * Menu Specification Version 1.0
+  * Desktop Entry Specification Version 1.0
+  * Icon Theme Specification Version 0.8
+  * Recent File Spec 0.2
+  * Shared-MIME-Database Specification 0.13
+ .
+ This package contains the Python 3 version of the library.
+
+Package: python3-yaml
+Source: pyyaml
+Version: 6.0-3build1
+Architecture: amd64
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 520
+Depends: python3 (<< 3.12), python3 (>= 3.11~), python3:any, libc6 (>= 2.14), libyaml-0-2 (>= 0.2.2~)
+Multi-Arch: allowed
+Homepage: https://github.com/yaml/pyyaml
+Priority: optional
+Section: python
+Filename: pool/main/p/pyyaml/python3-yaml_6.0-3build1_amd64.deb
+Size: 129392
+SHA512: 0a1d9ef7caa7c20a9f7cdac6dd962e9e4b3f1351dd2ba06557d1f4c741128d0c690ea6a9c60a27ece032a56b59d71f84d76f0cd76f242b4058c6e7d71fdf1e1c
+SHA256: 75a5c68c8a5635aa26961e8026815edbea53367edff31f19afabdbf5b13d764c
+SHA1: d1eba44087c8cc02aa6ba2229e05d0f7c92f894f
+MD5sum: 57930b5e66910b34954c3b47da692fa2
+Description: YAML parser and emitter for Python3
+ Python3-yaml is a complete YAML 1.1 parser and emitter for Python3.  It can
+ parse all examples from the specification. The parsing algorithm is simple
+ enough to be a reference for YAML parser implementors. A simple extension API
+ is also provided.  The package is built using libyaml for improved speed.
 
 Package: python3-zipp
 Source: python-zipp
