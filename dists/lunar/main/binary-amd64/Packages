@@ -22481,6 +22481,27 @@ Description: module providing enhanced caller() support
  reference of the subroutine being invoked at the call frame indicated by the
  given level.
 
+Package: libdevel-globaldestruction-perl
+Version: 0.14-4
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 18
+Depends: perl:any, libsub-exporter-progressive-perl
+Homepage: https://metacpan.org/release/Devel-GlobalDestruction
+Priority: optional
+Section: perl
+Filename: pool/main/libd/libdevel-globaldestruction-perl/libdevel-globaldestruction-perl_0.14-4_all.deb
+Size: 6088
+SHA512: c347e52101f59c9c5d8f864ffdc82865e062fb2c1fda42fdf173cfd27c65892478f48fcd4dda5fcf317938344a28c1ee68800d4627a637c15ad65db6c6ebe501
+SHA256: 2d07d2b6bca473f659bc8ca63b7d6cdab20891b2ea7802e5ed726c515f55ae80
+SHA1: b3daa0ad0b855b843aa7fded4c01953b9fb35181
+MD5sum: a64b57ee9993c6973b0f4d8d6429e238
+Description: module to expose the flag that marks global destruction
+ Devel::GlobalDestruction is a Perl module that exposes the PL_dirty flag
+ to Perl as a subroutine named in_global_destruction. It is useful when
+ writing destructors, so that only non-process local resources are freed
+ while in global destruction.
+
 Package: libdevel-hide-perl
 Version: 0.0015-2
 Architecture: all
@@ -22762,6 +22783,39 @@ Description: Perl Implementation of Rivest's MD5 algorithm
   - encrypting only small amounts of data (less than one million bytes),
     e.g. hashing passwords
   - educational purposes
+
+Package: libdist-checkconflicts-perl
+Version: 0.11-2
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 27
+Depends: perl:any, libmodule-runtime-perl
+Homepage: https://metacpan.org/release/Dist-CheckConflicts
+Priority: optional
+Section: perl
+Filename: pool/main/libd/libdist-checkconflicts-perl/libdist-checkconflicts-perl_0.11-2_all.deb
+Size: 9760
+SHA512: 5c9ea1863f75f3189f9212a151fa1858804c2bbb6132d435c2e966cbf53ebfd3b9526e8a0602db6b5e82a9dfade10631e6557495213de712e626babfe4f7b40d
+SHA256: 9547bb9386ce1395bdb7c31cca107c6d1ac12266f1be246a73b8f714144a36bc
+SHA1: 0125e4580538b385f3f18ff7b0938a80c46f0a9b
+MD5sum: 0043134ae8e0d45ae685de03e8017250
+Description: module for declaring version conflicts for a distribution
+ One shortcoming of the CPAN clients that currently exist is that they have no
+ way of specifying conflicting downstream dependencies of modules.
+ Dist::CheckConflicts attempts to work around this issue by allowing you to
+ specify conflicting versions of modules separately, and deal with them after
+ the module is done installing.
+ .
+ For instance, say you have a module Foo, and some other module Bar uses Foo.
+ If Foo were to change its API in a non-backwards-compatible way, this would
+ cause Bar to break until it is updated to use the new API. Foo can't just
+ depend on the fixed version of Bar, because this will cause a circular
+ dependency (because Bar is already depending on Foo), and this doesn't
+ express intent properly anyway - Foo doesn't use Bar at all. The ideal
+ solution would be for there to be a way to specify conflicting versions of
+ modules in a way that would let CPAN clients update conflicting modules
+ automatically after an existing module is upgraded, but until that happens,
+ this module will allow users to do this manually.
 
 Package: libdistro-info-perl
 Source: distro-info
@@ -23699,6 +23753,27 @@ Description: Perl library for RFC 5322 address/group parsing and formatting
  .
  It is a drop-in replacement for the Email::Address module.
 
+Package: libemail-date-format-perl
+Version: 1.008-1
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 22
+Depends: perl:any (>= 5.29.1)
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/Email-Date-Format
+Priority: optional
+Section: perl
+Filename: pool/main/libe/libemail-date-format-perl/libemail-date-format-perl_1.008-1_all.deb
+Size: 6712
+SHA512: e9e4c1b1abd4b0131ae902c12e2ad36818d13ab4241a6bae643811cd1ad8f6c8265286c86645c6ba6f18c5b89db247be51e787b1116e3ac1ee66fe6de207bd57
+SHA256: 8467e96091f38e6bf9c0017f785ae65868a2f13b5ed59fd0a77ff349ea90cfb0
+SHA1: 5b3bbbe4a04d8615716ad5bbc064ef60f212e6e4
+MD5sum: d52d45b31f82c6777d9dc97d4125a81e
+Description: Module to generate RFC-2822-valid date strings
+ Email::Date::Format provides a simple means for generating an RFC 2822
+ compliant datetime string. It was refactored from Email::Date to avoid large
+ dependency chains.
+
 Package: libenchant-2-2
 Source: enchant-2
 Version: 2.3.3-2
@@ -23992,6 +24067,38 @@ Description: Helper functions for handling strings (lib)
  functions and more, like escaping special characters.
  .
  This package contains the shared library.
+
+Package: libeval-closure-perl
+Version: 0.14-3
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 27
+Depends: perl:any, libsub-exporter-perl
+Recommends: libdevel-lexalias-perl
+Homepage: https://metacpan.org/release/Eval-Closure
+Priority: optional
+Section: perl
+Filename: pool/main/libe/libeval-closure-perl/libeval-closure-perl_0.14-3_all.deb
+Size: 10184
+SHA512: 085da34cb147d98e030a4e05e7eb7fe62249eff8e0f84730b3cbb1567591772f87c25ad75115524dd26bfa7eba49c923063d47be74bbbb8dd7a1d992669a9934
+SHA256: e671eafc1d172db22b7f1198f5de8dfd3bf2238275af3a6fd6da807eadb1bfd1
+SHA1: fd3dff42d96b972cc5d86311080775728d7497b4
+MD5sum: 213aa7f75d80a210f931c7a0e71a17a5
+Description: Perl module to safely and cleanly create closures via string eval
+ String eval is often used for dynamic code generation. For instance, Moose
+ uses it heavily, to generate inlined versions of accessors and constructors,
+ which speeds code up at runtime by a significant amount. String eval is not
+ without its issues however - it's difficult to control the scope it's used in
+ (which determines which variables are in scope inside the eval), and it can
+ be quite slow, especially if doing a large number of evals.
+ .
+ Eval::Closure attempts to solve both of those problems. It provides an
+ eval_closure function, which evals a string in a clean environment, other
+ than a fixed list of specified variables. It also caches the result of the
+ eval, so that doing repeated evals of the same source, even with a different
+ environment, will be much faster (but note that the description is part of
+ the string to be evaled, so it must also be the same (or non-existent) if
+ caching is to work properly).
 
 Package: libevdocument3-4
 Source: evince
@@ -29615,6 +29722,31 @@ Description: run a subprocess with input/output redirection
  of the need for using system()/qx``/open3() with a simple, extremely
  Perlish API and none of the bloat and rarely used features of IPC::Run.
 
+Package: libipc-shareable-perl
+Version: 1.13-1
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 85
+Depends: perl:any, libjson-perl, libstring-crc32-perl
+Homepage: https://metacpan.org/release/IPC-Shareable
+Priority: optional
+Section: perl
+Filename: pool/main/libi/libipc-shareable-perl/libipc-shareable-perl_1.13-1_all.deb
+Size: 35344
+SHA512: 2bbcb1738fa7f462c484e5200e7d03d0dcb39eaf9b6d060ee3ec8ac76d012e3c7c35271538a3f7a84d3b49efbaa0aff77a69281716c96ae47ceba2ec5cd58698
+SHA256: 23b5f219469a3f07b8fe13f057ff4f19bd3bd3eecfd4c6aeea24065fe9efd80b
+SHA1: 09ca0ce74524f431c604bcf9d3524f552d604507
+MD5sum: 31482c343fea2eb4cf8e8db2d8651d04
+Description: module to access IPC shared memory segments through perl
+ This perl module provides a tie() interface to System V IPC shared memory
+ segments.
+ .
+ IPC::Shareable allows you to tie a variable to shared memory making it
+ easy to share the contents of that variable with other Perl processes.
+ Scalars, arrays, and hashes can be tied.  The variable being tied may
+ contain arbitrarily complex data structures - including references to
+ arrays, hashes of hashes, etc.
+
 Package: libipc-system-simple-perl
 Version: 1.30-2
 Architecture: all
@@ -30469,6 +30601,69 @@ Description: Perl module to log messages safely and efficiently
  The application, in turn, may choose one or more logging mechanisms via
  Log::Any::Adapter.
 
+Package: liblog-dispatch-perl
+Version: 2.70-1
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 164
+Depends: perl:any, libdevel-globaldestruction-perl, libdist-checkconflicts-perl, libmodule-runtime-perl, libnamespace-autoclean-perl, libparams-validationcompiler-perl, libspecio-perl, libtry-tiny-perl
+Recommends: libmail-sendmail-perl, libmailtools-perl, libmime-lite-perl
+Homepage: https://metacpan.org/release/Log-Dispatch
+Priority: optional
+Section: perl
+Filename: pool/main/libl/liblog-dispatch-perl/liblog-dispatch-perl_2.70-1_all.deb
+Size: 66252
+SHA512: f9aa942d6a2362bc7db0941d699de698f77594286ea50bf676ad91bbfd26a1f6791302254862c85927c0df7277c2111ffe4f4d92701267434057d593a082d99c
+SHA256: bcbe58f3ae187b59d99ea080c342f782e848b55a3495d8f8cf4784e9a0c5b828
+SHA1: 960333a1a555176912325dd49160294dc3b8942f
+MD5sum: c002a5f2902a3751514ece8c48b960d6
+Description: message dispatcher to multiple Log::Dispatch::* objects
+ Log::Dispatch is a collection of Perl modules useful for logging messages to
+ multiple outputs, each of which can have a minimum and maximum log level. It
+ is designed to be easily subclassed, both for creating a new dispatcher
+ object and particularly for creating new outputs.
+ .
+ It also allows both global (dispatcher level) and local (logging object)
+ message formatting callbacks which allows greater flexibility and reduces
+ the need for subclassing.
+
+Package: liblog-log4perl-perl
+Version: 1.57-1
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 911
+Depends: perl:any
+Recommends: libipc-shareable-perl, liblog-dispatch-perl
+Suggests: libdbd-csv-perl, liblog-dispatch-filerotate-perl, librrds-perl, libxml-dom-perl
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/Log-Log4perl
+Priority: optional
+Section: perl
+Filename: pool/main/libl/liblog-log4perl-perl/liblog-log4perl-perl_1.57-1_all.deb
+Size: 343572
+SHA512: 90e72b6c5908966f47f00c5d0c6cb78148d24c0822d8225d93de12066a17c341f137f42e1afa06e3bab6b97763d47b12f69134b9bd310aa1871896fa7790f22c
+SHA256: ec6488b2848e2cbdb4c2dc22a78e3bd1917838de5f8b18a3771db52bc975f03c
+SHA1: 4063bd695948fe0da46bc948d4484686ba0e4e37
+MD5sum: febaa22154f403d6a7e883555c9277f5
+Description: Perl port of the widely popular log4j logging package
+ Log::Log4perl is a pure Perl port of the widely popular Apache/Jakarta
+ log4j library for Java. In the spirit of log4j, Log::Log4perl
+ addresses the shortcomings of typical ad-hoc or homegrown logging
+ systems by providing three mechanisms to control the amount of data
+ being logged and where it ends up at:
+    * Levels allow you to specify the priority of log
+      messages. Low-priority messages are suppressed when the system's
+      setting allows for only higher-priority messages.
+    * Categories define which parts of the system you want to enable
+      logging in. Category inheritance allows you to elegantly reuse
+      and override previously defined settings of different parts in the
+      category hierarchy. So, at a central location in your system (either
+      in a configuration file or in the startup code) you may specify which
+      components (classes, functions) of your system should generate logs.
+    * Appenders allow you to choose which output devices the log data
+      is being written to, once it clears the previously listed
+      hurdles.
+
 Package: liblvm2-dev
 Source: lvm2
 Version: 2.03.16-1ubuntu1
@@ -30900,6 +31095,79 @@ Description: Ayatana Messaging Menu - shared library
  .
  This library contains information to build status providers to go into
  the messaging menu.
+
+Package: libmime-charset-perl
+Version: 1.013.1-2
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 93
+Depends: perl:any
+Suggests: libencode-eucjpascii-perl, libencode-hanextra-perl, libpod2-base-perl
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/MIME-Charset
+Priority: optional
+Section: perl
+Filename: pool/main/libm/libmime-charset-perl/libmime-charset-perl_1.013.1-2_all.deb
+Size: 30816
+SHA512: 206dde9edcfe3c556420da4d073114e866bfb0e452118741f5b8e32de56139bfa06d362368f0ad217f557d78353c9e8d0479645f474ef3e3fcb1cef11604177a
+SHA256: 8be7107e9cd0e9b5065a85a81144e9f08f6af8bfbef7087a644ac094e441322a
+SHA1: 3eac6d8b2ab5713efa4b952ef63b78a5a948cb70
+MD5sum: 9cfa6676fa3ab7f96555ed32a0dc5adc
+Description: module for MIME character set information
+ MIME::Charset provides information about character sets specified in the MIME
+ (Multipurpose Internet Mail Extensions) format. It is often used to describe
+ character set and encoding information for messages on the Internet.
+ .
+ This module allows one to work with character sets and encodings, providing
+ a simple facility for converting between them.
+
+Package: libmime-lite-perl
+Version: 3.033-1
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 165
+Depends: perl:any, libemail-date-format-perl, libmailtools-perl
+Recommends: libmime-types-perl
+Suggests: default-mta | mail-transport-agent
+Homepage: https://metacpan.org/release/MIME-Lite
+Priority: optional
+Section: perl
+Filename: pool/main/libm/libmime-lite-perl/libmime-lite-perl_3.033-1_all.deb
+Size: 61624
+SHA512: fc9cd0b68ae4ad7f36d88dfd9d61ffb4159d7c5987c94b23af2680c5873720e238377e8a919c240ac00d5aef9cb01b898d8ac004e8940257890e72f5b8dad07c
+SHA256: 25f667cbe562816247ff3ea917a9022a09f914fd0202782a2e202e7690f1427f
+SHA1: d9981199c071932a425df2b5a6d7ca1e88ea9825
+MD5sum: 965076d9c65226ba69ba4a17e2ae781d
+Description: module for convenient MIME message creation
+ MIME::Lite is a Perl module intended as a simple module for generating (but
+ not parsing) messages according to the Multipurpose Internet Mail Extensions
+ (MIME) standard. It allows one to output a simple, decent single- or multi-
+ part message with text or binary attachments.
+ .
+ Note that the upstream maintainer of MIME::Lite currently recommends against
+ using this package in favour of better maintained and less buggy alternatives.
+
+Package: libmime-types-perl
+Version: 2.24-1
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 191
+Depends: perl:any
+Suggests: libmojolicious-perl
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/MIME-Types
+Priority: optional
+Section: perl
+Filename: pool/main/libm/libmime-types-perl/libmime-types-perl_2.24-1_all.deb
+Size: 60392
+SHA512: 9712b6709cfd3a5fe1c1588c2d42b83be24ae546fdbb674e2b5751591f69ddacad2ea0c60000d8bb4727e584371d29bd0a7b0baf8fc3ae10082b13b72a67c72f
+SHA256: a8d593739dc7a7ae98cca677a52c64b4c9e843e2fce4d6e27e0a2f65c27cf448
+SHA1: c3f263767013e86b371e3667e394a87d4aff6903
+MD5sum: 6014418c30211cb720cf778de05574cc
+Description: Perl extension for determining MIME types and Transfer Encoding
+ MIME::Types provides a start for a more detailed data-structure to keep
+ knowledge about various data types are defined by MIME. Some basic treatments
+ with mime types are implemented.
 
 Package: libmldbm-perl
 Version: 2.05-4
@@ -32445,6 +32713,35 @@ Description: Perl module to validate parameters to Perl method/function calls
  The module has been designed to work equally well with positional or named
  parameters (via a hash or hash reference) and includes experimental support
  for attributes (see Attribute::Params::Validate for details).
+
+Package: libparams-validationcompiler-perl
+Version: 0.31-1
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 93
+Depends: perl:any, libeval-closure-perl, libexception-class-perl, libscalar-list-utils-perl
+Recommends: libclass-xsaccessor-perl
+Homepage: https://metacpan.org/release/Params-ValidationCompiler
+Priority: optional
+Section: perl
+Filename: pool/main/libp/libparams-validationcompiler-perl/libparams-validationcompiler-perl_0.31-1_all.deb
+Size: 28012
+SHA512: d31f89727568c9275f199a3cab86faee9d2a63d88fdef4197b3ab94afc57ea397e4c8f0dc46b250a654a4b29440244d01aab21326de0b40e6ef5f982b628bd32
+SHA256: 0f9a605423ee040d556cec86c56994243dcc76182010ddab0c99c660abc91b77
+SHA1: bd9077948bd548f1aa4d099c6ce14219c324686d
+MD5sum: 816c7c12305576ffc452ff7769964c0f
+Description: module to build an optimized subroutine parameter validator
+ Params::ValidationCompiler creates a customized, highly efficient parameter
+ checking subroutine. It can handle named or positional parameters, and can
+ return the parameters as key/value pairs or a list of values.
+ .
+ In addition to type checks, it also supports parameter defaults, optional
+ parameters, and extra "slurpy" parameters.
+ .
+ A parameter specification can be provided as either an arrayref (which expects
+ positional params) or a hashref (which expects named params). Parameter types
+ can be specified as Moose, Type::Tiny or Specio type objects. Parameters can
+ be specified as being optional and can be provided with default values.
 
 Package: libparse-pmfile-perl
 Version: 0.43-2
@@ -34273,6 +34570,37 @@ Description: Perl module for sorting of revision (and similar) numbers
   1-1 < 1-2
   1-2 < 1.2
 
+Package: libspecio-perl
+Version: 0.48-1
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 409
+Depends: perl:any, libdevel-stacktrace-perl, libeval-closure-perl, libmodule-runtime-perl, libmro-compat-perl, librole-tiny-perl, libsub-quote-perl, libxstring-perl
+Recommends: libref-util-perl
+Suggests: libtest-fatal-perl, libtry-tiny-perl
+Homepage: https://metacpan.org/release/Specio
+Priority: optional
+Section: perl
+Filename: pool/main/libs/libspecio-perl/libspecio-perl_0.48-1_all.deb
+Size: 136012
+SHA512: 058e9682d7036a58671378cb72c0547cdd7e889fa6624f353aaf1978861b2564262d8cc219046d857cea52e0abed7ae5bbe3d15ecdb0b1948766ccb2ba9d5138
+SHA256: 2fd774d52bd0d83f049434ef2cf2ec02cdfd94d90cfdc546ca696be686203111
+SHA1: bf19bf5ef4d2d1f44a0b00d3cfade19f0d89f54a
+MD5sum: dea0b66da80c21fe6d4943ef8545864d
+Description: Perl module providing type constraints and coercions
+ Specio provides classes for representing type constraints and coercion,
+ along with the syntactic sugar for declaring them.
+ .
+ This distribution ships with a set of builtin types representing the types
+ provided by the Perl interpreter itself.
+ .
+ Note that this is not a proper type system for Perl. Nothing in this
+ distribution will magically make the Perl interpreter start checking a value's
+ type on assignment to a variable.
+ .
+ Module Test::Specio requires the packages libtest-fatal-perl
+ libtry-tiny-perl.
+
 Package: libspreadsheet-parseexcel-perl
 Version: 0.6500-3
 Architecture: all
@@ -34397,6 +34725,29 @@ MD5sum: a89f881023cb24cd923b96c73c4540db
 Description: representation of text-based copyright statements
  String::Copyright Parses common styles of copyright statements and
  serializes in normalized format.
+
+Package: libstring-crc32-perl
+Version: 2.100-2
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 40
+Depends: perl (>= 5.36.0-7), perlapi-5.36.0, libc6 (>= 2.4)
+Homepage: https://metacpan.org/release/String-CRC32
+Priority: optional
+Section: perl
+Filename: pool/main/libs/libstring-crc32-perl/libstring-crc32-perl_2.100-2_amd64.deb
+Size: 9596
+SHA512: 881f0de3c3617fa08702af40ad591e3d09f0f29bfcaee8d564e8a89b9a3ffccd75cbe1a4782092143f6f176bb33e28e3a859bec881e6cbdf951b7aa9a54e3f5c
+SHA256: a7838c2de44d1b5636a0216a72bc528e896ea46a2cf46e9afca56a52bebe5f98
+SHA1: 93e21e2632763b391a36f877d24fde90d9ab3914
+MD5sum: 3d169bd3edff6dce4167f47bc394046b
+Description: Perl interface for cyclic redundancy check generation
+ The String::CRC32 module calculates CRC sums of 32 bit lengths.
+ It generates the same CRC values as ZMODEM, PKZIP, PICCHECK and
+ many others.
+ .
+ Despite its name, this module is able to compute the checksum of
+ strings as well as of files.
 
 Package: libstring-escape-perl
 Version: 2010.002-3
@@ -35034,6 +35385,37 @@ Description: perl module to process text templates
  there. When you `fill in' a template, you evaluate the little
  programs and replace them with their values.
 
+Package: libtext-unidecode-perl
+Version: 1.30-3
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 638
+Depends: perl:any
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/Text-Unidecode
+Priority: optional
+Section: perl
+Filename: pool/main/libt/libtext-unidecode-perl/libtext-unidecode-perl_1.30-3_all.deb
+Size: 98016
+SHA512: f17c5150254fc84ef0fbef320a49b7318186dfde28173156a5d885c3412a046680141d42e327ad7abc1f2cab9ea44472a931f7cad6becb907778b94000dbac1e
+SHA256: 6f3d7164af0de36fc9055b315dd6551f2444071e910a235f67a29083fcdaa488
+SHA1: e54797cfde60a720bd881843146d66bdc2ff7a37
+MD5sum: aec6a908dbe85024959d12f34c21f91f
+Description: US-ASCII transliterations of Unicode text
+ It often happens that you have non-Roman text data in Unicode, but you can't
+ display it -- usually because you're trying to show it to a user via an
+ application that doesn't support Unicode, or because the fonts you need
+ aren't accessible. You could represent the Unicode characters as "???????" or
+ "\15BA\15A0\1610...", but that's nearly useless to the user who actually
+ wants to read what the text says.
+ .
+ What Text::Unidecode provides is a function, unidecode(...) that takes
+ Unicode data and tries to represent it in US-ASCII characters (i.e., the
+ universally displayable characters between 0x00 and 0x7F). The representation
+ is almost always an attempt at transliteration -- i.e., conveying, in Roman
+ letters, the pronunciation expressed by the text in some other writing
+ system.
+
 Package: libtext-wrapi18n-perl
 Version: 0.06-10
 Architecture: all
@@ -35432,6 +35814,27 @@ Description: module providing simple data types for common serialisation formats
  serialisation formats such as JSON or CBOR. The idea is to have a repository
  of simple/small constants and containers that can be shared by different
  implementations so they become interoperable between each other.
+
+Package: libunicode-linebreak-perl
+Version: 0.0.20190101-1build4
+Architecture: amd64
+Maintainer: Emmanuel Bouthenot <kolter@debian.org>
+Installed-Size: 260
+Depends: perl (>= 5.36.0-7), perlapi-5.36.0, libc6 (>= 2.4), libsombok3 (>= 2.3.1-1~), libmime-charset-perl (>= 1.006.2)
+Homepage: https://github.com/hatukanezumi/Unicode-LineBreak
+Priority: optional
+Section: perl
+Filename: pool/main/libu/libunicode-linebreak-perl/libunicode-linebreak-perl_0.0.20190101-1build4_amd64.deb
+Size: 92188
+SHA512: 16d927ca94a0c938a374791dcb25d6e517eba5beafca305f6c0aeac519ea95577bb15725d3fc7d6a019f2da901ed282819fb072d01b2d0491a947941040f949c
+SHA256: 3a7f73cc8eb67e8849f8c794b16a793ff38bd4c9f864fe9bf943085f274e38c1
+SHA1: c42d9e14ec265b15308ad32bf68e74a0c5c64652
+MD5sum: 79a15cf18be7433610742720faf90341
+Description: UAX #14 Unicode Line Breaking Algorithm
+ Unicode::LineBreak performs Line Breaking Algorithm described in Unicode
+ Standards Annex #14 [UAX #14]. East_Asian_Width informative properties
+ defined by Annex #11 [UAX #11] will be concerned to determine breaking
+ positions.
 
 Package: libunicode-map-perl
 Version: 0.112-13build1
