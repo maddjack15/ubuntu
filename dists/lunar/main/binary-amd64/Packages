@@ -13512,6 +13512,37 @@ Description: GObject introspection data for the GStreamer Plugins Base library
  dynamic bindings.
 Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-base1.0@packages.debian.org>
 
+Package: gir1.2-gstreamer-1.0
+Source: gstreamer1.0
+Version: 1.22.2-1
+Architecture: amd64
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 353
+Depends: gir1.2-glib-2.0 (>= 0.9.12-4~), libgstreamer1.0-0 (>= 1.22.0)
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: introspection
+Filename: pool/main/g/gstreamer1.0/gir1.2-gstreamer-1.0_1.22.2-1_amd64.deb
+Size: 77376
+SHA512: 67a289e6caf30d6afed3dcbbd9090906a62681e690051765af8c8878f23695577f67e06513f104cee57afb360d454d81bccd7e84924c5c2c1037a69ecbba6563
+SHA256: f0bee77ddc04252879a09c6c0c1dd899432cd75baace3a801deac911914b1515
+SHA1: 7bf727eea5c7763f8732c026eb236b30e5d7cf6a
+MD5sum: 7c8f96a38fd4125e1368f3de7338b311
+Description: GObject introspection data for the GStreamer library
+ This package contains introspection data for the GStreamer streaming media
+ framework.
+ .
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+
 Package: gir1.2-messagingmenu-1.0
 Source: ayatana-indicator-messages
 Version: 22.9.0-1
@@ -17340,6 +17371,33 @@ Description: GStreamer plugin for Qt6
 Gstreamer-Elements: qml6glsink
 Gstreamer-Version: 1.22
 Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+
+Package: gstreamer1.0-tools
+Source: gstreamer1.0
+Version: 1.22.2-1
+Architecture: amd64
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 254
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.75.3), libgstreamer1.0-0 (>= 1.20.0)
+Suggests: gstreamer1.0-plugins-base
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: utils
+Filename: pool/main/g/gstreamer1.0/gstreamer1.0-tools_1.22.2-1_amd64.deb
+Size: 64664
+SHA512: 644eb4b41d714120c48c5f7f69bb6f38e114b9e5728c24614498225b0feb7d34fa4dc89a92011b993ab57884f85384e61a9ecf1540c7ba263a0f4e6b2a352116
+SHA256: c6ebfaf831a40a8166845a85c1c7612e96b700c9cb9d233fd1414775c7dc2bb7
+SHA1: 0b954c9a8e26bd75c8d398ce674035fcf61ec7c8
+MD5sum: 7d47d55d8d3a86027159b0e28b7512bb
+Description: Tools for use with GStreamer
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains versioned command-line tools for GStreamer.
 
 Package: gstreamer1.0-x
 Source: gst-plugins-base1.0
@@ -32347,6 +32405,66 @@ Description: GStreamer development files for libraries from the "good" set
  This package contains development files for GStreamer libraries from the
  "good" set. The API is not guaranteed to be stable.
 Original-Maintainer: Maintainers of GStreamer packages <gst-plugins-good1.0@packages.debian.org>
+
+Package: libgstreamer1.0-0
+Source: gstreamer1.0
+Version: 1.22.2-1
+Architecture: amd64
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 4470
+Depends: libc6 (>= 2.34), libcap2 (>= 1:2.10), libdw1 (>= 0.126), libglib2.0-0 (>= 2.75.3), libunwind8, libcap2-bin
+Suggests: gstreamer1.0-tools
+Breaks: gstreamer1.0-plugins-bad (<< 1.11.1), gstreamer1.0-plugins-base (<< 1.8.0), libgstreamer-plugins-bad1.0-0 (<< 1.13.1)
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libs
+Filename: pool/main/g/gstreamer1.0/libgstreamer1.0-0_1.22.2-1_amd64.deb
+Size: 1135060
+SHA512: 68f400ba37251fce7a4709247af33f3bdf0343ca3e024341d157781e8600a59f1616937e06308c142fa41cd535a6f049f74af71364b10807e31c784f4f97fcbe
+SHA256: f048b865b92e07dad080f0f4522515e141ffe596f954f2ca6d06c280fd120478
+SHA1: 4a51ad18aa8ad58831ffcc0a82df32883abb579a
+MD5sum: 2a0dbfdd05d4b2cbb31d92a383358878
+Description: Core GStreamer libraries and elements
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains the core library and elements.
+
+Package: libgstreamer1.0-dev
+Source: gstreamer1.0
+Version: 1.22.2-1
+Architecture: amd64
+Maintainer: Maintainers of GStreamer packages <gstreamer1.0@packages.debian.org>
+Installed-Size: 6100
+Depends: libgstreamer1.0-0 (= 1.22.2-1), libc6-dev | libc-dev, pkg-config, libglib2.0-dev, libunwind-dev, libdw-dev, libc6 (>= 2.34), libglib2.0-0 (>= 2.62.0), gir1.2-gstreamer-1.0 (= 1.22.2-1)
+Suggests: gstreamer1.0-doc
+Conflicts: libgstreamer-plugins-bad1.0-dev (<< 1.13.1)
+Replaces: libgstreamer-plugins-bad1.0-dev (<< 1.13.1)
+Multi-Arch: same
+Homepage: https://gstreamer.freedesktop.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gstreamer1.0/libgstreamer1.0-dev_1.22.2-1_amd64.deb
+Size: 521348
+SHA512: 705f64a8c6dd9ab98f50515ebd13075c496a245991f470ebe8e76275492f1ea19244e944b1d752990400f42027e658ce562068c3053acd161df33a19325aada6
+SHA256: aeb92a9bce663f28a4cf1f75dccc3ef98111eed473ded1dea00afacf6812d452
+SHA1: a32d9a5ab64526077e7a9e8e3cb03da5e62985d3
+MD5sum: cba103a8647271e83ec27fdb331dd9e5
+Description: GStreamer core development files
+ GStreamer is a streaming media framework, based on graphs of filters
+ which operate on media data.  Applications using this library can do
+ anything from real-time sound processing to playing videos, and just
+ about anything else media-related.  Its plugin-based architecture means
+ that new data types or processing capabilities can be added simply by
+ installing new plug-ins.
+ .
+ This package contains development files for the core library and
+ elements.
 
 Package: libgtk3-perl
 Version: 0.038-3
