@@ -1,0 +1,1466 @@
+Package: libalgorithm-diff-xs-perl-dbgsym
+Package-Type: ddeb
+Source: libalgorithm-diff-xs-perl
+Version: 0.04-8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 47
+Depends: libalgorithm-diff-xs-perl (= 0.04-8)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/liba/libalgorithm-diff-xs-perl/libalgorithm-diff-xs-perl-dbgsym_0.04-8_amd64.ddeb
+Size: 33228
+SHA512: fd51d42b6d8fa3e0fba398f0737ef0d5e901c3dd64b66df6ef2aad3fbea4bb580d025fd2d550bd8cf95365e68408a33922784af7b22302891eb517e98d5f90f1
+SHA256: 9d17bb31554f76045d8484933b486a677ec497d437aac6f62d0daf3fba765f5e
+SHA1: 7aac3671bd3e79f76c8e487311978ba49a284a10
+MD5sum: 151812389f942980f9c7be1014f502e9
+Description: debug symbols for libalgorithm-diff-xs-perl
+Build-Ids: 92e3bf2b5eb6afa6920e0c1e1a39ab35430091aa
+
+Package: libapt-pkg-perl-dbgsym
+Package-Type: ddeb
+Source: libapt-pkg-perl
+Version: 0.1.40build3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Brendan O'Dea <bod@debian.org>
+Installed-Size: 357
+Depends: libapt-pkg-perl (= 0.1.40build3)
+Priority: extra
+Section: debug
+Filename: pool/main/liba/libapt-pkg-perl/libapt-pkg-perl-dbgsym_0.1.40build3_amd64.ddeb
+Size: 320316
+SHA512: 96045d30495cb43a8a450581535d3b466dc2568c4f8c1207ff8ebd271a2d194ec821841add7973f7d37bf6607e7a3fd9c3e515153b9f0efdef4ba44d037f30bb
+SHA256: 351e188e8b847d25b7ada298377a287592c4e2f0375b3ae128b4f2bc01b21ec6
+SHA1: 05a57c3d9716b22f2564b0e075810ef5e0d8d316
+MD5sum: 796b7dcfbef038173f81067d28e4465b
+Description: debug symbols for libapt-pkg-perl
+Build-Ids: 7ff083ba08c0305a174db67977bc6f8523d59581
+
+Package: libb-hooks-op-check-perl-dbgsym
+Package-Type: ddeb
+Source: libb-hooks-op-check-perl
+Version: 0.22-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 44
+Depends: libb-hooks-op-check-perl (= 0.22-2build1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libb/libb-hooks-op-check-perl/libb-hooks-op-check-perl-dbgsym_0.22-2build1_amd64.ddeb
+Size: 31368
+SHA512: 10f0f51241fde242145d4c8cb1adee87dc9f89ccbb433a10345378f27e0c81506098441df9cd3e35d98ea07265dcd8bd621d877cb6f6606db54eb05d9a864d5c
+SHA256: a8d2eeabee39ea93f5b9156f431c56c250b7cb002e853bcefc6a9aa69a1b29ed
+SHA1: b1106b061e64f4536360f39c487b7457623850ae
+MD5sum: 98df01acc5c557eb63f04210994aef0a
+Description: debug symbols for libb-hooks-op-check-perl
+Build-Ids: 5bb3200f8a31abc221549a69ffeee3e68dc9bcb3
+
+Package: libberkeleydb-perl-dbgsym
+Package-Type: ddeb
+Source: libberkeleydb-perl
+Version: 0.64-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Marco d'Itri <md@linux.it>
+Installed-Size: 291
+Depends: libberkeleydb-perl (= 0.64-2)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libb/libberkeleydb-perl/libberkeleydb-perl-dbgsym_0.64-2_amd64.ddeb
+Size: 251224
+SHA512: ada8f1131a905aa7b6bc592dbb5b1ede614afed393d70e53d4e032c769b8cd8756809cd5d5a9d4d6035a87a1414cbe757462dac04966cec1c432f7a859c87a26
+SHA256: 3e194ebc14b1964a510a70f2d02f07277ad792a1af9e96c6d8afd217e6eb2e6e
+SHA1: 8afa17ef7a5fc8ec7320c808339cd0b41c7f4bc3
+MD5sum: ae538bb7fda790af44c3c28f65eb8214
+Description: debug symbols for libberkeleydb-perl
+Build-Ids: 15066a73612c224e6212f221e363998320335faf
+
+Package: libbit-vector-perl-dbgsym
+Package-Type: ddeb
+Source: libbit-vector-perl
+Version: 7.4-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 205
+Depends: libbit-vector-perl (= 7.4-2build1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libb/libbit-vector-perl/libbit-vector-perl-dbgsym_7.4-2build1_amd64.ddeb
+Size: 180472
+SHA512: b2e644923ad67363999c1e72bc71a83cd277a5d341f5ee737ab7169651ccc55d59740e75ce9649154e91b8ce518a6081ad784cbe57fe3a6b83d4f81bfd99b5e8
+SHA256: 5bb819f10e78612a268fa9cd53a8495681092a45ca099aaf0123d8503f8b7ce6
+SHA1: b3a9ad5dd32b1c7f7b9ff4909b110aee9bf1515c
+MD5sum: 663d4b5208df665b883d3eaf033abc42
+Description: debug symbols for libbit-vector-perl
+Build-Ids: 4585074caae04af1be70b14a562fbfeb780c8b11
+
+Package: libcairo-gobject-perl-dbgsym
+Package-Type: ddeb
+Source: libcairo-gobject-perl
+Version: 1.005-4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 43
+Depends: libcairo-gobject-perl (= 1.005-4)
+Priority: extra
+Section: debug
+Filename: pool/main/libc/libcairo-gobject-perl/libcairo-gobject-perl-dbgsym_1.005-4_amd64.ddeb
+Size: 27952
+SHA512: 18e70b3d4502f19a697b10e0709d5a736c1ce744250a2aef32a8c3de27ca52261150c8ce951989e967f555fa714b09f345b90a65b7d6882bd54b71142e352f82
+SHA256: 556187eafc80941ee4f1401f463c36b317ab3e60d032b432144c41ee4a6f3e18
+SHA1: 3aa4f4d6d1381826f5526e5daa604988109dc80f
+MD5sum: b71bec8a2560ec5e3622bb28ec91cfab
+Description: debug symbols for libcairo-gobject-perl
+Build-Ids: 445fc8c00006213170579f226931ede5909593cb
+
+Package: libcairo-perl-dbgsym
+Package-Type: ddeb
+Source: libcairo-perl
+Version: 1.109-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 305
+Depends: libcairo-perl (= 1.109-3)
+Priority: extra
+Section: debug
+Filename: pool/main/libc/libcairo-perl/libcairo-perl-dbgsym_1.109-3_amd64.ddeb
+Size: 237744
+SHA512: 2b436aeb0105ea6213d134683fcda96ebb58128da1532747ec8bfbf50fc71a4b124b5130cdcbdd641e5642d5840fb8c799c5a7032403970ad68a0c22cda8cc05
+SHA256: 2d555a905bd075b2290e7afb0be983968447254029f1e6ea6d38723246389087
+SHA1: 349a51ce7a32e0cf36602e503d4e14645951d29d
+MD5sum: 93aa3d38dacdea8aa8571d9502a67a9f
+Description: debug symbols for libcairo-perl
+Build-Ids: 11bead0a84f67358be7167d2626e46550837d2dd
+
+Package: libclass-c3-xs-perl-dbgsym
+Package-Type: ddeb
+Source: libclass-c3-xs-perl
+Version: 0.15-1build3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 57
+Depends: libclass-c3-xs-perl (= 0.15-1build3)
+Priority: extra
+Section: debug
+Filename: pool/main/libc/libclass-c3-xs-perl/libclass-c3-xs-perl-dbgsym_0.15-1build3_amd64.ddeb
+Size: 42996
+SHA512: 32e6b69425ef0fb2f5bcd2d1e8ad8ea00a17dbc3492f41dd2d184a4612b712500dc90ad36f15555fed661f903ff9b1631b5257c8d96b2d0248cc60185cb505b1
+SHA256: bff2d4dcdce167f955c95e534bfbf570798e64d0bdca259c16a24a27077e2b63
+SHA1: bd98ef5b707ed3c54760bb2e1c5fcd4dd4fc187d
+MD5sum: c3c84873857131f10b1d99f8f9233c61
+Description: debug symbols for libclass-c3-xs-perl
+Build-Ids: 190e046ba40e9ce7a276f44d2a8dbbf868371224
+
+Package: libclass-xsaccessor-perl-dbgsym
+Package-Type: ddeb
+Source: libclass-xsaccessor-perl
+Version: 1.19-4build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 102
+Depends: libclass-xsaccessor-perl (= 1.19-4build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libc/libclass-xsaccessor-perl/libclass-xsaccessor-perl-dbgsym_1.19-4build1_amd64.ddeb
+Size: 82428
+SHA512: de276a2e64783cf18d548b2336e22d56b44749b0c35e0adca0b6370477252aab2839962e6b4138f48a3c56e07c9295dafc3fa8b5ca8036aa48b42901f2f11519
+SHA256: 2f4c77e7ff187fd48165c2f824d3918ad72d6fb3906f34dde9c98a3842c32b19
+SHA1: 32f1798108523ff5cb1e2c3411f1296fdbfa684d
+MD5sum: a7bb77f54a393a7c1314bcb15aeb538e
+Description: debug symbols for libclass-xsaccessor-perl
+Build-Ids: 09c4cf04b2415fedd4ddfc77dfb177c82afe6e32
+
+Package: libclone-perl-dbgsym
+Package-Type: ddeb
+Source: libclone-perl
+Version: 0.46-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 45
+Depends: libclone-perl (= 0.46-1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libc/libclone-perl/libclone-perl-dbgsym_0.46-1_amd64.ddeb
+Size: 31212
+SHA512: 47709e39c6e06f0b58e3f9ca898eac2986579d2dea1b7ff6e5815af03686c7875d051180b643f9687e1e01f8cb1d5ecfde8f6fda5466177043da692bb4f878a0
+SHA256: a519f3e6597d09c74d3c6bf19fa52e7ddda2fa336e78a70ddc910af86db8fd44
+SHA1: 7854782da981c968333808423b109c88bac7eb14
+MD5sum: 732da83baddcc6ab4395954594c55365
+Description: debug symbols for libclone-perl
+Build-Ids: 1cf6766c67434810af2ccc04217234e2ae670f16
+
+Package: libcpanel-json-xs-perl-dbgsym
+Package-Type: ddeb
+Source: libcpanel-json-xs-perl
+Version: 4.32-1build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 139
+Depends: libcpanel-json-xs-perl (= 4.32-1build1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libc/libcpanel-json-xs-perl/libcpanel-json-xs-perl-dbgsym_4.32-1build1_amd64.ddeb
+Size: 123512
+SHA512: 3b02c4b85627b68ff75ed7e63aa486a7d388ba97ef99aa4c74eab73ad748da0609578c32d5ed0b9217f2c84d2af646d55153d4779fbfdc695de291f36bee7672
+SHA256: 37a90a1ba183dc43baf5c3d53250693a8d806652ca22b28f93f5d373254739a0
+SHA1: 8454faa5900a0238a01b2ab427e265978f086d0b
+MD5sum: 27ea2db1e787ea7da54e5c359d203a26
+Description: debug symbols for libcpanel-json-xs-perl
+Build-Ids: 0b6feea1e273d6ac9431b1e6da2d394a0ca7bc61
+
+Package: libdata-messagepack-perl-dbgsym
+Package-Type: ddeb
+Source: libdata-messagepack-perl
+Version: 1.02-1build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 85
+Depends: libdata-messagepack-perl (= 1.02-1build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libd/libdata-messagepack-perl/libdata-messagepack-perl-dbgsym_1.02-1build1_amd64.ddeb
+Size: 69392
+SHA512: 69ae6d49bfce5552aab90479349e75804445036040ffd791541915f773ab7ec67c55d861de19c5200a5b857c4a4a64bc6b3d4f1752fe1e246036ef34454fd171
+SHA256: 4f597f83ce006159fafe6554b5bfa5efc2a2dedf7f45410f6751fb929ba94d4e
+SHA1: 091d3969dc3cb9f4e626350a8d6e15bd7a47875c
+MD5sum: 8ae2d83b7ba15f3375ecda3266467cc0
+Description: debug symbols for libdata-messagepack-perl
+Build-Ids: af9d0284f6beec3ff59d6c1e70eed6c13dd74c5d
+
+Package: libdate-calc-xs-perl-dbgsym
+Package-Type: ddeb
+Source: libdate-calc-xs-perl
+Version: 6.4-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 142
+Depends: libdate-calc-xs-perl (= 6.4-2build1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libd/libdate-calc-xs-perl/libdate-calc-xs-perl-dbgsym_6.4-2build1_amd64.ddeb
+Size: 120480
+SHA512: 75b1919272c93ad227210b47d6202126a48fa93ce502cbbf5a361cf692102f2410a419ba1a8d42474f40467e8b23b2f62e27b5fe6529192aa24daacd11fc694d
+SHA256: 563b96c5a99593fdb444daf3ed51f76f8a4a2c820c8abbd6ee75097c359c459d
+SHA1: 8d5a7f799db8b6aa086d0b6f1e02e1666fed763c
+MD5sum: db1d0bdc1f60edba97b8445057e1453f
+Description: debug symbols for libdate-calc-xs-perl
+Build-Ids: 2bcbfa2ea2d358a2b9530a84029b38c4a3bc7b7d
+
+Package: libdevel-callchecker-perl-dbgsym
+Package-Type: ddeb
+Source: libdevel-callchecker-perl
+Version: 0.008-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 37
+Depends: libdevel-callchecker-perl (= 0.008-2)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libd/libdevel-callchecker-perl/libdevel-callchecker-perl-dbgsym_0.008-2_amd64.ddeb
+Size: 23720
+SHA512: 24cb62283df520c6fedec427d0e1f326f243966a12fe203590ddb2f93f1a975ad5812d2e851178b91ed426743658836c7b5756644d2e2e50b077ef7103848c3d
+SHA256: 3c56e9b4c4741046c77dd7ab02fbc16e8e699937e6daad0928036e54d22920a8
+SHA1: 62bbeecc5382570457b76ba710b64a7d7bf8f97f
+MD5sum: 2ba500b88e578830897cc61534e74b48
+Description: debug symbols for libdevel-callchecker-perl
+Build-Ids: cc5a6b1c6525e52473f9bc49b958d8e9a51be4bc
+
+Package: libdevel-caller-perl-dbgsym
+Package-Type: ddeb
+Source: libdevel-caller-perl
+Version: 2.06-3build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 38
+Depends: libdevel-caller-perl (= 2.06-3build1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libd/libdevel-caller-perl/libdevel-caller-perl-dbgsym_2.06-3build1_amd64.ddeb
+Size: 24668
+SHA512: 60c1839591ee65474968775a380f0a6c2ad7c3a573680afab62cf61f6ee27b44b00914d58014284a71632a304d946774773cbb245c96884ee447dc17ad2a150e
+SHA256: 0f41e3189f9b09fc8c4119c9d2e0b06450b5cb93e8b5765e17711572d2871a5b
+SHA1: 9de77a660e649e41adafb537a485728a050bcab3
+MD5sum: f369ddce50a8feb892aa1d9b6edbdba4
+Description: debug symbols for libdevel-caller-perl
+Build-Ids: af8dbd2730531c50dac9b10b9de9fe45871e3d91
+
+Package: libdevel-lexalias-perl-dbgsym
+Package-Type: ddeb
+Source: libdevel-lexalias-perl
+Version: 0.05-3build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 38
+Depends: libdevel-lexalias-perl (= 0.05-3build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libd/libdevel-lexalias-perl/libdevel-lexalias-perl-dbgsym_0.05-3build1_amd64.ddeb
+Size: 25112
+SHA512: f798cc54ec5b8c74af2e6e8c1fc2e6194108136079e273e9739652edb591299b5f64c02ab8d424e9c32a8f6702d8c1a3c6ddff70e39ac51a7ea7179deac3eaec
+SHA256: 16183fd42251263a5208e56226487c61d40280f9aea6ad94a09c99f7c7c9bc21
+SHA1: dbb1eff4939693b1738d34a9d6a2196abb22a3bd
+MD5sum: 04092bda38b24d48d06ba2fdcf4c7899
+Description: debug symbols for libdevel-lexalias-perl
+Build-Ids: b0c9c4023ad067336f1ed5be1a79e2fe26508e10
+
+Package: libdevel-size-perl-dbgsym
+Package-Type: ddeb
+Source: libdevel-size-perl
+Version: 0.83-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 53
+Depends: libdevel-size-perl (= 0.83-2build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libd/libdevel-size-perl/libdevel-size-perl-dbgsym_0.83-2build1_amd64.ddeb
+Size: 39356
+SHA512: b94e7b5a826c8fe3ccb38b00947cf1c96ca07cff5952c4788b9a137c440ae33eb4fcf3b9291270b574cbcd13f2915c22bdc7ba2135868038bd0902cc865c877c
+SHA256: d1b3c4a3beaf4484eb646583edf9481c0f52e2c746acdc8f662d9444ea33f688
+SHA1: dcf6300ec7c3a77b7a416a57fa614225f1280b0e
+MD5sum: ac9178475a92245a8d5c68119d851466
+Description: debug symbols for libdevel-size-perl
+Build-Ids: cac511b61b4a7abae307e639cd1a7bce55f1727f
+
+Package: libemail-address-xs-perl-dbgsym
+Package-Type: ddeb
+Source: libemail-address-xs-perl
+Version: 1.05-1build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 88
+Depends: libemail-address-xs-perl (= 1.05-1build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libe/libemail-address-xs-perl/libemail-address-xs-perl-dbgsym_1.05-1build1_amd64.ddeb
+Size: 72816
+SHA512: f67afe63b7fa86bc185825a2261749028b6b48a0203b38c1bc8d4f70f8c9aa8d5deed90e0a414571c1d8a4a1c0705a03713dace84d89c0378e76fb0f9149c3e6
+SHA256: 35890f515f777debc74b7574fc32cced4ced4c8ab6c17365dad19aa4f02a24ea
+SHA1: e61f1fdd7cf7b0114aa300cfb8411447699e35f6
+MD5sum: 513314b0840bd63bfda3cdc146ab06fc
+Description: debug symbols for libemail-address-xs-perl
+Build-Ids: 84582eb46437b5712244fc239327429228d082e0
+
+Package: libfcgi-perl-dbgsym
+Package-Type: ddeb
+Source: libfcgi-perl
+Version: 0.82+ds-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 66
+Depends: libfcgi-perl (= 0.82+ds-2)
+Priority: extra
+Section: debug
+Filename: pool/main/libf/libfcgi-perl/libfcgi-perl-dbgsym_0.82+ds-2_amd64.ddeb
+Size: 49408
+SHA512: 744a5b7c176d00060620fb3b7e756436a822915d93f4703773ce2913fc3adcd46157709cf5867f5707cffe87ff552c8b18a8791ee705236cbac276def82645a3
+SHA256: 0cb53fa9fb9697d75a143a72443835f7e6fa6f664bdc4b0aa91610ad3937768f
+SHA1: 30111e288e8c89786a203cc506a5b74ed6f3272a
+MD5sum: c64bac4fb44922c15b4ea2e01ea8b1b8
+Description: debug symbols for libfcgi-perl
+Build-Ids: 6c31e18f8d0f63b13b08cc1db9a44f706d635765
+
+Package: libfile-fcntllock-perl-dbgsym
+Package-Type: ddeb
+Source: libfile-fcntllock-perl
+Version: 0.22-4build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 38
+Depends: libfile-fcntllock-perl (= 0.22-4build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libf/libfile-fcntllock-perl/libfile-fcntllock-perl-dbgsym_0.22-4build1_amd64.ddeb
+Size: 25144
+SHA512: 4295130ab2f01bdb5ada037daea296b4fcb17eab699531553eff9f619aa64f8c9a25914e482981d39fba975712e0b297a23a7c1b34ff04c91a11a0b5f5475e6b
+SHA256: 4153d9a4722a0d4f688e808fa9b8acd3265e583b48e4f3ff9ba0a1401b0a189e
+SHA1: 480a9d2180b5811043aeef536ec01316dbfe8927
+MD5sum: 338210955638f1c5d1d7474ffb24ea11
+Description: debug symbols for libfile-fcntllock-perl
+Build-Ids: d5ea38c830afddc139a27d3798972093360a4e0f
+
+Package: libfont-freetype-perl-dbgsym
+Package-Type: ddeb
+Source: libfont-freetype-perl
+Version: 0.16-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 118
+Depends: libfont-freetype-perl (= 0.16-2)
+Priority: extra
+Section: debug
+Filename: pool/main/libf/libfont-freetype-perl/libfont-freetype-perl-dbgsym_0.16-2_amd64.ddeb
+Size: 95556
+SHA512: e7062afe2958d3ce1ba90234ef4b99a4c2e3d0be37b003d0b0b6b2630bae09e1e98651eb81bce8b8db25c9bf801288d97678de22c2e4fa9edd032061cdd82e57
+SHA256: 7f2d3077bbdd8c01433d4550a7a802382eb136eb9cb109506cffb586fb4de0ec
+SHA1: a622e9bbad36bee9d0f4210f72de0149efccdfad
+MD5sum: 2ec6b677e874d168c123326ed69f981c
+Description: debug symbols for libfont-freetype-perl
+Build-Ids: c74e200063142f56aa4235482ed78c650365f1d5
+
+Package: libglib-object-introspection-perl-dbgsym
+Package-Type: ddeb
+Source: libglib-object-introspection-perl
+Version: 0.049-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 154
+Depends: libglib-object-introspection-perl (= 0.049-3)
+Priority: extra
+Section: debug
+Filename: pool/main/libg/libglib-object-introspection-perl/libglib-object-introspection-perl-dbgsym_0.049-3_amd64.ddeb
+Size: 126652
+SHA512: 8e7c8a43ee2619296289b4f9ec32610314816871457a2f1e5381231eb1fbb96d2e759ba25e3afbfc239a408ddd89b6a082bc6051ef1c090333250c21fd125ef4
+SHA256: f2fdc0f1c5f2ccf17d8634018c62771253ce1b4cd1fae6078309375e0620c1a6
+SHA1: 5346e85c182a13c64762323d8bbc6cb6108ec6b4
+MD5sum: 5cfcf99de75f943ce66a730ca3aa609a
+Description: debug symbols for libglib-object-introspection-perl
+Build-Ids: 574687831b8803a697ceabc6f6597bf2226e5b87
+
+Package: libglib-perl-dbgsym
+Package-Type: ddeb
+Source: libglib-perl
+Version: 3:1.329.3-2build2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 451
+Depends: libglib-perl (= 3:1.329.3-2build2)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libg/libglib-perl/libglib-perl-dbgsym_1.329.3-2build2_amd64.ddeb
+Size: 361652
+SHA512: 532d7ba463d412d4add45b8713b8cf46598c07fd9842d5754232355e828844d2e46634f2e3b0ff2c9bea7b6f9a5c95418812fab5a85231e9ad8be4f628202f83
+SHA256: 2387c79fdbaad1d10bcac686f5cd09ebf2aa1f3fd7889aa93f81e49a77968d22
+SHA1: c142fe46cf4b270fbc7986429ff457d79407d871
+MD5sum: 558dbe26096d5dcd1180d0df260324f3
+Description: debug symbols for libglib-perl
+Build-Ids: 4fc2f2e763fbf59e17330b399fe23888fab28f28
+
+Package: libhtml-parser-perl-dbgsym
+Package-Type: ddeb
+Source: libhtml-parser-perl
+Version: 3.81-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 102
+Depends: libhtml-parser-perl (= 3.81-1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libh/libhtml-parser-perl/libhtml-parser-perl-dbgsym_3.81-1_amd64.ddeb
+Size: 85152
+SHA512: cfa4f5bb49bf77ddc6be8588407624b1ac78061dc7b85b386948b13b8d6cc1eb93bf8d964e1efc32cfb5ce6e64b341e9224b5bced4d962e44262f931b4bd8d5d
+SHA256: fdfa3cbab5e994303e05571bfb937c3f43a415641298a49f865d071666816f93
+SHA1: d03323f7cb7ecd318981c0622cc84d6ee4c75c43
+MD5sum: dcd1565f661ac98a940af301256a0a8b
+Description: debug symbols for libhtml-parser-perl
+Build-Ids: f77f42a51c4ab6345d6155265fa298483083c36f
+
+Package: libindirect-perl-dbgsym
+Package-Type: ddeb
+Source: libindirect-perl
+Version: 0.39-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 69
+Depends: libindirect-perl (= 0.39-2build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libi/libindirect-perl/libindirect-perl-dbgsym_0.39-2build1_amd64.ddeb
+Size: 53620
+SHA512: 1194a006f936f9b61820e9421b8a19f80df069c95fc9e0ec0290c7ae1dbb006a16230f12e1bfb663a14162063aff670f4169232cad886d2ca34d9c0731dd2084
+SHA256: 21bd578011d77e8e87c819bbe329d55ae9c0553c6cbf2b68a2de6758893323b8
+SHA1: dd732f2ecb89a7664d696ddb31ca59cd4e0ee01d
+MD5sum: f562d4cf3aca114cfdbbd0e5c1164e1e
+Description: debug symbols for libindirect-perl
+Build-Ids: 2363efda80328713d1378c08feeadfd4f93c433d
+
+Package: libio-pty-perl-dbgsym
+Package-Type: ddeb
+Source: libio-pty-perl
+Version: 1:1.17-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 61
+Depends: libio-pty-perl (= 1:1.17-1)
+Priority: extra
+Section: debug
+Filename: pool/main/libi/libio-pty-perl/libio-pty-perl-dbgsym_1.17-1_amd64.ddeb
+Size: 39856
+SHA512: 2c6762219dcf5dfca44edddc3c3ad63c365c81435eae1d4cf9f87f956b9d8c161b3415abe0d6a0941572003a027a2fbf21884d15f574c53562b5d308e4f33a74
+SHA256: 38faf0ff8b22d86c858adeb424d1ac7e8d8704fb303506269484ceb90ee5b6d0
+SHA1: b3f4b6a6309588f82b10508ccddfcc15abf0b381
+MD5sum: b921197dbc8bded911a069aed92e0cd9
+Description: debug symbols for libio-pty-perl
+Build-Ids: 13b30bb97b54710433cf1e35f0981c7776d8d5c0
+
+Package: libjson-xs-perl-dbgsym
+Package-Type: ddeb
+Source: libjson-xs-perl
+Version: 4.030-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 117
+Depends: libjson-xs-perl (= 4.030-2)
+Priority: extra
+Section: debug
+Filename: pool/main/libj/libjson-xs-perl/libjson-xs-perl-dbgsym_4.030-2_amd64.ddeb
+Size: 98324
+SHA512: 2dd536b54e2eccd4043d984da00d233101a5d089eeeb3a4cf52f78fd6c23f0a7e7d793a7e4366650bfc5638eb3a0a7601d1f13c60a6dc0430f452f909b4ff7fa
+SHA256: a953f1a5d8cd9a07bb9dc01a5443740e58bb4a3d7d7f9358262de1fdddf0e946
+SHA1: 6029c099f115268b9a9ba5510c8253d0095c25ee
+MD5sum: c35a37882f9633c0b28f6dbebeb8add0
+Description: debug symbols for libjson-xs-perl
+Build-Ids: 2420653e114f8c7501c8bd87523e09797d3a99ae
+
+Package: liblist-moreutils-xs-perl-dbgsym
+Package-Type: ddeb
+Source: liblist-moreutils-xs-perl
+Version: 0.430-3build2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 214
+Depends: liblist-moreutils-xs-perl (= 0.430-3build2)
+Priority: extra
+Section: debug
+Filename: pool/main/libl/liblist-moreutils-xs-perl/liblist-moreutils-xs-perl-dbgsym_0.430-3build2_amd64.ddeb
+Size: 195548
+SHA512: 94fedb5a2a5b78aa1c30a9d08695a09f80deca2cefe69aed40792239e8c727a91ba70c7b6c7925f858796c965182416aafd7ee9acd6f92afb2577bbb8d4a8a37
+SHA256: cfff85e02ec9334f5a5317f0c1e4f338efab48082eaf0d356c4ad04635e53c17
+SHA1: c1763819559ad68f1d819fc2ec76d3dfe36a1221
+MD5sum: fd39cb9f5711a70558866fb7fa82bc7b
+Description: debug symbols for liblist-moreutils-xs-perl
+Build-Ids: 70dcd16bfe5b470cabddac05107ee457134a65c1
+
+Package: liblist-someutils-xs-perl-dbgsym
+Package-Type: ddeb
+Source: liblist-someutils-xs-perl
+Version: 0.58-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 152
+Depends: liblist-someutils-xs-perl (= 0.58-3)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libl/liblist-someutils-xs-perl/liblist-someutils-xs-perl-dbgsym_0.58-3_amd64.ddeb
+Size: 134772
+SHA512: dc3f31ac151f6c5aea55c21cadebf4df642ec0bb8c6be6014b386703ddda9f2c8bd926e3bac43366ff733e262992a22e9befa56ec95b8be1c81a91f30847acd6
+SHA256: dde92eaa8125bae27ce0a8f508e3dc2d85b6dde72027ece00e9cee6970edaee1
+SHA1: 1045b2de4b85d7c9ef7d986061df5ab73d076697
+MD5sum: 63b25907ee97602626b9454a9278007b
+Description: debug symbols for liblist-someutils-xs-perl
+Build-Ids: 3d670963566caf562cb59b6f2d5fe29abf0aa5bc
+
+Package: liblocale-gettext-perl-dbgsym
+Package-Type: ddeb
+Source: liblocale-gettext-perl
+Version: 1.07-5
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 46
+Depends: liblocale-gettext-perl (= 1.07-5)
+Priority: extra
+Section: debug
+Filename: pool/main/libl/liblocale-gettext-perl/liblocale-gettext-perl-dbgsym_1.07-5_amd64.ddeb
+Size: 31220
+SHA512: f5cbc5472cf03bc3f6be39b1ce5ef33af058d4189f3253871c158548ca7db52d0617c0944dfcec2845d2c03b255fb1a303c2298d6539d103f56e6027ec00e731
+SHA256: 36141c89ff364a4438c5944b56391766027c036a3ac5547a31f1eb36a244687f
+SHA1: 14ef3b4316735bec2424afa168d8c26db08836a7
+MD5sum: a07daddd43372cbc3cdf463747fceb61
+Description: debug symbols for liblocale-gettext-perl
+Build-Ids: 8fc7009e2b8633b2ca04fdb09e6023aa3ebb62df
+
+Package: libmouse-perl-dbgsym
+Package-Type: ddeb
+Source: libmouse-perl
+Version: 2.5.10-1build5
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 148
+Depends: libmouse-perl (= 2.5.10-1build5)
+Priority: extra
+Section: debug
+Filename: pool/main/libm/libmouse-perl/libmouse-perl-dbgsym_2.5.10-1build5_amd64.ddeb
+Size: 120912
+SHA512: 96b3b6db854bf69ce76cc7e07b4f8c719bb31a44893b4064c09ca198030fa54fbd13e82d4134514be3bc5fa617958daae69aef9a4f6888aa1c62c361812c36a9
+SHA256: 4b5fce5f067e55da3500918a7e091ce40f623012835df2dfe1da1bde659d3743
+SHA1: b35d86693c27601fedda17e23b3107fca9406fba
+MD5sum: dda062b0b9b8e95ff71a9fa809fae222
+Description: debug symbols for libmouse-perl
+Build-Ids: fac90ce03cf8da1b7fe89eb75ca88143408cdef8
+
+Package: libnet-dbus-perl-dbgsym
+Package-Type: ddeb
+Source: libnet-dbus-perl
+Version: 1.2.0-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 147
+Depends: libnet-dbus-perl (= 1.2.0-2)
+Priority: extra
+Section: debug
+Filename: pool/main/libn/libnet-dbus-perl/libnet-dbus-perl-dbgsym_1.2.0-2_amd64.ddeb
+Size: 109456
+SHA512: e1a836b7c5222a48f7458455878116c3ce4a881cd4f5fa917a226d36fd08e72541b9c54ec661d7ac24c1dd4260b78e8b53796034e41c207338bee0c0c23f0d7c
+SHA256: fa9b47e90891d01044f2d0dce7e8cc327edd63319090ef38bef67ce4b71ea53b
+SHA1: 6668fc50be37fe32e2e46f4a80cf9c8e0a298e85
+MD5sum: 91a9c143903cc339c95e042a21060029
+Description: debug symbols for libnet-dbus-perl
+Build-Ids: 7da45790abc3c8a9f885e54c7a04c4719cfaced7
+
+Package: libnet-libidn-perl-dbgsym
+Package-Type: ddeb
+Source: libnet-libidn-perl
+Version: 0.12.ds-4build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 59
+Depends: libnet-libidn-perl (= 0.12.ds-4build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libn/libnet-libidn-perl/libnet-libidn-perl-dbgsym_0.12.ds-4build1_amd64.ddeb
+Size: 43316
+SHA512: c4a62a88dace4f6ae35ebafa6c08549724be50a77add5438655408550ecdb262d0ce5d758beed941e0c592dd71785351d2decd3453357bfa1f904c1f6cf96f61
+SHA256: 8db9efb4b12de7025af2a6e8c68755bdc95eb5ac2f9e0b939fb59a54e2d250c8
+SHA1: 30137e5f89a01d70d51f1252c378326072d9da91
+MD5sum: 3afd6d86b291f88abf63a8824ec647cc
+Description: debug symbols for libnet-libidn-perl
+Build-Ids: 8774946ee53bd50472e38410a895051d13827585
+
+Package: libnet-ssleay-perl-dbgsym
+Package-Type: ddeb
+Source: libnet-ssleay-perl
+Version: 1.92-2build2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 606
+Depends: libnet-ssleay-perl (= 1.92-2build2)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libn/libnet-ssleay-perl/libnet-ssleay-perl-dbgsym_1.92-2build2_amd64.ddeb
+Size: 484452
+SHA512: ddfd388802f2dfc334e60322cba993400d08fd19aa26c3aa2c09107fd7451bf3a88323f2d7b5a60ab69c76649b5a24b13b5a976cbf91195db4eda4eb4f89598a
+SHA256: 628e3d1c0e8bdf3be8f505094e62dc14e81dff54ca713555525ab52bd28503c2
+SHA1: 719bb81874d333500e65e2b18616e05878242137
+MD5sum: c802ccad5bf343dcec985f5002254230
+Description: debug symbols for libnet-ssleay-perl
+Build-Ids: bdf526776075e5a7d32af4f732bbf5fb3f36ce90
+
+Package: libnetaddr-ip-perl-dbgsym
+Package-Type: ddeb
+Source: libnetaddr-ip-perl
+Version: 4.079+dfsg-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 57
+Depends: libnetaddr-ip-perl (= 4.079+dfsg-2build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libn/libnetaddr-ip-perl/libnetaddr-ip-perl-dbgsym_4.079+dfsg-2build1_amd64.ddeb
+Size: 42368
+SHA512: 74dbbe94b15e5be290c757d139698902674e80743e344faa21d97d1ced998dfe3efee4f3a613891bb44ca321dbcc71be7216a95edf1bd6701ac3a4047cf8ab03
+SHA256: ab3da72802c79bc352d874d0a69e38c2e2905d6a29058ac77772976a18b4dc78
+SHA1: 5690919ef2322be5f2aa6ee3f31b4358fd6e5ec6
+MD5sum: d873cdda791ce6482dad4e4cf647625f
+Description: debug symbols for libnetaddr-ip-perl
+Build-Ids: b11c5372ec945737ab75fcece996a7ac1b08335e
+
+Package: libobject-pad-perl-dbgsym
+Package-Type: ddeb
+Source: libobject-pad-perl
+Version: 0.78-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 239
+Depends: libobject-pad-perl (= 0.78-1)
+Priority: extra
+Section: debug
+Filename: pool/main/libo/libobject-pad-perl/libobject-pad-perl-dbgsym_0.78-1_amd64.ddeb
+Size: 204252
+SHA512: 54f6afd1c4c8ed1523eb7053ad8f74c0b3362616ff15a2e3eb3456659400794a76e1eb3d805d0b301b6a6704be681d05f071570f67f746f2793a74bb9730a862
+SHA256: 5238f3e86a977c0858fa3197ce2a0d1e28e96b75c7c7d99e0485b94d89f09985
+SHA1: 6045ffd31444a41cb20bdeb8059f8c6477c59cab
+MD5sum: f85ce18763c28b604fb1600030c1f9ed
+Description: debug symbols for libobject-pad-perl
+Build-Ids: a44a673caf50759c7f22964b2d4eeeac13a0b5c9
+
+Package: libpackage-stash-xs-perl-dbgsym
+Package-Type: ddeb
+Source: libpackage-stash-xs-perl
+Version: 0.30-1build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 68
+Depends: libpackage-stash-xs-perl (= 0.30-1build1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libp/libpackage-stash-xs-perl/libpackage-stash-xs-perl-dbgsym_0.30-1build1_amd64.ddeb
+Size: 51364
+SHA512: 477fcb840098788b47b739f92a2fdeca9e4151c0be49eb9fd130dadd499a289224ad5c7f6c6509e2e645bb023b642aea2316872de8abcc95375cc7f02933a2c4
+SHA256: 91ff1d5936cec1472dbc17bb95bc0b3d26fe6632d680da640a7a2eedc90dc50a
+SHA1: db8fe21a00ea841bd65cd461c4172c42f33386aa
+MD5sum: a3891bdb7dbfddf17d4f2f9cd44affb8
+Description: debug symbols for libpackage-stash-xs-perl
+Build-Ids: 5aeb6bf4974b164c4d2db1a18edfcc7d00acf630
+
+Package: libpadwalker-perl-dbgsym
+Package-Type: ddeb
+Source: libpadwalker-perl
+Version: 2.5-1build3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 61
+Depends: libpadwalker-perl (= 2.5-1build3)
+Priority: extra
+Section: debug
+Filename: pool/main/libp/libpadwalker-perl/libpadwalker-perl-dbgsym_2.5-1build3_amd64.ddeb
+Size: 46820
+SHA512: 8c9edc8ea49f79edf72f7740a386e53f3e9d5e6f5e27f6b7d4f92136b49db16b1a8d1144389f03c308bbd981633893cb7e07e72d057c85a9943ff9bfd46b11b8
+SHA256: 0c02b6546a16a1ab50950104648a9a1d983ee499956b5dd231d9ba99584f9b95
+SHA1: 54466cb5a2a9f14cf939f506d1a642c98cb63c9d
+MD5sum: 53d348a71abbd8eababad781319b23d0
+Description: debug symbols for libpadwalker-perl
+Build-Ids: 88914f6a550a800b1aec0720b0fb9915b57c6843
+
+Package: libparams-classify-perl-dbgsym
+Package-Type: ddeb
+Source: libparams-classify-perl
+Version: 0.015-2build2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 62
+Depends: libparams-classify-perl (= 0.015-2build2)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libp/libparams-classify-perl/libparams-classify-perl-dbgsym_0.015-2build2_amd64.ddeb
+Size: 47136
+SHA512: 15bd6d75c2f831833ac1c798af23cdaf6fcdd678148a1c138df27a8f2302bb09cc7c56d91a0fe4f6277ec7ebe9129d22f43e8616e3f341dba6ba06b1e68bcb1a
+SHA256: 745f43a533a59e14388a739a0f7912e8768f2434877186c9a7c14e837d679fef
+SHA1: 4ed2fc15d67138903e244351ab8c373abdc47c17
+MD5sum: 8e0a0bf29fcc3dab06ea233eb5beb2f5
+Description: debug symbols for libparams-classify-perl
+Build-Ids: f6a048f22b2867011872dc981fe389d95d5604a4
+
+Package: libparams-util-perl-dbgsym
+Package-Type: ddeb
+Source: libparams-util-perl
+Version: 1.102-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 50
+Depends: libparams-util-perl (= 1.102-2)
+Priority: extra
+Section: debug
+Filename: pool/main/libp/libparams-util-perl/libparams-util-perl-dbgsym_1.102-2_amd64.ddeb
+Size: 35468
+SHA512: 8f8ccd1c09667a2819eb992cdbd998d47f03954cf3d658d9ea581cf84dec3efbdc29efcd6b2f34cbf1fe27c4b8efd419294634be2a334e4f014229b5830291b1
+SHA256: 45b50a946095173cbd08ffbb2d1d83c9ae11211f6fb9094649b88176bfbb5a1e
+SHA1: 7dc5da33a4d678135ba421968df60cd0f51b8c24
+MD5sum: ba0a0fa818125813eccf23ee7d679926
+Description: debug symbols for libparams-util-perl
+Build-Ids: 40822ee6a701dab991864e99795a9be0754a1e92
+
+Package: libparams-validate-perl-dbgsym
+Package-Type: ddeb
+Source: libparams-validate-perl
+Version: 1.31-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 89
+Depends: libparams-validate-perl (= 1.31-1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libp/libparams-validate-perl/libparams-validate-perl-dbgsym_1.31-1_amd64.ddeb
+Size: 72244
+SHA512: 94fad3251862677fde7cb8bd0497a96ead7a1ef68c0e885744d87b19ac98ef53cc2d68b137151feb77ccfe361e318300d92d3430543da1e3776f72d761e21cb3
+SHA256: 692b6b153c208e8c8fea39754099a9fea1e4ba3f804861218f2833799ea05511
+SHA1: f88bec70e9350d9e8b29d8260f57faaae2d9aa72
+MD5sum: 47ad472c6b991cd09472c6f56681eda1
+Description: debug symbols for libparams-validate-perl
+Build-Ids: 3bed2f7025c4e16d29c806d7960c6f79c3580b1e
+
+Package: libperlio-gzip-perl-dbgsym
+Package-Type: ddeb
+Source: libperlio-gzip-perl
+Version: 0.20-1build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 51
+Depends: libperlio-gzip-perl (= 0.20-1build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libp/libperlio-gzip-perl/libperlio-gzip-perl-dbgsym_0.20-1build1_amd64.ddeb
+Size: 36116
+SHA512: d9f28b3db0030df5a003d67b7ff01c8deaa52541080d83636ffc0d04241834ef22022e9c1d22b06d4865cf343600fd64b322b07b67f649acf7ce9c0b718aeb21
+SHA256: be2bf7c8e3bf59d08a489d2653d189849508cd7366936a0b6fa4a3cf6117fa49
+SHA1: 7e7be927879697189570ac9c9659501b76dbf0a3
+MD5sum: 037cfe5b01c08fba85a64b81c41b13fb
+Description: debug symbols for libperlio-gzip-perl
+Build-Ids: a3e5bf493c01be62dcd99a243d6bc789ba4a0e72
+
+Package: libperlio-utf8-strict-perl-dbgsym
+Package-Type: ddeb
+Source: libperlio-utf8-strict-perl
+Version: 0.010-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 45
+Depends: libperlio-utf8-strict-perl (= 0.010-1)
+Priority: extra
+Section: debug
+Filename: pool/main/libp/libperlio-utf8-strict-perl/libperlio-utf8-strict-perl-dbgsym_0.010-1_amd64.ddeb
+Size: 30816
+SHA512: c94fd9f5fb652599dae06ad6689a42dcabaa341d521339f0f192c1989d313b6e0b13ccefb5043b5e3d9f317cc7ce5366cdf9111f5a2996baa52d15a635bf9a6c
+SHA256: 4b8d97c6da51c43ecc1ed6da30f1fdaa588923fc374a65d978552b5b0b2935ec
+SHA1: ebc7ff136607c117b9205785f9574c72cea7bc8b
+MD5sum: 731bba73beb80391eadddf61921c0a96
+Description: debug symbols for libperlio-utf8-strict-perl
+Build-Ids: 1d01a9fbbce9680bda469280041b52ae77fb1759
+
+Package: libproc-processtable-perl-dbgsym
+Package-Type: ddeb
+Source: libproc-processtable-perl
+Version: 0.634-1build2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 70
+Depends: libproc-processtable-perl (= 0.634-1build2)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libp/libproc-processtable-perl/libproc-processtable-perl-dbgsym_0.634-1build2_amd64.ddeb
+Size: 53684
+SHA512: ad25b5944db92b1c5a23a1f3cf28132834d126f9e69b43290d4b116751a6fa79a90afdabacd7e7a242b931b0f8a7c9b6064f13c94cbbc1771ca10173faa56c9a
+SHA256: c81c1befabdbaf144c8a88dfa0349223d4cb73d49c7401c52704878c11e41584
+SHA1: 516037efe93ff52dc0baa156211b18638e2a3bb3
+MD5sum: a9600a9c44034d7287104e40f1dc19a0
+Description: debug symbols for libproc-processtable-perl
+Build-Ids: 7a69eff7ab0097e03c0838982e0d89e8da16aca6
+
+Package: libre-engine-re2-perl-dbgsym
+Package-Type: ddeb
+Source: libre-engine-re2-perl
+Version: 0.17+ds-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 122
+Depends: libre-engine-re2-perl (= 0.17+ds-1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libr/libre-engine-re2-perl/libre-engine-re2-perl-dbgsym_0.17+ds-1_amd64.ddeb
+Size: 107596
+SHA512: dad171286a00f4dc787c0503df55b63db783c70d2d8b28adf73a8093a96fb48a1b8da02fd37d9b7222ec6d650a42f2528914e2c69bca1c575fbebc2311586303
+SHA256: 587a5a8b0293bb4837b09d94b9a9c81db36c25d9c4cf263222ee6d2d68c21a43
+SHA1: 9586c28a7ff0dcdb2bff85e5e0a481a3e7cafa8d
+MD5sum: c9733c1b3997b8a36f01af945bc993cc
+Description: debug symbols for libre-engine-re2-perl
+Build-Ids: d7ec366d348b0c84e7a48c1abc7b4278322c3100
+
+Package: libref-util-xs-perl-dbgsym
+Package-Type: ddeb
+Source: libref-util-xs-perl
+Version: 0.117-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 73
+Depends: libref-util-xs-perl (= 0.117-2build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libr/libref-util-xs-perl/libref-util-xs-perl-dbgsym_0.117-2build1_amd64.ddeb
+Size: 48280
+SHA512: 184b753cd61251059034446aeddaaaeb3bbac5371feaec56ef1645a886c54b7de57a38344e308efd923a25973e4b479c175b772447bc9fffc6e8ba7fa938e01f
+SHA256: 2047097caaa1aac47de0e16bbfb5e487cee5f14fa7c4effc47e2a76eab664f91
+SHA1: 03e1cb765efbaeffd3ec24a9248a4ac8e0bb643f
+MD5sum: e39c1b74a4b3adf642150ad3b836351a
+Description: debug symbols for libref-util-xs-perl
+Build-Ids: 3d41a63fc1270fa97452e678222179cf2a332f60
+
+Package: libsereal-decoder-perl-dbgsym
+Package-Type: ddeb
+Source: libsereal-decoder-perl
+Version: 5.003+ds-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 302
+Depends: libsereal-decoder-perl (= 5.003+ds-1)
+Priority: extra
+Section: debug
+Filename: pool/main/libs/libsereal-decoder-perl/libsereal-decoder-perl-dbgsym_5.003+ds-1_amd64.ddeb
+Size: 276320
+SHA512: 2cb0210b185e30ddcb785bb98c138336510eebb39a39b64de31dfef4896ebc257c8c8950d41e9a2ce44623255ce880f847bd452416910e2752a01c0dcabd3317
+SHA256: c99a8055f43f92f73ddf263b172359c4c2e435888350eee6f57bd95956b37e34
+SHA1: 986a93ccb334fdfa5be588d209229ee589c7de2d
+MD5sum: 445073a6263a090d860bc11469eaa811
+Description: debug symbols for libsereal-decoder-perl
+Build-Ids: 40453725964da69646743531dcc6072cb6811685
+
+Package: libsereal-encoder-perl-dbgsym
+Package-Type: ddeb
+Source: libsereal-encoder-perl
+Version: 5.003+ds-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 289
+Depends: libsereal-encoder-perl (= 5.003+ds-1)
+Priority: extra
+Section: debug
+Filename: pool/main/libs/libsereal-encoder-perl/libsereal-encoder-perl-dbgsym_5.003+ds-1_amd64.ddeb
+Size: 268308
+SHA512: 7afeb6055646fb24233123fa0170d29e229dec9f6338b8038e7f930afa076d59556d72fcdc4e4217cc4fe69cb320010adfaee610d72c925540fdf8c69e40b2cc
+SHA256: 5c53c99f92ca3818a983f9415173fd211da5bcc0888e7415c38f9962cfb8fffb
+SHA1: 32e9f7c2089d31aef672e3cb1267c8071a3021de
+MD5sum: 75c6de457284d6372f678a970f83f274
+Description: debug symbols for libsereal-encoder-perl
+Build-Ids: 112c9e0e86c220dd92938219fb418a4024208980
+
+Package: libsocket6-perl-dbgsym
+Package-Type: ddeb
+Source: libsocket6-perl
+Version: 0.29-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 57
+Depends: libsocket6-perl (= 0.29-3)
+Priority: extra
+Section: debug
+Filename: pool/main/libs/libsocket6-perl/libsocket6-perl-dbgsym_0.29-3_amd64.ddeb
+Size: 39564
+SHA512: 729c84e87e28dcca83b0b1d54646bcb984ddd18c70b473685be438a2acfb0fa6d3c40ca5adb6d17d34979745f96122623112a9ca6a9ef7af496d04490add9d89
+SHA256: 82d90c423cde6a35ea7eb1cab1a0917c0f57f2ff9374f8d001217cfffbab3301
+SHA1: 659001ff9da7522c477a8b8f5c65b2e0803861a9
+MD5sum: 4431761bdb8129d0892c3b92edef07c7
+Description: debug symbols for libsocket6-perl
+Build-Ids: 457a22adfa19ce174b5eda50936005970377db0e
+
+Package: libsub-identify-perl-dbgsym
+Package-Type: ddeb
+Source: libsub-identify-perl
+Version: 0.14-3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 41
+Depends: libsub-identify-perl (= 0.14-3)
+Priority: extra
+Section: debug
+Filename: pool/main/libs/libsub-identify-perl/libsub-identify-perl-dbgsym_0.14-3_amd64.ddeb
+Size: 27608
+SHA512: 6b3f1a5d7ff465b02561490a982aa7c7c18d00e6352c20f54020a92e85d585dc70fd76ff9f36eed76d85e76d1954366d879bfb83264b031585be2c0f296d07c6
+SHA256: b4914e4db84bc9f219a60870dfcbd8554e318aff997c2235922cf127f5106d39
+SHA1: 31b782b0c55cbe782cecdf1f6d5a7e0b3491ac00
+MD5sum: c84fffee22a044599e60c494ba65fd5a
+Description: debug symbols for libsub-identify-perl
+Build-Ids: 7c036ec9fb1cc40dbca90715f52a9695d9cf87f8
+
+Package: libsub-name-perl-dbgsym
+Package-Type: ddeb
+Source: libsub-name-perl
+Version: 0.26-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 42
+Depends: libsub-name-perl (= 0.26-2build1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libs/libsub-name-perl/libsub-name-perl-dbgsym_0.26-2build1_amd64.ddeb
+Size: 28640
+SHA512: 5e503e1eabb74a9f0ea7cc3735b7e00c04da6c134dcc09e9ebf19bc5f6624b05c643b242e3648073590e257d8459bfa48d2d7fc4c9ed46df3bed913cd562d103
+SHA256: 017fcc0c26ef107811daaf4b40149bc07a178f8960898fc4caa4a79a9860277e
+SHA1: 39280980338fe19577ba9de51d905724d709fe05
+MD5sum: 8a82dbf5b64116499b462f574c693497
+Description: debug symbols for libsub-name-perl
+Build-Ids: 64b7290e809614d886754849121350f6d102c4d6
+
+Package: libsyntax-keyword-try-perl-dbgsym
+Package-Type: ddeb
+Source: libsyntax-keyword-try-perl
+Version: 0.28-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 60
+Depends: libsyntax-keyword-try-perl (= 0.28-1)
+Priority: extra
+Section: debug
+Filename: pool/main/libs/libsyntax-keyword-try-perl/libsyntax-keyword-try-perl-dbgsym_0.28-1_amd64.ddeb
+Size: 44548
+SHA512: 4bcf8ad70a0997dd419865acbb46d355487e3b4c5d96264a20bb11ab9c399868beecccc4d623bce4049c2e79bbba90a255e8359be78884b752afb9d0368368ab
+SHA256: 093d354e7d544e0b28768099850c79650d5e01e26d2c0000102629a8d3c62595
+SHA1: 3445e7dfe9b7d54449040fc2c8fe4c61a6f3d39c
+MD5sum: c3c1a3ec381819ef983e33f9488a06d2
+Description: debug symbols for libsyntax-keyword-try-perl
+Build-Ids: a1af1b0a2b9edd0589694457278fcae89727b7de
+
+Package: libsys-cpuaffinity-perl-dbgsym
+Package-Type: ddeb
+Source: libsys-cpuaffinity-perl
+Version: 1.13~03-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 84
+Depends: libsys-cpuaffinity-perl (= 1.13~03-2)
+Priority: extra
+Section: debug
+Filename: pool/main/libs/libsys-cpuaffinity-perl/libsys-cpuaffinity-perl-dbgsym_1.13~03-2_amd64.ddeb
+Size: 44872
+SHA512: 4c8c28d5e3492b262fbb26fa4cee82ff5a0b50bf9acc06dffaeb0a516c540e8ed6fff7a5a92073c413a0a4820fd4c37f9162a13260ee4e1b8fb0b741225bc940
+SHA256: abc6da4af87a9abbea7d09574490c0159f40a13f14361522f9d57b4c77bf550b
+SHA1: 6409d11d093fc96fc0b00d6178a5743cb643865c
+MD5sum: bf70ca95e2c7801d6d33aa3b3cd7a807
+Description: debug symbols for libsys-cpuaffinity-perl
+Build-Ids: 0a1c2a9c01a1167a1d243ab6fd9aa7c310319a2c b099387068c6e89403c80ccc89a7e5c4fe67b7ef b69e77bb5b58a9d71ad6c42acd7927c40335305f e2d1a76253dc3a34613d0030f757b6ea3ce294af
+
+Package: libterm-readkey-perl-dbgsym
+Package-Type: ddeb
+Source: libterm-readkey-perl
+Version: 2.38-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 59
+Depends: libterm-readkey-perl (= 2.38-2build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libt/libterm-readkey-perl/libterm-readkey-perl-dbgsym_2.38-2build1_amd64.ddeb
+Size: 43140
+SHA512: 80c37c6aa87d88ba8f540ac868fd89d400513477c122fbf486303efa5675bf1ee1a96706ff701f28958b55526bbfe95ad4a97770688618c75717a07bc0735239
+SHA256: e437dc1cc2e8de39a474bb320beff86837439f1b1d3a01d3a55256462ad51dcb
+SHA1: e7568d9dc2f5681efeb1dcef5a8a760264b7e43b
+MD5sum: cfa1e469db4810245d9cdb75db8ff238
+Description: debug symbols for libterm-readkey-perl
+Build-Ids: cc4ac98f3933a77d14f0ab0fed4eb9216deff45d
+
+Package: libtext-charwidth-perl-dbgsym
+Package-Type: ddeb
+Source: libtext-charwidth-perl
+Version: 0.04-11
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 40
+Depends: libtext-charwidth-perl (= 0.04-11)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libt/libtext-charwidth-perl/libtext-charwidth-perl-dbgsym_0.04-11_amd64.ddeb
+Size: 26416
+SHA512: 1f4fe1ba3a9d696d1e1fd021c37485f548101dc7c58f57fdb2910aee23ef0bb586ab6effc1a0ffdf810d4b59dc2b9e0d7bbc0fc671d40a8cf994a50a7af4ee6e
+SHA256: 560b5201f1af84c01fd5ce5d9f80cd5acde6c1b0d298a44b4dc9531847d311b8
+SHA1: 7effb9266aa6086052ff093749fc8feb9db90179
+MD5sum: 1d49842cd5d51b2c083623b49b78af32
+Description: debug symbols for libtext-charwidth-perl
+Build-Ids: ac0de3f6a69c90e056da56e7fd351d27e205aeb0
+
+Package: libtext-iconv-perl-dbgsym
+Package-Type: ddeb
+Source: libtext-iconv-perl
+Version: 1.7-8
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 47
+Depends: libtext-iconv-perl (= 1.7-8)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libt/libtext-iconv-perl/libtext-iconv-perl-dbgsym_1.7-8_amd64.ddeb
+Size: 32260
+SHA512: 936571a50cb99425a68811e23f6a9eefeff647657ccce0255e99ae853c5cc28e4bec7d189d33ae1961163cd2f6ceb1785781c355e0e05dc161ca12706c0ab54d
+SHA256: 338ef6cbc25ca8e421f6958a9dedcc28a185d9b3d341df3d52329cb1b559cb22
+SHA1: eb4eb659bec462627546c308d69eb813ee202107
+MD5sum: 7a6cba62530a93719369bf91f789eba9
+Description: debug symbols for libtext-iconv-perl
+Build-Ids: d57837f4a443151414f8b3fb73e1189596064ced
+
+Package: libtext-levenshteinxs-perl-dbgsym
+Package-Type: ddeb
+Source: libtext-levenshteinxs-perl
+Version: 0.03-5build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 39
+Depends: libtext-levenshteinxs-perl (= 0.03-5build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libt/libtext-levenshteinxs-perl/libtext-levenshteinxs-perl-dbgsym_0.03-5build1_amd64.ddeb
+Size: 25584
+SHA512: 74be46401ae213e04a83ffe9a41ac0d3a32636ccd38a124738cd26550f7330e6a330ea27f32a3aa6a28081a732a34afd1a34cf607939f578e8e9274c666c0005
+SHA256: ee66b633c5819e6287bf78fcad4c3f268664ac22e57a59bba27a0aefa986ae92
+SHA1: 65a0bda2c6bc7a92d147b42fbd97ac9e23b211ff
+MD5sum: 7382ae4325ef4104eb115522eaa924e1
+Description: debug symbols for libtext-levenshteinxs-perl
+Build-Ids: b69eac254036f23775a88b4053a1f1b606a6b37c
+
+Package: libtext-markdown-discount-perl-dbgsym
+Package-Type: ddeb
+Source: libtext-markdown-discount-perl
+Version: 0.16-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 40
+Depends: libtext-markdown-discount-perl (= 0.16-1)
+Priority: extra
+Section: debug
+Filename: pool/main/libt/libtext-markdown-discount-perl/libtext-markdown-discount-perl-dbgsym_0.16-1_amd64.ddeb
+Size: 26012
+SHA512: 49bf0b974ca4632e11ea08df8709c88eca54f97deb406224ad534e256a974a01351ef6af7547b552858f79f133c9da1a703871c0242dd0bbafb5ff03c3d80e22
+SHA256: 8fac9f8d3ba376f18b659fb90af8c55e6c60f89a125615160fadcf9559688e00
+SHA1: 21d4b0e041b77b07e53fccf8a03d07e809a255f2
+MD5sum: ebc5ee99a6d52b9868c056159e3d9445
+Description: debug symbols for libtext-markdown-discount-perl
+Build-Ids: 4804a4723f004600e6fb84592cec092d4fd7ef4a
+
+Package: libtext-xslate-perl-dbgsym
+Package-Type: ddeb
+Source: libtext-xslate-perl
+Version: 3.5.9-1build2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 145
+Depends: libtext-xslate-perl (= 3.5.9-1build2)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libt/libtext-xslate-perl/libtext-xslate-perl-dbgsym_3.5.9-1build2_amd64.ddeb
+Size: 122020
+SHA512: f360da978686473c37ad92a09cc57606427eaa6c5978d39a4d56b9a6d8bea7b1bdef8b7bf6831b3d1a8e4c7e4b0c10146dcc3c058f71accc2934e63fc37c752d
+SHA256: c3cd10a75b6f3c6b6223aaef607cbe398a8f9a663d79b92a5b816acbe9fd9bf3
+SHA1: 1eb8832c7f0a3d3d733a5c479f9021c229fab539
+MD5sum: 870e4fb3ac78d960171bb8a86642864a
+Description: debug symbols for libtext-xslate-perl
+Build-Ids: eeb9cf27656888444187821b3a3b5d1313317e50
+
+Package: libtime-moment-perl-dbgsym
+Package-Type: ddeb
+Source: libtime-moment-perl
+Version: 0.44-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 150
+Depends: libtime-moment-perl (= 0.44-2build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libt/libtime-moment-perl/libtime-moment-perl-dbgsym_0.44-2build1_amd64.ddeb
+Size: 123528
+SHA512: c6d53e9d0e38238a5a9a2633a8375abe76de84f8dbb24efde37f58e6931397ce00f22b22c3cc4f4e6b31bab3b5b5a34494191aae633579b8494a66894fe6933d
+SHA256: 9a5b7ec25e2aae7de12e3c1831216d5318f27824d86e4dddabd0ce2abc4b494d
+SHA1: 90a6e5f0884942a17c6846f8a13f44654627788a
+MD5sum: 1a897b7783463a1405eb201594bbc16a
+Description: debug symbols for libtime-moment-perl
+Build-Ids: 345a348c2323d6afeeb1dc40cc990995ca55da16
+
+Package: libtype-tiny-xs-perl-dbgsym
+Package-Type: ddeb
+Source: libtype-tiny-xs-perl
+Version: 0.025-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 84
+Depends: libtype-tiny-xs-perl (= 0.025-1)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libt/libtype-tiny-xs-perl/libtype-tiny-xs-perl-dbgsym_0.025-1_amd64.ddeb
+Size: 65532
+SHA512: 9c6400fb4d99b2b1da58b7e881cda12f5037f51ebcbf0b4e1538d306813ca825d30f1c14e826ff096e9ede212cf7c385b815fdd1f1f292942fd556f646270213
+SHA256: 40920f0ff149cf041e4edea60864c4fd350c33258f7e54229e62d615b12eeec2
+SHA1: 7c20a70c02c015dd8b643933c2150173d61f1eec
+MD5sum: 6d02ca326143fa5154d59251f89ad10c
+Description: debug symbols for libtype-tiny-xs-perl
+Build-Ids: 89563f158aadeac14a8204375e7320c603683f10
+
+Package: libunicode-map-perl-dbgsym
+Package-Type: ddeb
+Source: libunicode-map-perl
+Version: 0.112-13build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 53
+Depends: libunicode-map-perl (= 0.112-13build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libu/libunicode-map-perl/libunicode-map-perl-dbgsym_0.112-13build1_amd64.ddeb
+Size: 39044
+SHA512: 6997b0c08bf1ba2350a285140333c519d443d6e7f505142d53936f54b37cfb08560912e0f61af661ff2bd98f3c092b5876948bbcc361f3506f9ef4d3edc12ffb
+SHA256: 4ad0353caeaf16f0633ca1aca155600b24ce305f97697d92113adaec675913c1
+SHA1: b6ee2faacd7e59f6421c773c5b79976e83922a0e
+MD5sum: 238d0a0de27cd55bd48ee4fcea20c4fa
+Description: debug symbols for libunicode-map-perl
+Build-Ids: b8c12cd324815ec182d9cf257002d0de5eee7a62
+
+Package: libunicode-utf8-perl-dbgsym
+Package-Type: ddeb
+Source: libunicode-utf8-perl
+Version: 0.62-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 50
+Depends: libunicode-utf8-perl (= 0.62-2)
+Priority: extra
+Section: debug
+Filename: pool/main/libu/libunicode-utf8-perl/libunicode-utf8-perl-dbgsym_0.62-2_amd64.ddeb
+Size: 35988
+SHA512: 5e290ab01493952a705eacce7a44b38c2d2f8538c2f15a7727f3f6047fa7155c075245883bd61e844582dbd0a9c5d44e62dba1afc22d34eca0983491a94c21a2
+SHA256: 778be2edfc92c09ac1312b87989020f44778a305dc7b11e7213a3d0764fd6f27
+SHA1: 9600ced953885dcaf70f32dc35be0173399512f6
+MD5sum: 69d8e125377607ff3991c152de03b7db
+Description: debug symbols for libunicode-utf8-perl
+Build-Ids: c3f7f891526f5dde7614d5f1c4c24c31895a4deb
+
+Package: liburi-escape-xs-perl-dbgsym
+Package-Type: ddeb
+Source: liburi-escape-xs-perl
+Version: 0.14-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 41
+Depends: liburi-escape-xs-perl (= 0.14-2build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libu/liburi-escape-xs-perl/liburi-escape-xs-perl-dbgsym_0.14-2build1_amd64.ddeb
+Size: 27864
+SHA512: a9f64eb3b78145ac0532346b523c8a025313177f81678194f6a8cf47ad974764005d6b5c951cf4bc833294b59ef4a1487e43b8f025c8662d0a4a81c2c389c4e5
+SHA256: 2705a77fec07b300db36f871f3d6bc33e48a66d5b97bf2c016560ca9b6ffe50b
+SHA1: 702db1d8004dfdff3728d87dfe01fb1f30c070fe
+MD5sum: 51e8300355f3aef90a527570c36d1171
+Description: debug symbols for liburi-escape-xs-perl
+Build-Ids: e995a75117f162f90b1a5d7efafafe0c0666932f
+
+Package: libvariable-magic-perl-dbgsym
+Package-Type: ddeb
+Source: libvariable-magic-perl
+Version: 0.63-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 85
+Depends: libvariable-magic-perl (= 0.63-1)
+Priority: extra
+Section: debug
+Filename: pool/main/libv/libvariable-magic-perl/libvariable-magic-perl-dbgsym_0.63-1_amd64.ddeb
+Size: 67484
+SHA512: a9c7d8b2db88d8a9453110f9aabac097bec93b39d7e23264b75966a702c8c12fc8d64fd1c60091bd895cceed43e14e9a4f3425c7d356a847b15c8333bee5aba6
+SHA256: a5ec0e83f638e03889c62727e1f6518a38da2b9e4cf360b2d841f5183f18876e
+SHA1: cdcc7b0eb327ce862790db5612ab6bbe384eeebe
+MD5sum: a710babe346b254984920e7acecf4243
+Description: debug symbols for libvariable-magic-perl
+Build-Ids: 3bfefe0f170b2b3a8d0d03cd01a714f7fbe6029d
+
+Package: libwant-perl-dbgsym
+Package-Type: ddeb
+Source: libwant-perl
+Version: 0.29-2build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 59
+Depends: libwant-perl (= 0.29-2build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libw/libwant-perl/libwant-perl-dbgsym_0.29-2build1_amd64.ddeb
+Size: 44032
+SHA512: fff432bc2d69d5d0e605d5c6ae156dfa2050e8f05311e6167e6c923d0cf17762f64f0be52e36070ab9d750cad54583f4daf9a43e24f46d0bb837a70717b9d22b
+SHA256: f23115845eb101b662af349fc91266c150f750aac886845100a169265186932d
+SHA1: 95dbc00b222746570d368efb8099cb2d3f51f71a
+MD5sum: e5be3793eeda15dbd3b2979392778f0f
+Description: debug symbols for libwant-perl
+Build-Ids: d77a7fc651d458bd5687e508cc6f722e395bc8c3
+
+Package: libxml-libxml-perl-dbgsym
+Package-Type: ddeb
+Source: libxml-libxml-perl
+Version: 2.0207+dfsg+really+2.0134-1build1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 481
+Depends: libxml-libxml-perl (= 2.0207+dfsg+really+2.0134-1build1)
+Priority: extra
+Section: debug
+Filename: pool/main/libx/libxml-libxml-perl/libxml-libxml-perl-dbgsym_2.0207+dfsg+really+2.0134-1build1_amd64.ddeb
+Size: 403232
+SHA512: c69f85c4a8e30e77c3e414d0270e7eb68465277d3bb4a9887218930862a4f20722477c343d04b7090c8abe7c3e25166c874848c9fa9a8242e079e874731f72d7
+SHA256: f38150eef396a7cd9ae9014800d5e99f2fb762b3094aad783ed28813e8757189
+SHA1: 121b57c1d37b9d3c4344d0e90e4e35c6c1897678
+MD5sum: 1f3ead286fcf55a5c0e612d75b8bc310
+Description: debug symbols for libxml-libxml-perl
+Build-Ids: 45a96a1777b4912b5442b0e2fd2554d4c4857a0e
+
+Package: libxml-parser-perl-dbgsym
+Package-Type: ddeb
+Source: libxml-parser-perl
+Version: 2.46-4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 121
+Depends: libxml-parser-perl (= 2.46-4)
+Priority: extra
+Section: debug
+Filename: pool/main/libx/libxml-parser-perl/libxml-parser-perl-dbgsym_2.46-4_amd64.ddeb
+Size: 98996
+SHA512: 99efe59e569bad68871ac29c4d55dec5222f4f6889723ea08ff3d9b764c87f68fa2bdee2da18e893d007a95796fb917f3676e73c004a96c1847c2e7a722d6437
+SHA256: 0d58123a41e5f24609988eefd096c7f3ff17318013f41a01e4cb67a5e77f2daf
+SHA1: 522f15e984e9904ef8ad66430a0c4e515e5e16ef
+MD5sum: 033d942cd1a257024f8c880a1ac4981f
+Description: debug symbols for libxml-parser-perl
+Build-Ids: 93d134f8a2dcfc552652066c26ab136bcbb610f0
+
+Package: libxs-parse-keyword-perl-dbgsym
+Package-Type: ddeb
+Source: libxs-parse-keyword-perl
+Version: 0.33-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 83
+Depends: libxs-parse-keyword-perl (= 0.33-1)
+Priority: extra
+Section: debug
+Filename: pool/main/libx/libxs-parse-keyword-perl/libxs-parse-keyword-perl-dbgsym_0.33-1_amd64.ddeb
+Size: 65268
+SHA512: adc771d830af74e775fd3496cd989666398e11840c662bd59351f7da1a1dce78b406aa04fe3e28eca3a48e40fe960769579f7e0c368a24b6005d14907ff5bfc7
+SHA256: 2acc48ad6b7decff5e5fe1bdb12240be8fb8154d139dddf12063d9b5180da47a
+SHA1: ceb89436bca061b9cca3723c1f542413a95d05a7
+MD5sum: a59e14437fc0f71292dcc2ce7e521b89
+Description: debug symbols for libxs-parse-keyword-perl
+Build-Ids: 722167396a5ca093a886eeff10aaf7741c122afc
+
+Package: libxs-parse-sublike-perl-dbgsym
+Package-Type: ddeb
+Source: libxs-parse-sublike-perl
+Version: 0.16-1ubuntu3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 58
+Depends: libxs-parse-sublike-perl (= 0.16-1ubuntu3)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libx/libxs-parse-sublike-perl/libxs-parse-sublike-perl-dbgsym_0.16-1ubuntu3_amd64.ddeb
+Size: 43332
+SHA512: 23f034076b81dd03adebd4dca698f6aceb51b14e610a9fe2de2ad165030c6b76b6a99029ba3748f3ecef522698b7b3848fca7be219d0a8c30f9ed69e80cd66c1
+SHA256: 758f308c968a151308c6e1fb895d67d716a7125e003eb4880edc1dbf64e475fd
+SHA1: 4f9ad2d66aed55bbda2ba414a2a6e0b763ba8422
+MD5sum: c98f8dd08f4a5d8b23cfc6e28661d95a
+Description: debug symbols for libxs-parse-sublike-perl
+Build-Ids: c9f4cc1490fcef6b5405515fa09a64661c0e2d39
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libxstring-perl-dbgsym
+Package-Type: ddeb
+Source: libxstring-perl
+Version: 0.005-2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 39
+Depends: libxstring-perl (= 0.005-2)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/libx/libxstring-perl/libxstring-perl-dbgsym_0.005-2_amd64.ddeb
+Size: 25244
+SHA512: f8d8c1292e7a02c7cd149d394b4ea5078737e991c39d489009c58681f16f78efff0d32143e2c78ddeec88a667b4d59fa1d4eb7be1e571548217dd6687d6fe981
+SHA256: 67ed0d957ee6bef6418570390ed01c85f9d666276889a4dff986602fc5ba992f
+SHA1: 32b76f4338693c5563ebc5752cbc29735105c87c
+MD5sum: 6da099476f2c5a9caa50c91382dd7d6d
+Description: debug symbols for libxstring-perl
+Build-Ids: 88f47577819d3970d47f5577d97677eacf14bfc3
+
+Package: libyaml-libyaml-perl-dbgsym
+Package-Type: ddeb
+Source: libyaml-libyaml-perl
+Version: 0.86+ds-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 88
+Depends: libyaml-libyaml-perl (= 0.86+ds-1)
+Priority: extra
+Section: debug
+Filename: pool/main/liby/libyaml-libyaml-perl/libyaml-libyaml-perl-dbgsym_0.86+ds-1_amd64.ddeb
+Size: 68996
+SHA512: e60e13cf5b6d7f5b6e2f020f624049cef70677dcfc092315345cac6adff913dfa9ead4b6c8e0a46c839280a08a35d23e6fdd82e4c68082c0868591d5be7a9a1b
+SHA256: 5c17725145843f3391671f4e4abec72575409c8b8b37a91471e052d040cc0dcd
+SHA1: c973d290a2b3a869bf600dd4717ee18a8dbf84e0
+MD5sum: baa8f80e1e06728c3fd8a79f7804ebed
+Description: debug symbols for libyaml-libyaml-perl
+Build-Ids: 383b6368be7490bed4f89326232ad4901a77185e
+
