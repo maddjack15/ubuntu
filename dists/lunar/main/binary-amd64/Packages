@@ -1386,6 +1386,29 @@ Description: Documentation for GNU Aspell spell-checker
  this package if you need further information on the development process
  and workings of Aspell.
 
+Package: aspell-en
+Version: 2018.04.16-0-1
+Architecture: all
+Maintainer: Brian Nelson <pyro@debian.org>
+Installed-Size: 422
+Depends: aspell (>= 0.60.3-2), dictionaries-common (>= 0.49.2)
+Provides: aspell-dictionary
+Multi-Arch: foreign
+Homepage: http://aspell.net/
+Priority: optional
+Section: text
+Filename: pool/main/a/aspell-en/aspell-en_2018.04.16-0-1_all.deb
+Size: 298860
+SHA512: ed2b33604475a0ec9e96ee79329dc23b47eaebb48f5ce3d5aa8da7b9e119e7eb41b309646043dbb2dbbccd63d75e36f66541808e0332fdbfe793149357bc235f
+SHA256: 24140d20d4018fc46d58d6d26fce2f9795f76430f94e616ec0423318ccab7354
+SHA1: f70df86a45675cc6506885875c44b0991446a77b
+MD5sum: 2dc2c98ed5642d008f60221f60dd734e
+Description: English dictionary for GNU Aspell
+ This package contains all the required files to add support for English
+ language to the GNU Aspell spell checker.
+ .
+ American, British, Canadian and Australian spellings are included.
+
 Package: at-spi2-common
 Source: at-spi2-core
 Version: 2.48.0-1
@@ -1592,6 +1615,36 @@ Description: User space tools for security auditing
  .
  Also contains the audit dispatcher "audisp".
 
+Package: autoconf
+Version: 2.71-3
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 2024
+Depends: perl (>> 5.005), m4 (>= 1.4.13), debianutils (>= 1.8)
+Recommends: automake | automaken
+Suggests: autoconf-archive, gnu-standards, autoconf-doc, libtool, gettext
+Breaks: gettext (<< 0.10.39), pkg-config (<< 0.25-1.1)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/autoconf/
+Priority: optional
+Section: devel
+Filename: pool/main/a/autoconf/autoconf_2.71-3_all.deb
+Size: 332052
+SHA512: 94fc908316eb74cedd9e8e1021ded3dd1c791bb7bd45d1681e3cd824f0b237a5922d37eb7c253b6065aa0b2c9f452ffd76254154ff199b2b276678124950d444
+SHA256: ebd5a34ed8fbbae096915da6c0c94f9e161af5da908678f5a75729387f30f598
+SHA1: 35832f60d0ee84ff1671886ee0e7e92b75e7cb77
+MD5sum: 603e3b46a102137f080bececcd9851c8
+Description: automatic configure script builder
+ The standard for FSF source packages.  This is only useful if you
+ write your own programs or if you extensively modify other people's
+ programs.
+ .
+ For an extensive library of additional Autoconf macros, install the
+ `autoconf-archive' package.
+ .
+ This version of autoconf is not compatible with scripts meant for
+ Autoconf 2.13 or earlier.
+
 Package: autoconf-archive
 Version: 20220903-3
 Architecture: all
@@ -1618,6 +1671,27 @@ Description: Autoconf Macro Archive
  useful and tested Autoconf macros for software developers around the
  world. This package contains the complete content of the Autoconf
  Macro Archive as found at http://www.gnu.org/software/autoconf-archive/.
+
+Package: autoconf-doc
+Source: autoconf
+Version: 2.71-3
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 4464
+Depends: gnu-standards
+Homepage: https://www.gnu.org/software/autoconf/
+Priority: optional
+Section: doc
+Filename: pool/main/a/autoconf/autoconf-doc_2.71-3_all.deb
+Size: 2908320
+SHA512: c73c3a31476540d62230e109876a8550c4fa4c367aa1a365ad154fa23be287497a8472571ee5de4b190be9eb1ab0c6016dd5f68e17d680e25ae6cd455482041b
+SHA256: eb962682f43fa2aa141aed5acfdad52d08a3cf2d2c18b4742acf1e866f2d3171
+SHA1: e94edb0f1130501756a33431d7ecda5884e005c7
+MD5sum: d5f90723385ad8e5f8a5621a161e2eed
+Description: automatic configure script builder documentation
+ GNU Autoconf is a package for creating scripts to configure source code
+ packages using templates and an M4 macro package.  This package contains
+ the manual for GNU Autoconf.
 
 Package: automake
 Source: automake-1.16
@@ -1653,6 +1727,38 @@ Description: Tool for generating GNU Standards-compliant Makefiles
  Automake 1.16 fails to work in a number of situations that Automake
  1.11, and 1.15 did, so some previous versions are available as separate
  packages.
+
+Package: autotools-dev
+Version: 20220109.1
+Architecture: all
+Maintainer: Henrique de Moraes Holschuh <hmh@debian.org>
+Installed-Size: 126
+Enhances: cdbs, debhelper
+Breaks: autoconf (<< 2.70~)
+Replaces: autoconf (<< 2.70~)
+Multi-Arch: foreign
+Homepage: https://savannah.gnu.org/projects/config/
+Priority: optional
+Section: devel
+Filename: pool/main/a/autotools-dev/autotools-dev_20220109.1_all.deb
+Size: 42720
+SHA512: f63c8475cf5e5b58142907f9da18ef4c4e118183dfb78d404a6fb856855ceb5af2e131167df5cb333acc31796bf224087a93db35a572e17ab6985c4fe07bcfc8
+SHA256: efdb097973657f16811ff2ef3b17b8c260bd928ecd59c89e9b17affc22110a35
+SHA1: 82aec85eab6ad8483559849ad94ce6acc32ff5e5
+MD5sum: a398177b07d26e700e4233a97cee5d5e
+Description: Update infrastructure for config.{guess,sub} files
+ This package installs an up-to-date version of config.guess and
+ config.sub, used by the automake and libtool packages.  It provides
+ the canonical copy of those files for other packages as well.
+ .
+ It also documents in /usr/share/doc/autotools-dev/README.Debian.gz
+ best practices and guidelines for using autoconf, automake and
+ friends on Debian packages.  This is a must-read for any developers
+ packaging software that uses the GNU autotools, or GNU gettext.
+ .
+ Additionally this package provides seamless integration into Debhelper
+ or CDBS, allowing maintainers to easily update config.{guess,sub} files
+ in their packages.
 
 Package: avahi-autoipd
 Source: avahi
@@ -9076,6 +9182,62 @@ Description: Identify, read, write, erase, and verify BIOS/ROM/flash chips
    * pickit2_spi (for SPI flash ROMs accessible via Microchip PICkit2)
    * ch341a_spi (for SPI flash ROMs attached to WCH CH341A)
 Original-Maintainer: Debian EFI <debian-efi@lists.debian.org>
+
+Package: flex
+Version: 2.6.4-8.1
+Architecture: amd64
+Maintainer: Manoj Srivastava <srivasta@debian.org>
+Installed-Size: 1154
+Pre-Depends: debconf | debconf-2.0
+Depends: libc6 (>= 2.34), m4
+Recommends: gcc | c-compiler, libfl-dev
+Suggests: bison, build-essential, flex-doc
+Multi-Arch: foreign
+Homepage: https://github.com/westes/flex
+Priority: optional
+Section: devel
+Filename: pool/main/f/flex/flex_2.6.4-8.1_amd64.deb
+Size: 346792
+SHA512: 14ba02185da18d20c4048bfb82bb45700d0410bfb846a95372e7f6360d2209f91fc5a25d5547efb9b93f7a4a26ea52a76ab5cad4d25585815f4cc703e1323773
+SHA256: 33023968393d974570370aaeb5cedb526107499996ec7c46ca3430e25a598131
+SHA1: 75296d0fdab436214d856f7525ac0aa78a8ba2e6
+MD5sum: 085a58fc0b0c8733655e39add5b1ceab
+Description: fast lexical analyzer generator
+ Flex is a tool for generating scanners: programs which recognized lexical
+ patterns in text. It reads the given input files for a description of a
+ scanner to generate. The description is in the form of pairs of regular
+ expressions and C code, called rules. Flex generates as output a C source
+ file, lex.yy.c, which defines a routine yylex().  This file is compiled
+ and linked with the -lfl library to produce an executable. When the
+ executable is run, it analyzes its input for occurrences of the regular
+ expressions. Whenever it finds one, it executes the corresponding C code.
+
+Package: flex-doc
+Source: flex
+Version: 2.6.4-8.1
+Architecture: all
+Maintainer: Manoj Srivastava <srivasta@debian.org>
+Installed-Size: 2033
+Homepage: https://github.com/westes/flex
+Priority: optional
+Section: doc
+Filename: pool/main/f/flex/flex-doc_2.6.4-8.1_all.deb
+Size: 675796
+SHA512: ccec92998b95ef129ee6674d867fc950733d849e28c3721cb06f78afc4f11cdf39e7766181067c8700788e4cfbdfddc48f1433cacae2bbdc000825e205cd9cce
+SHA256: 0b08440c3fc1cfff690d8ea4c4770ebf269f1c88b68f2c9b25b303561ab80d30
+SHA1: 21d4ed1547321aa1df1041228a0cee139eff88fa
+MD5sum: 2eea1f6d4f34b942536eb05413cbb861
+Description: Documentation for flex (a fast lexical analyzer generator)
+ Flex is a tool for generating scanners: programs which recognized lexical
+ patterns in text. It reads the given input files for a description of a
+ scanner to generate. The description is in the form of pairs of regular
+ expressions and C code, called rules. Flex generates as output a C source
+ file, lex.yy.c, which defines a routine yylex().  This file is compiled
+ and linked with the -lfl library to produce an executable. When the
+ executable is run, it analyzes its input for occurrences of the regular
+ expressions. Whenever it finds one, it executes the corresponding C code.
+ .
+ This package contains the HTML documentation for flex.
 
 Package: fontconfig
 Version: 2.14.1-3ubuntu3
@@ -24586,6 +24748,68 @@ Description: Perl module for searching paths for executable programs
  .
  On Debian /usr/bin/which is guaranteed to be available, but going
  through the Perl implementation can still save a fork.
+
+Package: libfl-dev
+Source: flex
+Version: 2.6.4-8.1
+Architecture: amd64
+Maintainer: Manoj Srivastava <srivasta@debian.org>
+Installed-Size: 54
+Depends: flex (= 2.6.4-8.1), libfl2 (= 2.6.4-8.1)
+Breaks: flex (<< 2.5.39), flex-old (<= 2.5.4a-10)
+Replaces: flex (<< 2.5.39), flex-old (<= 2.5.4a-10)
+Multi-Arch: same
+Homepage: https://github.com/westes/flex
+Priority: optional
+Section: libdevel
+Filename: pool/main/f/flex/libfl-dev_2.6.4-8.1_amd64.deb
+Size: 10720
+SHA512: 14c1cf7c2ecd09ca9cabc477d2d7462bbeb4bd71eb3338a30c5253e68dc9a2c4e103bf44812fa7ce4ced44ff6e16e162352ba0fb260d94fe03e47f083d7483c3
+SHA256: e10618d403e0110125b81ef978913f97696484cea208b4667a3744cfddb3690b
+SHA1: 154113648c44070ff751ac9f18df4435a7bd4dd2
+MD5sum: f6664e368b1937d6edb26b18c3914cc5
+Description: static library for flex (a fast lexical analyzer generator)
+ Flex is a tool for generating scanners: programs which recognized lexical
+ patterns in text. It reads the given input files for a description of a
+ scanner to generate. The description is in the form of pairs of regular
+ expressions and C code, called rules. Flex generates as output a C source
+ file, lex.yy.c, which defines a routine yylex().  This file is compiled
+ and linked with the -lfl library to produce an executable. When the
+ executable is run, it analyzes its input for occurrences of the regular
+ expressions. Whenever it finds one, it executes the corresponding C code.
+ .
+ This package contains the static library for flex.
+
+Package: libfl2
+Source: flex
+Version: 2.6.4-8.1
+Architecture: amd64
+Maintainer: Manoj Srivastava <srivasta@debian.org>
+Installed-Size: 57
+Depends: libc6 (>= 2.2.5)
+Breaks: flex (<< 2.5.39), libfl-dev (<= 2.6.4-4)
+Replaces: flex (<< 2.5.39), libfl-dev (<= 2.6.4-4)
+Multi-Arch: same
+Homepage: https://github.com/westes/flex
+Priority: optional
+Section: libs
+Filename: pool/main/f/flex/libfl2_2.6.4-8.1_amd64.deb
+Size: 9508
+SHA512: 40e74713f9cc94dd3f1d640e662f94110efa1fd37297a05ea5aaf00eeb5bb1799e69aa7fce21e62e34f67a48364d2a43359142552c2eef3f0d67556f120c6a36
+SHA256: c702e5fa48deee54bef254133c6b87456f3af21a4c0bfceb0918f89d58df8386
+SHA1: 3531eee756144ab824494593a309a50661e9ebe7
+MD5sum: cf556b0b2a65434a611268b9cff35003
+Description: SHARED library for flex (a fast lexical analyzer generator)
+ Flex is a tool for generating scanners: programs which recognized lexical
+ patterns in text. It reads the given input files for a description of a
+ scanner to generate. The description is in the form of pairs of regular
+ expressions and C code, called rules. Flex generates as output a C source
+ file, lex.yy.c, which defines a routine yylex().  This file is compiled
+ and linked with the -lfl library to produce an executable. When the
+ executable is run, it analyzes its input for occurrences of the regular
+ expressions. Whenever it finds one, it executes the corresponding C code.
+ .
+ This package contains the shared library for flex.
 
 Package: libflac++-dev
 Source: flac
