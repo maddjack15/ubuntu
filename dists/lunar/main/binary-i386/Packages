@@ -8623,30 +8623,6 @@ Description: Manage ASN.1 structures (documentation)
  .
  This package contains the documentation for developing with libtasn1.
 
-Package: libtext-wrapi18n-perl
-Version: 0.06-10
-Architecture: all
-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Installed-Size: 12
-Depends: libtext-charwidth-perl
-Homepage: https://metacpan.org/release/Text-WrapI18N
-Priority: required
-Section: perl
-Filename: pool/main/libt/libtext-wrapi18n-perl/libtext-wrapi18n-perl_0.06-10_all.deb
-Size: 3540
-SHA512: c6cc44bb804fe38981ba8bb3415ea03acd22609f94025f0fcab22905806493a3576191ade73b56566dc25bdd6b36dc9629711663e567d6140423a16bd6a5c9c3
-SHA256: 8576d17421fd31e37b96a48d620b0c45ba7ff47dd83dc6c50b2582f363811b55
-SHA1: 41f574b8492a7d957bbda5c289d5b94a1c64725c
-MD5sum: 56e3cff1008eb2ccd6bc15875fa90f3c
-Description: internationalized substitute of Text::Wrap
- The Text::WrapI18N module is a substitution for Text::Wrap, supporting
- multibyte characters such as UTF-8, EUC-JP, and GB2312, fullwidth characters
- such as east Asian characters, combining characters such as diacritical marks
- and Thai, and languages which don't use whitespaces between words such as
- Chinese and Japanese.
- .
- It provides wrap().
-
 Package: libtirpc-common
 Source: libtirpc
 Version: 1.3.3+ds-1

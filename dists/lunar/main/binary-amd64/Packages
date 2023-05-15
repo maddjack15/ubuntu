@@ -25665,29 +25665,6 @@ Description: MIT Kerberos runtime libraries - Support library
  Kerberos libraries.
 Original-Maintainer: Sam Hartman <hartmans@debian.org>
 
-Package: liblocale-gettext-perl
-Version: 1.07-5
-Architecture: amd64
-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Installed-Size: 13
-Homepage: https://metacpan.org/release/gettext
-Priority: required
-Section: perl
-Filename: pool/main/libl/liblocale-gettext-perl/liblocale-gettext-perl_1.07-5_amd64.deb
-Size: 6116
-SHA512: db6f6ee1de3a2ff0e38be3d1b8b7eb967f1406e39a0a1483bebdf95b8246544ba23727cf4d67cc0310b78504de06df420e74a58ddfc17a2192fde1c0f280aa17
-SHA256: f59716e0011d14b122b1e49896a7e5a28a2f799ba3b63b8253695a3a996a5cb3
-SHA1: 727ea1f8ad14258a447f5fecdef682cd65ab5dce
-MD5sum: 7847991381bbc1a401e2dd0b2e07defd
-Description: module using libc functions for internationalization in Perl
- The Locale::gettext module permits access from perl to the gettext() family of
- functions for retrieving message strings from databases constructed
- to internationalize software.
- .
- It provides gettext(), dgettext(), dcgettext(), textdomain(),
- bindtextdomain(), bind_textdomain_codeset(), ngettext(), dcngettext()
- and dngettext().
-
 Package: liblvm2-dev
 Source: lvm2
 Version: 2.03.16-1ubuntu1
@@ -27798,51 +27775,6 @@ Description: Manage ASN.1 structures (documentation)
    * no limits for INTEGER and ENUMERATED values
  .
  This package contains the documentation for developing with libtasn1.
-
-Package: libtext-charwidth-perl
-Version: 0.04-11
-Architecture: amd64
-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Installed-Size: 12
-Multi-Arch: same
-Homepage: https://metacpan.org/release/Text-CharWidth
-Priority: required
-Section: perl
-Filename: pool/main/libt/libtext-charwidth-perl/libtext-charwidth-perl_0.04-11_amd64.deb
-Size: 3608
-SHA512: 4a4345f7ce473fbea69ffb2d9672be2575f83d8ac74a7a3eb10b978afd399ea5030bf74b97d9aa97fe69afc7128b064a64992c20da251733693f488670fd6d0d
-SHA256: 0e61b0e586e3f0856aae9757f1fb510c0134cf4183d8e5b23b3cac129a5f69b4
-SHA1: ba3bcd5c5cbe9abaee1c76f8bac10c369c9d9b2f
-MD5sum: 366ecdf9f841d67cadcfddac18b61f01
-Description: get display widths of characters on the terminal
- Text::CharWidth permits one to get the display widths of characters
- and strings on the terminal, using wcwidth() and wcswidth() from libc.
- .
- It provides mbwidth(), mbswidth(), and mblen().
-
-Package: libtext-wrapi18n-perl
-Version: 0.06-10
-Architecture: all
-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
-Installed-Size: 12
-Depends: libtext-charwidth-perl
-Homepage: https://metacpan.org/release/Text-WrapI18N
-Priority: required
-Section: perl
-Filename: pool/main/libt/libtext-wrapi18n-perl/libtext-wrapi18n-perl_0.06-10_all.deb
-Size: 3540
-SHA512: c6cc44bb804fe38981ba8bb3415ea03acd22609f94025f0fcab22905806493a3576191ade73b56566dc25bdd6b36dc9629711663e567d6140423a16bd6a5c9c3
-SHA256: 8576d17421fd31e37b96a48d620b0c45ba7ff47dd83dc6c50b2582f363811b55
-SHA1: 41f574b8492a7d957bbda5c289d5b94a1c64725c
-MD5sum: 56e3cff1008eb2ccd6bc15875fa90f3c
-Description: internationalized substitute of Text::Wrap
- The Text::WrapI18N module is a substitution for Text::Wrap, supporting
- multibyte characters such as UTF-8, EUC-JP, and GB2312, fullwidth characters
- such as east Asian characters, combining characters such as diacritical marks
- and Thai, and languages which don't use whitespaces between words such as
- Chinese and Japanese.
- .
- It provides wrap().
 
 Package: libtinfo-dev
 Source: ncurses
