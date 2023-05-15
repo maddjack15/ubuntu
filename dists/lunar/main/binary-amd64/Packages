@@ -7116,6 +7116,40 @@ Description: command line tool to manipulate XMP metadata
  .
  This package provides a command line tool to manipulate XMP metadata.
 
+Package: exiv2
+Version: 0.27.6-1
+Architecture: amd64
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 286
+Depends: libexiv2-27 (= 0.27.6-1), libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12)
+Homepage: https://www.exiv2.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/e/exiv2/exiv2_0.27.6-1_amd64.deb
+Size: 143648
+SHA512: 1356dbeed491ea0766567addb34e4f0a3c4c3b840462d0faf6210bd1304ab11b1263dee9c478b1dd8d48c862382b3046592bbb462cab74bde1e4f15cfbe9a652
+SHA256: 567bc653409be749f522c63c10a4fb778cdf3151444e55d1cb64d0d2bdbee9a4
+SHA1: da1344eb7b848d4fea672955fd92118d5f4e01b9
+MD5sum: 67af79bdb4079d380aa0499671a02957
+Description: EXIF/IPTC/XMP metadata manipulation tool
+ Exiv2 is a C++ library and a command line utility to manage image metadata.
+ It provides fast and easy read and write access to the Exif, IPTC and XMP
+ metadata of images in various formats
+ .
+ Exiv2 command line utility to:
+ .
+  * print Exif, IPTC and XMP image metadata in different formats:
+    - Exif summary info, interpreted values, or the plain data for each tag
+  * set, add and delete Exif, IPTC and XMP image metadata from command line
+    modify commands or command scripts
+  * adjust the Exif timestamp (that's how it all started...)
+  * rename Exif image files according to the Exif timestamp
+  * extract, insert and delete Exif, IPTC and XMP metadata and JPEG comments
+  * extract previews from RAW images and thumbnails from the Exif metadata
+  * insert and delete the thumbnail image embedded in the Exif metadata
+  * print, set and delete the JPEG comment of JPEG images
+  * fix the Exif ISO setting of picture taken with Canon and Nikon cameras
+
 Package: expat
 Version: 2.5.0-1
 Architecture: amd64
@@ -23932,6 +23966,95 @@ Description: library to parse XMP metadata (Library)
  XMP (Extensible Metadata Platform) facilitates embedding metadata in files
  using a subset of RDF. Most notably XMP supports embedding metadata in PDF
  and many image formats, though it is designed to support nearly any file type.
+
+Package: libexiv2-27
+Source: exiv2
+Version: 0.27.6-1
+Architecture: amd64
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 7301
+Depends: libc6 (>= 2.34), libexpat1 (>= 2.0.1), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 12), zlib1g (>= 1:1.1.4)
+Suggests: exiv2
+Breaks: libexiv2-dev (<< 0.27.2-7~)
+Replaces: libexiv2-dev (<< 0.27.2-7~)
+Multi-Arch: same
+Homepage: https://www.exiv2.org/
+Priority: optional
+Section: libs
+Filename: pool/main/e/exiv2/libexiv2-27_0.27.6-1_amd64.deb
+Size: 1557964
+SHA512: a4a29bf12ff28a2afa7f60284f84685999ebcec470e7c9ea474caf977d26fe5dbcae7472be5fbe8e4720a864cff34a614b5a18583f9c1ad43c5c861c1c2e9974
+SHA256: 69d58da366d7c5583a9022b1df283abf7b7f531bc5379eeb855aa5c1f7804a20
+SHA1: 53dcfa70e923269bed8e5c5cd7b2f3ee9aa18b75
+MD5sum: bf155dfae402ce40c95169db9c5a3094
+Description: EXIF/IPTC/XMP metadata manipulation library
+ Exiv2 is a C++ library and a command line utility to manage image metadata.
+ It provides fast and easy read and write access to the Exif, IPTC and XMP
+ metadata of images in various formats
+ .
+ Exiv2 library provides:
+  * fast read and write access to the Exif, IPTC, and XMP metadata of an image
+  * an easy to use and extensively documented API
+  * conversions of Exif and IPTC metadata to XMP and vice versa
+  * a smart IPTC implementation that does not affect data that programs like
+    Photoshop store in the same image segment
+  * Exif Makernote support:
+    - Makernote tags can be read and written just like any other metadata
+    - a sophisticated write algorithm avoids corrupting the Makernote
+  * a simple interface to extract previews embedded in RAW images and Exif
+    thumbnails
+  * set and delete methods for Exif thumbnails
+
+Package: libexiv2-dev
+Source: exiv2
+Version: 0.27.6-1
+Architecture: amd64
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 1644
+Depends: libexiv2-27 (= 0.27.6-1)
+Suggests: libexiv2-doc
+Breaks: libexiv2-27 (<< 0.27.2-8~)
+Replaces: libexiv2-27 (<< 0.27.2-8~)
+Multi-Arch: same
+Homepage: https://www.exiv2.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/e/exiv2/libexiv2-dev_0.27.6-1_amd64.deb
+Size: 309248
+SHA512: a363aeda1c26f7d28b3c025a72caf79111f72ce289debcbd41da95830d74c429bc46d723806082e3a5c5a8d29444f4c7e945f58328940c81b1f44937c27d4581
+SHA256: 731d3d0c31eb032549555b66f55928519d915cba8e50c1e0fbd73c31e14a67fa
+SHA1: 03eb3fe8a0e5bd998418d0eab04ad2e5be4dd320
+MD5sum: e16b91956e396cffdeabbfd47080bcac
+Description: EXIF/IPTC/XMP metadata manipulation library - development files
+ Exiv2 is a C++ library and a command line utility to manage image metadata.
+ It provides fast and easy read and write access to the Exif, IPTC and XMP
+ metadata of images in various formats
+ .
+ This package provides the development files for using exiv2.
+
+Package: libexiv2-doc
+Source: exiv2
+Version: 0.27.6-1
+Architecture: all
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 23187
+Depends: libjs-jquery
+Multi-Arch: foreign
+Homepage: https://www.exiv2.org/
+Priority: optional
+Section: doc
+Filename: pool/main/e/exiv2/libexiv2-doc_0.27.6-1_all.deb
+Size: 3067180
+SHA512: 42b3369263f7eaef92eedf76c88d6475bb6810dbf7d3cbb58028d5bf5c47facae346f8595d25c7c54e79a4b1ff6038a5b0f285fefa8a5715cd38da7d9694e63d
+SHA256: 225e51dede157e3a3b276adcc73e30644c3c2a86f62a5a5d31294c375af51dbf
+SHA1: a42ea4d6025409d47f92b700f951d4744918dc99
+MD5sum: 9e9901aef47697f3967fef09059b4885
+Description: EXIF/IPTC/XMP metadata manipulation library - HTML documentation
+ Exiv2 is a C++ library and a command line utility to manage image metadata.
+ It provides fast and easy read and write access to the Exif, IPTC and XMP
+ metadata of images in various formats
+ .
+ This package provides the Exiv2 HTML documentation.
 
 Package: libexpat1
 Source: expat

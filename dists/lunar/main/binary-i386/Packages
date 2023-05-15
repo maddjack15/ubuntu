@@ -9532,6 +9532,30 @@ Description: module that allows you to declare real exception classes in Perl
  better by encouraging people to use hierarchies of exceptions in their
  applications.
 
+Package: libexiv2-doc
+Source: exiv2
+Version: 0.27.6-1
+Architecture: all
+Maintainer: Debian KDE Extras Team <pkg-kde-extras@lists.alioth.debian.org>
+Installed-Size: 23187
+Depends: libjs-jquery
+Multi-Arch: foreign
+Homepage: https://www.exiv2.org/
+Priority: optional
+Section: doc
+Filename: pool/main/e/exiv2/libexiv2-doc_0.27.6-1_all.deb
+Size: 3067180
+SHA512: 42b3369263f7eaef92eedf76c88d6475bb6810dbf7d3cbb58028d5bf5c47facae346f8595d25c7c54e79a4b1ff6038a5b0f285fefa8a5715cd38da7d9694e63d
+SHA256: 225e51dede157e3a3b276adcc73e30644c3c2a86f62a5a5d31294c375af51dbf
+SHA1: a42ea4d6025409d47f92b700f951d4744918dc99
+MD5sum: 9e9901aef47697f3967fef09059b4885
+Description: EXIF/IPTC/XMP metadata manipulation library - HTML documentation
+ Exiv2 is a C++ library and a command line utility to manage image metadata.
+ It provides fast and easy read and write access to the Exif, IPTC and XMP
+ metadata of images in various formats
+ .
+ This package provides the Exiv2 HTML documentation.
+
 Package: libexporter-tiny-perl
 Version: 1.006000-1
 Architecture: all
