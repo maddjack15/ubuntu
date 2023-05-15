@@ -33950,6 +33950,33 @@ Description: Libraries necessary to run Ruby
  This package is a dependency package, which depends on Debian's default Ruby
  version (currently v3.1).
 
+Package: libruby3.1
+Source: ruby3.1
+Version: 3.1.2-6
+Architecture: amd64
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 25073
+Depends: rake (>= 10.4.2), ruby-net-telnet (>= 0.1.1), ruby-xmlrpc (>= 0.3.1~), ruby-webrick (>= 1.7.0-4~), ruby-sdbm (>= 1.0.0-3~), libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libedit2 (>= 3.1-20221030-2), libffi8 (>= 3.4), libgmp10 (>= 2:6.2.1+dfsg1), libncurses6 (>= 6), libssl3 (>= 3.0.0), libtinfo6 (>= 6), libyaml-0-2, zlib1g (>= 1:1.2.2)
+Provides: ruby-abbrev (= 0.1.0), ruby-base64 (= 0.1.1), ruby-benchmark (= 0.2.0), ruby-bigdecimal (= 3.1.1), ruby-cgi (= 0.3.5), ruby-csv (= 3.2.2), ruby-date (= 3.2.2), ruby-debug (= 1.4.0), ruby-delegate (= 0.2.0), ruby-did-you-mean (= 1.6.1), ruby-digest (= 3.1.0), ruby-drb (= 2.1.0), ruby-english (= 0.7.1), ruby-erb (= 2.2.3), ruby-error-highlight (= 0.3.0), ruby-etc (= 1.3.0), ruby-fcntl (= 1.0.1), ruby-fiddle (= 1.1.0), ruby-fileutils (= 1.6.0), ruby-find (= 0.1.1), ruby-forwardable (= 1.3.2), ruby-getoptlong (= 0.1.1), ruby-io-console (= 0.5.11), ruby-io-nonblock (= 0.1.0), ruby-io-wait (= 0.2.1), ruby-ipaddr (= 1.2.4), ruby-irb (= 1.4.1), ruby-json (= 2.6.1), ruby-logger (= 1.5.0), ruby-matrix (= 0.4.2), ruby-minitest (= 5.15.0), ruby-mutex-m (= 0.1.1), ruby-net-ftp (= 0.1.3), ruby-net-http (= 0.2.0), ruby-net-imap (= 0.2.3), ruby-net-pop (= 0.1.1), ruby-net-protocol (= 0.1.2), ruby-net-smtp (= 0.3.1), ruby-nkf (= 0.1.1), ruby-observer (= 0.1.1), ruby-open-uri (= 0.2.0), ruby-open3 (= 0.1.1), ruby-openssl (= 3.0.0), ruby-optparse (= 0.2.0), ruby-ostruct (= 0.5.2), ruby-pathname (= 0.2.0), ruby-power-assert (= 2.0.1), ruby-pp (= 0.3.0), ruby-prettyprint (= 0.1.1), ruby-prime (= 0.1.2), ruby-pstore (= 0.1.1), ruby-psych (= 4.0.3), ruby-racc (= 1.6.0), ruby-rbs (= 2.1.0), ruby-rdoc (= 6.4.0), ruby-readline (= 0.0.3), ruby-readline-ext (= 0.1.4), ruby-reline (= 0.3.0), ruby-resolv (= 0.2.1), ruby-resolv-replace (= 0.1.0), ruby-rexml (= 3.2.5), ruby-rinda (= 0.1.1), ruby-rss (= 0.2.9), ruby-securerandom (= 0.1.1), ruby-set (= 1.0.2), ruby-shellwords (= 0.1.0), ruby-singleton (= 0.1.1), ruby-stringio (= 3.0.1), ruby-strscan (= 3.0.1), ruby-syslog (= 0.1.0), ruby-tempfile (= 0.1.2), ruby-test-unit (= 3.5.3), ruby-time (= 0.2.0), ruby-timeout (= 0.2.0), ruby-tmpdir (= 0.1.2), ruby-tsort (= 0.1.0), ruby-typeprof (= 0.21.2), ruby-un (= 0.2.0), ruby-uri (= 0.11.0), ruby-weakref (= 0.1.1), ruby-yaml (= 0.2.0), ruby-zlib (= 2.1.1)
+Multi-Arch: same
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: libs
+Filename: pool/main/r/ruby3.1/libruby3.1_3.1.2-6_amd64.deb
+Size: 5038924
+SHA512: af98162fbb2daabec098fee19518bffe34fda73cf321ced753895e3356ed460216bfb76852ed3bc6394246cc0e030f98f5f1d4afcf67aecf6183a735bf03fe52
+SHA256: 7ca55b4ec6b48fdc8255fe59655e753362c58d6b7ce78f0722a65fc0c384d225
+SHA1: 0c4d1497699035ecd8e8ae214294e07b4eca4c12
+MD5sum: 70b78b446e55c6473c6b0c04a2cf8987
+Description: Libraries necessary to run Ruby 3.1
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package includes the 'libruby-3.1' library, necessary to run Ruby 3.1.
+ (API version 3.1.0)
+
 Package: libsasl2-2
 Source: cyrus-sasl2
 Version: 2.1.28+dfsg-10
@@ -40673,6 +40700,84 @@ Description: Ruby bindings to for SELinux policy management
  of many kinds of mandatory access control policies, including those
  based on the concepts of Type Enforcement, Role-based Access
  Control, and Multi-level Security.
+
+Package: ruby3.1
+Version: 3.1.2-6
+Architecture: amd64
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 134
+Depends: rubygems-integration (>= 1.17.1~), libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0), libgmp10 (>= 2:6.2.1+dfsg1), libruby3.1 (>= 3.1.0~preview1), zlib1g (>= 1:1.1.4)
+Recommends: fonts-lato, libjs-jquery
+Multi-Arch: allowed
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby3.1/ruby3.1_3.1.2-6_amd64.deb
+Size: 54232
+SHA512: 423c694fd2609f90b70aab75badacc8d8e230cacb45ac9c06f776683573e736911e45147718cd31e7abb901cc04f7b6fdff778ca62fab1627b6525729a651961
+SHA256: f820681424ab4403b518ecb83c482e94a9363ccb4a5c1f6e3ddd8d49ce8cf731
+SHA1: 73ab7d2f4b9368f7477f92f590768dbd0e81ca16
+MD5sum: 6d2424baaa4f6ed7e167af5913d68ea4
+Description: Interpreter of object-oriented scripting language Ruby
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ In the name of this package, `3.1' indicates the Ruby library compatibility
+ version. This package currently provides the `3.1.x' branch of Ruby.
+
+Package: ruby3.1-dev
+Source: ruby3.1
+Version: 3.1.2-6
+Architecture: amd64
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 2898
+Depends: libgmp-dev, libruby3.1 (= 3.1.2-6)
+Recommends: ruby3.1-doc
+Multi-Arch: same
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: ruby
+Filename: pool/main/r/ruby3.1/ruby3.1-dev_3.1.2-6_amd64.deb
+Size: 391544
+SHA512: ce5bee5574f266fe70bef8a4a12e810532f069731980122d601e5214741a5451f0be58ff5c64a941ecf920a310d46c0a258fa54d485cd8b2f8ce7ee6784b9e9a
+SHA256: fac63753d2db59d28ac011433120b69bd0b3a038a341e03436274b460c8782af
+SHA1: 86f8b3639edb9b182bd17cc2d69b311af45337ce
+MD5sum: 8fc1e172b535cb558e92e11f4795e5ab
+Description: Header files for compiling extension modules for the Ruby 3.1
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package contains the header files and the mkmf library, necessary
+ to make extension library for Ruby 3.1. It is also required to build
+ many gems.
+
+Package: ruby3.1-doc
+Source: ruby3.1
+Version: 3.1.2-6
+Architecture: all
+Maintainer: Debian Ruby Team <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 16953
+Multi-Arch: foreign
+Homepage: https://www.ruby-lang.org/
+Priority: optional
+Section: doc
+Filename: pool/main/r/ruby3.1/ruby3.1-doc_3.1.2-6_all.deb
+Size: 1840360
+SHA512: 100dc7ac57bc1e20b54a45435a78db5a5b3430a3bcadbc337f04f85b0efd771022cf8b502939eb9b07c9b72ffd75b338ef2f4af1fb02e255880e5cfb42e57863
+SHA256: e7aca46b8c05a5f24dfc99fd026b02eaba988341ee4c3f7b6762abf045d3479c
+SHA1: 2b9a8769b2e411bbe7557c72d1866754ed123a04
+MD5sum: ae3216360a800a7eea60ab03759eb02c
+Description: Documentation for Ruby 3.1
+ Ruby is the interpreted scripting language for quick and easy
+ object-oriented programming.  It has many features to process text
+ files and to do system management tasks (as in perl).  It is simple,
+ straight-forward, and extensible.
+ .
+ This package contains the autogenerated documentation for Ruby 3.1.
 
 Package: sasl2-bin
 Source: cyrus-sasl2
