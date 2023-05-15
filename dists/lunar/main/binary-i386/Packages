@@ -7598,30 +7598,6 @@ Description: simple configuration storage system - documentation
  .
  This package contains the documentation in devhelp format.
 
-Package: libdebhelper-perl
-Source: debhelper
-Version: 13.11.4ubuntu3
-Architecture: all
-Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
-Installed-Size: 314
-Depends: perl:any
-Breaks: debhelper (<< 12.6~)
-Replaces: debhelper (<< 12.6~)
-Multi-Arch: foreign
-Priority: optional
-Section: perl
-Filename: pool/main/d/debhelper/libdebhelper-perl_13.11.4ubuntu3_all.deb
-Size: 83612
-SHA512: 6ab815d00c4cee28ab6dcb6420e87dac4ee210dcc6b6f9e23333adfec823f03b5ab8dae6aeb7c85e1a97033f0dd14d2457aa2decf5b51282b73bcba6aa494f99
-SHA256: 08e6e8917be2a64805ac86b75148266da7482fbda269eb009c50ed2e3e5c6803
-SHA1: c68eb8affb52c1a5d625fb4a4edbada5e049402a
-MD5sum: 148daa575eb3388d914188f30d80a499
-Description: debhelper perl modules
- A collection of programs that can be used in a debian/rules file to
- automate common tasks related to building Debian packages.
- .
- This package provides the perl modules used by the scripts in debhelper.
-
 Package: libdebuginfod-common
 Source: elfutils
 Version: 0.188-2.1
@@ -7678,28 +7654,6 @@ Description: Model to synchronize multiple instances over DBus - documentation
  .
  This package contains the documentation.
 
-Package: libdistro-info-perl
-Source: distro-info
-Version: 1.5
-Architecture: all
-Maintainer: Benjamin Drung <bdrung@debian.org>
-Installed-Size: 23
-Depends: distro-info-data (>= 0.46), perl:any
-Multi-Arch: foreign
-Priority: optional
-Section: perl
-Filename: pool/main/d/distro-info/libdistro-info-perl_1.5_all.deb
-Size: 5300
-SHA512: 2ac4b3ff15732dd4ddb0ab97f57e10ed347452dfbc07e6b26a3f0ad8903c4332f2f2821c9ff1eef12515304dd6fce7527363fe474b6a0d6f05f5c12fc9041695
-SHA256: 5254ad1d2610b6e219937493ac4c6cd6ae1e002833a67c47b2dd55033ab9eaf4
-SHA1: daea1f5ca2f388708b7d8a8ab2369c6e495cb0b8
-MD5sum: a69405a60ab6fff1a4ec81e45ef4e7cb
-Description: information about distributions' releases (Perl module)
- Information about all releases of Debian and Ubuntu.
- .
- This package contains a Perl module for parsing the data in distro-info-data.
- There is also a command line interface in the distro-info package.
-
 Package: libdjvulibre-text
 Source: djvulibre
 Version: 3.5.28-2build3
@@ -7719,76 +7673,6 @@ SHA1: cc26319b878eec4ba1a6bbe229263b989640a6f6
 MD5sum: c7e3c21ea440f49959ef2d9fa7c8f72b
 Description: Linguistic support files for libdjvulibre
  Runtime linguistic support files for the libdjvulibre library.
-
-Package: libdpkg-perl
-Source: dpkg
-Version: 1.21.21ubuntu1
-Architecture: all
-Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
-Installed-Size: 1898
-Depends: perl:any, dpkg (>= 1.18.11)
-Recommends: libfile-fcntllock-perl, liblocale-gettext-perl, bzip2, xz-utils (>= 5.4.0)
-Suggests: debian-keyring, gnupg | sq | sqop | pgpainless-cli, gpgv | sq | sqop | pgpainless-cli, gcc | c-compiler, binutils, patch, sensible-utils, git, bzr
-Breaks: dgit (<< 3.13~), libsop-java-java (<< 4.0.7~), pgpainless-cli (<< 1.3.13~), pkg-kde-tools (<< 0.15.28~), sq (<< 0.25.0~), sqop (<< 0.27.2~)
-Multi-Arch: foreign
-Homepage: https://wiki.debian.org/Teams/Dpkg
-Priority: optional
-Section: perl
-Filename: pool/main/d/dpkg/libdpkg-perl_1.21.21ubuntu1_all.deb
-Size: 613864
-SHA512: 53721916509c04c85c6a03f28d520783ece915cfaae5de4a636e850eb3e5d1186586dca05a314fc200f57a3358bf1f6638e5fe0e132b1bacc01203fb895c5774
-SHA256: c06f2edf4cfb698fade77a1037b583aa07860a5abac0b29a12f7062ec3fc12bf
-SHA1: 64cc82745e69039bbd74ad8ca0bb8de3ff18b3e5
-MD5sum: e41771b580bea2de8629f2658c5de37e
-Description: Dpkg perl modules
- This package provides the perl modules used by the scripts
- in dpkg-dev. They cover a wide range of functionality. Among them
- there are the following public modules:
- .
-  - Dpkg: core variables
-  - Dpkg::Arch: architecture handling functions
-  - Dpkg::BuildFlags: set, modify and query compilation build flags
-  - Dpkg::BuildInfo: build information functions
-  - Dpkg::BuildOptions: parse and manipulate DEB_BUILD_OPTIONS
-  - Dpkg::BuildProfiles: parse and manipulate build profiles
-  - Dpkg::Changelog: parse changelogs
-  - Dpkg::Changelog::Entry: represents a changelog entry
-  - Dpkg::Changelog::Parse: generic changelog parser for dpkg-parsechangelog
-  - Dpkg::Checksums: generate and parse checksums
-  - Dpkg::Compression: simple database of available compression methods
-  - Dpkg::Compression::FileHandle: transparently (de)compress files
-  - Dpkg::Compression::Process: wrapper around compression tools
-  - Dpkg::Conf: parse dpkg configuration files
-  - Dpkg::Control: parse and manipulate Debian control information
-    (.dsc, .changes, Packages/Sources entries, etc.)
-  - Dpkg::Control::Changelog: represent fields output by dpkg-parsechangelog
-  - Dpkg::Control::Fields: manage (list of known) control fields
-  - Dpkg::Control::Hash: parse and manipulate a block of RFC822-like fields
-  - Dpkg::Control::Info: parse files like debian/control
-  - Dpkg::Control::Tests: parse files like debian/tests/control
-  - Dpkg::Control::Tests::Entry: represents a debian/tests/control stanza
-  - Dpkg::Deps: parse and manipulate dependencies
-  - Dpkg::Deps::Simple: represents a single dependency statement
-  - Dpkg::Deps::Multiple: base module to represent multiple dependencies
-  - Dpkg::Deps::Union: list of unrelated dependencies
-  - Dpkg::Deps::AND: list of AND dependencies
-  - Dpkg::Deps::OR: list of OR dependencies
-  - Dpkg::Deps::KnownFacts: list of installed and virtual packages
-  - Dpkg::Exit: push, pop and run exit handlers
-  - Dpkg::Gettext: wrapper around Locale::gettext
-  - Dpkg::IPC: spawn sub-processes and feed/retrieve data
-  - Dpkg::Index: collections of Dpkg::Control (Packages/Sources files for
-    example)
-  - Dpkg::Interface::Storable: base object serializer
-  - Dpkg::Path: common path handling functions
-  - Dpkg::Source::Format: manipulate debian/source/format files
-  - Dpkg::Source::Package: extract Debian source packages
-  - Dpkg::Substvars: substitute variables in strings
-  - Dpkg::Vendor: identify current distribution vendor
-  - Dpkg::Version: parse and manipulate Debian package versions
- .
- All the packages listed in Suggests or Recommends are used by some of the
- modules.
 
 Package: libfftw3-doc
 Source: fftw3
