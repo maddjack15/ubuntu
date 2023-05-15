@@ -976,6 +976,32 @@ Description: Tool for generating GNU Standards-compliant Makefiles
  1.11, and 1.15 did, so some previous versions are available as separate
  packages.
 
+Package: autopoint
+Source: gettext
+Version: 0.21-11
+Architecture: all
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 444
+Depends: xz-utils
+Replaces: gettext (<= 0.17-11)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/gettext/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gettext/autopoint_0.21-11_all.deb
+Size: 422564
+SHA512: e9ae6fd31c571b27be03527944bbdb7ba04af4ec2cd713d5d109048afb4b980d8ad0d6f509b0dfb2634a33e84cd9b589b3062b15184dd3c564ea7c2e96c2a2cc
+SHA256: a2e3a6af92e5a4ad31c3581170b2ed7da37ea20e30bfac7a51c065caa1de2287
+SHA1: ae93286ed4c68bc78b6112951e2e0152a225f7b4
+MD5sum: 8870d29b7714175d1ef00ab34dd85abc
+Description: tool for setting up gettext infrastructure in a source package
+ The `autopoint' program copies standard gettext infrastructure files
+ into a source package.  It extracts from a macro call of the form
+ `AM_GNU_GETTEXT_VERSION(VERSION)', found in the package's
+ `configure.in' or `configure.ac' file, the gettext version used by the
+ package, and copies the infrastructure files belonging to this version
+ into the package.
+
 Package: autotools-dev
 Version: 20220109.1
 Architecture: all
@@ -6760,6 +6786,45 @@ Description: icons for the geocode-glib library
  name from coordinates) using the Nominatim service.
  .
  This package contains the icons for the geocode-glib library.
+
+Package: gettext-doc
+Source: gettext
+Version: 0.21-11
+Architecture: all
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 5651
+Homepage: https://www.gnu.org/software/gettext/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gettext/gettext-doc_0.21-11_all.deb
+Size: 541252
+SHA512: b5d7934066468b1a0fabe3b0e72bbebeed7078f50d3e52282c91207d7d99bd177420557245549d61e2de857afc07d21f6cdbde05716f3601ff14a4bc586df35d
+SHA256: 933a80721e383b3ded23976b12cc45d17e6d38166c62ad08d78ac14ed8bfa525
+SHA1: 166567e66505f171ba66b53372696a04dba25235
+MD5sum: d9f64bf2841986456ca3a7e82e447d20
+Description: Documentation for GNU gettext
+ This package contains the HTML documentation for GNU gettext, as well as
+ simple "hello world" examples in several programming languages.
+
+Package: gettext-el
+Source: gettext
+Version: 0.21-11
+Architecture: all
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 164
+Depends: gettext, dh-elpa-helper, emacsen-common
+Enhances: emacs
+Homepage: https://www.gnu.org/software/gettext/
+Priority: optional
+Section: editors
+Filename: pool/main/g/gettext/gettext-el_0.21-11_all.deb
+Size: 33196
+SHA512: e8b1fb2cd0efa1d4a61c6efa508fef70f20ebd0a4d8c155b8bb10eb53c093b7fc1486a94333906b1366316415d03c3dba5df199e3765d8e8da39726c6fa5610b
+SHA256: 1d89a6120752c10fefbc9ecca9aa6da8566a7120c229a8873b488f93d7a8999a
+SHA1: ec091a350d90b31203cccf57630cec027be300a0
+MD5sum: e99f5c32ad7fc524bfd36e75d18e50b0
+Description: Emacs mode for editing gettext .po files
+ This package provides an Emacs major mode for editing .po files.
 
 Package: git-all
 Source: git

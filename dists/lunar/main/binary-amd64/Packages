@@ -1728,6 +1728,32 @@ Description: Tool for generating GNU Standards-compliant Makefiles
  1.11, and 1.15 did, so some previous versions are available as separate
  packages.
 
+Package: autopoint
+Source: gettext
+Version: 0.21-11
+Architecture: all
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 444
+Depends: xz-utils
+Replaces: gettext (<= 0.17-11)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/gettext/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gettext/autopoint_0.21-11_all.deb
+Size: 422564
+SHA512: e9ae6fd31c571b27be03527944bbdb7ba04af4ec2cd713d5d109048afb4b980d8ad0d6f509b0dfb2634a33e84cd9b589b3062b15184dd3c564ea7c2e96c2a2cc
+SHA256: a2e3a6af92e5a4ad31c3581170b2ed7da37ea20e30bfac7a51c065caa1de2287
+SHA1: ae93286ed4c68bc78b6112951e2e0152a225f7b4
+MD5sum: 8870d29b7714175d1ef00ab34dd85abc
+Description: tool for setting up gettext infrastructure in a source package
+ The `autopoint' program copies standard gettext infrastructure files
+ into a source package.  It extracts from a macro call of the form
+ `AM_GNU_GETTEXT_VERSION(VERSION)', found in the package's
+ `configure.in' or `configure.ac' file, the gettext version used by the
+ package, and copies the infrastructure files belonging to this version
+ into the package.
+
 Package: autotools-dev
 Version: 20220109.1
 Architecture: all
@@ -12082,6 +12108,89 @@ Description: installed tests for the geocode-glib library
  .
  This package contains the tests for the geocode-glib library.
 
+Package: gettext
+Version: 0.21-11
+Architecture: amd64
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 5926
+Depends: gettext-base, libc6 (>= 2.34), libgomp1 (>= 6), libunistring2 (>= 1.0), libxml2 (>= 2.9.1)
+Recommends: curl | wget | lynx
+Suggests: autopoint, gettext-doc, libasprintf-dev, libgettextpo-dev
+Breaks: autopoint (<= 0.17-11)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/gettext/
+Priority: optional
+Section: devel
+Filename: pool/main/g/gettext/gettext_0.21-11_amd64.deb
+Size: 1285672
+SHA512: 3ca6a71c245a6a9202031464b7429f5206f1e831bc52e1671f1b150c54275ac0034875ec7f768187ce99c55cf24312b662027d6ce8b82095b1a1e8d59d04d49a
+SHA256: ee428e6c5a032ea02e7cbe735bd34d907443db7fc06ef8bc8b891d06a9f780f1
+SHA1: c762379a4186b62bbf535def199b55b63cb3e3e8
+MD5sum: f82bbe976eaad62efcdaf19dda86b0ee
+Description: GNU Internationalization utilities
+ Interesting for authors or maintainers of other packages or programs
+ which they want to see internationalized.
+
+Package: gettext-base
+Source: gettext
+Version: 0.21-11
+Architecture: amd64
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 582
+Depends: libc6 (>= 2.34)
+Multi-Arch: foreign
+Homepage: https://www.gnu.org/software/gettext/
+Priority: standard
+Section: utils
+Filename: pool/main/g/gettext/gettext-base_0.21-11_amd64.deb
+Size: 86772
+SHA512: 7441eab7565f4f30202ef5f8c59ed308fd745f08ed97851ebfb9e8522bbd47da2ea57043f6273eca51ef67ea6d06d123525c325a80114981304ac04e6f51ace5
+SHA256: a2d09f419b3e67ecd936e928cfd2e70117c6508c6aeea4976af2eb942ecd8f30
+SHA1: f6f74843127453d35bfe4e237f3ec43a13e794a9
+MD5sum: f308515b5ca8a69f9b15097e24ea3492
+Description: GNU Internationalization utilities for the base system
+ This package includes the gettext and ngettext programs which allow
+ other packages to internationalize the messages given by shell scripts.
+
+Package: gettext-doc
+Source: gettext
+Version: 0.21-11
+Architecture: all
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 5651
+Homepage: https://www.gnu.org/software/gettext/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gettext/gettext-doc_0.21-11_all.deb
+Size: 541252
+SHA512: b5d7934066468b1a0fabe3b0e72bbebeed7078f50d3e52282c91207d7d99bd177420557245549d61e2de857afc07d21f6cdbde05716f3601ff14a4bc586df35d
+SHA256: 933a80721e383b3ded23976b12cc45d17e6d38166c62ad08d78ac14ed8bfa525
+SHA1: 166567e66505f171ba66b53372696a04dba25235
+MD5sum: d9f64bf2841986456ca3a7e82e447d20
+Description: Documentation for GNU gettext
+ This package contains the HTML documentation for GNU gettext, as well as
+ simple "hello world" examples in several programming languages.
+
+Package: gettext-el
+Source: gettext
+Version: 0.21-11
+Architecture: all
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 164
+Depends: gettext, dh-elpa-helper, emacsen-common
+Enhances: emacs
+Homepage: https://www.gnu.org/software/gettext/
+Priority: optional
+Section: editors
+Filename: pool/main/g/gettext/gettext-el_0.21-11_all.deb
+Size: 33196
+SHA512: e8b1fb2cd0efa1d4a61c6efa508fef70f20ebd0a4d8c155b8bb10eb53c093b7fc1486a94333906b1366316415d03c3dba5df199e3765d8e8da39726c6fa5610b
+SHA256: 1d89a6120752c10fefbc9ecca9aa6da8566a7120c229a8873b488f93d7a8999a
+SHA1: ec091a350d90b31203cccf57630cec027be300a0
+MD5sum: e99f5c32ad7fc524bfd36e75d18e50b0
+Description: Emacs mode for editing gettext .po files
+ This package provides an Emacs major mode for editing .po files.
+
 Package: giflib-tools
 Source: giflib
 Version: 5.2.1-2.5
@@ -17221,6 +17330,53 @@ Description: GNU Aspell spell-checker runtime library
  toolkits, needed by applications that use the toolkits at runtime.
  .
  For a standalone spell-checker, install aspell as well.
+
+Package: libasprintf-dev
+Source: gettext
+Version: 0.21-11
+Architecture: amd64
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 28
+Depends: libasprintf0v5 (= 0.21-11)
+Suggests: gettext-doc
+Breaks: gettext (<< 0.18.1.1-10)
+Replaces: gettext (<< 0.18.1.1-10)
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/gettext/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gettext/libasprintf-dev_0.21-11_amd64.deb
+Size: 7756
+SHA512: 9d85b50b13c4b807091c430f5a6e0dd1d84ddd5dd41552361bd02cc51a80018a32b936b904019c1de9679f7ce8a5c2ee4730257afc9e7df6d68720be89022433
+SHA256: d04c4a8eee7752cd9cc3046e67fe2a1f3d86c5ad824b65da0e7ccc39937ec81c
+SHA1: 02b47ed626bf6f7433fbab40574072e819339db7
+MD5sum: 6d63f9c46ef15c1cb16f05a9b482fb1d
+Description: use fprintf and friends in C++ - static libraries and headers
+ This package contains development files for the libasprintf library.
+
+Package: libasprintf0v5
+Source: gettext
+Version: 0.21-11
+Architecture: amd64
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 33
+Depends: libc6 (>= 2.14), libstdc++6 (>= 5.2)
+Breaks: gettext-base (<< 0.18.1.1-6), libasprintf0c2
+Replaces: gettext-base (<< 0.18.1.1-6), libasprintf0c2
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/gettext/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gettext/libasprintf0v5_0.21-11_amd64.deb
+Size: 7892
+SHA512: b8176f77c7b3fdf6eb843cf885845e43853c2768a54aa33de77365c5d0b74af2c4ce6f7bb323c8a06812074cb9bfb762a3a4251c8cb572ac850f30bfd86d3a3f
+SHA256: 7ab7dd6f6a69330b8da69e65e3d773fa1a67ef451dbfb5836c736e03f8f03601
+SHA1: e90231aaa61304b9a3c20a04f13b9799dcf04153
+MD5sum: 2743cf08b255e38f8cd9095b181bf7fa
+Description: use fprintf and friends in C++ - shared library
+ This package contains the libasprintf shared library which makes the
+ C formatted output routines (fprintf et al.) usable in C++ programs,
+ for use with the <string> strings and the <iostream> streams.
 
 Package: libatk-adaptor
 Source: at-spi2-core
@@ -26862,6 +27018,52 @@ Description: module that handles command-line arguments with usage text
  Getopt::Long::Descriptive is a convenience wrapper for Getopt::Long, which
  allows one to easily define options in the same familiar way, while also
  supporting custom descriptions for program usage output.
+
+Package: libgettextpo-dev
+Source: gettext
+Version: 0.21-11
+Architecture: amd64
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 840
+Depends: libgettextpo0 (= 0.21-11)
+Suggests: gettext-doc
+Breaks: gettext (<< 0.18.1.1-10)
+Replaces: gettext (<< 0.18.1.1-10)
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/gettext/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gettext/libgettextpo-dev_0.21-11_amd64.deb
+Size: 168112
+SHA512: 54c4cde379d27a14633268e0772491d944d4f619da38b3f3357ad51ba8ba55bedcdbb5803c16ab57c8aa1f61e821bdcb3db1c7143479f3965de3fa1724858e85
+SHA256: b956271af5af61eee8b9e8152262e109cb0af0a43d12611f2da0e311198b008b
+SHA1: 94a10bc72e4b6f7798c500ffc61a65171202f2cd
+MD5sum: cba6ad2ab06e897a92ea3fa080facec1
+Description: process PO files - static libraries and headers
+ This package contains development files for the libgettextpo library.
+
+Package: libgettextpo0
+Source: gettext
+Version: 0.21-11
+Architecture: amd64
+Maintainer: Santiago Vila <sanvila@debian.org>
+Installed-Size: 445
+Depends: libc6 (>= 2.34), libunistring2 (>= 1.0)
+Breaks: gettext (<< 0.18.1.1-6)
+Replaces: gettext (<< 0.18.1.1-6)
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/gettext/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gettext/libgettextpo0_0.21-11_amd64.deb
+Size: 145492
+SHA512: 2afc7a50c7721527dabdb684ece00c30336f8f7e7e397ff5dc1e0947e08d23b76a89d6561c425398525d09cec1483826cd034bc5b32c17169795f955c5c4a6c3
+SHA256: a9599e65e516f7a48a53042fef49dc3fb2c6d639eaaea00a4b8dfc5013674e93
+SHA1: 54f71b7a8cc29b9ca2a50efa3e31d3f429a4c818
+MD5sum: e1273606bd69c9a14a3a03c51429a49b
+Description: process PO files - shared library
+ This package contains the libgettextpo shared library for interfacing
+ programmatically with GNU gettext .po files.
 
 Package: libgexiv2-2
 Source: gexiv2
