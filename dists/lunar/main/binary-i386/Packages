@@ -1,3 +1,33 @@
+Package: 2to3
+Source: python3-defaults
+Version: 3.11.2-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 31
+Depends: python3-lib2to3 (>= 3.11.2-1~), python3 (>= 3.11.2-1)
+Breaks: python (<< 2.7.14-4)
+Replaces: python (<< 2.7.14-4)
+Multi-Arch: foreign
+Homepage: https://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/2to3_3.11.2-1_all.deb
+Size: 10000
+SHA512: 680774854e444ea1577afee7cf536f78ed0f8af29497dd514cf33f07ca4dd9c11fc9161e512dd7eb48ed047bb65ec3653484586118f9d32d68f89b224b54e059
+SHA256: 2d695b380012d539ec7b40d15baab81ed671523f7a36ea7096a379528e878b75
+SHA1: f8c8d441c5441e33dfebde4424ababc0e6ce9061
+MD5sum: 32687ee3cb3bcacedb34a35bb582a78a
+Description: 2to3 binary using python3
+ 2to3 is a Python program that reads Python 2.x source code and applies a
+ series of fixers to transform it into valid Python 3.x code. The standard
+ library contains a rich set of fixers that will handle almost all code. 2to3
+ supporting library lib2to3 is, however, a flexible and generic library, so it
+ is possible to write your own fixers for 2to3. lib2to3 could also be adapted
+ to custom applications in which Python code needs to be edited automatically.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 2to3 version (currently v3.11).
+
 Package: adduser
 Version: 3.129ubuntu1
 Architecture: all
@@ -7470,6 +7500,32 @@ Description: API documentation for ICU classes and functions
  documenting the ICU APIs.
 Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 
+Package: idle
+Source: python3-defaults
+Version: 3.11.2-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 19
+Depends: python3 (>= 3.11.2-1), python3-tk, idle-python3.11
+Enhances: python3
+Breaks: idle3 (<< 3.6.2-2)
+Replaces: idle3 (<< 3.6.2-2)
+Homepage: https://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/idle_3.11.2-1_all.deb
+Size: 2824
+SHA512: 6030573e40076bef583a82d52d0ba16d39a00f0872e8cbee6b38245e7fdd658e2a157fd0c1e949c054243aee4d33a23df7882ce064b6dee40a2cd6f81967967e
+SHA256: 4c8e4c651d096f2bd7844b7a7015b827b44e1e653ee50760cfb86ed22ba7c4b5
+SHA1: 35cb2e9f60ec0f6fdd846b61f7ac56be7fd2e009
+MD5sum: 454f122ee60f0d4d683a4fee5ffe9145
+Description: IDE for Python using Tkinter (default version)
+ IDLE is an Integrated Development Environment for Python.
+ IDLE is written using Tkinter and therefore quite platform-independent.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version's IDLE (currently v3.11).
+
 Package: idle-python3.11
 Source: python3.11
 Version: 3.11.2-6
@@ -7489,6 +7545,27 @@ MD5sum: 85733b830ea37f5a3e5cb223a44cec3c
 Description: IDE for Python (v3.11) using Tkinter
  IDLE is an Integrated Development Environment for Python (v3.11).
  IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: idle3
+Source: python3-defaults
+Version: 3.11.2-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: python3 (>= 3.11.2-1), idle (>= 3.11.2-1)
+Homepage: https://www.python.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/p/python3-defaults/idle3_3.11.2-1_all.deb
+Size: 956
+SHA512: 44935f65c8892776d9575fadaccd529d4d9bb657249218ea9372a499db7b408c4a8f8df9645935ffb492cacc9b8eadd0a8fee7c76bb20c789eac51b271e4d439
+SHA256: c2ffc749ea35db797ee79da11bcf637e96525619039cdfb1af543d52848dd6b7
+SHA1: 68fa413e6b966f201c06f86dfb81041231c2a19f
+MD5sum: 825af5f972bef9f09c568c69a87d4981
+Description: IDE for Python using Tkinter (transitional package)
+ IDLE is an Integrated Development Environment for Python.
+ .
+ This package is a transitional package, you can safely remove it.
 
 Package: iso-codes
 Version: 4.12.0-1
@@ -14291,6 +14368,40 @@ Description: Universal Character Encoding Detector (Documentation)
  .
  This package contains the documentation of the library.
 
+Package: python-cryptography-doc
+Source: python-cryptography
+Version: 38.0.4-2
+Architecture: all
+Maintainer: Tristan Seligmann <mithrandi@debian.org>
+Installed-Size: 3870
+Depends: libjs-sphinxdoc (>= 5.2), sphinx-rtd-theme-common (>= 1.2.0+dfsg)
+Built-Using: sphinx (= 5.3.0-4)
+Homepage: https://cryptography.io/
+Priority: optional
+Section: doc
+Filename: pool/main/p/python-cryptography/python-cryptography-doc_38.0.4-2_all.deb
+Size: 333144
+SHA512: d8c82edae7de046fdd5b082aac4e6eaa7fdb3ff2b48584fada10dd3d987f2bc3a103197b2a14f347a3777d0f825b9aa03149d25da634269cb67c8e8e7f2e9834
+SHA256: 9dc3206a0bb0f7c0f8c2e6343f10af72322086c7e4a1ca95e03622a880d50f93
+SHA1: b2ca72ce5205797b89680710a5fa930a7a681a09
+MD5sum: 20f6d36c4426ab73c83392da23aac1d1
+Description: Python library exposing cryptographic recipes and primitives (documentation)
+ The cryptography library is designed to be a "one-stop-shop" for
+ all your cryptographic needs in Python.
+ .
+ As an alternative to the libraries that came before it, cryptography
+ tries to address some of the issues with those libraries:
+  - Lack of PyPy and Python 3 support.
+  - Lack of maintenance.
+  - Use of poor implementations of algorithms (i.e. ones with known
+    side-channel attacks).
+  - Lack of high level, "Cryptography for humans", APIs.
+  - Absence of algorithms such as AES-GCM.
+  - Poor introspectability, and thus poor testability.
+  - Extremely error prone APIs, and bad defaults.
+ .
+ This package contains the documentation for cryptography.
+
 Package: python-dbus-dev
 Source: dbus-python
 Version: 1.3.2-4build1
@@ -14340,6 +14451,88 @@ MD5sum: 7f93755f951d969446ec3dd0fceb0cbc
 Description: Documentation for the D-Bus Python interface
  This package provides text and HTML documentation, and examples, for the
  python3-dbus package.
+
+Package: python-markdown-doc
+Source: python-markdown
+Version: 3.4.3-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1255
+Depends: libjs-lunr (>= 2.3.9~dfsg-2), libjs-underscore (>= 1.13.4~dfsg+~1.11.4-3), mkdocs (>= 1.4.2+dfsg-2), mkdocs-nature (>= 0.4+dfsg-1), node-jquery (>= 3.6.1+dfsg+~3.5.14-1)
+Homepage: https://github.com/Python-Markdown/markdown
+Priority: optional
+Section: doc
+Filename: pool/main/p/python-markdown/python-markdown-doc_3.4.3-1_all.deb
+Size: 116284
+SHA512: 4c53ae7c8e9904028c763feb23e4a3ceea515a0f41375d3b935cf6a81e8a6eb48b8e404a3a2dde9b09b686a968f1ebefa9a5366fc373e0863405019b00d2ef09
+SHA256: b145d1e77140482b721da4ce423dddad6c776093d24a97a1e2b88d1e5dc4a954
+SHA1: a0177836cdcd93db52dbd9ae67919c5333966969
+MD5sum: 74fdff5c84868760bcba7ef8bc62a40b
+Description: text-to-HTML conversion library/tool (documentation)
+ Markdown is a text-to-HTML conversion tool for web writers. Markdown
+ allows you to write using an easy-to-read, easy-to-write plain text
+ format, then convert it to structurally valid XHTML (or HTML).
+ .
+ This is a Python implementation of John Gruber's Markdown. The current
+ version of python-markdown implements all Markdown syntax features and
+ fully passes Markdown Test Suite 1.0. It also supports footnotes and
+ attributes.
+ .
+ This package contains HTML documentation files for python-markdown.
+
+Package: python-reportlab-doc
+Source: python-reportlab
+Version: 3.6.12-1build1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 2075
+Depends: libjs-sphinxdoc (>= 5.2)
+Suggests: python3-reportlab
+Multi-Arch: foreign
+Homepage: https://www.reportlab.com/opensource/
+Priority: optional
+Section: doc
+Filename: pool/main/p/python-reportlab/python-reportlab-doc_3.6.12-1build1_all.deb
+Size: 689944
+SHA512: fd69f8b8fa3b94e264636a395fb85eaf20db0da8050430062aa508bcde9cb40ecefd615044809521bf2f121b5a07f76ce36c14d99ad177f2cf2d9c9d4039fcef
+SHA256: 9c0848a3941dca572729b1b1211104ecb659d0f76aad79ae2eaede562c24b2df
+SHA1: 91516dc28256ad34c059462de7a6255f0d5818cd
+MD5sum: 41a19a99a0666489998fab0e21b81f55
+Description: Documentation for the ReportLab Python library (PDF format)
+ ReportLab is a library that lets you directly create documents in
+ Adobe's Portable Document Format (PDF) using the Python programming language.
+ .
+ This package contains the documentation for ReportLab in PDF format.
+
+Package: python-secretstorage-doc
+Source: python-secretstorage
+Version: 3.3.3-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 363
+Depends: libjs-sphinxdoc (>= 5.2)
+Homepage: https://github.com/mitya57/secretstorage
+Priority: optional
+Section: doc
+Filename: pool/main/p/python-secretstorage/python-secretstorage-doc_3.3.3-1ubuntu1_all.deb
+Size: 40340
+SHA512: a3e59b331539bea5f449fb890b9bd5066edc85f61cfa7aca440c233f43c91da93d84681290f346867857cd6622cfd4e48c39186e0156b22d5860cf9a6bec9b55
+SHA256: df4bcd9b557cc720c8f00e2ab9b04de7e08f135664494611c858455a080c81a3
+SHA1: 2a6263981b706d77f0a9c1c9fbf805c22317c0f7
+MD5sum: 15af11b8a3880afa82c46a6332a66d82
+Description: Python module for storing secrets - documentation
+ Python-SecretStorage provides a way for securely storing passwords
+ and other secrets.
+ .
+ It uses D-Bus Secret Service API that is supported by GNOME Keyring,
+ KWallet (since version 5.97) and KeePassXC.
+ .
+ It allows one to create, edit and delete secret items, manipulate
+ secret collections, and search for items matching given attributes.
+ It also supports locking and unlocking collections.
+ .
+ This package provides the HTML documentation.
+Original-Maintainer: Dmitry Shachnev <mitya57@debian.org>
 
 Package: python3-apparmor
 Source: apparmor
@@ -14504,6 +14697,34 @@ Description: Fast, simple object-to-object and broadcast signaling (Python3)
  .
  This package contains the Python 3 version.
 
+Package: python3-certifi
+Source: python-certifi
+Version: 2022.9.24-1
+Architecture: all
+Maintainer: Sebastien Delafond <seb@debian.org>
+Installed-Size: 324
+Depends: ca-certificates, python3:any
+Homepage: https://github.com/certifi/python-certifi
+Priority: optional
+Section: python
+Filename: pool/main/p/python-certifi/python3-certifi_2022.9.24-1_all.deb
+Size: 152796
+SHA512: 149e6359ba7c7aef5808848d39ba07988e795a4d6f3896d096cf887939574c8d525269e0b81f41e9cee838368862397917084a7da56c30ec15f961f15db793f9
+SHA256: 121abb6d0af69b57ce7202be38b2db9150e5d627bbaab6c17fe10650d2ced4fc
+SHA1: fddb1b72d643b20c6e14769bab1760725a42a100
+MD5sum: defaa0ecefe99152780c5a4ec332d179
+Description: root certificates for validating SSL certs and verifying TLS hosts (python3)
+ Certifi is a carefully curated collection of Root Certificates for
+ validating the trustworthiness of SSL certificates while verifying
+ the identity of TLS hosts. It has been extracted from the Requests
+ project.
+ .
+ The version of certifi in this Debian package is patched to return
+ the location of Debian-provided CA certificates, instead of those
+ packaged by upstream.
+ .
+ This is the python3 package.
+
 Package: python3-chardet
 Source: chardet
 Version: 5.1.0+dfsg-2
@@ -14572,6 +14793,63 @@ Description: interact with debconf from Python 3
  This package provides a debconf module to allow Python 3 programs to
  interact with a debconf frontend.
 
+Package: python3-defer
+Source: python-defer
+Version: 1.0.6-2.1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 50
+Depends: python3:any (>= 3.2~)
+Homepage: https://launchpad.net/python-defer
+Priority: extra
+Section: python
+Filename: pool/main/p/python-defer/python3-defer_1.0.6-2.1ubuntu1_all.deb
+Size: 10756
+SHA512: 5da200d56b76af108d680ae7de298f63d5cb9d89eab27deee4528882b2f1ee661566a47591f129164a88b13e1da0dc4e171aadd7df6e435ecde7b9242e4fc93b
+SHA256: 7f0ba6371bbe783e2bc605b3bc1162a1788ecd610e1d53b3ad4e0f70a97b1eaa
+SHA1: f6e946afa5130f8dac11705d8f1108e8a3671f46
+MD5sum: 65824160fa931ac072f138b130ff3563
+Description: Small framework for asynchronous programming (Python 3)
+ The defer module provides an easy way to write asynchrouns Python 3 programs.
+ It is greatly inspired by Twisted's defer, but hasn't got any external
+ dependencies.
+ .
+ Furthermore it features decorators to write asynchronous D-Bus servers and
+ clients.
+ .
+ At first defer was part of aptdaemon, but moved to a separate project in
+ August of 2010.
+Original-Maintainer: Sebastian Heinlein (devel) <devel@glatzor.de>
+
+Package: python3-distro
+Source: python-distro
+Version: 1.8.0-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 79
+Depends: lsb-release, python3:any
+Multi-Arch: foreign
+Homepage: https://github.com/python-distro/distro
+Priority: optional
+Section: python
+Filename: pool/main/p/python-distro/python3-distro_1.8.0-1_all.deb
+Size: 16976
+SHA512: 1ec07b6f29bc403b4bb5167a41c7fc0cc0f8f5971dc7123c6b28148a415d96c3d4fa4c920bde01d4afb62ba0424514660cc3eada6708a7eabb144666fcb6e870
+SHA256: dca8fd324fed2e2aa474ea8ce83e689efc5e0de7e33e1ed1042f77551cf5e1a0
+SHA1: 14420f19f0cc867f5cdbb0c44b3f920eff4c0d20
+MD5sum: a6e8911a0e1f28ccbf77c54b09b9b67a
+Description: Linux OS platform information API
+ distro (for: Linux Distribution) provides information about the Linux
+ distribution it runs on, such as a reliable machine-readable ID, or version
+ information.
+ .
+ It is a renewed alternative implementation for Python's original
+ platform.linux_distribution function, but it also provides much more
+ functionality which isn't necessarily Python bound like a command-line
+ interface.
+ .
+ This is the Python 3 version of the library.
+
 Package: python3-distro-info
 Source: distro-info
 Version: 1.5
@@ -14593,6 +14871,376 @@ Description: information about distributions' releases (Python 3 module)
  This package contains a Python 3 module for parsing the data in
  distro-info-data. There is also a command line interface in the distro-info
  package.
+
+Package: python3-distutils
+Source: python3-stdlib-extensions
+Version: 3.11.2-2
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 638
+Depends: python3:any (>= 3.10.8-0~), python3:any (<< 3.12), python3-lib2to3 (= 3.11.2-2)
+Breaks: libpython3.10-stdlib (<< 3.10.0~b1), libpython3.6-stdlib (<< 3.6.5~rc1-3), libpython3.7-stdlib (<< 3.7.0~b2-2), libpython3.8-stdlib (<< 3.8.0~b2-5)
+Replaces: libpython3.6-stdlib (<< 3.6.4~rc1-2), libpython3.7-stdlib (<< 3.7.0~a3-2)
+Provides: python3.11-distutils
+Multi-Arch: foreign
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-stdlib-extensions/python3-distutils_3.11.2-2_all.deb
+Size: 130888
+SHA512: 4351cf0689789cfecf2a935eac7c955e4b0148bccd2cecaf76beb548129d989fd5ad24368c1b1d7dc7769ba3511512d411d1539a240417ce5ac2d7d8d67d891f
+SHA256: 0eb2cf634fdae37eeeafc72c9047fed5bcf84ff98a79eceae0d0cc918202a81a
+SHA1: f8b4af023f807ef1efbbc21cade1e92f9d0d9893
+MD5sum: ec1ae0b92777711d3f41fa76d4afd1fd
+Description: distutils package for Python 3.x
+ Distutils package for Python 3.x.  This package contains the distutils module
+ from the Python standard library.
+
+Package: python3-doc
+Source: python3-defaults
+Version: 3.11.2-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 29
+Depends: python3.11-doc (>= 3.11.2-1~)
+Suggests: python3 (>= 3.11.2-1), python3-examples
+Multi-Arch: foreign
+Homepage: https://www.python.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/python3-defaults/python3-doc_3.11.2-1_all.deb
+Size: 9208
+SHA512: e13cd91de7a2d56be998dad95c201b135d1dcc3e7f6f754004f11d1ac9024a9634f48615eb6ce4fbb20ba845ef5e79ab2267d578c714389fefd2e4d9b69b8ddd
+SHA256: 483cbd4804af6e61759c98ad43045987989d6f06fbf968fb175c57c0642e8cc0
+SHA1: 5537e553aac5885838a1ab754b75fd8fd3a474c1
+MD5sum: c831ffd0ba70b3ed727a08ca7de7ea9c
+Description: documentation for the high-level object-oriented language Python 3
+ This is the official set of documentation for the interactive high-level
+ object-oriented language Python 3 (v3.11). All documents are provided
+ in HTML format, some in info format. The package consists of nine documents:
+ .
+   * Tutorial
+   * Python Library Reference
+   * Macintosh Module Reference
+   * Python Language Reference
+   * Extending and Embedding Python
+   * Python/C API Reference
+   * Installing Python Modules
+   * Documenting Python
+   * Distributing Python Modules
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version's documentation (currently v3.11).
+
+Package: python3-examples
+Source: python3-defaults
+Version: 3.11.2-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: python3 (>= 3.11.2-1), python3.11-examples (>= 3.11.2-1~)
+Multi-Arch: foreign
+Homepage: https://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/python3-examples_3.11.2-1_all.deb
+Size: 1032
+SHA512: 7a3c7f7322ab5aec0d321fb4afb9d0ae56b0885f34a6bc723630c7ff79e25d57d1d58b9cc7f2e7145c5be26a470dbc149e311504ad7802678575be7806fc58fc
+SHA256: c74253fb5edfb8c6ef754fc796c9aedf16dbb0642894260336205cec4fe5beb7
+SHA1: 8c4ea3d109ad882737fa21be6cb0ae45a2cc63fb
+MD5sum: 7e163b89448ce2f89353141874619fce
+Description: examples for the Python language (default version)
+ Examples, Demos and Tools for Python. These are files included in
+ the upstream Python distribution.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version's examples (currently v3.11).
+
+Package: python3-httplib2
+Source: python-httplib2
+Version: 0.20.4-3
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 127
+Depends: ca-certificates, python3-pyparsing, python3:any
+Breaks: python3-wsgi-intercept (<< 1.9.0)
+Homepage: https://github.com/httplib2/httplib2
+Priority: optional
+Section: python
+Filename: pool/main/p/python-httplib2/python3-httplib2_0.20.4-3_all.deb
+Size: 29864
+SHA512: ccb8b42147b521d5173fa49b6693242a4ac733ad6eb72cbc12248464dd2fb58c53690980b070a8f0ff4f8352aa0338add5ce4b49fefd333cdcade26a5659ae18
+SHA256: 1b41ead3ae183e8d37d0254d2bc14683b7fb35fb634d8456ef86e87ebeb08217
+SHA1: 33a5102221832316539458c08153e08352fdf6d0
+MD5sum: 2dd99387a1537e07feb9ef91375a4d66
+Description: comprehensive HTTP client library written for Python3
+ httplib2.py supports many features left out of other HTTP libraries.
+  * HTTP and HTTPS
+  * Keep-Alive
+  * Authentication
+  * Caching
+  * All Methods
+  * Redirects
+  * Compression
+  * Lost update support
+  * Unit Tested
+ .
+ This package provides module for python3 series.
+
+Package: python3-idna
+Source: python-idna
+Version: 3.3-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 299
+Depends: python3:any
+Multi-Arch: foreign
+Homepage: https://github.com/kjd/idna
+Priority: optional
+Section: python
+Filename: pool/main/p/python-idna/python3-idna_3.3-1_all.deb
+Size: 36472
+SHA512: e026697db98e7c427325fbb0ff02a686f7314b74670ca19834af6f1013dd14c31abc696115aee70296c89d0bc41cc14e961f19ad2a75ae8075887fac7664c3b2
+SHA256: e6716b1d6cc0a429cf7a285a0b9065975c11237d61ff868096c961aefcdbf04d
+SHA1: 3b6f7bc20b18e90260c7c37892d6047fb39ae1e6
+MD5sum: ed0be3a6273bc34bfc160d6fad8c3af7
+Description: Python IDNA2008 (RFC 5891) handling (Python 3)
+ A library to support the Internationalised Domain Names in Applications (IDNA)
+ protocol as specified in RFC 5891. This version of the protocol is often
+ referred to as “IDNA2008” and can produce different results from the earlier
+ standard from 2003.
+ .
+ The library is also intended to act as a suitable drop-in replacement for the
+ “encodings.idna” module that comes with the Python standard library but
+ currently only supports the older 2003 specification.
+ .
+ This package contains the module for Python 3.
+
+Package: python3-importlib-metadata
+Source: python-importlib-metadata
+Version: 4.12.0-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 72
+Depends: python3-typing-extensions | python3 (>> 3.8), python3-zipp (>= 0.5), python3:any
+Homepage: https://github.com/python/importlib_metadata
+Priority: optional
+Section: python
+Filename: pool/main/p/python-importlib-metadata/python3-importlib-metadata_4.12.0-1_all.deb
+Size: 17552
+SHA512: 866c9211b94fe237174e2eea01c9fe9594db0680574ed06101667ddccea4870a706f97ee71ed0923c33bb48a0edfe072b49b4f637b92b6f2402a208d5947a2b9
+SHA256: 8aca1581a5f297ee8f5a4f511a4ff2e56d865e5b3b66e2942132885a9be8dab2
+SHA1: 2cb8a2f04896d113bb13646a2579ef39315dfd3c
+MD5sum: c569ed5ac1acdb60d2424e656ef1d69e
+Description: library to access the metadata for a Python package - Python 3.x
+ Provides an API for accessing an installed package’s metadata, such as its
+ entry points or its top-level name. This functionality intends to replace
+ most uses of pkg_resources entry point API and metadata API.
+ .
+ This package contains Python 3.x module.
+
+Package: python3-keyring
+Source: python-keyring
+Version: 23.9.3-2
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 160
+Depends: python3-importlib-metadata (>= 3.6), python3-jaraco.classes, python3-jeepney (>= 0.4.2), python3-secretstorage (>= 3.2), python3:any
+Suggests: gir1.2-secret-1, gnome-keyring, libkf5wallet-bin, python3-dbus, python3-gi, python3-keyrings.alt
+Homepage: https://github.com/jaraco/keyring
+Priority: optional
+Section: python
+Filename: pool/main/p/python-keyring/python3-keyring_23.9.3-2_all.deb
+Size: 51432
+SHA512: 0bbfc693feafb5627fb846c4292421fb18f4d0f72fb4ed2cba694747c18a80b3409de7a2772f1f404427783fd79c33536d7a3d04d2df885ad0625b7cf117695a
+SHA256: ebabfbb26ceec2b974ec82115eb473a7c1f5abbbc284c5cc770550f9f32b4b7e
+SHA1: 87a48e7403b11a09a7b52ee0abcd3f9fa38040db
+MD5sum: 6d4ccbae0d9e962483f39069269829f8
+Description: store and access your passwords safely
+ The Python keyring library provides an easy way to access the system
+ keyring service (e.g Gnome-Keyring, KWallet) from Python.
+ It can be used in any application that needs safe password storage.
+
+Package: python3-launchpadlib
+Source: python-launchpadlib
+Version: 1.11.0-1
+Architecture: all
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 1764
+Depends: python3-httplib2, python3-lazr.restfulclient, python3-lazr.uri, python3:any
+Recommends: python3-keyring
+Suggests: python3-pkg-resources, python3-testresources
+Homepage: https://launchpad.net/launchpadlib
+Priority: optional
+Section: python
+Filename: pool/main/p/python-launchpadlib/python3-launchpadlib_1.11.0-1_all.deb
+Size: 135364
+SHA512: 93b7947c1ce5665c8f0375642a697d1670d5a44801a1148f3754ea3b0425f89b5d7be6b354903cfe1d6ef3745b472d121b04e05e0478ca494e3d3c801ac7ada5
+SHA256: 4d6c2e6aab387535516ddadce20a8e23f62cccaa8ee3da617861d249c39106ab
+SHA1: 42cd149b62ef27ad7e4b53b7f27a031b37b688bd
+MD5sum: db00fb6906689fcb24945cbeae06e122
+Description: Launchpad web services client library (Python 3)
+ A free Python library for scripting Launchpad through its web services
+ interface.
+ .
+ It currently provides access to the following parts of Launchpad:
+  * People and Teams
+  * Team memberships
+  * Bugs and bugtasks
+ .
+ The Launchpad API is currently in beta, and may well change in ways
+ incompatible with this library.
+ .
+ This package is for Python 3.
+
+Package: python3-lib2to3
+Source: python3-stdlib-extensions
+Version: 3.11.2-2
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 365
+Depends: python3:any (>= 3.10.8-0~), python3:any (<< 3.12)
+Breaks: libpython3.10-stdlib (<< 3.10.0~b1), libpython3.6-stdlib (<< 3.6.4~rc1-2), libpython3.7-stdlib (<< 3.7.0~a3-3), python3.6-2to3 (<< 3.6.4-2), python3.7-2to3 (<< 3.7.0~a3-3)
+Replaces: libpython3.6-stdlib (<< 3.6.4~rc1-2), libpython3.7-stdlib (<< 3.7.0~a3-3), python3.6-2to3 (<< 3.6.4-2), python3.7-2to3 (<< 3.7.0~a3-3)
+Provides: python3.11-lib2to3
+Multi-Arch: foreign
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-stdlib-extensions/python3-lib2to3_3.11.2-2_all.deb
+Size: 76228
+SHA512: 8ea13893d6fb5f58c0ca6ad95c0d7528ca370336099f9b36ee13972d1c4cac45babefca66699f5e607cb60b7562f4c183f9a818b78e4debaf2d8ee7c3335f04e
+SHA256: 501e5f9c60794e721caa9e7047b20eaa1bf84fb1df2bcca3b79a9eca7f1f8a13
+SHA1: 81f2443fbe7e501df21726586c24844eecd10a49
+MD5sum: ad49a49a74949247b3f42b42c0cd4ccf
+Description: Interactive high-level object-oriented language (lib2to3)
+ Python is a high-level, interactive, object-oriented language. It
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the lib2to3 library, a Python2 to Python3 converter.
+
+Package: python3-markdown
+Source: python-markdown
+Version: 3.4.3-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 313
+Depends: python3-importlib-metadata | python3 (>> 3.10), python3:any
+Recommends: python3-pygments, python3-yaml
+Suggests: python-markdown-doc
+Breaks: python-markdown (<< 3.1.1-4), python3-mdx-math (<< 0.7-2~)
+Replaces: python-markdown (<< 3.1.1-4)
+Homepage: https://github.com/Python-Markdown/markdown
+Priority: optional
+Section: python
+Filename: pool/main/p/python-markdown/python3-markdown_3.4.3-1_all.deb
+Size: 66520
+SHA512: 2511e7f979ea98c3da5d7e071e83995ef7597e2f40554392d4b0bdaa75c312a575aa3d7959e38e41d5dec10ba2b7d786eaf103eeb2a659631bb00e3a1302d7a3
+SHA256: 91335d66a62a8ea3e026eff7988756464724297d426d479947b1f8b2911047fd
+SHA1: 6df36cc700db456a4b64f999e04173a8872e7793
+MD5sum: 7bf3f5eb1dac8a85bd5b751fc2bdeb0c
+Description: text-to-HTML conversion library/tool (Python 3 version)
+ Markdown is a text-to-HTML conversion tool for web writers. Markdown
+ allows you to write using an easy-to-read, easy-to-write plain text
+ format, then convert it to structurally valid XHTML (or HTML).
+ .
+ This is a Python implementation of John Gruber's Markdown. The current
+ version of python-markdown implements all Markdown syntax features and
+ fully passes Markdown Test Suite 1.0. It also supports footnotes and
+ attributes.
+ .
+ This package contains all the files needed to use Markdown with Python
+ 3.x.
+
+Package: python3-oauthlib
+Source: python-oauthlib
+Version: 3.2.2-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 555
+Depends: python3:any, python3-blinker, python3-cryptography, python3-jwt
+Homepage: https://github.com/idan/oauthlib
+Priority: optional
+Section: python
+Filename: pool/main/p/python-oauthlib/python3-oauthlib_3.2.2-1_all.deb
+Size: 88548
+SHA512: 363f45e54706fc706cffa731d4a7d163ea7752d39ece2c19774d12f1acbbe9adc42f04a95c4d6d3ee8418a71f3c782850ccea501c385decb76ce5f7492586dbd
+SHA256: 00824f3c0348f65fa93f2b55711d6c11770162c8c386dfd598b162d58caf5f3f
+SHA1: d243a6284cda4bbebc0564e7e5349db49241c3c8
+MD5sum: 1e6b0784baf6d6fefe89e3292bc6257d
+Description: generic, spec-compliant implementation of OAuth for Python3
+ OAuthLib is a generic utility which implements the logic of OAuth without
+ assuming a specific HTTP request object. It can be used to graft OAuth support
+ onto HTTP libraries.
+ .
+ OAuth 1 is fully supported per the RFC for both clients and providers.
+ .
+ OAuth 2 client and provider support for:
+ .
+   - Authorization Code Grant
+   - Implicit Grant
+   - Client Credentials Grant
+   - Resource Owner Password Credentials Grant
+   - Refresh Tokens
+   - Bearer Tokens
+   - Draft MAC tokens
+   - Token Revocation
+   - OpenID Connect Authentication
+ .
+ This package contains the Python 3 version of the library.
+
+Package: python3-pip
+Source: python-pip
+Version: 23.0.1+dfsg-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 6678
+Depends: ca-certificates, python3-distutils, python3-setuptools, python3-wheel, python3:any
+Recommends: build-essential, python3-dev (>= 3.2)
+Breaks: python-pip
+Replaces: python-pip
+Provides: pip
+Homepage: https://pip.pypa.io/en/stable/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-pip/python3-pip_23.0.1+dfsg-1_all.deb
+Size: 1324972
+SHA512: 9a4800a68b97a5c6edc24ead36206f51f428ae82cd81b92b8cf1133af5d3bfa8be683e438cc85480893df80fb9a7bb605dbfb6ca85dbd44e167e300f666e7138
+SHA256: d8024ededc6c7fe941ca96aabebdcf2d846fd130eae9d66aad1aa32a84454291
+SHA1: 544294f8b51a7dae5f55a880e337998bea9369d6
+MD5sum: 63ff0a601207825be83d5c08bb50b2c8
+Description: Python package installer
+ pip is the Python package installer.  It integrates with virtualenv, doesn't
+ do partial installs, can save package state for replaying, can install from
+ non-egg sources, and can install from version control repositories.
+ .
+ This is the Python 3 version of the package.
+
+Package: python3-pip-whl
+Source: python-pip
+Version: 23.0.1+dfsg-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 1747
+Depends: ca-certificates
+Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
+Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
+Multi-Arch: foreign
+Homepage: https://pip.pypa.io/en/stable/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-pip/python3-pip-whl_23.0.1+dfsg-1_all.deb
+Size: 1717296
+SHA512: 270a203208c5fc14513944012e6e0f83826366e04c1fe540af8840bb060759801bf6b7abce2829db30eeaa785f100d11e35126d8e47635019e365a6edf1b7472
+SHA256: cc373690a1cb469fb301b9fe0125048e3102f2e365d1b2d27cab091ec89fccdc
+SHA1: 16f057a5587606da86d493f038f66fe016139482
+MD5sum: 9457cf89938ed109b2e963108517007f
+Description: Python package installer (pip wheel)
+ pip is the Python package installer.  It integrates with virtualenv, doesn't
+ do partial installs, can save package state for replaying, can install from
+ non-egg sources, and can install from version control repositories.
+ .
+ This is the support package for the PEP 427 wheel version of the package,
+ required for using pip inside a virtual environment.
 
 Package: python3-problem-report
 Source: apport
@@ -14617,6 +15265,182 @@ Description: Python 3 library to handle problem reports
  .
  These problem reports use standard Debian control format syntax
  (RFC822).
+
+Package: python3-reportlab
+Source: python-reportlab
+Version: 3.6.12-1build1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 2951
+Depends: python3-reportlab-accel (>= 3.6.12-1build1), python3-pil, python3:any
+Recommends: python3-renderpm
+Suggests: pdf-viewer, python3-egenix-mxtexttools (>= 2.0.6-3.1), python-reportlab-doc
+Homepage: https://www.reportlab.com/opensource/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-reportlab/python3-reportlab_3.6.12-1build1_all.deb
+Size: 545816
+SHA512: f1c79a002e4757755b9973ab34a62d014dc7b8c111e4ef3508fbfcdb6841cdb706052725bfa94372b3bf771cb712eccbabb0e226dc24ee5770afff9511f6f3ec
+SHA256: fe20deffa7c147aba7342c9b20b7d7dd28b9c4127c4bfed333e693136e77be64
+SHA1: 586f95316f6726be878aeab411e918f1961434c3
+MD5sum: bb9cdaf3db7760b36b33f8ffbd15cc22
+Description: ReportLab library to create PDF documents using Python3
+ ReportLab is a library that lets you directly create documents in
+ Adobe's Portable Document Format (PDF) using the Python programming language.
+ .
+ ReportLab library creates PDF based on graphics commands without
+ intervening steps. It's therefore extremely fast, and flexible (since
+ you're using a full-blown programming language).
+ .
+ Sample use cases are:
+   * Dynamic PDF generation on the web
+   * High-volume corporate reporting and database publishing
+   * As embeddable print engine for other applications, including a
+     'report language' so that users can customize their own reports.
+   * As 'build system' for complex documents with charts, tables and text
+     such as management accounts, statistical reports and scientific papers
+   * from XML to PDF in one step
+
+Package: python3-secretstorage
+Source: python-secretstorage
+Version: 3.3.3-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 56
+Depends: dbus, python3-jeepney (>= 0.6), python3-cryptography (>= 2.0), python3:any
+Suggests: python-secretstorage-doc, gnome-keyring | libkf5wallet-bin (>= 5.97) | keepassxc
+Homepage: https://github.com/mitya57/secretstorage
+Priority: optional
+Section: python
+Filename: pool/main/p/python-secretstorage/python3-secretstorage_3.3.3-1ubuntu1_all.deb
+Size: 13148
+SHA512: 0682644882f5412d7e496e139bbc47c7970064d8ea972fd9ad8c1223c12eef184760ab6e720de65f06d29ba0bbb452a402a399ba8daacf7a969a969ebc55837b
+SHA256: 030350b50a3888b868bd825d3fd8732bf7bea59ed7dea94a3351ef4e7c75a640
+SHA1: 79af1321ad8c16c875e4b8f21e67fa439efa9bf3
+MD5sum: 3583550bd2eaeda746587d542fd7174f
+Description: Python module for storing secrets - Python 3.x version
+ Python-SecretStorage provides a way for securely storing passwords
+ and other secrets.
+ .
+ It uses D-Bus Secret Service API that is supported by GNOME Keyring,
+ KWallet (since version 5.97) and KeePassXC.
+ .
+ It allows one to create, edit and delete secret items, manipulate
+ secret collections, and search for items matching given attributes.
+ It also supports locking and unlocking collections.
+ .
+ This package provides Python 3.x version of SecretStorage.
+Original-Maintainer: Dmitry Shachnev <mitya57@debian.org>
+
+Package: python3-typing-extensions
+Source: python-typing-extensions
+Version: 4.4.0-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 227
+Depends: python3:any
+Homepage: https://github.com/python/typing/blob/master/typing_extensions/README.rst
+Priority: optional
+Section: python
+Filename: pool/main/p/python-typing-extensions/python3-typing-extensions_4.4.0-1_all.deb
+Size: 43420
+SHA512: e0fde62f34eaa86c4b004a63d31b2634a2ac162cd0cbf3234f104da8d4249c3b5ae6a0222805c39db5cd88890d90aaf279a10f3da4d81064db641978392d056b
+SHA256: 42a59552fddc21248b4b7ef452bbeb9f2e43e0f231b3631ad44af766f7240dac
+SHA1: 8db090362d216edb5ebb909854a9e4692dea9bc8
+MD5sum: 44b652b185a26272296a0844333633d7
+Description: Backported and Experimental Type Hints for Python
+ The typing module was added to the standard library in Python 3.5 on a
+ provisional basis and will no longer be provisional in Python 3.7. However,
+ this means users of Python 3.5 - 3.6 who are unable to upgrade will not be
+ able to take advantage of new types added to the typing module, such as
+ typing.Text or typing.Coroutine.
+ .
+ The typing_extensions module contains both backports of these changes as well
+ as experimental types that will eventually be added to the typing module, such
+ as Protocol.
+ .
+ Users of other Python versions should continue to install and use the typing
+ module from PyPI instead of using this one unless specifically writing code
+ that must be compatible with multiple Python versions or requires experimental
+ types.
+
+Package: python3-urllib3
+Source: python-urllib3
+Version: 1.26.12-1
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 451
+Depends: python3:any, python3-six
+Recommends: ca-certificates
+Suggests: python3-brotli, python3-cryptography, python3-idna, python3-openssl, python3-socks
+Homepage: https://urllib3.readthedocs.org
+Priority: optional
+Section: python
+Filename: pool/main/p/python-urllib3/python3-urllib3_1.26.12-1_all.deb
+Size: 113048
+SHA512: 7d150774a4fa740fe5f13da499585c721317a16f01f24d82fc10dee1b5aa8df0a14e1b91e085cab3ff1dbed395c26821ee78beebd5733a0c9fd1d8c8d32ebd4b
+SHA256: b3a4a17073d84e62250e0efe1dfb19c0dc26f854122750c800d1b70bc94e7121
+SHA1: dfd67a5eb5ff0a2e0d98fe240aa91057fa0de29e
+MD5sum: a1c94f3ab375c8d3f8042aaa634dae74
+Description: HTTP library with thread-safe connection pooling for Python3
+ urllib3 supports features left out of urllib and urllib2 libraries.
+ .
+   - Re-use the same socket connection for multiple requests (HTTPConnectionPool
+     and HTTPSConnectionPool) (with optional client-side certificate
+     verification).
+   - File posting (encode_multipart_formdata).
+   - Built-in redirection and retries (optional).
+   - Supports gzip and deflate decoding.
+   - Thread-safe and sanity-safe.
+   - Small and easy to understand codebase perfect for extending and
+     building upon.
+ .
+ This package contains the Python 3 version of the library.
+
+Package: python3-wadllib
+Source: python-wadllib
+Version: 1.3.6-4
+Architecture: all
+Maintainer: Stefano Rivera <stefanor@debian.org>
+Installed-Size: 363
+Depends: python3-importlib-metadata | python3 (>> 3.8), python3-lazr.uri, python3-pkg-resources, python3:any
+Homepage: https://launchpad.net/wadllib
+Priority: optional
+Section: python
+Filename: pool/main/p/python-wadllib/python3-wadllib_1.3.6-4_all.deb
+Size: 37196
+SHA512: 84715b7823e4f4701515aa9168d813b1ba1d70c375580e38dff2a2204411ba2e8f1fd156638aa38dc24f7d6f86ffc56aa207a71cc69a6cf758f277e346a47baa
+SHA256: cf3ca97e6d2c1b0c260e0f6de8fe7d79f82f30df350c7ec98672306a5be674ec
+SHA1: 82642d24b6c15cea6457ddf68669579ad136008b
+MD5sum: 16aa5fb38996eb6e39e4c77dd65519bd
+Description: Python 3 library for navigating WADL files
+ The Web Application Description Language (WADL) is an XML vocabulary for
+ describing the capabilities of HTTP resources. wadllib can be used in
+ conjunction with an HTTP library to navigate and manipulate those resources.
+ .
+ This package provides wadllib for Python 3.x.
+
+Package: python3-zipp
+Source: python-zipp
+Version: 1.0.0-6
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 25
+Depends: python3-more-itertools, python3:any
+Homepage: https://github.com/jaraco/zipp
+Priority: optional
+Section: python
+Filename: pool/main/p/python-zipp/python3-zipp_1.0.0-6_all.deb
+Size: 6016
+SHA512: 8e09fd5cc69115209b6b3c82e08df2a6beed4b40d0eb56e166bdae4328100c3a1a8cce387469ddb577775d6be09402765d126c9e3c55343f55a41502bfc1d3b8
+SHA256: ea4e4b7ca23cddab67304a6d8368b1f7e3bf442c93bba12a9fcf0b99de631f58
+SHA1: b8cf779d0aa4e01992e18f82f71215e854408b9a
+MD5sum: 359c1ed15cae706083e69b5db750f5e4
+Description: pathlib-compatible Zipfile object wrapper - Python 3.x
+ A backport of the Path object to older versions of Python.
+ It's pathlib-compatible interface for zip files using zipfile object inside.
+ .
+ This package contains Python 3.x module.
 
 Package: python3.11-doc
 Source: python3.11
