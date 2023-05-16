@@ -79621,6 +79621,27 @@ Description: Python module for storing secrets - documentation
  This package provides the HTML documentation.
 Original-Maintainer: Dmitry Shachnev <mitya57@debian.org>
 
+Package: python-setuptools-doc
+Source: setuptools
+Version: 66.1.1-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 2941
+Depends: libjs-sphinxdoc (>= 5.2)
+Multi-Arch: foreign
+Homepage: https://pypi.python.org/pypi/setuptools
+Priority: optional
+Section: doc
+Filename: pool/main/s/setuptools/python-setuptools-doc_66.1.1-1_all.deb
+Size: 454460
+SHA512: ca6ebbf0c0145555cd81ba7229d641f8f7a9b3605e2dd0f009fd0c444912a273325cb6823cb2a3adf25290c4af2f50de5e8b32db79a84f25a26c85e1da3583b6
+SHA256: 5f4ed545f5940ad3072c30a8d0199265d2c242ce686f59c91cb69bde0c8d48d6
+SHA1: b630d2b84c3991d1787040af955c9d23b026c7a6
+MD5sum: 986e26efc7f7a9ae3a55431c595dca07
+Description: Python Distutils Enhancements (documentation)
+ Extensions to the Python distutils for large or complex distributions.
+ The package contains the documentation in html format.
+
 Package: python-six-doc
 Source: six
 Version: 1.16.0-4
@@ -81923,6 +81944,33 @@ Description: Python package installer (pip wheel)
  This is the support package for the PEP 427 wheel version of the package,
  required for using pip inside a virtual environment.
 
+Package: python3-pkg-resources
+Source: setuptools
+Version: 66.1.1-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 1052
+Depends: python3:any
+Suggests: python3-setuptools
+Multi-Arch: foreign
+Homepage: https://pypi.python.org/pypi/setuptools
+Priority: optional
+Section: python
+Filename: pool/main/s/setuptools/python3-pkg-resources_66.1.1-1_all.deb
+Size: 296344
+SHA512: f9389926307e217b3693da179835657aceaa54348d63ffe2bf7e2b5035f4e8d942ff3973c6dcc16d5d975f6c096336c1ad8d6c5ec0a5076ce9d0546784ee4c48
+SHA256: eae531bb312beacd82c48122259070f313fecd326c3f255e248b4c69d56d15d1
+SHA1: a88b5d7a1b2c1f75fa4858802711da5e2b69fd94
+MD5sum: 77d4f3bebb451c0933e9959a5f4778f6
+Description: Package Discovery and Resource Access using pkg_resources
+ The pkg_resources module provides an API for Python libraries to
+ access their resource files, and for extensible applications and
+ frameworks to automatically discover plugins.  It also provides
+ runtime support for using C extensions that are inside zipfile-format
+ eggs, support for merging packages that have separately-distributed
+ modules or subpackages, and APIs for managing Python's current
+ "working set" of active packages.
+
 Package: python3-plist
 Source: libplist
 Version: 2.2.0-6build3
@@ -82347,6 +82395,50 @@ Description: Python3 bindings for SELinux policy management
  of many kinds of mandatory access control policies, including those
  based on the concepts of Type Enforcement, Role-based Access
  Control, and Multi-level Security.
+
+Package: python3-setuptools
+Source: setuptools
+Version: 66.1.1-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 2533
+Depends: python3-pkg-resources (= 66.1.1-1), python3-distutils, python3:any
+Suggests: python-setuptools-doc
+Multi-Arch: foreign
+Homepage: https://pypi.python.org/pypi/setuptools
+Priority: optional
+Section: python
+Filename: pool/main/s/setuptools/python3-setuptools_66.1.1-1_all.deb
+Size: 521052
+SHA512: fc3862aeb09ee0faa8764830a82692214f869e5c420faf1b0c781a4941f37a695f6d200bc4f084a4b9c13827487e8f969831e767ee3f632e1d22e1119798545e
+SHA256: c9322ac0d586a952769a6cdfcecb9700f216e1db29271696a237dd08ab91a0de
+SHA1: 691a046bb31f4b1d705c99b2867277376239f7df
+MD5sum: 8d68555ce2fd79bfd025b9fad37f04e1
+Description: Python3 Distutils Enhancements
+ Extensions to the python-distutils for large or complex distributions.
+
+Package: python3-setuptools-whl
+Source: setuptools
+Version: 66.1.1-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 1315
+Breaks: python-pip-whl (<< 21.3.1+dfsg-2~)
+Replaces: python-pip-whl (<< 21.3.1+dfsg-2~)
+Homepage: https://pypi.python.org/pypi/setuptools
+Priority: optional
+Section: python
+Filename: pool/main/s/setuptools/python3-setuptools-whl_66.1.1-1_all.deb
+Size: 1111316
+SHA512: bd3f70ff3989f40ab15323e31f1dd79cad65c51ab2780d2f24bd418029f6656dfd89ca05e01c46ca8c27d590ab6ff28e8abf507bc12c147e7a888429fabaf990
+SHA256: 09b4e946f2db7b31a6eba29e2c5e79864a70eba5e06f58ea4fa5c16468e7b17a
+SHA1: a37d4d0a4e8e7fb70a91b956c2d5af73d1ff5740
+MD5sum: 2cb058bda4269ca59697a748b60143c0
+Description: Python Distutils Enhancements (wheel package)
+ Extensions to the python-distutils for large or complex distributions.
+ .
+ This is the support package for the PEP 427 wheel version of the package,
+ required for using setuptools inside a virtual environment.
 
 Package: python3-six
 Source: six
