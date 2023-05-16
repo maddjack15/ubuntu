@@ -12608,6 +12608,30 @@ Description: GObject introspection data for AccountService
  AccountService library.
 Original-Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
 
+Package: gir1.2-adw-1
+Source: libadwaita-1
+Version: 1.3.1-1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 131
+Depends: gir1.2-glib-2.0, gir1.2-gtk-4.0 (>= 4.9.5), libadwaita-1-0 (>= 1.3~beta)
+Multi-Arch: same
+Homepage: https://gitlab.gnome.org/GNOME/libadwaita
+Priority: optional
+Section: introspection
+Filename: pool/main/liba/libadwaita-1/gir1.2-adw-1_1.3.1-1ubuntu2_amd64.deb
+Size: 32144
+SHA512: 71840fa097d0e64dd91039fd158f05a55b92c62406083d9a44c3973dd5f16f7aa5c1d2b6fc17682cf5fe481a053e2a6f04f56cd4eefec2fced18118076eea362
+SHA256: 67e4393e431c9b2719a4de09ac40fd95b2395ff0a9e774cf3c772da8224f098f
+SHA1: 45b09d3bf5a05a0ee16af74fe853d01d4d779f2d
+MD5sum: 9f25fb54ddea2526a7ee765af7d663ab
+Description: GObject introspection files for libadwaita
+ libadwaita provides GTK widgets and GObjects to ease developing
+ applications for mobile phones.
+ .
+ This package contains the GObject-introspection data in binary typelib format.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
 Package: gir1.2-appstream-1.0
 Source: appstream
 Version: 0.16.1-1ubuntu1
@@ -14766,6 +14790,36 @@ Description: libraries for nautilus components - gir bindings
  This package can be used by other packages using the GIRepository format to
  generate dynamic bindings.
 Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: gir1.2-nm-1.0
+Source: network-manager
+Version: 1.42.4-1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 345
+Depends: gir1.2-glib-2.0, libnm0 (>= 1.42.2)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Priority: optional
+Section: introspection
+Filename: pool/main/n/network-manager/gir1.2-nm-1.0_1.42.4-1ubuntu2_amd64.deb
+Size: 80508
+SHA512: e906027c1c43be8e41cbdac168a8a9fafe78ed5dc5b15f041f2e068747915059bf4d85657579f254c24f8f6fe698d4b27feccde6b2b805c87c336d95e8914a57
+SHA256: 847fa88416ec5c228e33512c18b903a977f2936c561a6665d06453a573f6bc3b
+SHA1: 1c1788db1a1e1f0287bf38042b151991cc4c416e
+MD5sum: fe2eaad16ba60a40ca847424b88b7efb
+Description: GObject introspection data for the libnm library
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package contains introspection data for NetworkManager using libnm.
+ .
+ It can be used by packages using the GIRepository format to generate
+ dynamic bindings.
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 
 Package: gir1.2-nma-1.0
 Source: libnma
@@ -20658,6 +20712,31 @@ Description: IDE for Python using Tkinter (transitional package)
  .
  This package is a transitional package, you can safely remove it.
 
+Package: idn
+Source: libidn
+Version: 1.41-1
+Architecture: amd64
+Maintainer: Debian Libidn Team <help-libidn@gnu.org>
+Installed-Size: 80
+Depends: libc6 (>= 2.34), libidn12 (>= 1.13)
+Homepage: https://www.gnu.org/software/libidn/
+Priority: optional
+Section: misc
+Filename: pool/main/libi/libidn/idn_1.41-1_amd64.deb
+Size: 37464
+SHA512: 885eef2e6cebf94d18fd9cfa85c2d524d00038df3df23532bf07be36b9f1aeb2c856daf1ad275e5718de778a3f902112ed4c647442c07d96625d1ee3327c2d52
+SHA256: a618b24e9b5b4a6c2d95df8377f86c1963c99cc59d8d9aeff541e8622dd4a97a
+SHA1: 38013a3e1918b1fd10ef2d4b819ddd1078a30756
+MD5sum: 9ff4c27aa0a502ce614739e5d7b9fcba
+Description: Command line interface to GNU Libidn
+ GNU Libidn is a fully documented implementation of the Stringprep,
+ Punycode and IDNA specifications.  Libidn's purpose is to encode and
+ decode internationalized domain names.  The Nameprep, XMPP, SASLprep,
+ and iSCSI profiles are supported.
+ .
+ This package contains the idn command-line tool, and the Libidn
+ manual.
+
 Package: idn2
 Source: libidn2
 Version: 2.3.3-1build1
@@ -22778,6 +22857,103 @@ Description: access control list - static libraries and headers
  This package contains the static libraries and header files needed
  for developing programs which make use of the access control list
  programming interface defined in POSIX 1003.1e draft standard 17.
+
+Package: libadwaita-1-0
+Source: libadwaita-1
+Version: 1.3.1-1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2218
+Depends: libc6 (>= 2.29), libfribidi0 (>= 0.19.2), libglib2.0-0 (>= 2.75.3), libgraphene-1.0-0 (>= 1.5.4), libgtk-4-1 (>= 4.9.5), libpango-1.0-0 (>= 1.14.0)
+Multi-Arch: same
+Homepage: https://gitlab.gnome.org/GNOME/libadwaita
+Priority: optional
+Section: libs
+Filename: pool/main/liba/libadwaita-1/libadwaita-1-0_1.3.1-1ubuntu2_amd64.deb
+Size: 349128
+SHA512: 9c2d4cf638431c073481b8ac58ca8e6ca49d4ac2b57e46dd2cdd06241ac3a091cf19fed0db8cd8a3d6f38fd3bcb36ed973a524717685b6284eb0b89910af5428
+SHA256: 4c8b1b85c181499031db5d8fec39b6d70c8ee071bf780b6dd3adbd57e3b55b2d
+SHA1: 9a35eb1b9fb3f28aa74edbf18e00677343962f8f
+MD5sum: 124fde79bac75e512fe9119a1c3ab40f
+Description: Library with GTK widgets for mobile phones
+ libadwaita provides GTK widgets and GObjects to ease developing
+ applications for mobile phones.
+ .
+ This package contains the shared library.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libadwaita-1-dev
+Source: libadwaita-1
+Version: 1.3.1-1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1518
+Depends: gir1.2-adw-1 (= 1.3.1-1ubuntu2), libadwaita-1-0 (= 1.3.1-1ubuntu2), libgtk-4-dev (>= 4.9.5)
+Recommends: pkg-config
+Suggests: libadwaita-1-doc
+Multi-Arch: same
+Homepage: https://gitlab.gnome.org/GNOME/libadwaita
+Priority: optional
+Section: libdevel
+Filename: pool/main/liba/libadwaita-1/libadwaita-1-dev_1.3.1-1ubuntu2_amd64.deb
+Size: 120840
+SHA512: 91a5e22725f1ce2aa958fb7bdc659171b804e09fe6630f8d430c80c3a93b7394a3a71aed41c3729dd3ca1877cb103a566949b50e2afe63e101735d1f973fd785
+SHA256: 394e30919f25c5286c9607ca46300785c28a75ae59fbeb712ecbb72be03724ed
+SHA1: fec4ca384b48da81146f22f8b6c1a9a3071f8e84
+MD5sum: 8bf394cfac1c1235eda2a487f2386883
+Description: Development files for libadwaita
+ libadwaita provides GTK widgets and GObjects to ease developing
+ applications for mobile phones.
+ .
+ This package contains the development files.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libadwaita-1-doc
+Source: libadwaita-1
+Version: 1.3.1-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 11771
+Multi-Arch: foreign
+Homepage: https://gitlab.gnome.org/GNOME/libadwaita
+Priority: optional
+Section: doc
+Filename: pool/main/liba/libadwaita-1/libadwaita-1-doc_1.3.1-1ubuntu2_all.deb
+Size: 1272268
+SHA512: 4124cdf46b9d398057ddd90a33ed3ae8c7f7cde0cea2a75897bef1117b8fb3bfff4ea96dcac7f69f0a0db2ffab45ab225c463c6e5d993bdf51bfa67bc6fbf770
+SHA256: bc59764b729f543af0a2720d329524f754d6e32c1baee39aa8d7509efdf470d3
+SHA1: 7a4c2457f84763d9a76b50ca6944a74365ffefb0
+MD5sum: c3300c5f5396460e0e5118581d31f647
+Description: Documentation for libadwaita
+ libadwaita provides GTK widgets and GObjects to ease developing
+ applications for mobile phones.
+ .
+ This package contains the API reference.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libadwaita-1-examples
+Source: libadwaita-1
+Version: 1.3.1-1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 374
+Depends: libadwaita-1-0 (>= 1.3~beta), libc6 (>= 2.34), libglib2.0-0 (>= 2.75.3), libgtk-4-1 (>= 4.9.5)
+Homepage: https://gitlab.gnome.org/GNOME/libadwaita
+Priority: optional
+Section: x11
+Filename: pool/main/liba/libadwaita-1/libadwaita-1-examples_1.3.1-1ubuntu2_amd64.deb
+Size: 62828
+SHA512: 123bcfd79fc5138c5f67d3ff4ba3a229a4bb2b1f278a5b8a55d2fc6349fc803857db9474e04ac2d9d2cb7780744bf14dc0614933f1231ed14bd08c73e3d107a2
+SHA256: 64a36592ca21384c674f8e49599f3ecde983e28ad8190084415d5db9c181b514
+SHA1: 6f39ac296f332f2828051913d3cc443e374ab543
+MD5sum: 1197a8f7cc4cfa754e4d857cd53042f2
+Description: Example programs for libadwaita
+ libadwaita provides GTK widgets and GObjects to ease developing
+ applications for mobile phones.
+ .
+ This package contains example files and the demonstration program for
+ libadwaita.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 
 Package: libaio-dev
 Source: libaio
@@ -36905,6 +37081,49 @@ Description: Perl module for TrueType font hacking
  table formats for TrueType fonts. You can do almost anything with a
  TrueType font with this module.
 
+Package: libfontbox-java
+Source: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 246
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: java
+Filename: pool/main/libp/libpdfbox-java/libfontbox-java_1.8.16-2_all.deb
+Size: 210484
+SHA512: 717c1c4be88b9d1e6f426360e1f8bf52e3e55ff1e2440e61de9d316cb65ea546a2692f932aaffbdea043bc2e0fc57982e52469e6241df25d660c5cf1b416147a
+SHA256: 7461f03d58307cee27d25eafe79964f8daffb36ea28f06a63151d5abe53ddc70
+SHA1: 3f73143296a6579444644296cc66317a64eb4487
+MD5sum: eae2e074887466fbb4bc2c3225766833
+Description: Java font library
+ The Apache FontBox library is an open source Java tool to obtain low level
+ information from font files.
+ .
+ This package contains the library itself.
+
+Package: libfontbox-java-doc
+Source: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 3322
+Suggests: libfontbox-java (= 1:1.8.16-2)
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: doc
+Filename: pool/main/libp/libpdfbox-java/libfontbox-java-doc_1.8.16-2_all.deb
+Size: 163124
+SHA512: e9ea82119080557eadacadcf2f96b25ce5cad2a0c047f939fb204d801c975e42be6fd37a0533b5cdcbf09f7ee51375669fab48a80440e1d92a35b00f786d1b88
+SHA256: dfde0feb1ca68c62aff3111e2d976febd5d7c381673b9ca25867842c2be6ae5d
+SHA1: 32c7f3c4834affc4233844209b0bf4fa3460ab00
+MD5sum: 65afec5a81ebf81639f5931811f72242
+Description: Java font library (Documentation)
+ The Apache FontBox library is an open source Java tool to obtain low level
+ information from font files.
+ .
+ This package contains the documentation for the library.
+
 Package: libfontconfig-dev
 Source: fontconfig
 Version: 2.14.1-3ubuntu3
@@ -45352,6 +45571,80 @@ Description: International Components for Unicode
  libraries for ICU.
 Original-Maintainer: Laszlo Boszormenyi (GCS) <gcs@debian.org>
 
+Package: libidn-dev
+Source: libidn
+Version: 1.41-1
+Architecture: amd64
+Maintainer: Debian Libidn Team <help-libidn@gnu.org>
+Installed-Size: 440
+Depends: libidn12 (= 1.41-1), pkg-config
+Suggests: idn
+Breaks: libidn11-dev (<< 1.38-1~)
+Replaces: libidn11-dev (<< 1.38-1~)
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libidn/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libi/libidn/libidn-dev_1.41-1_amd64.deb
+Size: 154608
+SHA512: fbef2abbbe4622db735976ad396a4476f16313220687de4234defd1a7fcd4325c90cb4e1b5c9e2dc31c5a9cd7ed4c6ad791b236b19ffd72e40be61b614d1d0dd
+SHA256: 4e50b5033ccb1c415f4b83f09574b68ad9e89515e7aac3031fff2b5d77d76148
+SHA1: 1fd3faa81e4bd1aa611860677280608b559e4ac2
+MD5sum: ff49ec186cad80440fbf8ccecaaa350d
+Description: Development files for GNU Libidn, an IDN library
+ GNU Libidn is a fully documented implementation of the Stringprep,
+ Punycode and IDNA specifications.  Libidn's purpose is to encode and
+ decode internationalized domain names.  The Nameprep, XMPP, SASLprep,
+ and iSCSI profiles are supported.
+ .
+ This package contains the header files, static library, pkg-config
+ information, and API man pages.
+
+Package: libidn11-dev
+Source: libidn
+Version: 1.41-1
+Architecture: amd64
+Maintainer: Debian Libidn Team <help-libidn@gnu.org>
+Installed-Size: 12
+Depends: libidn-dev (>= 1.38-1~)
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libidn/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/libi/libidn/libidn11-dev_1.41-1_amd64.deb
+Size: 4048
+SHA512: 42c3ce9123c0be4fbac4fa986aa5a8368576f1ef28ff7b49bf79e14540f8eeef58520cd62783d029c3f0cb6971cbb11a667c9cb6c82039733a74b1178bfdf399
+SHA256: ab9187a6edf568cbfb4b162b9674ae6c62736c3b103fce1b8e72b023d1026f04
+SHA1: 6df498bf247648b412d89037e74c349170779441
+MD5sum: b2a4cea933a72072b916da2c4406b17e
+Description: Transitional development package for GNU Libidn
+ This is a transitional package.  It can safely be removed.
+
+Package: libidn12
+Source: libidn
+Version: 1.41-1
+Architecture: amd64
+Maintainer: Debian Libidn Team <help-libidn@gnu.org>
+Installed-Size: 231
+Depends: libc6 (>= 2.14)
+Multi-Arch: same
+Homepage: https://www.gnu.org/software/libidn/
+Priority: optional
+Section: libs
+Filename: pool/main/libi/libidn/libidn12_1.41-1_amd64.deb
+Size: 47672
+SHA512: bf77ff795d930e0531647c9469c77420ac75715e75058fddb8d2c78e2fd5d264d900dac8c809897694b79fe8cc6f6f6a26427d381b2857bde119b64d1dfb7d77
+SHA256: 43ef10566171709afb323c6835d12c7ec2589e2ebfc120be835e43c8162e6717
+SHA1: d3b75d59602a0eafe82f66df519eab6b5b6720cb
+MD5sum: 5bf31c0a03498aee9c77e5087cb1595e
+Description: GNU Libidn library, implementation of IETF IDN specifications
+ GNU Libidn is a fully documented implementation of the Stringprep,
+ Punycode and IDNA specifications.  Libidn's purpose is to encode and
+ decode internationalized domain names.  The Nameprep, XMPP, SASLprep,
+ and iSCSI profiles are supported.
+ .
+ This package contains the shared library.
+
 Package: libidn2-0
 Source: libidn2
 Version: 2.3.3-1build1
@@ -47161,6 +47454,49 @@ Description: Perl extension interface to convert Japanese text
   - Object-oriented approach on Japanese text handling
   - mime header handling
   - Unicode feature (UCS2 and UTF8)
+
+Package: libjempbox-java
+Source: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 75
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: java
+Filename: pool/main/libp/libpdfbox-java/libjempbox-java_1.8.16-2_all.deb
+Size: 48844
+SHA512: f72ee1633633833588b1d698c2c8c83a872e0d9db9bdde391795d51da32943f98e22a4119d90983912dd8af3649021b26cae45143c96292cd3dd29801550401a
+SHA256: d4c9609bcaa94dc61e4e0daa6df8467ae68a5ea1677419448943ca8f678d24a5
+SHA1: 075de7b1e4d619dbc8abec525469a12a08db57ea
+MD5sum: 4eb9dcb59528279f91ab5b43d4e5a1c1
+Description: XMP Compatible Java Library
+ The Apache JempBox library is an open source Java tool for working with  XMP
+ metadata.
+ .
+ This package contains the library itself.
+
+Package: libjempbox-java-doc
+Source: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 1532
+Suggests: libjempbox-java (= 1:1.8.16-2)
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: doc
+Filename: pool/main/libp/libpdfbox-java/libjempbox-java-doc_1.8.16-2_all.deb
+Size: 106328
+SHA512: c1ff16b8b95fa61d086c08b77106ea80a7dd6ea28cade1e19c7c5f8a9d83e73c6f7ca7fcea8199370e2121a7f8da1f1d065c358d1f139a670b9dcee2073d39ef
+SHA256: 8bcfc0656ecb355e1833c76be1c320c4048c88c12e14a09fbd75b8116d788846
+SHA1: 2acdf47e801a51c982b83ad553c0f575fb586766
+MD5sum: 81e976875deb1ee74323e7c9898c2c09
+Description: XMP Compatible Java Library (documentation)
+ The Apache JempBox library is an open source Java tool for working with  XMP
+ metadata.
+ .
+ This package contains the documentation for the library.
 
 Package: libjpeg-dev
 Source: libjpeg8-empty
@@ -53021,6 +53357,34 @@ Description: Graphics conversion tools shared libraries
  .
  This package contains the shared libraries used by netpbm.
 
+Package: libnetsnmptrapd40
+Source: net-snmp
+Version: 5.9.3+dfsg-2ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 74
+Depends: libc6 (>= 2.4), libmysqlclient21 (>= 8.0.11), libsnmp40 (= 5.9.3+dfsg-2ubuntu3), libsnmp-base
+Breaks: libsnmp40 (<= 5.9+dfsg-1)
+Replaces: libsnmp40 (<= 5.9+dfsg-1)
+Multi-Arch: same
+Homepage: https://net-snmp.sourceforge.net/
+Priority: optional
+Section: libs
+Filename: pool/main/n/net-snmp/libnetsnmptrapd40_5.9.3+dfsg-2ubuntu3_amd64.deb
+Size: 22976
+SHA512: 9caa75ca9a8ba295515245ae2e1465d78dd1374596a4c779a82ef54af1a507a082e05320f4c5a8b50581c9b598ec26c84b3e5885b21ec2de6a6c63a046fad2b0
+SHA256: 80aa3f59aa7f1ac13c14331d5252c0350861603b8415215feed6c415af763dbd
+SHA1: e38606ba58bc703859cde3bcf547f5132505f12a
+MD5sum: d40e4bc91b7ce50bde02f43459330291
+Description: SNMP (Simple Network Management Protocol) trap library
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP trap library contains functions for receiving SNMP
+ trap and inform messages.
+Original-Maintainer: Craig Small <csmall@debian.org>
+
 Package: libnettle8
 Source: nettle
 Version: 3.8.1-2
@@ -53878,6 +54242,61 @@ Description: development library and headers for libnl-xfrm-3
  .
  This package contains the files that are needed to build applications using
  libnl-xfrm-3.
+
+Package: libnm-dev
+Source: network-manager
+Version: 1.42.4-1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 10971
+Depends: libnm0 (= 1.42.4-1ubuntu2), gir1.2-nm-1.0 (= 1.42.4-1ubuntu2), libglib2.0-dev
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Priority: optional
+Section: libdevel
+Filename: pool/main/n/network-manager/libnm-dev_1.42.4-1ubuntu2_amd64.deb
+Size: 721400
+SHA512: 873476dfa75e712c015d8736a748044c10035cd361c2d1e104751b47adc4faf94864cf4b2c912305798ca26d669659013e247eaf11fbd0b65104fd688fea2c16
+SHA256: c30eb02d8adbde7c966bbc1630904efb6583b9c21ddf9cd05708a2ccce163788
+SHA1: 5ed3b3bd4233522392ead59e24ef54dfeff7831e
+MD5sum: 2c3cbec1179a775bb484a6a0c4d5efa4
+Description: GObject-based client library for NetworkManager (development files)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package contains header and development files.
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+
+Package: libnm0
+Source: network-manager
+Version: 1.42.4-1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1557
+Depends: libc6 (>= 2.34), libglib2.0-0 (>= 2.44.0), libgnutls30 (>= 3.7.2), libudev1 (>= 183)
+Multi-Arch: same
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Priority: optional
+Section: libs
+Filename: pool/main/n/network-manager/libnm0_1.42.4-1ubuntu2_amd64.deb
+Size: 461728
+SHA512: ac2bcdd5511a36d53be75a32cab24958444ea0167f2295943e823ad0e684fb9e31f514fb21be9ec433fec38e8530af7d1c5a5c6bbeb468531874b28b13c08cdd
+SHA256: f3e90ac9dc1711310c39a93ca9ccb43c68d9e367060208ca7e5a879dfb7a9c6f
+SHA1: 00f07bdb75c9419bfedced888de6fe9fde0512ca
+MD5sum: b287406c1fda1a16b83b8c3cfc949e5a
+Description: GObject-based client library for NetworkManager
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package contains a convenience library to ease the access to
+ NetworkManager.
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 
 Package: libnma-common
 Source: libnma
@@ -57014,6 +57433,52 @@ Description: Middleware to access a smart card using PC/SC (library)
  .
  The PC/SC Lite library is used to connect to the PC/SC daemon from
  a client application and provide access to the desired reader.
+
+Package: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 5686
+Depends: libfontbox-java
+Built-Using: htmldoc (= 1.9.16-1), poppler-data (= 0.4.12-1)
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: java
+Filename: pool/main/libp/libpdfbox-java/libpdfbox-java_1.8.16-2_all.deb
+Size: 5526216
+SHA512: 31d60717deef359bd746f6080e0a75151865e1770992fef4fe5ed206b7588a05beb94df36a958c3d14d55e7e5633a99cc75a4944d9f65fbe5811a0cd7e9904f3
+SHA256: 37eac4dda58103cf61a926ac0c069e7a78582ff8ae2273deb60badfd17581d79
+SHA1: 2fc8e5e501402fe66a42f1ab01a4e73934149971
+MD5sum: 0c63f98eae16a36a9b18ccd49c7626bb
+Description: PDF library for Java
+ The Apache PDFBox library is an open source Java tool for working with PDF
+ documents. This project allows creation of new PDF documents, manipulation
+ of existing documents and the ability to extract content from documents.
+ .
+ This package contains the library itself.
+
+Package: libpdfbox-java-doc
+Source: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 24305
+Suggests: libpdfbox-java (= 1:1.8.16-2)
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: doc
+Filename: pool/main/libp/libpdfbox-java/libpdfbox-java-doc_1.8.16-2_all.deb
+Size: 933824
+SHA512: e8c0205bc4be0c60f5b218e416ae26fd27f08d9887fc6588be7c97ced6d09a01c49fe175a535c4dc17058ba9d9457b1aa1c1d37b04f56039e23874107be2db09
+SHA256: 079ce14b27e2eab8dca24172a1bab8f2f6c668a43bc28920cbb3c83e6f93b43e
+SHA1: d0ff5db5507b981ddcc09bbb73993590ca974236
+MD5sum: a65d4b1d28a70f07b70561f8cd4f62e3
+Description: PDF library for Java (documentation)
+ The Apache PDFBox library is an open source Java tool for working with PDF
+ documents. This project allows creation of new PDF documents, manipulation
+ of existing documents and the ability to extract content from documents.
+ .
+ This package contains the documentation for the library.
 
 Package: libpeas-1.0-0
 Source: libpeas
@@ -62476,6 +62941,173 @@ Description: Qt snapd library (development files)
  .
  This package contains the development files.
 Original-Maintainer: Ayatana Packagers <pkg-ayatana-devel@alioth-lists.debian.net>
+
+Package: libsndfile1
+Source: libsndfile
+Version: 1.2.0-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 761
+Depends: libc6 (>= 2.33), libflac12 (>= 1.3.0), libmp3lame0 (>= 3.100), libmpg123-0 (>= 1.28.0), libogg0 (>= 1.3.0), libopus0 (>= 1.1), libvorbis0a (>= 1.2.3), libvorbisenc2 (>= 1.1.2)
+Multi-Arch: same
+Homepage: http://www.mega-nerd.com/libsndfile/
+Priority: optional
+Section: libs
+Filename: pool/main/libs/libsndfile/libsndfile1_1.2.0-1_amd64.deb
+Size: 259032
+SHA512: 59733a45ec5f7f36536cd3bc8f18cc2e69d0fa4345e94bd22618e80974240d718d69ce0e6c32501e27445843689358c7caabd8a1c3c540b8a6a9801c4f37e5d8
+SHA256: 6d80eb71b5a45a9fd85e4df4359207e6fd38eec3d488eeccaf969ca58376de9e
+SHA1: ede4635e11f569be10e7ad85cf7ec46ff1bb7b62
+MD5sum: fe699255fed246861f79920c17b3bda3
+Description: Library for reading/writing audio files
+ libsndfile is a library of C routines for reading and writing files containing
+ sampled audio data.
+ .
+ Various versions of WAV (integer, floating point, GSM, and compressed formats);
+ Microsoft PCM, A-law and u-law formats; AIFF, AIFC and RIFX; various AU/SND
+ formats (Sun/NeXT, Dec AU, G721 and G723 ADPCM); RAW header-less PCM files;
+ Amiga IFF/8SVX/16SV PCM files; Ensoniq PARIS  (.PAF); Apple's Core Audio Format
+ (CAF) and others.
+
+Package: libsndfile1-dev
+Source: libsndfile
+Version: 1.2.0-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 1261
+Depends: libflac-dev, libmpg123-dev, libopus-dev, libsndfile1 (= 1.2.0-1), libvorbis-dev, libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Recommends: pkg-config
+Conflicts: libsndfile-dev, libsndfile0-dev
+Replaces: libsndfile-dev
+Provides: libsndfile-dev
+Multi-Arch: same
+Homepage: http://www.mega-nerd.com/libsndfile/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libs/libsndfile/libsndfile1-dev_1.2.0-1_amd64.deb
+Size: 291432
+SHA512: 73c20b834cf46b9264cd7c8f776e7d1cc36ef22e7435ebce37ffe8a4badfa21f7ae9cd9548ef10788a27cd00db48adbe3b52e8748133350a22dbe2dd398bc88e
+SHA256: 151bd927d14ea3fd533e61efc39e18b88931c05c3dc9f93dd26e7944ce119fd5
+SHA1: 86e742c8ad9258d287418c64a4c4305f7733f04c
+MD5sum: 7450e1df1596ac724f1666a57cf8c3bd
+Description: Development files for libsndfile; a library for reading/writing audio files
+ libsndfile is a library of C routines for reading and writing files containing
+ sampled audio data.
+ .
+ This is the development version of libsndfile. You will need this only if you
+ intend to compile programs that use this library.
+
+Package: libsnmp-base
+Source: net-snmp
+Version: 5.9.3+dfsg-2ubuntu3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 654
+Suggests: snmp-mibs-downloader
+Multi-Arch: foreign
+Homepage: https://net-snmp.sourceforge.net/
+Priority: optional
+Section: libs
+Filename: pool/main/n/net-snmp/libsnmp-base_5.9.3+dfsg-2ubuntu3_all.deb
+Size: 204888
+SHA512: 93001a529655a1919b7439b3e89f6d3e32ad5ed403ddff48c76746d63962d5fd54b291f97f57211dd57f577776b1f8834ec408853ad882d10c7337325f37345c
+SHA256: 692a155526d9137fad7143cf4e75f3b9b86d8bef7209de5156b5015b21c111cc
+SHA1: 6668e70acca7785b69400baf09dca585d4bda687
+MD5sum: 9a0689d1271c05a53b14c2be113264fd
+Description: SNMP configuration script, MIBs and documentation
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ This package includes documentation and MIBs (Management Information Bases)
+ for the SNMP libraries, agents and applications. MIBs contain a formal
+ description of the data that can be managed using SNMP and applications.
+ .
+ NOTE: If you want the OIDs (Object Identifiers) to resolve to their text
+ description, you need to activate the non-free repository and install the
+ "snmp-mibs-downloader" package.
+Original-Maintainer: Craig Small <csmall@debian.org>
+
+Package: libsnmp-dev
+Source: net-snmp
+Version: 5.9.3+dfsg-2ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1282
+Depends: libc6-dev, libsnmp40 (= 5.9.3+dfsg-2ubuntu3), libnetsnmptrapd40 (= 5.9.3+dfsg-2ubuntu3), libwrap0-dev, libssl-dev, procps, libsensors-dev, libpci-dev
+Recommends: libsnmp-perl
+Homepage: https://net-snmp.sourceforge.net/
+Priority: optional
+Section: libdevel
+Filename: pool/main/n/net-snmp/libsnmp-dev_5.9.3+dfsg-2ubuntu3_amd64.deb
+Size: 201536
+SHA512: f4731b78a252b0fc207d346ec741c23f3f7e113e85e037b50dab86ee4403ec296acd1ad7357207257fc9343008297f8fe7919b98d6d891647eda33ecbbc587a4
+SHA256: cd337e7429f11aed359a2624551572ba56ca3edd9f1a0894ab7338f587e9a770
+SHA1: 78bbea52472e7c8414e8c881737ac3d4426f6f22
+MD5sum: fc321587a8b2e994a56456b70e5ea00a
+Description: SNMP (Simple Network Management Protocol) development files
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP development files include the library headers, static
+ libraries, net-snmp-config scripts and documentation needed for development
+ of custom SNMP applications.
+Original-Maintainer: Craig Small <csmall@debian.org>
+
+Package: libsnmp-perl
+Source: net-snmp
+Version: 5.9.3+dfsg-2ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 650
+Depends: perl (>= 5.36.0-7), perlapi-5.36.0, libc6 (>= 2.15), libnetsnmptrapd40 (>= 5.9.3+dfsg), libsnmp40 (>= 5.9.3+dfsg)
+Breaks: libsnmp-dev (= 5.9+dfsg-1)
+Replaces: libsnmp-dev (= 5.9+dfsg-1)
+Homepage: https://net-snmp.sourceforge.net/
+Priority: optional
+Section: perl
+Filename: pool/main/n/net-snmp/libsnmp-perl_5.9.3+dfsg-2ubuntu3_amd64.deb
+Size: 185456
+SHA512: 83cbf45cfe918e07feb0728d3d16498d8ba3fde94cf4ab88e768bec969080b9fdce441bbabec2897b3a0b5f9e47a70798e0f8b058d9e4d9125bdd66ee7fe5541
+SHA256: ea0c5abaadd1f6db30ea3e5a0854fc244ea5f1ad55c2f65ab556af8a55370274
+SHA1: 67c455ab90aa94304df9399f195a441cdc0ec35f
+MD5sum: e4db8bce8b399a738416f4d26ce4b018
+Description: SNMP (Simple Network Management Protocol) Perl5 support
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP Perl5 support files provide the Perl functions for
+ integration of SNMP into applications written in Perl.
+Original-Maintainer: Craig Small <csmall@debian.org>
+
+Package: libsnmp40
+Source: net-snmp
+Version: 5.9.3+dfsg-2ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3897
+Depends: libc6 (>= 2.34), libpci3 (>= 1:3.5.1), libperl5.36 (>= 5.36.0), libsensors5 (>= 1:3.5.0), libssl3 (>= 3.0.0), libwrap0 (>= 7.6-4~), libsnmp-base
+Multi-Arch: same
+Homepage: https://net-snmp.sourceforge.net/
+Priority: optional
+Section: libs
+Filename: pool/main/n/net-snmp/libsnmp40_5.9.3+dfsg-2ubuntu3_amd64.deb
+Size: 1027412
+SHA512: 259407114a69b93a5a82b7a1da51fae8866488bec6cd1505118a9c494ff3f8601899e65272690d437693a6da612e8e2635e0b39bc8e739d72786cac4f690d5a1
+SHA256: 3aa2eed44fb3aaa8c388bed3478305703e12fa24e6006c59e07bed304e0fc96a
+SHA1: 096c1b0025396c3bdd82947173eefb11dd37cb6a
+MD5sum: c5fc2fb4705ec8b6968744973842ef27
+Description: SNMP (Simple Network Management Protocol) library
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP library contains common functions for the construction,
+ sending, receiving, decoding, and manipulation of the SNMP requests
+ and responses.
+Original-Maintainer: Craig Small <csmall@debian.org>
 
 Package: libsocket6-perl
 Version: 0.29-3
@@ -72424,6 +73056,58 @@ Description: fast lossless compression algorithm
  .
  This package contains the shared library.
 
+Package: libzzip-0-13
+Source: zziplib
+Version: 0.13.72+dfsg.1-1.1
+Architecture: amd64
+Maintainer: Scott Howard <showard@debian.org>
+Installed-Size: 124
+Depends: libc6 (>= 2.33), zlib1g (>= 1:1.1.4)
+Multi-Arch: same
+Homepage: https://github.com/gdraheim
+Priority: optional
+Section: libs
+Filename: pool/main/z/zziplib/libzzip-0-13_0.13.72+dfsg.1-1.1_amd64.deb
+Size: 26324
+SHA512: 5a60613cf5d2b0ffa9d6d0c883e49108f415b379acb550d08fa117a2b70fb546d8cdc8a01c2db131da41d9288ac2cbedb2d695d93800f991d38b0b607d2c44dd
+SHA256: 8aafa607cedd6d80c0250a8e49c303ef9c1655e659480d1fe02d6e898b7850cf
+SHA1: a67b995717eb89ed20081a8f2c6b4fe7ee0fa3ff
+MD5sum: df72c2664cd339b25c5d71fa71f35a0a
+Description: library providing read access on ZIP-archives - library
+ The zziplib library is intentionally lightweight, it offers the ability
+ to easily extract data from files archived in a single zip file.
+ Applications can bundle files into a single zip archive and access them.
+ The implementation is based only on the (free) subset of compression
+ with the zlib algorithm which is actually used by the zip/unzip tools.
+ .
+ This package contains the zziplib runtime library.
+
+Package: libzzip-dev
+Source: zziplib
+Version: 0.13.72+dfsg.1-1.1
+Architecture: amd64
+Maintainer: Scott Howard <showard@debian.org>
+Installed-Size: 317
+Depends: libzzip-0-13 (= 0.13.72+dfsg.1-1.1)
+Homepage: https://github.com/gdraheim
+Priority: optional
+Section: libdevel
+Filename: pool/main/z/zziplib/libzzip-dev_0.13.72+dfsg.1-1.1_amd64.deb
+Size: 73888
+SHA512: 3d0c8f3d3bd90cc87dfc24beae4f9d153a4de7f177395616b411e09c246a208b4fd21cb50282c14f8b0bc2fca591070cb8459e77430c2a92d1b50349fc54688f
+SHA256: af4b1791c737def642dcd80b6dc9603781ed0491f6d6985e3f51e563e2921684
+SHA1: bba544a7db5e85a42607b94d8373f09c70de93cf
+MD5sum: 6512e22126fe6d6f4a28f503c3dcdf17
+Description: library providing read access on ZIP-archives - development
+ The zziplib library is intentionally lightweight, it offers the ability
+ to easily extract data from files archived in a single zip file.
+ Applications can bundle files into a single zip archive and access them.
+ The implementation is based only on the (free) subset of compression
+ with the zlib algorithm which is actually used by the zip/unzip tools.
+ .
+ This package contains the header files and static library needed to
+ compile applications that use zziplib.
+
 Package: lm-sensors
 Version: 1:3.6.0-7ubuntu1
 Architecture: amd64
@@ -74389,6 +75073,129 @@ Description: low level cryptographic library (development files)
  in any way it needs.
  .
  This package contains the development files (C headers and static libraries)
+
+Package: network-manager
+Version: 1.42.4-1ubuntu2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 15935
+Depends: libaudit1 (>= 1:2.2.1), libbluetooth3 (>= 4.91), libc6 (>= 2.34), libcurl3-gnutls (>= 7.24.0), libglib2.0-0 (>= 2.68.0), libgnutls30 (>= 3.7.2), libjansson4 (>= 2.14), libmm-glib0 (>= 1.4.0), libndp0 (>= 1.2), libnewt0.52 (>= 0.52.23), libnm0 (= 1.42.4-1ubuntu2), libpsl5 (>= 0.13.0), libreadline8 (>= 6.0), libselinux1 (>= 3.1~), libsystemd0 (>= 209), libteamdctl0 (>= 1.9), libudev1 (>= 183), isc-dhcp-client, default-dbus-system-bus | dbus-system-bus, udev, adduser, polkitd | policykit-1
+Recommends: ppp, dnsmasq-base, modemmanager, network-manager-pptp, wireless-regdb, wpasupplicant, libpam-systemd
+Suggests: avahi-autoipd, libteam-utils, iptables
+Breaks: ppp (>= 2.4.9-2~), ppp (<< 2.4.9-1+~)
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Priority: optional
+Section: net
+Filename: pool/main/n/network-manager/network-manager_1.42.4-1ubuntu2_amd64.deb
+Size: 3491620
+SHA512: 0768130f4432e42297d5c0cbe850e3c4245838ef5f4196d124a2e2435b8ddf975db3e7c4f288cad86b404a1372087080d8f5d14cdb73dbdc89e09c9098823a12
+SHA256: a4311786dc9bc897eb54ff3ca070e9e5026e6673c37c8186cd6530eda47b9871
+SHA1: a92219835486904a1cf73f65099681a4c35d1d2c
+MD5sum: 3c2135b2e581773a3bbd90fb345e0c76
+Description: network management framework (daemon and userspace tools)
+ NetworkManager is a system network service that manages your network devices
+ and connections, attempting to keep active network connectivity when
+ available. It manages ethernet, Wi-Fi, mobile broadband (WWAN), and PPPoE
+ devices, and provides VPN integration with a variety of different VPN
+ services.
+ .
+ This package provides the userspace daemons and a command line interface to
+ interact with NetworkManager.
+ .
+ Optional dependencies:
+  * avahi-autoipd: Used for IPv4LL, a protocol for automatic Link-Local IP
+    address configuration.
+  * ppp: Required for establishing dial-up connections (e.g. via GSM).
+  * dnsmasq-base/iptables: Required for creating Ad-hoc connections and
+    connection sharing.
+  * libteam-utils: Network Team driver allows multiple network interfaces to be
+    teamed together and act like a single one. This process is called "ethernet
+    bonding", "channel teaming" or "link aggregation".
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+
+Package: network-manager-config-connectivity-debian
+Source: network-manager
+Version: 1.42.4-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 23
+Depends: network-manager (>= 1.42.4-1ubuntu2)
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Priority: optional
+Section: net
+Filename: pool/main/n/network-manager/network-manager-config-connectivity-debian_1.42.4-1ubuntu2_all.deb
+Size: 10896
+SHA512: 5796c0b4b02797bf3e76236025b5f031c6d55bdd95f888d2390ece308dc16495d87770dbc365ee4927a30436d8a09c196d50a6b1c3d140bea5d263b32a7f916e
+SHA256: 72c3cc2535c39e87b60cb01f0c42be69f04ea90eda1429a7865ff6b0962b0b7a
+SHA1: 0ddefafd521e4b7e5d4ce2ce69003ff081d15c37
+MD5sum: 678c4b60d01e569e2a2e73e6febc57f8
+Description: NetworkManager configuration to enable connectivity checking
+ This package contains a configuration file which enables NetworkManager's
+ connectivity checking functionality.
+ .
+ NetworkManager will try to connect to a Debian server to determine the
+ connection status.
+ .
+ This is particularly useful for captive portal detection.
+ .
+ No user data is transmitted in the connectivity checks, but merely contacting
+ the Debian connectivity check servers reveals that the user is running a
+ Debian(-based) operating system with NetworkManager.
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+
+Package: network-manager-config-connectivity-ubuntu
+Source: network-manager
+Version: 1.42.4-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 23
+Depends: network-manager (>= 1.42.4-1ubuntu2)
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Priority: optional
+Section: net
+Filename: pool/main/n/network-manager/network-manager-config-connectivity-ubuntu_1.42.4-1ubuntu2_all.deb
+Size: 10896
+SHA512: 1047aa15edc001731b509c9d3946c0b641eb6637676158a167322ff79ab1523ff9255fae48c4f61d22b93aeb6f5cdd78d148e1756f1532aa8eba53a728fa9dbb
+SHA256: cce0c3ba569aa898c348999256cccf3880fc4ac8463b8f4c8303b5cecdc03b58
+SHA1: 73ed035f6c6adc5cff249c743c2f0ebc459ace2a
+MD5sum: f353dbbe536c635416feba7b8e3142eb
+Description: NetworkManager configuration to enable connectivity checking
+ This package contains a configuration file which enables NetworkManager's
+ connectivity checking functionality.
+ .
+ NetworkManager will try to connect to an Ubuntu server to determine the
+ connection status.
+ .
+ This is particularly useful for captive portal detection.
+ .
+ No user data is transmitted in the connectivity checks, but merely contacting
+ the Ubuntu connectivity check servers reveals that the user is running an
+ Ubuntu(-based) operating system with NetworkManager.
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+
+Package: network-manager-dev
+Source: network-manager
+Version: 1.42.4-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2375
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Priority: optional
+Section: devel
+Filename: pool/main/n/network-manager/network-manager-dev_1.42.4-1ubuntu2_all.deb
+Size: 216556
+SHA512: aa399b3c4e06bb2bb58efadeb87d4b8a289541794e6e0773b1f0d5924af1c9a0bdda972018ce0d8692600f438ba145997036db422bf50e1351f86801a1e9d387
+SHA256: 60ab7454d4a6da152038c3f1221e87b9b89c0b1762d322419a1822df471b5ae5
+SHA1: 09dc78da17c1c66cebf90d881683453ef3794816
+MD5sum: 9d6d4fdf6e0f02d263bdcc08df4758df
+Description: network management framework (development files)
+ This package provides documentation of the NetworkManager D-Bus API, the
+ configuration formats and command line utilities.
+ It also provides D-Bus introspection files.
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 
 Package: network-manager-gnome
 Source: network-manager-applet
@@ -84149,6 +84956,116 @@ MD5sum: 7b4ac095111ebc94711bc85f43e172af
 Description: Transitional package for snapd-xdg-open
  This is a transitional dummy package. It can safely be removed.
 
+Package: sndfile-programs
+Source: libsndfile
+Version: 1.2.0-1
+Architecture: amd64
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 220
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.34), libsndfile1 (>= 1.0.20)
+Recommends: sndfile-tools
+Homepage: http://www.mega-nerd.com/libsndfile/
+Priority: optional
+Section: utils
+Filename: pool/main/libs/libsndfile/sndfile-programs_1.2.0-1_amd64.deb
+Size: 40760
+SHA512: 6ee3626961010e31c291f5acb3a808915477f6d8cbfd75467c1c7e1f182bf1037886ddd1c119e63de410227c97a4e0c21b8344d130e368c4c3ad12a3cc2b9683
+SHA256: 6d5dcf0f9e85051f7cf77b3877606982fea6b8e26bb7553235d77a208014ef36
+SHA1: 00f4e6b24a1ffcc2614e2b61480ba922697c54b5
+MD5sum: efead7d02a8983bd38cea1416390245a
+Description: Sample programs that use libsndfile
+ This package contains simple programs which use libsndfile for operating on
+ sound files.
+ .
+ Programs include:
+   - sndfile-cmp : compare the audio data of two files
+   - sndfile-concat : concatenate two or more files
+   - sndfile-convert : convert between sound file formats
+   - sndfile-info : print information about files
+   - sndfile-metadata-get/set : get and set file metadata
+   - sndfile-play : play a sound file
+
+Package: snmp
+Source: net-snmp
+Version: 5.9.3+dfsg-2ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 685
+Depends: libc6 (>= 2.34), libsnmp40 (= 5.9.3+dfsg-2ubuntu3), libssl3 (>= 3.0.0), libsnmp-base
+Recommends: perl
+Homepage: https://net-snmp.sourceforge.net/
+Priority: optional
+Section: net
+Filename: pool/main/n/net-snmp/snmp_5.9.3+dfsg-2ubuntu3_amd64.deb
+Size: 171340
+SHA512: 10e631e9045741b3b8b8be7a19d5ecc8b0c3835616f45a19cb97c9877944922d3e84e9adbd921c5989c849fc7c5f0e9a9997a5a27e5cedca055839bc9373609e
+SHA256: c17f1184f6804ba844aa549aceba6784f773be58910b18e7659c196ef6f8a767
+SHA1: dd7b4fe2a1a0b2564514768afe5d4bfcf0a7638c
+MD5sum: bca90681c6aa74200ca93bd0230d8a3e
+Description: SNMP (Simple Network Management Protocol) applications
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP applications are a collection of command line clients
+ for issuing SNMP requests to agents.
+Original-Maintainer: Craig Small <csmall@debian.org>
+
+Package: snmpd
+Source: net-snmp
+Version: 5.9.3+dfsg-2ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 152
+Pre-Depends: init-system-helpers (>= 1.54~)
+Depends: libc6 (>= 2.34), libsnmp40 (= 5.9.3+dfsg-2ubuntu3), debconf (>= 0.5) | debconf-2.0, adduser, debconf, lsb-base, libsnmp-base
+Suggests: snmptrapd
+Breaks: libsnmp-dev (<< 5.8+dfsg-3)
+Replaces: libsnmp-dev (<< 5.8+dfsg-3)
+Homepage: https://net-snmp.sourceforge.net/
+Priority: optional
+Section: net
+Filename: pool/main/n/net-snmp/snmpd_5.9.3+dfsg-2ubuntu3_amd64.deb
+Size: 58316
+SHA512: 98bbe6a8fe4fa1f868e2796b13a7bfb44f627267a0caa448728d6785cc3ac164064cebf45e525b9e97b1bbcb235d55ee43b8b35541a6d637bbae193028c5a70b
+SHA256: b3a1e9fb6bd414a710fc2b0d68bedb60beae4213f1b6ca1f495daf6b9249e995
+SHA1: 251cedbd70330b8a3f51e3acdf91eb02e6e339ff
+MD5sum: 95c6024f558afe11df2d91b02f24da2f
+Description: SNMP (Simple Network Management Protocol) agents
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP agent is a daemon which listens for incoming SNMP
+ requests from clients and provides responses.
+Original-Maintainer: Craig Small <csmall@debian.org>
+
+Package: snmptrapd
+Source: net-snmp
+Version: 5.9.3+dfsg-2ubuntu3
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 91
+Depends: libc6 (>= 2.34), libnetsnmptrapd40 (>= 5.9.3+dfsg), libsnmp40 (= 5.9.3+dfsg-2ubuntu3), libwrap0 (>= 7.6-4~), init-system-helpers (>= 1.51), snmpd
+Recommends: perl
+Homepage: https://net-snmp.sourceforge.net/
+Priority: optional
+Section: net
+Filename: pool/main/n/net-snmp/snmptrapd_5.9.3+dfsg-2ubuntu3_amd64.deb
+Size: 24760
+SHA512: 2f16dd00c0dc0ebfe5da5d8afad7779a8cb7cbb8bd15bea8b00a2362ce79122353b5485a3e92d0b371956da437b5a34f8809f534a93e8ba051063c5eac60443d
+SHA256: e7374438d5a384e393493795946a3aafb87b7653a81028f40cc55b6a08205768
+SHA1: 2e2ab675057fe809943d9fc0d911c18c36dc0639
+MD5sum: 1466d4de1004a8cf16996e596e01e7e5
+Description: Net-SNMP notification receiver
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ snmptrapd is an SNMP application (daemon) that receives and logs SNMP TRAP
+ and INFORM messages.
+Original-Maintainer: Craig Small <csmall@debian.org>
+
 Package: sonic
 Version: 0.2.0-12
 Architecture: amd64
@@ -85121,6 +86038,32 @@ Description: graphics extension library for Tcl/Tk - library
  This package contains everything you need to use BLT with your Tcl/Tk
  scripts and Tcl/Tk-enabled apps.
 
+Package: tkmib
+Source: net-snmp
+Version: 5.9.3+dfsg-2ubuntu3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 139
+Depends: libsnmp-perl (>= 5.9.3+dfsg-2ubuntu3), perl-tk
+Homepage: https://net-snmp.sourceforge.net/
+Priority: optional
+Section: net
+Filename: pool/main/n/net-snmp/tkmib_5.9.3+dfsg-2ubuntu3_all.deb
+Size: 104376
+SHA512: fe562d78a66ad55a1fe4890e87117318b2034b059a04135a11a0f7c11214aee0a7be49e0ea5cd950e831891f6d4843230291b14b9295e2647c59b53c3258e8df
+SHA256: 5f58de9505f0cc5c49ffbb8a0ffa327564ccf6e9d94c57f3ee44f034b1e5bb7f
+SHA1: af6170c4e7807dd586836ab330ed932ea2aa33c5
+MD5sum: d855de33e05efbf0826a49fc73f78fe0
+Description: SNMP (Simple Network Management Protocol) MIB browser
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP MIB (Management Information Base) Browser provides a
+ graphical frontend for the Net-SNMP tools. It can be used to browse
+ the MIB tree and interactively send requests to SNMP agents.
+Original-Maintainer: Craig Small <csmall@debian.org>
+
 Package: ubuntu-core-launcher
 Source: snapd
 Version: 2.59.1+23.04ubuntu1
@@ -86033,4 +86976,30 @@ Description: fast lossless compression algorithm -- CLI tool
  real-time compression scenarios at zlib-level compression ratio.
  .
  This package contains the CLI program implementing zstd.
+
+Package: zziplib-bin
+Source: zziplib
+Version: 0.13.72+dfsg.1-1.1
+Architecture: amd64
+Maintainer: Scott Howard <showard@debian.org>
+Installed-Size: 201
+Depends: libc6 (>= 2.34), libzzip-0-13 (>= 0.13.56), zlib1g (>= 1:1.1.4)
+Homepage: https://github.com/gdraheim
+Priority: optional
+Section: utils
+Filename: pool/main/z/zziplib/zziplib-bin_0.13.72+dfsg.1-1.1_amd64.deb
+Size: 24976
+SHA512: b40ad8706b105b140572c52634b5f14d294663193fc9e8fbdd60a79300f89ae9b4fc422bfe560930a3a038975e967089cecfded8492462c4add6ef7e4f3cc1aa
+SHA256: f661fb523cb69e5c8dfa82abaa7ed2536a882d0edb21a3ee258056dc6002364c
+SHA1: 2d85b3e7816c1615a21bc0377934f833e1be6290
+MD5sum: 287cc357d4f35afcefbdb003bcefff12
+Description: library providing read access on ZIP-archives - binaries
+ The zziplib library is intentionally lightweight, it offers the ability
+ to easily extract data from files archived in a single zip file.
+ Applications can bundle files into a single zip archive and access them.
+ The implementation is based only on the (free) subset of compression
+ with the zlib algorithm which is actually used by the zip/unzip tools.
+ .
+ This package contains some useful binaries to extract data from zip
+ archives.
 

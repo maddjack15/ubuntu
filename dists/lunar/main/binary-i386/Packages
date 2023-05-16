@@ -10101,6 +10101,29 @@ Description: query and manipulate user account information - documentation
  AccountService library.
 Original-Maintainer: Debian freedesktop.org maintainers <pkg-freedesktop-maintainers@lists.alioth.debian.org>
 
+Package: libadwaita-1-doc
+Source: libadwaita-1
+Version: 1.3.1-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 11771
+Multi-Arch: foreign
+Homepage: https://gitlab.gnome.org/GNOME/libadwaita
+Priority: optional
+Section: doc
+Filename: pool/main/liba/libadwaita-1/libadwaita-1-doc_1.3.1-1ubuntu2_all.deb
+Size: 1272268
+SHA512: 4124cdf46b9d398057ddd90a33ed3ae8c7f7cde0cea2a75897bef1117b8fb3bfff4ea96dcac7f69f0a0db2ffab45ab225c463c6e5d993bdf51bfa67bc6fbf770
+SHA256: bc59764b729f543af0a2720d329524f754d6e32c1baee39aa8d7509efdf470d3
+SHA1: 7a4c2457f84763d9a76b50ca6944a74365ffefb0
+MD5sum: c3300c5f5396460e0e5118581d31f647
+Description: Documentation for libadwaita
+ libadwaita provides GTK widgets and GObjects to ease developing
+ applications for mobile phones.
+ .
+ This package contains the API reference.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
 Package: libalgorithm-c3-perl
 Version: 0.11-2
 Architecture: all
@@ -13004,6 +13027,49 @@ Description: Perl module for TrueType font hacking
  table formats for TrueType fonts. You can do almost anything with a
  TrueType font with this module.
 
+Package: libfontbox-java
+Source: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 246
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: java
+Filename: pool/main/libp/libpdfbox-java/libfontbox-java_1.8.16-2_all.deb
+Size: 210484
+SHA512: 717c1c4be88b9d1e6f426360e1f8bf52e3e55ff1e2440e61de9d316cb65ea546a2692f932aaffbdea043bc2e0fc57982e52469e6241df25d660c5cf1b416147a
+SHA256: 7461f03d58307cee27d25eafe79964f8daffb36ea28f06a63151d5abe53ddc70
+SHA1: 3f73143296a6579444644296cc66317a64eb4487
+MD5sum: eae2e074887466fbb4bc2c3225766833
+Description: Java font library
+ The Apache FontBox library is an open source Java tool to obtain low level
+ information from font files.
+ .
+ This package contains the library itself.
+
+Package: libfontbox-java-doc
+Source: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 3322
+Suggests: libfontbox-java (= 1:1.8.16-2)
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: doc
+Filename: pool/main/libp/libpdfbox-java/libfontbox-java-doc_1.8.16-2_all.deb
+Size: 163124
+SHA512: e9ea82119080557eadacadcf2f96b25ce5cad2a0c047f939fb204d801c975e42be6fd37a0533b5cdcbf09f7ee51375669fab48a80440e1d92a35b00f786d1b88
+SHA256: dfde0feb1ca68c62aff3111e2d976febd5d7c381673b9ca25867842c2be6ae5d
+SHA1: 32c7f3c4834affc4233844209b0bf4fa3460ab00
+MD5sum: 65afec5a81ebf81639f5931811f72242
+Description: Java font library (Documentation)
+ The Apache FontBox library is an open source Java tool to obtain low level
+ information from font files.
+ .
+ This package contains the documentation for the library.
+
 Package: libfontconfig-doc
 Source: fontconfig
 Version: 2.14.1-3ubuntu3
@@ -15344,6 +15410,49 @@ Description: C library for encoding, decoding and manipulating JSON data (doc)
  .
  This package contains the documentation for jansson.
 
+Package: libjempbox-java
+Source: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 75
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: java
+Filename: pool/main/libp/libpdfbox-java/libjempbox-java_1.8.16-2_all.deb
+Size: 48844
+SHA512: f72ee1633633833588b1d698c2c8c83a872e0d9db9bdde391795d51da32943f98e22a4119d90983912dd8af3649021b26cae45143c96292cd3dd29801550401a
+SHA256: d4c9609bcaa94dc61e4e0daa6df8467ae68a5ea1677419448943ca8f678d24a5
+SHA1: 075de7b1e4d619dbc8abec525469a12a08db57ea
+MD5sum: 4eb9dcb59528279f91ab5b43d4e5a1c1
+Description: XMP Compatible Java Library
+ The Apache JempBox library is an open source Java tool for working with  XMP
+ metadata.
+ .
+ This package contains the library itself.
+
+Package: libjempbox-java-doc
+Source: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 1532
+Suggests: libjempbox-java (= 1:1.8.16-2)
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: doc
+Filename: pool/main/libp/libpdfbox-java/libjempbox-java-doc_1.8.16-2_all.deb
+Size: 106328
+SHA512: c1ff16b8b95fa61d086c08b77106ea80a7dd6ea28cade1e19c7c5f8a9d83e73c6f7ca7fcea8199370e2121a7f8da1f1d065c358d1f139a670b9dcee2073d39ef
+SHA256: 8bcfc0656ecb355e1833c76be1c320c4048c88c12e14a09fbd75b8116d788846
+SHA1: 2acdf47e801a51c982b83ad553c0f575fb586766
+MD5sum: 81e976875deb1ee74323e7c9898c2c09
+Description: XMP Compatible Java Library (documentation)
+ The Apache JempBox library is an open source Java tool for working with  XMP
+ metadata.
+ .
+ This package contains the documentation for the library.
+
 Package: libjs-jquery
 Source: node-jquery
 Version: 3.6.1+dfsg+~3.5.14-1
@@ -17679,6 +17788,52 @@ Description: file path utility
  "///../../..//./././a//b/.././c/././"? And how does it differ on
  Win32?)
 
+Package: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 5686
+Depends: libfontbox-java
+Built-Using: htmldoc (= 1.9.16-1), poppler-data (= 0.4.12-1)
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: java
+Filename: pool/main/libp/libpdfbox-java/libpdfbox-java_1.8.16-2_all.deb
+Size: 5526216
+SHA512: 31d60717deef359bd746f6080e0a75151865e1770992fef4fe5ed206b7588a05beb94df36a958c3d14d55e7e5633a99cc75a4944d9f65fbe5811a0cd7e9904f3
+SHA256: 37eac4dda58103cf61a926ac0c069e7a78582ff8ae2273deb60badfd17581d79
+SHA1: 2fc8e5e501402fe66a42f1ab01a4e73934149971
+MD5sum: 0c63f98eae16a36a9b18ccd49c7626bb
+Description: PDF library for Java
+ The Apache PDFBox library is an open source Java tool for working with PDF
+ documents. This project allows creation of new PDF documents, manipulation
+ of existing documents and the ability to extract content from documents.
+ .
+ This package contains the library itself.
+
+Package: libpdfbox-java-doc
+Source: libpdfbox-java
+Version: 1:1.8.16-2
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 24305
+Suggests: libpdfbox-java (= 1:1.8.16-2)
+Homepage: https://pdfbox.apache.org
+Priority: optional
+Section: doc
+Filename: pool/main/libp/libpdfbox-java/libpdfbox-java-doc_1.8.16-2_all.deb
+Size: 933824
+SHA512: e8c0205bc4be0c60f5b218e416ae26fd27f08d9887fc6588be7c97ced6d09a01c49fe175a535c4dc17058ba9d9457b1aa1c1d37b04f56039e23874107be2db09
+SHA256: 079ce14b27e2eab8dca24172a1bab8f2f6c668a43bc28920cbb3c83e6f93b43e
+SHA1: d0ff5db5507b981ddcc09bbb73993590ca974236
+MD5sum: a65d4b1d28a70f07b70561f8cd4f62e3
+Description: PDF library for Java (documentation)
+ The Apache PDFBox library is an open source Java tool for working with PDF
+ documents. This project allows creation of new PDF documents, manipulation
+ of existing documents and the ability to extract content from documents.
+ .
+ This package contains the documentation for the library.
+
 Package: libpeas-common
 Source: libpeas
 Version: 1.36.0-1
@@ -18477,6 +18632,37 @@ Description: Access to (SM)BIOS information in an OS-indepent way (docs)
  IO Token (type 0xD4) is implemented. This token is a vendor-extension
  SMBIOS structure which allows uniform access to manipulate the system CMOS
  to enable, disable, or otherwise manipulate normal BIOS functions or features.
+
+Package: libsnmp-base
+Source: net-snmp
+Version: 5.9.3+dfsg-2ubuntu3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 654
+Suggests: snmp-mibs-downloader
+Multi-Arch: foreign
+Homepage: https://net-snmp.sourceforge.net/
+Priority: optional
+Section: libs
+Filename: pool/main/n/net-snmp/libsnmp-base_5.9.3+dfsg-2ubuntu3_all.deb
+Size: 204888
+SHA512: 93001a529655a1919b7439b3e89f6d3e32ad5ed403ddff48c76746d63962d5fd54b291f97f57211dd57f577776b1f8834ec408853ad882d10c7337325f37345c
+SHA256: 692a155526d9137fad7143cf4e75f3b9b86d8bef7209de5156b5015b21c111cc
+SHA1: 6668e70acca7785b69400baf09dca585d4bda687
+MD5sum: 9a0689d1271c05a53b14c2be113264fd
+Description: SNMP configuration script, MIBs and documentation
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ This package includes documentation and MIBs (Management Information Bases)
+ for the SNMP libraries, agents and applications. MIBs contain a formal
+ description of the data that can be managed using SNMP and applications.
+ .
+ NOTE: If you want the OIDs (Object Identifiers) to resolve to their text
+ description, you need to activate the non-free repository and install the
+ "snmp-mibs-downloader" package.
+Original-Maintainer: Craig Small <csmall@debian.org>
 
 Package: libsoftware-license-perl
 Version: 0.104002-1
@@ -21094,6 +21280,90 @@ Description: Basic TCP/IP networking system
  .
  In particular, it supplies common name-to-number mappings in /etc/services,
  /etc/rpc, /etc/protocols and /etc/ethertypes.
+
+Package: network-manager-config-connectivity-debian
+Source: network-manager
+Version: 1.42.4-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 23
+Depends: network-manager (>= 1.42.4-1ubuntu2)
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Priority: optional
+Section: net
+Filename: pool/main/n/network-manager/network-manager-config-connectivity-debian_1.42.4-1ubuntu2_all.deb
+Size: 10896
+SHA512: 5796c0b4b02797bf3e76236025b5f031c6d55bdd95f888d2390ece308dc16495d87770dbc365ee4927a30436d8a09c196d50a6b1c3d140bea5d263b32a7f916e
+SHA256: 72c3cc2535c39e87b60cb01f0c42be69f04ea90eda1429a7865ff6b0962b0b7a
+SHA1: 0ddefafd521e4b7e5d4ce2ce69003ff081d15c37
+MD5sum: 678c4b60d01e569e2a2e73e6febc57f8
+Description: NetworkManager configuration to enable connectivity checking
+ This package contains a configuration file which enables NetworkManager's
+ connectivity checking functionality.
+ .
+ NetworkManager will try to connect to a Debian server to determine the
+ connection status.
+ .
+ This is particularly useful for captive portal detection.
+ .
+ No user data is transmitted in the connectivity checks, but merely contacting
+ the Debian connectivity check servers reveals that the user is running a
+ Debian(-based) operating system with NetworkManager.
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+
+Package: network-manager-config-connectivity-ubuntu
+Source: network-manager
+Version: 1.42.4-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 23
+Depends: network-manager (>= 1.42.4-1ubuntu2)
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Priority: optional
+Section: net
+Filename: pool/main/n/network-manager/network-manager-config-connectivity-ubuntu_1.42.4-1ubuntu2_all.deb
+Size: 10896
+SHA512: 1047aa15edc001731b509c9d3946c0b641eb6637676158a167322ff79ab1523ff9255fae48c4f61d22b93aeb6f5cdd78d148e1756f1532aa8eba53a728fa9dbb
+SHA256: cce0c3ba569aa898c348999256cccf3880fc4ac8463b8f4c8303b5cecdc03b58
+SHA1: 73ed035f6c6adc5cff249c743c2f0ebc459ace2a
+MD5sum: f353dbbe536c635416feba7b8e3142eb
+Description: NetworkManager configuration to enable connectivity checking
+ This package contains a configuration file which enables NetworkManager's
+ connectivity checking functionality.
+ .
+ NetworkManager will try to connect to an Ubuntu server to determine the
+ connection status.
+ .
+ This is particularly useful for captive portal detection.
+ .
+ No user data is transmitted in the connectivity checks, but merely contacting
+ the Ubuntu connectivity check servers reveals that the user is running an
+ Ubuntu(-based) operating system with NetworkManager.
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+
+Package: network-manager-dev
+Source: network-manager
+Version: 1.42.4-1ubuntu2
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 2375
+Multi-Arch: foreign
+Homepage: https://wiki.gnome.org/Projects/NetworkManager
+Priority: optional
+Section: devel
+Filename: pool/main/n/network-manager/network-manager-dev_1.42.4-1ubuntu2_all.deb
+Size: 216556
+SHA512: aa399b3c4e06bb2bb58efadeb87d4b8a289541794e6e0773b1f0d5924af1c9a0bdda972018ce0d8692600f438ba145997036db422bf50e1351f86801a1e9d387
+SHA256: 60ab7454d4a6da152038c3f1221e87b9b89c0b1762d322419a1822df471b5ae5
+SHA1: 09dc78da17c1c66cebf90d881683453ef3794816
+MD5sum: 9d6d4fdf6e0f02d263bdcc08df4758df
+Description: network management framework (development files)
+ This package provides documentation of the NetworkManager D-Bus API, the
+ configuration formats and command line utilities.
+ It also provides D-Bus introspection files.
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
 
 Package: networkd-dispatcher
 Version: 2.2.3-1
@@ -24840,6 +25110,32 @@ Description: file non-deterministic information stripper — stand-alone tool
  term; upstream software should be reproducible even without using such a tool.
  .
  This package installs the stand-alone ‘strip-nondeterminism’ tool.
+
+Package: tkmib
+Source: net-snmp
+Version: 5.9.3+dfsg-2ubuntu3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 139
+Depends: libsnmp-perl (>= 5.9.3+dfsg-2ubuntu3), perl-tk
+Homepage: https://net-snmp.sourceforge.net/
+Priority: optional
+Section: net
+Filename: pool/main/n/net-snmp/tkmib_5.9.3+dfsg-2ubuntu3_all.deb
+Size: 104376
+SHA512: fe562d78a66ad55a1fe4890e87117318b2034b059a04135a11a0f7c11214aee0a7be49e0ea5cd950e831891f6d4843230291b14b9295e2647c59b53c3258e8df
+SHA256: 5f58de9505f0cc5c49ffbb8a0ffa327564ccf6e9d94c57f3ee44f034b1e5bb7f
+SHA1: af6170c4e7807dd586836ab330ed932ea2aa33c5
+MD5sum: d855de33e05efbf0826a49fc73f78fe0
+Description: SNMP (Simple Network Management Protocol) MIB browser
+ The Simple Network Management Protocol (SNMP) provides a framework
+ for the exchange of management information between agents (servers)
+ and clients.
+ .
+ The Net-SNMP MIB (Management Information Base) Browser provides a
+ graphical frontend for the Net-SNMP tools. It can be used to browse
+ the MIB tree and interactively send requests to SNMP agents.
+Original-Maintainer: Craig Small <csmall@debian.org>
 
 Package: ubuntu-core-snapd-units
 Source: snapd
