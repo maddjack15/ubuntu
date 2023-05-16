@@ -24656,6 +24656,88 @@ Description: integration of Debian Ruby packages with Rubygems
  plain Rubygems and with Bundler. This also allows one to use Debian Ruby
  packages to satisfy dependencies in Rails 3 applications.
 
+Package: samba-ad-dc
+Source: samba
+Version: 2:4.17.7+dfsg-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 55
+Depends: samba (>= 2:4.17.7+dfsg-1ubuntu1), samba-dsdb-modules, samba-vfs-modules, winbind
+Recommends: libnss-winbind, libpam-winbind, samba-ad-provision
+Breaks: samba-ad-provision (<< 2:4.17.7+dfsg)
+Multi-Arch: foreign
+Homepage: https://www.samba.org
+Priority: optional
+Section: net
+Filename: pool/main/s/samba/samba-ad-dc_4.17.7+dfsg-1ubuntu1_all.deb
+Size: 35052
+SHA512: cdf220c6c8de81236d7ef78491ea27402480018fa160e1cf8e26abc5ab8bb5d92750816124b30b1b0be7171c42ca2cc1c2ad405926557fc8f8ba0d5fdd167c7b
+SHA256: 8c1c9565c186e8319da1011873ad09559af242f5e5bf1c20297797cc5076f356
+SHA1: edba7bed9e31ad92381342edcd99c661bfd82bc8
+MD5sum: da5e7b2b120bda1d4c6b27c61026fea5
+Description: Samba control files to run AD Domain Controller
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file and printer sharing with
+ Microsoft Windows, OS X, and other Unix systems.
+ .
+ This package contains control files to run an Active Directory Domain
+ Controller (AD DC).  For now, this is just a metapackage pulling in
+ all the required dependencies.
+Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+
+Package: samba-ad-provision
+Source: samba
+Version: 2:4.17.7+dfsg-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 13722
+Breaks: samba (<< 2:4.17.3+dfsg-4~)
+Replaces: samba (<< 2:4.17.3+dfsg-4~)
+Multi-Arch: foreign
+Homepage: https://www.samba.org
+Priority: optional
+Section: net
+Filename: pool/main/s/samba/samba-ad-provision_4.17.7+dfsg-1ubuntu1_all.deb
+Size: 420276
+SHA512: ab25ee40550c8a37ff554d3e496c43890c6ff5c0678ff4bed7775800992b9ba23fda34d15b1bfe51f7639f20d0e5cc124b1396c93acf1252930692b4e5b06ed6
+SHA256: 9c304accf29250cb4915be5b4bc992d022d69759f83ecc28dd605ce38e1dcbc1
+SHA1: 3899e09aa09891e6c46e1072ce8fffbda29287b1
+MD5sum: c191d9cfdc6891fcc3e4f72dc8acb756
+Description: Samba files needed for AD domain provision
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file and printer sharing with
+ Microsoft Windows, OS X, and other Unix systems.
+ .
+ This package contains files to setup an Active Directory Domain
+ Controller (AD DC).
+Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+
+Package: samba-common
+Source: samba
+Version: 2:4.17.7+dfsg-1ubuntu1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 220
+Depends: ucf, debconf (>= 0.5) | debconf-2.0
+Recommends: samba-common-bin
+Multi-Arch: foreign
+Homepage: https://www.samba.org
+Priority: optional
+Section: net
+Filename: pool/main/s/samba/samba-common_4.17.7+dfsg-1ubuntu1_all.deb
+Size: 90288
+SHA512: aa3c86d00e3d335bff5f57ff897503c7627adb1d0e6988ee867807f673b4e1d0c33c582e1a9ee661f278a156e383d80641e3fe92b7f0f12f3e1a8d92130798f4
+SHA256: 4d1915b7634d34f1fa04c818ec285ad308ed33d1e520117cf24cf9d267c7a3c9
+SHA1: 5f0213c1b6b47cbd58a629a2ea330b39389071b5
+MD5sum: adb85b4d91816a2b1aa5c1b13597090b
+Description: common files used by both the Samba server and client
+ Samba is an implementation of the SMB/CIFS protocol for Unix systems,
+ providing support for cross-platform file and printer sharing with
+ Microsoft Windows, OS X, and other Unix systems.
+ .
+ This package contains common files used by all parts of Samba.
+Original-Maintainer: Debian Samba Maintainers <pkg-samba-maint@lists.alioth.debian.org>
+
 Package: samplerate-programs
 Source: libsamplerate
 Version: 0.2.2-3
