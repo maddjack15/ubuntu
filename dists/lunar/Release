@@ -3,7 +3,7 @@ Label: Ubuntu
 Suite: lunar-local
 Codename: lunar
 Version: 23.04
-Date: Tue, 16 May 2023 12:32:50 UTC
+Date: Wed, 17 May 2023 17:31:59 UTC
 Architectures: amd64 i386
 Components: main
 Description: Ubuntu Lunar 23.04
